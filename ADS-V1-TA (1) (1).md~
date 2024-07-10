@@ -186,122 +186,74 @@
 		exportControl 	"Public"
 		logical_models 	(list unit_reference_list
 		    (object Association "$UNNAMED$0"
-			quid       	"5B21F866036B"
-			roles      	(list role_list
-			    (object Role "$UNNAMED$1"
-				quid       	"5B21F8670261"
-				supplier   	"Use Case View::Use-Case Model::modulo de seguridad::actualizar clave"
-				quidu      	"5B21F84B002F"
-				is_navigable 	TRUE)
-			    (object Role "$UNNAMED$2"
-				quid       	"5B21F8670263"
-				supplier   	"Use Case View::Use-Case Model::Actors::usuario sistema"
-				quidu      	"5B21F82D032C")))
-		    (object Association "$UNNAMED$3"
-			quid       	"5B21F86C007D"
-			roles      	(list role_list
-			    (object Role "$UNNAMED$4"
-				quid       	"5B21F86D005E"
-				supplier   	"Use Case View::Use-Case Model::modulo de seguridad::reestablecer clave"
-				quidu      	"5B21F84C0187"
-				is_navigable 	TRUE)
-			    (object Role "$UNNAMED$5"
-				quid       	"5B21F86D0060"
-				supplier   	"Use Case View::Use-Case Model::Actors::usuario sistema"
-				quidu      	"5B21F82D032C")))
-		    (object Association "$UNNAMED$6"
 			quid       	"5B21F98401D5"
 			roles      	(list role_list
-			    (object Role "$UNNAMED$7"
+			    (object Role "$UNNAMED$1"
 				quid       	"5B21F98501D5"
 				supplier   	"Use Case View::Use-Case Model::modulo administracion sistema::gestionar datos usuario"
 				quidu      	"5B21F9710252"
 				is_navigable 	TRUE)
-			    (object Role "$UNNAMED$8"
+			    (object Role "$UNNAMED$2"
 				quid       	"5B21F98501D7"
 				supplier   	"Use Case View::Use-Case Model::Actors::administrador"
 				quidu      	"5B21F964037B")))
-		    (object Association "$UNNAMED$9"
-			quid       	"5B21F869005E"
-			roles      	(list role_list
-			    (object Role "$UNNAMED$10"
-				quid       	"5B21F86902AF"
-				supplier   	"Use Case View::Use-Case Model::modulo de seguridad::autenticar usuario sistema"
-				quidu      	"5B21F8370261"
-				is_navigable 	TRUE)
-			    (object Role "$UNNAMED$11"
-				quid       	"5B21F86902B1"
-				supplier   	"Use Case View::Use-Case Model::Actors::usuario sistema"
-				quidu      	"5B21F82D032C")))
-		    (object Association "$UNNAMED$12"
+		    (object Association "$UNNAMED$3"
 			quid       	"5B21FB3E02AF"
 			roles      	(list role_list
-			    (object Role "$UNNAMED$13"
+			    (object Role "$UNNAMED$4"
 				quid       	"5B21FB3F0281"
 				supplier   	"Use Case View::Use-Case Model::modulo logistica::emitir informe de almacen"
 				quidu      	"5B21F8EF0232"
 				is_navigable 	TRUE)
-			    (object Role "$UNNAMED$14"
+			    (object Role "$UNNAMED$5"
 				quid       	"5B21FB3F0283"
 				supplier   	"Use Case View::Use-Case Model::Actors::encargado de almacen"
 				quidu      	"5B21FB2500AC")))
-		    (object Association "$UNNAMED$15"
+		    (object Association "$UNNAMED$6"
 			quid       	"5BC6C4BA003E"
 			roles      	(list role_list
-			    (object Role "$UNNAMED$16"
+			    (object Role "$UNNAMED$7"
 				quid       	"5BC6C4BC0119"
 				supplier   	"Use Case View::Use-Case Model::modulo logistica::emitir informe control de calidad"
 				quidu      	"5B21F7CB031D"
 				is_navigable 	TRUE)
-			    (object Role "$UNNAMED$17"
+			    (object Role "$UNNAMED$8"
 				quid       	"5BC6C4BC011B"
 				supplier   	"Use Case View::Use-Case Model::Actors::cocinero"
 				quidu      	"5B21FAEC009C")))
-		    (object Association "$UNNAMED$18"
+		    (object Association "$UNNAMED$9"
 			quid       	"5BC6C4E30252"
 			roles      	(list role_list
-			    (object Role "$UNNAMED$19"
+			    (object Role "$UNNAMED$10"
 				quid       	"5BC6C4E40129"
 				supplier   	"Use Case View::Use-Case Model::modulo logistica::emitir un informe inventario actualizado"
 				quidu      	"5B21F7230148"
 				is_navigable 	TRUE)
-			    (object Role "$UNNAMED$20"
+			    (object Role "$UNNAMED$11"
 				quid       	"5BC6C4E4012B"
 				supplier   	"Use Case View::Use-Case Model::Actors::encargado de almacen"
 				quidu      	"5B21FB2500AC")))
-		    (object Association "$UNNAMED$21"
+		    (object Association "$UNNAMED$12"
 			quid       	"5BC6C4E700DB"
 			roles      	(list role_list
-			    (object Role "$UNNAMED$22"
+			    (object Role "$UNNAMED$13"
 				quid       	"5BC6C4E7034C"
 				supplier   	"Use Case View::Use-Case Model::modulo logistica::emitir solicitud de abastecimiento"
 				quidu      	"5B21F8720261"
 				is_navigable 	TRUE)
-			    (object Role "$UNNAMED$23"
+			    (object Role "$UNNAMED$14"
 				quid       	"5BC6C4E7034E"
 				supplier   	"Use Case View::Use-Case Model::Actors::encargado de almacen"
 				quidu      	"5B21FB2500AC")))
-		    (object Association "$UNNAMED$24"
-			quid       	"5BC6C70902FE"
-			roles      	(list role_list
-			    (object Role "$UNNAMED$25"
-				quid       	"5BC6C70A0119"
-				supplier   	"Use Case View::Use-Case Model::modulo de seguridad::registrar usuario"
-				quidu      	"5BC6C5FD01F4"
-				is_navigable 	TRUE)
-			    (object Role "$UNNAMED$26"
-				quid       	"5BC6C70A011B"
-				supplier   	"Use Case View::Use-Case Model::Actors::usuario sistema"
-				quidu      	"5B21F82D032C")))
-		    (object Association "$UNNAMED$27"
+		    (object Association "$UNNAMED$15"
 			quid       	"561A0CAC005D"
 			roles      	(list role_list
-			    (object Role "$UNNAMED$28"
+			    (object Role "$UNNAMED$16"
 				quid       	"561A0CAD01F4"
 				supplier   	"Use Case View::Use-Case Model::modulo logistica::recibir productos y documento de confirmacion"
 				quidu      	"5B21F8AE038A"
 				is_navigable 	TRUE)
-			    (object Role "$UNNAMED$29"
+			    (object Role "$UNNAMED$17"
 				quid       	"561A0CAD01F6"
 				supplier   	"Use Case View::Use-Case Model::Actors::gerente"
 				quidu      	"561A0CA303C8")))
@@ -314,9 +266,6 @@
 			
 			exportControl 	"Public"
 			logical_models 	(list unit_reference_list
-			    (object Class "usuario sistema"
-				quid       	"5B21F82D032C"
-				stereotype 	"Actor")
 			    (object Class "administrador"
 				quid       	"5B21F964037B"
 				stereotype 	"Actor")
@@ -370,7 +319,7 @@
 					    quid       	"561A25D500EB")
 					(object ActivityState "mostrar panel <mensajeSistema>: \"ACCESO DENEGADO\""
 					    quid       	"561A267F02DF")
-					(object State "$UNNAMED$30"
+					(object State "$UNNAMED$18"
 					    quid       	"561A26980000"
 					    type       	"EndState")
 					(object ActivityState "mostrar form <Actualizar Clave>"
@@ -379,7 +328,7 @@
 					    quid       	"561A285F0271")
 					(object ActivityState "validar los campos txt"
 					    quid       	"561A29450271")
-					(object State "$UNNAMED$31"
+					(object State "$UNNAMED$19"
 					    quid       	"561A296501E5"
 					    type       	"EndState")
 					(object Decision "resultado!=NULL?"
@@ -394,19 +343,18 @@
 					    quid       	"561A2A8D02BF")
 					(object ActivityState "mostrar panel <mensajeSistema>:\"CLAVE ACTUALIZADA EXITOSAMENTE!\""
 					    quid       	"561A2A90004E")
-					(object State "$UNNAMED$32"
+					(object State "$UNNAMED$20"
 					    quid       	"561A2B34039A"
 					    type       	"EndState")
-					(object State "$UNNAMED$33"
+					(object State "$UNNAMED$21"
 					    quid       	"561A2B540139"
 					    type       	"EndState")
-					(object State "$UNNAMED$34"
+					(object State "$UNNAMED$22"
 					    quid       	"561A335F0010"
 					    type       	"EndState"))
 				    partitions 	(list Partitions
-					(object Partition "$UNNAMED$35"
+					(object Partition "$UNNAMED$23"
 					    quid       	"561A1F9D007D"
-					    class      	"Use Case View::Use-Case Model::Actors::usuario sistema"
 					    quidu      	"5B21F82D032C"
 					    persistence 	"Transient"
 					    creationObj 	FALSE
@@ -451,7 +399,7 @@
 						quid       	"561A2692036E"))
 					(object State_Transition
 					    quid       	"561A269A0262"
-					    supplier   	"$UNNAMED$30"
+					    supplier   	"$UNNAMED$18"
 					    supplier_quidu 	"561A26980000"
 					    client     	
 |Use Case View::Use-Case Model::modulo de seguridad::actualizar clave::State/Activity Model3::mostrar panel <mensajeSistema>: "ACCESO DENEGADO"
@@ -493,7 +441,7 @@
 						quid       	"561A2960034F"))
 					(object State_Transition
 					    quid       	"561A29680148"
-					    supplier   	"$UNNAMED$31"
+					    supplier   	"$UNNAMED$19"
 					    supplier_quidu 	"561A296501E5"
 					    client     	
 |Use Case View::Use-Case Model::modulo de seguridad::actualizar clave::State/Activity Model3::mostrar panel <mensajeSistema>: "ACCESO DENEGADO"
@@ -567,7 +515,7 @@
 						quid       	"561A2AB60207"))
 					(object State_Transition
 					    quid       	"561A2B370252"
-					    supplier   	"$UNNAMED$32"
+					    supplier   	"$UNNAMED$20"
 					    supplier_quidu 	"561A2B34039A"
 					    client     	
 |Use Case View::Use-Case Model::modulo de seguridad::actualizar clave::State/Activity Model3::mostrar panel <mensajeSistema>: "COMPLETAR CORRECTAMENTE LOS CAMPOS"
@@ -590,7 +538,7 @@
 						quid       	"561A2B3C019A"))
 					(object State_Transition
 					    quid       	"561A2B5603C9"
-					    supplier   	"$UNNAMED$33"
+					    supplier   	"$UNNAMED$21"
 					    supplier_quidu 	"561A2B540139"
 					    client     	
 |Use Case View::Use-Case Model::modulo de seguridad::actualizar clave::State/Activity Model3::mostrar panel <mensajeSistema>:"CLAVE ACTUALIZADA EXITOSAMENTE!"
@@ -600,7 +548,7 @@
 						quid       	"561A2B5603CC"))
 					(object State_Transition
 					    quid       	"561A336203C9"
-					    supplier   	"$UNNAMED$34"
+					    supplier   	"$UNNAMED$22"
 					    supplier_quidu 	"561A335F0010"
 					    client     	
 |Use Case View::Use-Case Model::modulo de seguridad::actualizar clave::State/Activity Model3::mostrar panel <mensajeSistema>:"NO SE HA PODIDO GUARDAR LOS CAMBIOS. Contacte con su administrador"
@@ -613,13 +561,13 @@
 					(object ActivityDiagram "BAD actualizar clave"
 					    quid       	"561A0812032E"
 					    title      	"BAD actualizar clave"
-					    zoom       	75
+					    zoom       	80
 					    max_height 	28350
 					    max_width  	21600
-					    origin_x   	1492
+					    origin_x   	1907
 					    origin_y   	0
 					    items      	(list diagram_item_list
-						(object Swimlane "$UNNAMED$35" @4
+						(object Swimlane "$UNNAMED$23" @4
 						    line_color 	3342489
 						    quidu      	"561A1F9D007D"
 						    width      	778)
@@ -637,7 +585,7 @@
 							default_color 	TRUE)
 						    label      	(object SegLabel @6
 							Parent_View 	@5
-							location   	(56, 256)
+							location   	(57, 256)
 							font       	(object Font
 							    size       	9
 							    face       	"Arial"
@@ -679,7 +627,7 @@
 							default_color 	TRUE)
 						    label      	(object ItemLabel
 							Parent_View 	@8
-							location   	(1216, 161)
+							location   	(1216, 164)
 							fill_color 	13434879
 							anchor_loc 	1
 							nlines     	2
@@ -717,7 +665,7 @@
 							default_color 	TRUE)
 						    label      	(object SegLabel @11
 							Parent_View 	@10
-							location   	(1722, 78)
+							location   	(1721, 79)
 							font       	(object Font
 							    size       	9
 							    face       	"Arial"
@@ -765,7 +713,7 @@
 							default_color 	TRUE)
 						    label      	(object ItemLabel
 							Parent_View 	@13
-							location   	(1696, 449)
+							location   	(1696, 452)
 							fill_color 	13434879
 							anchor_loc 	1
 							nlines     	2
@@ -821,7 +769,7 @@
 							(1692, 396))
 						    line_style 	0
 						    x_offset   	FALSE)
-						(object StateView "EndState" "$UNNAMED$30" @16
+						(object StateView "EndState" "$UNNAMED$18" @16
 						    Parent_View 	@7
 						    location   	(1696, 624)
 						    icon_style 	"Icon"
@@ -853,7 +801,7 @@
 							default_color 	TRUE)
 						    label      	(object ItemLabel
 							Parent_View 	@18
-							location   	(2448, 161)
+							location   	(2448, 164)
 							fill_color 	13434879
 							anchor_loc 	1
 							nlines     	2
@@ -921,7 +869,7 @@
 							default_color 	TRUE)
 						    label      	(object SegLabel @22
 							Parent_View 	@21
-							location   	(2488, 350)
+							location   	(2487, 351)
 							font       	(object Font
 							    size       	9
 							    face       	"Arial"
@@ -969,7 +917,7 @@
 							default_color 	TRUE)
 						    label      	(object ItemLabel
 							Parent_View 	@24
-							location   	(2448, 673)
+							location   	(2448, 676)
 							fill_color 	13434879
 							anchor_loc 	1
 							nlines     	2
@@ -1036,7 +984,7 @@
 							default_color 	TRUE)
 						    label      	(object ItemLabel
 							Parent_View 	@27
-							location   	(3201, 433)
+							location   	(3201, 436)
 							fill_color 	13434879
 							anchor_loc 	1
 							nlines     	2
@@ -1092,7 +1040,7 @@
 							(2901, 432))
 						    line_style 	0
 						    x_offset   	FALSE)
-						(object StateView "EndState" "$UNNAMED$31" @30
+						(object StateView "EndState" "$UNNAMED$19" @30
 						    Parent_View 	@7
 						    location   	(3200, 592)
 						    icon_style 	"Icon"
@@ -1124,7 +1072,7 @@
 							default_color 	TRUE)
 						    label      	(object SegLabel @33
 							Parent_View 	@32
-							location   	(2484, 800)
+							location   	(2484, 801)
 							font       	(object Font
 							    size       	9
 							    face       	"Arial"
@@ -1172,7 +1120,7 @@
 							default_color 	TRUE)
 						    label      	(object ItemLabel
 							Parent_View 	@35
-							location   	(2464, 1153)
+							location   	(2464, 1156)
 							fill_color 	13434879
 							anchor_loc 	1
 							nlines     	2
@@ -1240,7 +1188,7 @@
 							default_color 	TRUE)
 						    label      	(object ItemLabel
 							Parent_View 	@38
-							location   	(3312, 865)
+							location   	(3312, 868)
 							fill_color 	13434879
 							anchor_loc 	1
 							nlines     	2
@@ -1310,7 +1258,7 @@
 							default_color 	TRUE)
 						    label      	(object SegLabel @42
 							Parent_View 	@41
-							location   	(2506, 1297)
+							location   	(2506, 1298)
 							font       	(object Font
 							    size       	9
 							    face       	"Arial"
@@ -1358,7 +1306,7 @@
 							default_color 	TRUE)
 						    label      	(object ItemLabel
 							Parent_View 	@44
-							location   	(3376, 1361)
+							location   	(3376, 1364)
 							fill_color 	13434879
 							anchor_loc 	1
 							nlines     	2
@@ -1428,7 +1376,7 @@
 							default_color 	TRUE)
 						    label      	(object ItemLabel
 							Parent_View 	@47
-							location   	(2464, 1665)
+							location   	(2464, 1668)
 							fill_color 	13434879
 							anchor_loc 	1
 							nlines     	2
@@ -1484,7 +1432,7 @@
 							(2464, 1612))
 						    line_style 	0
 						    x_offset   	FALSE)
-						(object StateView "EndState" "$UNNAMED$32" @50
+						(object StateView "EndState" "$UNNAMED$20" @50
 						    Parent_View 	@7
 						    location   	(3328, 1072)
 						    icon_style 	"Icon"
@@ -1502,7 +1450,7 @@
 							(3324, 1030))
 						    line_style 	0
 						    x_offset   	FALSE)
-						(object StateView "EndState" "$UNNAMED$33" @52
+						(object StateView "EndState" "$UNNAMED$21" @52
 						    Parent_View 	@7
 						    location   	(2464, 1936)
 						    icon_style 	"Icon"
@@ -1553,7 +1501,7 @@
 							(2464, 1805)
 							(2633, 1814))
 						    line_style 	0)
-						(object StateView "EndState" "$UNNAMED$34" @56
+						(object StateView "EndState" "$UNNAMED$22" @56
 						    Parent_View 	@7
 						    location   	(3392, 1552)
 						    icon_style 	"Icon"
@@ -1680,10 +1628,10 @@
 					    quid       	"5B21FECE036B")
 					(object ActivityState "mostrar form <InformeDeCalidad>"
 					    quid       	"5619EE410213")
-					(object State "$UNNAMED$36"
+					(object State "$UNNAMED$24"
 					    quid       	"5619EE6F00DB"
 					    type       	"EndState")
-					(object Decision "$UNNAMED$37"
+					(object Decision "$UNNAMED$25"
 					    quid       	"561A2832004E")
 					(object Decision "btnEquipos!=NULL?"
 					    quid       	"561A28CC0148")
@@ -1697,19 +1645,19 @@
 					    quid       	"561A293202A0")
 					(object ActivityState "validar botón PRODUCTOS"
 					    quid       	"561A293B0271")
-					(object State "$UNNAMED$38"
+					(object State "$UNNAMED$26"
 					    quid       	"561A318F0148"
 					    type       	"EndState")
 					(object ActivityState "mostrar form <Informe de Calidad de Areas>"
 					    quid       	"561A31C902EE")
 					(object ActivityState "mostrar panel <mensajeSistema>: \"ACCESO DENEGADO\""
 					    quid       	"561A312C004E")
-					(object State "$UNNAMED$39"
+					(object State "$UNNAMED$27"
 					    quid       	"561A323702DF"
 					    type       	"EndState")
 					(object ActivityState "mostrar form <Informe de Calidad de Equipos>"
 					    quid       	"561A3116030E")
-					(object State "$UNNAMED$40"
+					(object State "$UNNAMED$28"
 					    quid       	"561A3526038B"
 					    type       	"EndState")
 					(object ActivityState "mostrar form <Informe de Calidad de Productos>"
@@ -1720,17 +1668,17 @@
 					    quid       	"561A446C038B")
 					(object ActivityState "consulta en BD sobre tabla InformeCalidad"
 					    quid       	"561A4504036B")
-					(object State "$UNNAMED$41"
+					(object State "$UNNAMED$29"
 					    quid       	"561A453402BF"
 					    type       	"EndState")
 					(object Decision "resultado!=NULL?"
 					    quid       	"561A467701D5")
 					(object ActivityState "mostrar tabla de historial de informes generados"
 					    quid       	"561A485D0223")
-					(object State "$UNNAMED$42"
+					(object State "$UNNAMED$30"
 					    quid       	"561A489F01B6"
 					    type       	"EndState")
-					(object State "$UNNAMED$43"
+					(object State "$UNNAMED$31"
 					    quid       	"561A48A8037B"
 					    type       	"EndState")
 					(object ActivityState "consulta en BD de tabla Equipos"
@@ -1745,13 +1693,13 @@
 					    quid       	"561A4AA00214")
 					(object ActivityState "mostrar panel <mensajeSistema>:\"OCURRIO UN FALLO. Contactese con su administrador\""
 					    quid       	"561A4B580139")
-					(object State "$UNNAMED$44"
+					(object State "$UNNAMED$32"
 					    quid       	"561A4BAA03C9"
 					    type       	"EndState")
-					(object State "$UNNAMED$45"
+					(object State "$UNNAMED$33"
 					    quid       	"561A4BB0038B"
 					    type       	"EndState")
-					(object State "$UNNAMED$46"
+					(object State "$UNNAMED$34"
 					    quid       	"561A4BB8032D"
 					    type       	"EndState")
 					(object Decision "btnGenerar!=NULL?"
@@ -1760,26 +1708,26 @@
 					    quid       	"561A4D5F011A")
 					(object ActivityState "Validar los campos"
 					    quid       	"561A4DFA011A")
-					(object State "$UNNAMED$47"
+					(object State "$UNNAMED$35"
 					    quid       	"561A4E6E01F4"
 					    type       	"EndState")
-					(object State "$UNNAMED$48"
+					(object State "$UNNAMED$36"
 					    quid       	"561A4E7603C9"
 					    type       	"EndState")
-					(object State "$UNNAMED$49"
+					(object State "$UNNAMED$37"
 					    quid       	"561A4E7A00EB"
 					    type       	"EndState")
 					(object Decision "resultado!=Null?"
 					    quid       	"561A4EEF039A")
 					(object ActivityState "mostrar panel <mensajeSistema>:\"COMPLETAR TODOS LOS CAMPOS SOLICITADOS\""
 					    quid       	"561A4F4D02FE")
-					(object State "$UNNAMED$50"
+					(object State "$UNNAMED$38"
 					    quid       	"561A4FDC02DF"
 					    type       	"EndState")
-					(object State "$UNNAMED$51"
+					(object State "$UNNAMED$39"
 					    quid       	"561A4FE40252"
 					    type       	"EndState")
-					(object State "$UNNAMED$52"
+					(object State "$UNNAMED$40"
 					    quid       	"561A4FED0242"
 					    type       	"EndState")
 					(object ActivityState "insercion en BD en tabla informes_calidad"
@@ -1788,20 +1736,20 @@
 					    quid       	"561A09F702EE")
 					(object ActivityState "mostrar form <vistaInformeEquipos>"
 					    quid       	"561A156C006D")
-					(object State "$UNNAMED$53"
+					(object State "$UNNAMED$41"
 					    quid       	"561A15F7002F"
 					    type       	"EndState")
-					(object State "$UNNAMED$54"
+					(object State "$UNNAMED$42"
 					    quid       	"561A160200CB"
 					    type       	"EndState")
-					(object State "$UNNAMED$55"
+					(object State "$UNNAMED$43"
 					    quid       	"561A1624039A"
 					    type       	"EndState")
 					(object ActivityState "mostrar form <vistaInformeAreas>"
 					    quid       	"561A165D01D4")
 					(object ActivityState "mostrar form <vistaInformeProductos>"
 					    quid       	"561A1689031D")
-					(object Decision "$UNNAMED$56"
+					(object Decision "$UNNAMED$44"
 					    quid       	"561A171401B5")
 					(object ActivityState "validar botón Regresar"
 					    quid       	"561A17260213")
@@ -1811,13 +1759,13 @@
 					    quid       	"561A175301F4")
 					(object Decision "btnRegresar!=NULL?"
 					    quid       	"5619F4BB01A6")
-					(object State "$UNNAMED$57"
+					(object State "$UNNAMED$45"
 					    quid       	"5619FE950280"
 					    type       	"EndState")
-					(object State "$UNNAMED$58"
+					(object State "$UNNAMED$46"
 					    quid       	"5619FF6002EE"
 					    type       	"EndState")
-					(object State "$UNNAMED$59"
+					(object State "$UNNAMED$47"
 					    quid       	"5619EE1100DB"
 					    type       	"EndState")
 					(object ActivityState "selección en BD de la tabla EQUIPOS"
@@ -1828,17 +1776,17 @@
 					    quid       	"5619F0F403B9")
 					(object ActivityState "mostrar panel <mensajeSistema>: \"ERROR EN EL SISTEMA\""
 					    quid       	"5619F12103B9")
-					(object State "$UNNAMED$60"
+					(object State "$UNNAMED$48"
 					    quid       	"5619F4DF007D"
 					    type       	"EndState")
-					(object State "$UNNAMED$61"
+					(object State "$UNNAMED$49"
 					    quid       	"5619F4F90129"
 					    type       	"EndState")
-					(object Decision "$UNNAMED$62"
+					(object Decision "$UNNAMED$50"
 					    quid       	"5619F5CE039A")
 					(object Decision "btnEditar!=null?"
 					    quid       	"5619F61B00AC")
-					(object State "$UNNAMED$63"
+					(object State "$UNNAMED$51"
 					    quid       	"5619F67D03C9"
 					    type       	"EndState")
 					(object ActivityState "selección en BD de la tabla Equipos"
@@ -1847,10 +1795,10 @@
 					    quid       	"5619F81F02BF")
 					(object ActivityState "NewActivity"
 					    quid       	"5619F89B033C")
-					(object State "$UNNAMED$64"
+					(object State "$UNNAMED$52"
 					    quid       	"5619F8CD01A6"
 					    type       	"EndState")
-					(object Decision "$UNNAMED$65"
+					(object Decision "$UNNAMED$53"
 					    quid       	"5619F95D00AC")
 					(object ActivityState "validar botón Cancelar"
 					    quid       	"5619F972036B")
@@ -1858,21 +1806,21 @@
 					    quid       	"5619F97E01C5")
 					(object Decision "btnCancelar!=null?"
 					    quid       	"5619F99F011A")
-					(object State "$UNNAMED$66"
+					(object State "$UNNAMED$54"
 					    quid       	"5619FA890129"
 					    type       	"EndState")
 					(object ActivityState "mostrar panel <mensajeSistema>: \"SE HA CANCELADO LOS CAMBIOS\""
 					    quid       	"5619FB0001E5")
-					(object State "$UNNAMED$67"
+					(object State "$UNNAMED$55"
 					    quid       	"5619FB8B0020"
 					    type       	"EndState")
-					(object State "$UNNAMED$68"
+					(object State "$UNNAMED$56"
 					    quid       	"5619FBBA0231"
 					    type       	"EndState")
-					(object State "$UNNAMED$69"
+					(object State "$UNNAMED$57"
 					    quid       	"5619FBBA024D"
 					    type       	"EndState")
-					(object State "$UNNAMED$70"
+					(object State "$UNNAMED$58"
 					    quid       	"5619FBBA025B"
 					    type       	"EndState")
 					(object Decision "btnDescargar!=NULL?"
@@ -1881,7 +1829,7 @@
 					    quid       	"5619FC7B03C9")
 					(object ActivityState "update en BD de la tabla Equipos"
 					    quid       	"5619FC9C01E5")
-					(object State "$UNNAMED$71"
+					(object State "$UNNAMED$59"
 					    quid       	"5619FCBC002F"
 					    type       	"EndState")
 					(object Decision "resultado!=NuLL?"
@@ -1890,113 +1838,112 @@
 					    quid       	"5619FF37004E")
 					(object ActivityState "mostrar panel <mensajeSIstema>: \"NO SE HA PODIDO GUARDAR LOS CAMBIOS\""
 					    quid       	"5619FF38038B")
-					(object State "$UNNAMED$72"
+					(object State "$UNNAMED$60"
 					    quid       	"5619FF9D01D5"
 					    type       	"EndState")
-					(object State "$UNNAMED$73"
+					(object State "$UNNAMED$61"
 					    quid       	"561A004203D9"
 					    type       	"EndState")
 					(object Decision "btnDescargar!=nULL?"
 					    quid       	"561A00FA00AC")
 					(object ActivityState "selección en BD de la tabla Areas"
 					    quid       	"561A0117033C")
-					(object State "$UNNAMED$74"
+					(object State "$UNNAMED$62"
 					    quid       	"561A013703AA"
 					    type       	"EndState")
 					(object Decision "resultado!=nuLL?"
 					    quid       	"561A016A00BC")
 					(object ActivityState "genera y descarga pdf del informe de Areas"
 					    quid       	"561A01BC01C5")
-					(object State "$UNNAMED$75"
+					(object State "$UNNAMED$63"
 					    quid       	"561A01D50281"
 					    type       	"EndState")
-					(object State "$UNNAMED$76"
+					(object State "$UNNAMED$64"
 					    quid       	"561A026A0187"
 					    type       	"EndState")
-					(object State "$UNNAMED$77"
+					(object State "$UNNAMED$65"
 					    quid       	"561A027A010A"
 					    type       	"EndState")
-					(object State "$UNNAMED$78"
+					(object State "$UNNAMED$66"
 					    quid       	"561A0666002F"
 					    type       	"EndState")
-					(object State "$UNNAMED$79"
+					(object State "$UNNAMED$67"
 					    quid       	"561A06BF032D"
 					    type       	"EndState")
 					(object ActivityState "NewActivity2"
 					    quid       	"561A06D20010")
-					(object Decision "$UNNAMED$80"
+					(object Decision "$UNNAMED$68"
 					    quid       	"561A075402B0")
-					(object State "$UNNAMED$81"
+					(object State "$UNNAMED$69"
 					    quid       	"561A07C60204"
 					    type       	"EndState")
-					(object State "$UNNAMED$82"
+					(object State "$UNNAMED$70"
 					    quid       	"561A07C80281"
 					    type       	"EndState")
-					(object State "$UNNAMED$83"
+					(object State "$UNNAMED$71"
 					    quid       	"561A0862006E"
 					    type       	"EndState")
 					(object ActivityState "update en BD de la tabla Areas"
 					    quid       	"561A086A0010")
-					(object State "$UNNAMED$84"
+					(object State "$UNNAMED$72"
 					    quid       	"561A08C600DB"
 					    type       	"EndState")
-					(object State "$UNNAMED$85"
+					(object State "$UNNAMED$73"
 					    quid       	"561A08C80000"
 					    type       	"EndState")
-					(object Decision "$UNNAMED$86"
+					(object Decision "$UNNAMED$74"
 					    quid       	"561A08F603AA")
 					(object ActivityState "seleccion en BD de tabla Productos"
 					    quid       	"561A092B0158")
 					(object Decision "resultado!=Null???"
 					    quid       	"561A094E00EB")
-					(object State "$UNNAMED$87"
+					(object State "$UNNAMED$75"
 					    quid       	"561A0969036B"
 					    type       	"EndState")
-					(object State "$UNNAMED$88"
+					(object State "$UNNAMED$76"
 					    quid       	"561A09A10129"
 					    type       	"EndState")
 					(object ActivityState "genera y descarga pdf del informe de Productos"
 					    quid       	"561A09A902CF")
-					(object State "$UNNAMED$89"
+					(object State "$UNNAMED$77"
 					    quid       	"561A09CD01A6"
 					    type       	"EndState")
-					(object State "$UNNAMED$90"
+					(object State "$UNNAMED$78"
 					    quid       	"561A0A240233"
 					    type       	"EndState")
-					(object State "$UNNAMED$91"
+					(object State "$UNNAMED$79"
 					    quid       	"561A0A2700BC"
 					    type       	"EndState")
-					(object State "$UNNAMED$92"
+					(object State "$UNNAMED$80"
 					    quid       	"561A0AF503AA"
 					    type       	"EndState")
 					(object ActivityState "seleccion en BD de la tabla Productos"
 					    quid       	"561A0AFE033C")
-					(object State "$UNNAMED$93"
+					(object State "$UNNAMED$81"
 					    quid       	"561A0B5C01E5"
 					    type       	"EndState")
-					(object Decision "$UNNAMED$94"
+					(object Decision "$UNNAMED$82"
 					    quid       	"561A0B690233")
-					(object State "$UNNAMED$95"
+					(object State "$UNNAMED$83"
 					    quid       	"561A0D2A0223"
 					    type       	"EndState")
 					(object ActivityState "update en BD de la tabla Productos"
 					    quid       	"561A0DA30010")
-					(object State "$UNNAMED$96"
+					(object State "$UNNAMED$84"
 					    quid       	"561A0EBA0020"
 					    type       	"EndState")
-					(object State "$UNNAMED$97"
+					(object State "$UNNAMED$85"
 					    quid       	"561A0EC7032D"
 					    type       	"EndState")
-					(object State "$UNNAMED$98"
+					(object State "$UNNAMED$86"
 					    quid       	"561A0F260000"
 					    type       	"EndState")
-					(object State "$UNNAMED$99"
+					(object State "$UNNAMED$87"
 					    quid       	"561A0F280010"
 					    type       	"EndState"))
 				    partitions 	(list Partitions
-					(object Partition "$UNNAMED$100"
+					(object Partition "$UNNAMED$88"
 					    quid       	"5B21FACF0148"
-					    class      	"Use Case View::Use-Case Model::Actors::usuario sistema"
 					    quidu      	"5B21F82D032C"
 					    persistence 	"Transient"
 					    creationObj 	FALSE
@@ -2041,7 +1988,7 @@
 						quid       	"5B22006A0012"))
 					(object State_Transition
 					    quid       	"5619EE740129"
-					    supplier   	"$UNNAMED$36"
+					    supplier   	"$UNNAMED$24"
 					    supplier_quidu 	"5619EE6F00DB"
 					    client     	
 |Use Case View::Use-Case Model::modulo logistica::emitir informe control de calidad::State/Activity Model2::mostrar panel <mensajeSistema">: "ACCESO DENEGADO"
@@ -2064,7 +2011,7 @@
 					    quid       	"561A2970031D"
 					    supplier   	"Use Case View::Use-Case Model::modulo logistica::emitir informe control de calidad::State/Activity Model2::validar botón EQUIPOS"
 					    supplier_quidu 	"561A2928010A"
-					    client     	"$UNNAMED$37"
+					    client     	"$UNNAMED$25"
 					    client_quidu 	"561A2832004E"
 					    sendEvent  	(object sendEvent
 						quid       	"561A29700320"))
@@ -2072,7 +2019,7 @@
 					    quid       	"561A297F0252"
 					    supplier   	"Use Case View::Use-Case Model::modulo logistica::emitir informe control de calidad::State/Activity Model2::validar botón PRODUCTOS"
 					    supplier_quidu 	"561A293B0271"
-					    client     	"$UNNAMED$37"
+					    client     	"$UNNAMED$25"
 					    client_quidu 	"561A2832004E"
 					    sendEvent  	(object sendEvent
 						quid       	"561A297F0255"))
@@ -2080,7 +2027,7 @@
 					    quid       	"561A29820168"
 					    supplier   	"Use Case View::Use-Case Model::modulo logistica::emitir informe control de calidad::State/Activity Model2::validar botón AREAS"
 					    supplier_quidu 	"561A293202A0"
-					    client     	"$UNNAMED$37"
+					    client     	"$UNNAMED$25"
 					    client_quidu 	"561A2832004E"
 					    sendEvent  	(object sendEvent
 						quid       	"561A2982016B"))
@@ -2136,7 +2083,7 @@
 						quid       	"561A34EB03AD"))
 					(object State_Transition
 					    quid       	"561A34F1010A"
-					    supplier   	"$UNNAMED$38"
+					    supplier   	"$UNNAMED$26"
 					    supplier_quidu 	"561A318F0148"
 					    client     	
 |Use Case View::Use-Case Model::modulo logistica::emitir informe control de calidad::State/Activity Model2::mostrar panel <mensajeSistema>: "ACCESO DENEGADO"
@@ -2146,7 +2093,7 @@
 						quid       	"561A34F1010D"))
 					(object State_Transition
 					    quid       	"561A35070168"
-					    supplier   	"$UNNAMED$39"
+					    supplier   	"$UNNAMED$27"
 					    supplier_quidu 	"561A323702DF"
 					    client     	
 |Use Case View::Use-Case Model::modulo logistica::emitir informe control de calidad::State/Activity Model2::mostrar panel <mensajeSistema>: "ACCESO DENEGADO"
@@ -2169,7 +2116,7 @@
 						quid       	"561A351201B9"))
 					(object State_Transition
 					    quid       	"561A352A038B"
-					    supplier   	"$UNNAMED$40"
+					    supplier   	"$UNNAMED$28"
 					    supplier_quidu 	"561A3526038B"
 					    client     	
 |Use Case View::Use-Case Model::modulo logistica::emitir informe control de calidad::State/Activity Model2::mostrar panel <mensajeSistema>: "ACCESO DENEGADO"
@@ -2200,7 +2147,7 @@
 						quid       	"561A452E0301"))
 					(object State_Transition
 					    quid       	"561A4537037B"
-					    supplier   	"$UNNAMED$41"
+					    supplier   	"$UNNAMED$29"
 					    supplier_quidu 	"561A453402BF"
 					    client     	
 |Use Case View::Use-Case Model::modulo logistica::emitir informe control de calidad::State/Activity Model2::mostrar panel <mensajeSistema>: "ACCESO DENEGADO"
@@ -2240,7 +2187,7 @@
 						quid       	"561A489B01F7"))
 					(object State_Transition
 					    quid       	"561A48AB03D9"
-					    supplier   	"$UNNAMED$43"
+					    supplier   	"$UNNAMED$31"
 					    supplier_quidu 	"561A48A8037B"
 					    client     	"Use Case View::Use-Case Model::modulo logistica::emitir informe control de calidad::State/Activity Model2::mostrar tabla de historial de informes generados"
 					    client_quidu 	"561A485D0223"
@@ -2384,7 +2331,7 @@
 						quid       	"561A4B900320"))
 					(object State_Transition
 					    quid       	"561A4B970197"
-					    supplier   	"$UNNAMED$42"
+					    supplier   	"$UNNAMED$30"
 					    supplier_quidu 	"561A489F01B6"
 					    client     	
 |Use Case View::Use-Case Model::modulo logistica::emitir informe control de calidad::State/Activity Model2::mostrar panel <mensajeSistema>:"OCURRIO UN FALLO. Contactese con su administrador"
@@ -2394,7 +2341,7 @@
 						quid       	"561A4B97019A"))
 					(object State_Transition
 					    quid       	"561A4BAD0281"
-					    supplier   	"$UNNAMED$44"
+					    supplier   	"$UNNAMED$32"
 					    supplier_quidu 	"561A4BAA03C9"
 					    client     	
 |Use Case View::Use-Case Model::modulo logistica::emitir informe control de calidad::State/Activity Model2::mostrar panel <mensajeSistema>: "FALLO EN EL SISTEMA. Contactese con su administrador"
@@ -2404,7 +2351,7 @@
 						quid       	"561A4BAD0284"))
 					(object State_Transition
 					    quid       	"561A4BB4032D"
-					    supplier   	"$UNNAMED$45"
+					    supplier   	"$UNNAMED$33"
 					    supplier_quidu 	"561A4BB0038B"
 					    client     	
 |Use Case View::Use-Case Model::modulo logistica::emitir informe control de calidad::State/Activity Model2::mostrar panel <mensajeSistema>: "FALLO EN EL SISTEMA. Contactese con su administrador"
@@ -2414,7 +2361,7 @@
 						quid       	"561A4BB40330"))
 					(object State_Transition
 					    quid       	"561A4BBC003F"
-					    supplier   	"$UNNAMED$46"
+					    supplier   	"$UNNAMED$34"
 					    supplier_quidu 	"561A4BB8032D"
 					    client     	
 |Use Case View::Use-Case Model::modulo logistica::emitir informe control de calidad::State/Activity Model2::mostrar panel <mensajeSistema>: "FALLO EN EL SISTEMA. Contactese con su administrador"
@@ -2520,7 +2467,7 @@
 						quid       	"561A4E540255"))
 					(object State_Transition
 					    quid       	"561A4E7103AA"
-					    supplier   	"$UNNAMED$47"
+					    supplier   	"$UNNAMED$35"
 					    supplier_quidu 	"561A4E6E01F4"
 					    client     	
 |Use Case View::Use-Case Model::modulo logistica::emitir informe control de calidad::State/Activity Model2::mostrar panel <mensajeSistema>: "ACCESO DENEGADO"
@@ -2530,7 +2477,7 @@
 						quid       	"561A4E7103AD"))
 					(object State_Transition
 					    quid       	"561A4E7D003F"
-					    supplier   	"$UNNAMED$48"
+					    supplier   	"$UNNAMED$36"
 					    supplier_quidu 	"561A4E7603C9"
 					    client     	
 |Use Case View::Use-Case Model::modulo logistica::emitir informe control de calidad::State/Activity Model2::mostrar panel <mensajeSistema>: "ACCESO DENEGADO"
@@ -2540,7 +2487,7 @@
 						quid       	"561A4E7D0042"))
 					(object State_Transition
 					    quid       	"561A4E80004E"
-					    supplier   	"$UNNAMED$49"
+					    supplier   	"$UNNAMED$37"
 					    supplier_quidu 	"561A4E7A00EB"
 					    client     	
 |Use Case View::Use-Case Model::modulo logistica::emitir informe control de calidad::State/Activity Model2::mostrar panel <mensajeSistema>: "ACCESO DENEGADO"
@@ -2613,7 +2560,7 @@
 						quid       	"561A4FC6019A"))
 					(object State_Transition
 					    quid       	"561A4FE103AA"
-					    supplier   	"$UNNAMED$50"
+					    supplier   	"$UNNAMED$38"
 					    supplier_quidu 	"561A4FDC02DF"
 					    client     	
 |Use Case View::Use-Case Model::modulo logistica::emitir informe control de calidad::State/Activity Model2::mostrar panel <mensajeSistema>:"COMPLETAR TODOS LOS CAMPOS SOLICITADOS"
@@ -2623,7 +2570,7 @@
 						quid       	"561A4FE103AD"))
 					(object State_Transition
 					    quid       	"561A4FE70233"
-					    supplier   	"$UNNAMED$51"
+					    supplier   	"$UNNAMED$39"
 					    supplier_quidu 	"561A4FE40252"
 					    client     	
 |Use Case View::Use-Case Model::modulo logistica::emitir informe control de calidad::State/Activity Model2::mostrar panel <mensajeSistema>:"COMPLETAR TODOS LOS CAMPOS SOLICITADOS"
@@ -2633,7 +2580,7 @@
 						quid       	"561A4FE70236"))
 					(object State_Transition
 					    quid       	"561A4FF10281"
-					    supplier   	"$UNNAMED$52"
+					    supplier   	"$UNNAMED$40"
 					    supplier_quidu 	"561A4FED0242"
 					    client     	
 |Use Case View::Use-Case Model::modulo logistica::emitir informe control de calidad::State/Activity Model2::mostrar panel <mensajeSistema>:"COMPLETAR TODOS LOS CAMPOS SOLICITADOS"
@@ -2737,7 +2684,7 @@
 						quid       	"561A15ED0206"))
 					(object State_Transition
 					    quid       	"561A15FB033C"
-					    supplier   	"$UNNAMED$53"
+					    supplier   	"$UNNAMED$41"
 					    supplier_quidu 	"561A15F7002F"
 					    client     	
 |Use Case View::Use-Case Model::modulo logistica::emitir informe control de calidad::State/Activity Model2::mostrar panel <mensajeSistema>: "FALLO EN EL SISTEMA"
@@ -2747,7 +2694,7 @@
 						quid       	"561A15FB033F"))
 					(object State_Transition
 					    quid       	"561A16080203"
-					    supplier   	"$UNNAMED$54"
+					    supplier   	"$UNNAMED$42"
 					    supplier_quidu 	"561A160200CB"
 					    client     	
 |Use Case View::Use-Case Model::modulo logistica::emitir informe control de calidad::State/Activity Model2::mostrar panel <mensajeSistema>: "FALLO EN EL SISTEMA"
@@ -2770,7 +2717,7 @@
 						quid       	"561A1622010C"))
 					(object State_Transition
 					    quid       	"561A1627030D"
-					    supplier   	"$UNNAMED$55"
+					    supplier   	"$UNNAMED$43"
 					    supplier_quidu 	"561A1624039A"
 					    client     	
 |Use Case View::Use-Case Model::modulo logistica::emitir informe control de calidad::State/Activity Model2::mostrar panel <mensajeSistema>: "FALLO EN EL SISTEMA"
@@ -2802,7 +2749,7 @@
 						quid       	"561A169E011C"))
 					(object State_Transition
 					    quid       	"561A17180242"
-					    supplier   	"$UNNAMED$56"
+					    supplier   	"$UNNAMED$44"
 					    supplier_quidu 	"561A171401B5"
 					    client     	"Use Case View::Use-Case Model::modulo logistica::emitir informe control de calidad::State/Activity Model2::mostrar form <vistaInformeEquipos>"
 					    client_quidu 	"561A156C006D"
@@ -2812,7 +2759,7 @@
 					    quid       	"561A1B220157"
 					    supplier   	"Use Case View::Use-Case Model::modulo logistica::emitir informe control de calidad::State/Activity Model2::validar botón Regresar"
 					    supplier_quidu 	"561A17260213"
-					    client     	"$UNNAMED$56"
+					    client     	"$UNNAMED$44"
 					    client_quidu 	"561A171401B5"
 					    sendEvent  	(object sendEvent
 						quid       	"561A1B22015A"))
@@ -2820,7 +2767,7 @@
 					    quid       	"561A1B2A01D4"
 					    supplier   	"Use Case View::Use-Case Model::modulo logistica::emitir informe control de calidad::State/Activity Model2::validar botón Editar"
 					    supplier_quidu 	"561A1741009C"
-					    client     	"$UNNAMED$56"
+					    client     	"$UNNAMED$44"
 					    client_quidu 	"561A171401B5"
 					    sendEvent  	(object sendEvent
 						quid       	"561A1B2A01D7"))
@@ -2828,7 +2775,7 @@
 					    quid       	"561A1B2E01C5"
 					    supplier   	"Use Case View::Use-Case Model::modulo logistica::emitir informe control de calidad::State/Activity Model2::validar botón Descargar"
 					    supplier_quidu 	"561A175301F4"
-					    client     	"$UNNAMED$56"
+					    client     	"$UNNAMED$44"
 					    client_quidu 	"561A171401B5"
 					    sendEvent  	(object sendEvent
 						quid       	"561A1B2E01C8"))
@@ -2836,13 +2783,13 @@
 					    quid       	"5619EDA402AF"
 					    supplier   	"Use Case View::Use-Case Model::modulo logistica::emitir informe control de calidad::State/Activity Model2::validar botón HISTORIAL DE INFORMES"
 					    supplier_quidu 	"561A4438039A"
-					    client     	"$UNNAMED$37"
+					    client     	"$UNNAMED$25"
 					    client_quidu 	"561A2832004E"
 					    sendEvent  	(object sendEvent
 						quid       	"5619EDA402B2"))
 					(object State_Transition
 					    quid       	"5619EDAA0187"
-					    supplier   	"$UNNAMED$37"
+					    supplier   	"$UNNAMED$25"
 					    supplier_quidu 	"561A2832004E"
 					    client     	"Use Case View::Use-Case Model::modulo logistica::emitir informe control de calidad::State/Activity Model2::mostrar form <InformeDeCalidad>"
 					    client_quidu 	"5619EE410213"
@@ -2871,7 +2818,7 @@
 						quid       	"5619FE880003"))
 					(object State_Transition
 					    quid       	"5619FE990000"
-					    supplier   	"$UNNAMED$57"
+					    supplier   	"$UNNAMED$45"
 					    supplier_quidu 	"5619FE950280"
 					    client     	
 |Use Case View::Use-Case Model::modulo logistica::emitir informe control de calidad::State/Activity Model2::mostrar panel <mensajeSistema>: "ACCESO DENEGADO"
@@ -2892,7 +2839,7 @@
 						quid       	"5619FF4901D7"))
 					(object State_Transition
 					    quid       	"5619FF6302A0"
-					    supplier   	"$UNNAMED$58"
+					    supplier   	"$UNNAMED$46"
 					    supplier_quidu 	"5619FF6002EE"
 					    client     	"Use Case View::Use-Case Model::modulo logistica::emitir informe control de calidad::State/Activity Model2::mostrar form <InformeDeCalidad>"
 					    client_quidu 	"5619EE410213"
@@ -2900,7 +2847,7 @@
 						quid       	"5619FF6302A3"))
 					(object State_Transition
 					    quid       	"5619EE14004E"
-					    supplier   	"$UNNAMED$59"
+					    supplier   	"$UNNAMED$47"
 					    supplier_quidu 	"5619EE1100DB"
 					    client     	
 |Use Case View::Use-Case Model::modulo logistica::emitir informe control de calidad::State/Activity Model2::mostrar panel <mensajeSistema>: "ACCESO DENEGADO"
@@ -2931,7 +2878,7 @@
 						quid       	"5619F4D901C8"))
 					(object State_Transition
 					    quid       	"5619F4E10129"
-					    supplier   	"$UNNAMED$60"
+					    supplier   	"$UNNAMED$48"
 					    supplier_quidu 	"5619F4DF007D"
 					    client     	
 |Use Case View::Use-Case Model::modulo logistica::emitir informe control de calidad::State/Activity Model2::mostrar panel <mensajeSistema>: "ERROR EN EL SISTEMA"
@@ -2952,7 +2899,7 @@
 						quid       	"5619F4ED00BF"))
 					(object State_Transition
 					    quid       	"5619F4FB01E5"
-					    supplier   	"$UNNAMED$61"
+					    supplier   	"$UNNAMED$49"
 					    supplier_quidu 	"5619F4F90129"
 					    client     	"Use Case View::Use-Case Model::modulo logistica::emitir informe control de calidad::State/Activity Model2::genera  y descarga pdf del informe de Equipos"
 					    client_quidu 	"5619EEBB0168"
@@ -2981,7 +2928,7 @@
 						quid       	"5619F66B0265"))
 					(object State_Transition
 					    quid       	"5619F6800187"
-					    supplier   	"$UNNAMED$63"
+					    supplier   	"$UNNAMED$51"
 					    supplier_quidu 	"5619F67D03C9"
 					    client     	
 |Use Case View::Use-Case Model::modulo logistica::emitir informe control de calidad::State/Activity Model2::mostrar panel <mensajeSistema>: "ACCESO DENEGADO"
@@ -3023,7 +2970,7 @@
 						quid       	"5619F8B701A9"))
 					(object State_Transition
 					    quid       	"5619F8CF02EE"
-					    supplier   	"$UNNAMED$64"
+					    supplier   	"$UNNAMED$52"
 					    supplier_quidu 	"5619F8CD01A6"
 					    client     	
 |Use Case View::Use-Case Model::modulo logistica::emitir informe control de calidad::State/Activity Model2::mostrar panel <mensajeSistema>: "FALLO EN EL SISTEMA"
@@ -3044,7 +2991,7 @@
 						quid       	"5619F949012C"))
 					(object State_Transition
 					    quid       	"5619F964037B"
-					    supplier   	"$UNNAMED$65"
+					    supplier   	"$UNNAMED$53"
 					    supplier_quidu 	"5619F95D00AC"
 					    client     	"Use Case View::Use-Case Model::modulo logistica::emitir informe control de calidad::State/Activity Model2::mostrar form <Informe de Calidad de Equipos>"
 					    client_quidu 	"561A3116030E"
@@ -3054,7 +3001,7 @@
 					    quid       	"5619F9910177"
 					    supplier   	"Use Case View::Use-Case Model::modulo logistica::emitir informe control de calidad::State/Activity Model2::validar botón Cancelar"
 					    supplier_quidu 	"5619F972036B"
-					    client     	"$UNNAMED$65"
+					    client     	"$UNNAMED$53"
 					    client_quidu 	"5619F95D00AC"
 					    sendEvent  	(object sendEvent
 						quid       	"5619F991017A"))
@@ -3062,7 +3009,7 @@
 					    quid       	"5619F9930129"
 					    supplier   	"Use Case View::Use-Case Model::modulo logistica::emitir informe control de calidad::State/Activity Model2::validar botón Guardar Cambios"
 					    supplier_quidu 	"5619F97E01C5"
-					    client     	"$UNNAMED$65"
+					    client     	"$UNNAMED$53"
 					    client_quidu 	"5619F95D00AC"
 					    sendEvent  	(object sendEvent
 						quid       	"5619F993012C"))
@@ -3089,7 +3036,7 @@
 						quid       	"5619FA7B0330"))
 					(object State_Transition
 					    quid       	"5619FA8B03D9"
-					    supplier   	"$UNNAMED$66"
+					    supplier   	"$UNNAMED$54"
 					    supplier_quidu 	"5619FA890129"
 					    client     	
 |Use Case View::Use-Case Model::modulo logistica::emitir informe control de calidad::State/Activity Model2::mostrar panel <mensajeSistema>: "ACCESO DENEGADO"
@@ -3112,7 +3059,7 @@
 						quid       	"5619FB2F03DC"))
 					(object State_Transition
 					    quid       	"5619FB8F0129"
-					    supplier   	"$UNNAMED$67"
+					    supplier   	"$UNNAMED$55"
 					    supplier_quidu 	"5619FB8B0020"
 					    client     	
 |Use Case View::Use-Case Model::modulo logistica::emitir informe control de calidad::State/Activity Model2::mostrar panel <mensajeSistema>: "SE HA CANCELADO LOS CAMBIOS"
@@ -3122,7 +3069,7 @@
 						quid       	"5619FB8F012C"))
 					(object State_Transition
 					    quid       	"5619FBBA022C"
-					    supplier   	"$UNNAMED$68"
+					    supplier   	"$UNNAMED$56"
 					    supplier_quidu 	"5619FBBA0231"
 					    client     	
 |Use Case View::Use-Case Model::modulo logistica::emitir informe control de calidad::State/Activity Model2::mostrar panel <mensajeSistema>: "ACCESO DENEGADO"
@@ -3140,7 +3087,7 @@
 						quid       	"5619FBBA023D"))
 					(object State_Transition
 					    quid       	"5619FBBA0248"
-					    supplier   	"$UNNAMED$69"
+					    supplier   	"$UNNAMED$57"
 					    supplier_quidu 	"5619FBBA024D"
 					    client     	
 |Use Case View::Use-Case Model::modulo logistica::emitir informe control de calidad::State/Activity Model2::mostrar panel <mensajeSistema>: "ERROR EN EL SISTEMA"
@@ -3150,7 +3097,7 @@
 						quid       	"5619FBBA024B"))
 					(object State_Transition
 					    quid       	"5619FBBA0256"
-					    supplier   	"$UNNAMED$70"
+					    supplier   	"$UNNAMED$58"
 					    supplier_quidu 	"5619FBBA025B"
 					    client     	"Use Case View::Use-Case Model::modulo logistica::emitir informe control de calidad::State/Activity Model2::genera  y descarga pdf del informe de Equipos"
 					    client_quidu 	"5619EEBB0168"
@@ -3211,7 +3158,7 @@
 						quid       	"5619FCB401B9"))
 					(object State_Transition
 					    quid       	"5619FCBE02FE"
-					    supplier   	"$UNNAMED$71"
+					    supplier   	"$UNNAMED$59"
 					    supplier_quidu 	"5619FCBC002F"
 					    client     	
 |Use Case View::Use-Case Model::modulo logistica::emitir informe control de calidad::State/Activity Model2::mostrar panel <mensajeSistema>: "ACCESO DENEGADO"
@@ -3253,7 +3200,7 @@
 						quid       	"5619FF9A0284"))
 					(object State_Transition
 					    quid       	"5619FF9F035C"
-					    supplier   	"$UNNAMED$72"
+					    supplier   	"$UNNAMED$60"
 					    supplier_quidu 	"5619FF9D01D5"
 					    client     	
 |Use Case View::Use-Case Model::modulo logistica::emitir informe control de calidad::State/Activity Model2::mostrar panel <mensajeSIstema>: "NO SE HA PODIDO GUARDAR LOS CAMBIOS"
@@ -3276,7 +3223,7 @@
 						quid       	"561A003D013C"))
 					(object State_Transition
 					    quid       	"561A00450148"
-					    supplier   	"$UNNAMED$73"
+					    supplier   	"$UNNAMED$61"
 					    supplier_quidu 	"561A004203D9"
 					    client     	
 |Use Case View::Use-Case Model::modulo logistica::emitir informe control de calidad::State/Activity Model2::mostrar panel <mensajeSistema>: "CAMBIOS GUARDADOS SATISFACTORIAMENTE"
@@ -3286,7 +3233,7 @@
 						quid       	"561A0045014B"))
 					(object State_Transition
 					    quid       	"561A00DA01C5"
-					    supplier   	"$UNNAMED$62"
+					    supplier   	"$UNNAMED$50"
 					    supplier_quidu 	"5619F5CE039A"
 					    client     	"Use Case View::Use-Case Model::modulo logistica::emitir informe control de calidad::State/Activity Model2::mostrar form <vistaInformeAreas>"
 					    client_quidu 	"561A165D01D4"
@@ -3296,7 +3243,7 @@
 					    quid       	"561A00F0034C"
 					    supplier   	"Use Case View::Use-Case Model::modulo logistica::emitir informe control de calidad::State/Activity Model2::validar botón Descargar"
 					    supplier_quidu 	"561A175301F4"
-					    client     	"$UNNAMED$62"
+					    client     	"$UNNAMED$50"
 					    client_quidu 	"5619F5CE039A"
 					    sendEvent  	(object sendEvent
 						quid       	"561A00F0034F"))
@@ -3323,7 +3270,7 @@
 						quid       	"561A012C0207"))
 					(object State_Transition
 					    quid       	"561A013B02A0"
-					    supplier   	"$UNNAMED$74"
+					    supplier   	"$UNNAMED$62"
 					    supplier_quidu 	"561A013703AA"
 					    client     	
 |Use Case View::Use-Case Model::modulo logistica::emitir informe control de calidad::State/Activity Model2::mostrar panel <mensajeSistema>: "ACCESO DENEGADO"
@@ -3378,7 +3325,7 @@
 					    quid       	"561A023203B9"
 					    supplier   	"Use Case View::Use-Case Model::modulo logistica::emitir informe control de calidad::State/Activity Model2::validar botón Regresar"
 					    supplier_quidu 	"561A17260213"
-					    client     	"$UNNAMED$62"
+					    client     	"$UNNAMED$50"
 					    client_quidu 	"5619F5CE039A"
 					    sendEvent  	(object sendEvent
 						quid       	"561A023203BC"))
@@ -3405,7 +3352,7 @@
 						quid       	"561A0237037E"))
 					(object State_Transition
 					    quid       	"561A026D009D"
-					    supplier   	"$UNNAMED$76"
+					    supplier   	"$UNNAMED$64"
 					    supplier_quidu 	"561A026A0187"
 					    client     	
 |Use Case View::Use-Case Model::modulo logistica::emitir informe control de calidad::State/Activity Model2::mostrar panel <mensajeSistema>: "ACCESO DENEGADO"
@@ -3426,7 +3373,7 @@
 						quid       	"561A027400BF"))
 					(object State_Transition
 					    quid       	"561A027D0129"
-					    supplier   	"$UNNAMED$77"
+					    supplier   	"$UNNAMED$65"
 					    supplier_quidu 	"561A027A010A"
 					    client     	"Use Case View::Use-Case Model::modulo logistica::emitir informe control de calidad::State/Activity Model2::mostrar form <InformeDeCalidad>"
 					    client_quidu 	"5619EE410213"
@@ -3463,7 +3410,7 @@
 						quid       	"561A0656018A"))
 					(object State_Transition
 					    quid       	"561A0669007D"
-					    supplier   	"$UNNAMED$78"
+					    supplier   	"$UNNAMED$66"
 					    supplier_quidu 	"561A0666002F"
 					    client     	
 |Use Case View::Use-Case Model::modulo logistica::emitir informe control de calidad::State/Activity Model2::mostrar panel <mensajeSistema>: "ACCESO DENEGADO"
@@ -3505,7 +3452,7 @@
 						quid       	"561A06B90255"))
 					(object State_Transition
 					    quid       	"561A06C2011A"
-					    supplier   	"$UNNAMED$79"
+					    supplier   	"$UNNAMED$67"
 					    supplier_quidu 	"561A06BF032D"
 					    client     	
 |Use Case View::Use-Case Model::modulo logistica::emitir informe control de calidad::State/Activity Model2::mostrar panel <mensajeSistema>: "FALLO EN EL SISTEMA"
@@ -3526,7 +3473,7 @@
 						quid       	"561A074703CC"))
 					(object State_Transition
 					    quid       	"561A075702B0"
-					    supplier   	"$UNNAMED$80"
+					    supplier   	"$UNNAMED$68"
 					    supplier_quidu 	"561A075402B0"
 					    client     	"Use Case View::Use-Case Model::modulo logistica::emitir informe control de calidad::State/Activity Model2::mostrar form <Informe de Calidad de Areas>"
 					    client_quidu 	"561A31C902EE"
@@ -3536,7 +3483,7 @@
 					    quid       	"561A076C0262"
 					    supplier   	"Use Case View::Use-Case Model::modulo logistica::emitir informe control de calidad::State/Activity Model2::validar botón Cancelar"
 					    supplier_quidu 	"5619F972036B"
-					    client     	"$UNNAMED$80"
+					    client     	"$UNNAMED$68"
 					    client_quidu 	"561A075402B0"
 					    sendEvent  	(object sendEvent
 						quid       	"561A076C0265"))
@@ -3544,7 +3491,7 @@
 					    quid       	"561A076F0020"
 					    supplier   	"Use Case View::Use-Case Model::modulo logistica::emitir informe control de calidad::State/Activity Model2::validar botón Guardar Cambios"
 					    supplier_quidu 	"5619F97E01C5"
-					    client     	"$UNNAMED$80"
+					    client     	"$UNNAMED$68"
 					    client_quidu 	"561A075402B0"
 					    sendEvent  	(object sendEvent
 						quid       	"561A076F0023"))
@@ -3584,7 +3531,7 @@
 						quid       	"561A07CE02D2"))
 					(object State_Transition
 					    quid       	"561A07DD003F"
-					    supplier   	"$UNNAMED$81"
+					    supplier   	"$UNNAMED$69"
 					    supplier_quidu 	"561A07C60204"
 					    client     	
 |Use Case View::Use-Case Model::modulo logistica::emitir informe control de calidad::State/Activity Model2::mostrar panel <mensajeSistema>: "ACCESO DENEGADO"
@@ -3594,7 +3541,7 @@
 						quid       	"561A07DD0042"))
 					(object State_Transition
 					    quid       	"561A07DF01C5"
-					    supplier   	"$UNNAMED$82"
+					    supplier   	"$UNNAMED$70"
 					    supplier_quidu 	"561A07C80281"
 					    client     	
 |Use Case View::Use-Case Model::modulo logistica::emitir informe control de calidad::State/Activity Model2::mostrar panel <mensajeSistema>: "SE HA CANCELADO LOS CAMBIOS"
@@ -3625,7 +3572,7 @@
 						quid       	"561A085C03AD"))
 					(object State_Transition
 					    quid       	"561A086402FE"
-					    supplier   	"$UNNAMED$83"
+					    supplier   	"$UNNAMED$71"
 					    supplier_quidu 	"561A0862006E"
 					    client     	
 |Use Case View::Use-Case Model::modulo logistica::emitir informe control de calidad::State/Activity Model2::mostrar panel <mensajeSistema>: "ACCESO DENEGADO"
@@ -3680,7 +3627,7 @@
 						quid       	"561A08A5033F"))
 					(object State_Transition
 					    quid       	"561A08CA00FA"
-					    supplier   	"$UNNAMED$84"
+					    supplier   	"$UNNAMED$72"
 					    supplier_quidu 	"561A08C600DB"
 					    client     	
 |Use Case View::Use-Case Model::modulo logistica::emitir informe control de calidad::State/Activity Model2::mostrar panel <mensajeSIstema>: "NO SE HA PODIDO GUARDAR LOS CAMBIOS"
@@ -3690,7 +3637,7 @@
 						quid       	"561A08CA00FD"))
 					(object State_Transition
 					    quid       	"561A08CC0148"
-					    supplier   	"$UNNAMED$85"
+					    supplier   	"$UNNAMED$73"
 					    supplier_quidu 	"561A08C80000"
 					    client     	
 |Use Case View::Use-Case Model::modulo logistica::emitir informe control de calidad::State/Activity Model2::mostrar panel <mensajeSistema>: "CAMBIOS GUARDADOS SATISFACTORIAMENTE"
@@ -3700,7 +3647,7 @@
 						quid       	"561A08CC014B"))
 					(object State_Transition
 					    quid       	"561A08F902EE"
-					    supplier   	"$UNNAMED$86"
+					    supplier   	"$UNNAMED$74"
 					    supplier_quidu 	"561A08F603AA"
 					    client     	"Use Case View::Use-Case Model::modulo logistica::emitir informe control de calidad::State/Activity Model2::mostrar form <vistaInformeProductos>"
 					    client_quidu 	"561A1689031D"
@@ -3710,7 +3657,7 @@
 					    quid       	"561A091100CB"
 					    supplier   	"Use Case View::Use-Case Model::modulo logistica::emitir informe control de calidad::State/Activity Model2::validar botón Descargar"
 					    supplier_quidu 	"561A175301F4"
-					    client     	"$UNNAMED$86"
+					    client     	"$UNNAMED$74"
 					    client_quidu 	"561A08F603AA"
 					    sendEvent  	(object sendEvent
 						quid       	"561A091100CE"))
@@ -3756,7 +3703,7 @@
 						quid       	"561A095002F1"))
 					(object State_Transition
 					    quid       	"561A09640242"
-					    supplier   	"$UNNAMED$75"
+					    supplier   	"$UNNAMED$63"
 					    supplier_quidu 	"561A01D50281"
 					    client     	
 |Use Case View::Use-Case Model::modulo logistica::emitir informe control de calidad::State/Activity Model2::mostrar panel <mensajeSistema>: "ERROR EN EL SISTEMA"
@@ -3766,7 +3713,7 @@
 						quid       	"561A09640245"))
 					(object State_Transition
 					    quid       	"561A096C0204"
-					    supplier   	"$UNNAMED$87"
+					    supplier   	"$UNNAMED$75"
 					    supplier_quidu 	"561A0969036B"
 					    client     	"Use Case View::Use-Case Model::modulo logistica::emitir informe control de calidad::State/Activity Model2::genera y descarga pdf del informe de Areas"
 					    client_quidu 	"561A01BC01C5"
@@ -3787,7 +3734,7 @@
 						quid       	"561A09830265"))
 					(object State_Transition
 					    quid       	"561A09A302DF"
-					    supplier   	"$UNNAMED$88"
+					    supplier   	"$UNNAMED$76"
 					    supplier_quidu 	"561A09A10129"
 					    client     	
 |Use Case View::Use-Case Model::modulo logistica::emitir informe control de calidad::State/Activity Model2::mostrar panel <mensajeSistema>: "ERROR EN EL SISTEMA"
@@ -3808,7 +3755,7 @@
 						quid       	"561A09C3017A"))
 					(object State_Transition
 					    quid       	"561A09D00252"
-					    supplier   	"$UNNAMED$89"
+					    supplier   	"$UNNAMED$77"
 					    supplier_quidu 	"561A09CD01A6"
 					    client     	"Use Case View::Use-Case Model::modulo logistica::emitir informe control de calidad::State/Activity Model2::genera y descarga pdf del informe de Productos"
 					    client_quidu 	"561A09A902CF"
@@ -3848,7 +3795,7 @@
 						quid       	"561A0A1C0207"))
 					(object State_Transition
 					    quid       	"561A0A2901E5"
-					    supplier   	"$UNNAMED$91"
+					    supplier   	"$UNNAMED$79"
 					    supplier_quidu 	"561A0A2700BC"
 					    client     	"Use Case View::Use-Case Model::modulo logistica::emitir informe control de calidad::State/Activity Model2::mostrar form <InformeDeCalidad>"
 					    client_quidu 	"5619EE410213"
@@ -3856,7 +3803,7 @@
 						quid       	"561A0A2901E8"))
 					(object State_Transition
 					    quid       	"561A0A2B037B"
-					    supplier   	"$UNNAMED$90"
+					    supplier   	"$UNNAMED$78"
 					    supplier_quidu 	"561A0A240233"
 					    client     	
 |Use Case View::Use-Case Model::modulo logistica::emitir informe control de calidad::State/Activity Model2::mostrar panel <mensajeSistema>: "ACCESO DENEGADO"
@@ -3868,7 +3815,7 @@
 					    quid       	"561A0A3502B0"
 					    supplier   	"Use Case View::Use-Case Model::modulo logistica::emitir informe control de calidad::State/Activity Model2::validar botón Regresar"
 					    supplier_quidu 	"561A17260213"
-					    client     	"$UNNAMED$86"
+					    client     	"$UNNAMED$74"
 					    client_quidu 	"561A08F603AA"
 					    sendEvent  	(object sendEvent
 						quid       	"561A0A3502B3"))
@@ -3876,7 +3823,7 @@
 					    quid       	"561A0ABD0262"
 					    supplier   	"Use Case View::Use-Case Model::modulo logistica::emitir informe control de calidad::State/Activity Model2::validar botón Editar"
 					    supplier_quidu 	"561A1741009C"
-					    client     	"$UNNAMED$86"
+					    client     	"$UNNAMED$74"
 					    client_quidu 	"561A08F603AA"
 					    sendEvent  	(object sendEvent
 						quid       	"561A0ABD0265"))
@@ -3903,7 +3850,7 @@
 						quid       	"561A0AEB00BF"))
 					(object State_Transition
 					    quid       	"561A0AFA033C"
-					    supplier   	"$UNNAMED$92"
+					    supplier   	"$UNNAMED$80"
 					    supplier_quidu 	"561A0AF503AA"
 					    client     	
 |Use Case View::Use-Case Model::modulo logistica::emitir informe control de calidad::State/Activity Model2::mostrar panel <mensajeSistema>: "ACCESO DENEGADO"
@@ -3956,7 +3903,7 @@
 						quid       	"561A0B5702F1"))
 					(object State_Transition
 					    quid       	"561A0B5E02FE"
-					    supplier   	"$UNNAMED$93"
+					    supplier   	"$UNNAMED$81"
 					    supplier_quidu 	"561A0B5C01E5"
 					    client     	
 |Use Case View::Use-Case Model::modulo logistica::emitir informe control de calidad::State/Activity Model2::mostrar panel <mensajeSistema>: "FALLO EN EL SISTEMA"
@@ -3966,7 +3913,7 @@
 						quid       	"561A0B5E0301"))
 					(object State_Transition
 					    quid       	"561A0C5C038B"
-					    supplier   	"$UNNAMED$94"
+					    supplier   	"$UNNAMED$82"
 					    supplier_quidu 	"561A0B690233"
 					    client     	"Use Case View::Use-Case Model::modulo logistica::emitir informe control de calidad::State/Activity Model2::mostrar form <Informe de Calidad de Productos>"
 					    client_quidu 	"561A35310271"
@@ -3976,7 +3923,7 @@
 					    quid       	"561A0CD1004E"
 					    supplier   	"Use Case View::Use-Case Model::modulo logistica::emitir informe control de calidad::State/Activity Model2::validar botón Cancelar"
 					    supplier_quidu 	"5619F972036B"
-					    client     	"$UNNAMED$94"
+					    client     	"$UNNAMED$82"
 					    client_quidu 	"561A0B690233"
 					    sendEvent  	(object sendEvent
 						quid       	"561A0CD10051"))
@@ -3984,7 +3931,7 @@
 					    quid       	"561A0CD500AC"
 					    supplier   	"Use Case View::Use-Case Model::modulo logistica::emitir informe control de calidad::State/Activity Model2::validar botón Guardar Cambios"
 					    supplier_quidu 	"5619F97E01C5"
-					    client     	"$UNNAMED$94"
+					    client     	"$UNNAMED$82"
 					    client_quidu 	"561A0B690233"
 					    sendEvent  	(object sendEvent
 						quid       	"561A0CD500AF"))
@@ -4011,7 +3958,7 @@
 						quid       	"561A0D2101A9"))
 					(object State_Transition
 					    quid       	"561A0D2D00AC"
-					    supplier   	"$UNNAMED$95"
+					    supplier   	"$UNNAMED$83"
 					    supplier_quidu 	"561A0D2A0223"
 					    client     	
 |Use Case View::Use-Case Model::modulo logistica::emitir informe control de calidad::State/Activity Model2::mostrar panel <mensajeSistema>: "ACCESO DENEGADO"
@@ -4066,7 +4013,7 @@
 						quid       	"561A0EAB01C8"))
 					(object State_Transition
 					    quid       	"561A0EBF0020"
-					    supplier   	"$UNNAMED$96"
+					    supplier   	"$UNNAMED$84"
 					    supplier_quidu 	"561A0EBA0020"
 					    client     	
 |Use Case View::Use-Case Model::modulo logistica::emitir informe control de calidad::State/Activity Model2::mostrar panel <mensajeSIstema>: "NO SE HA PODIDO GUARDAR LOS CAMBIOS"
@@ -4076,7 +4023,7 @@
 						quid       	"561A0EBF0023"))
 					(object State_Transition
 					    quid       	"561A0ECC0129"
-					    supplier   	"$UNNAMED$97"
+					    supplier   	"$UNNAMED$85"
 					    supplier_quidu 	"561A0EC7032D"
 					    client     	
 |Use Case View::Use-Case Model::modulo logistica::emitir informe control de calidad::State/Activity Model2::mostrar panel <mensajeSistema>: "CAMBIOS GUARDADOS SATISFACTORIAMENTE"
@@ -4120,7 +4067,7 @@
 						quid       	"561A0F1F011D"))
 					(object State_Transition
 					    quid       	"561A0F2A02BF"
-					    supplier   	"$UNNAMED$99"
+					    supplier   	"$UNNAMED$87"
 					    supplier_quidu 	"561A0F280010"
 					    client     	
 |Use Case View::Use-Case Model::modulo logistica::emitir informe control de calidad::State/Activity Model2::mostrar panel <mensajeSistema>: "SE HA CANCELADO LOS CAMBIOS"
@@ -4130,7 +4077,7 @@
 						quid       	"561A0F2A02C2"))
 					(object State_Transition
 					    quid       	"561A0F410168"
-					    supplier   	"$UNNAMED$98"
+					    supplier   	"$UNNAMED$86"
 					    supplier_quidu 	"561A0F260000"
 					    client     	
 |Use Case View::Use-Case Model::modulo logistica::emitir informe control de calidad::State/Activity Model2::mostrar panel <mensajeSistema>: "ACCESO DENEGADO"
@@ -4149,7 +4096,7 @@
 					    origin_x   	583
 					    origin_y   	0
 					    items      	(list diagram_item_list
-						(object Swimlane "$UNNAMED$100" @63
+						(object Swimlane "$UNNAMED$88" @63
 						    line_color 	3342489
 						    quidu      	"5B21FACF0148"
 						    width      	1090)
@@ -4424,7 +4371,7 @@
 							(2224, 408))
 						    line_style 	0
 						    x_offset   	FALSE)
-						(object StateView "EndState" "$UNNAMED$36" @78
+						(object StateView "EndState" "$UNNAMED$24" @78
 						    Parent_View 	@66
 						    location   	(4048, 192)
 						    icon_style 	"Icon"
@@ -4475,7 +4422,7 @@
 							(3799, 192)
 							(3804, 317))
 						    line_style 	0)
-						(object DecisionView "$UNNAMED$37" @82
+						(object DecisionView "$UNNAMED$25" @82
 						    Parent_View 	@66
 						    location   	(2736, 576)
 						    icon_style 	"Icon"
@@ -4752,7 +4699,7 @@
 							(3840, 1083))
 						    line_style 	0
 						    x_offset   	FALSE)
-						(object StateView "EndState" "$UNNAMED$38" @99
+						(object StateView "EndState" "$UNNAMED$26" @99
 						    Parent_View 	@66
 						    location   	(2048, 1472)
 						    icon_style 	"Icon"
@@ -5011,7 +4958,7 @@
 							(3085, 1230))
 						    line_style 	0
 						    x_offset   	FALSE)
-						(object StateView "EndState" "$UNNAMED$39" @111
+						(object StateView "EndState" "$UNNAMED$27" @111
 						    Parent_View 	@66
 						    location   	(3232, 1472)
 						    icon_style 	"Icon"
@@ -5057,7 +5004,7 @@
 						    width      	588
 						    annotation 	1
 						    autoResize 	TRUE)
-						(object StateView "EndState" "$UNNAMED$40" @114
+						(object StateView "EndState" "$UNNAMED$28" @114
 						    Parent_View 	@66
 						    location   	(4272, 1472)
 						    icon_style 	"Icon"
@@ -5331,7 +5278,7 @@
 							(5310, 1215))
 						    line_style 	0
 						    x_offset   	FALSE)
-						(object StateView "EndState" "$UNNAMED$41" @128
+						(object StateView "EndState" "$UNNAMED$29" @128
 						    Parent_View 	@66
 						    location   	(5411, 1488)
 						    icon_style 	"Icon"
@@ -5465,14 +5412,14 @@
 							(4845, 2012))
 						    line_style 	0
 						    x_offset   	FALSE)
-						(object StateView "EndState" "$UNNAMED$42" @136
+						(object StateView "EndState" "$UNNAMED$30" @136
 						    Parent_View 	@66
 						    location   	(5520, 2064)
 						    icon_style 	"Icon"
 						    line_color 	3342489
 						    quidu      	"561A489F01B6"
 						    autoResize 	TRUE)
-						(object StateView "EndState" "$UNNAMED$43" @137
+						(object StateView "EndState" "$UNNAMED$31" @137
 						    Parent_View 	@66
 						    location   	(4851, 2256)
 						    icon_style 	"Icon"
@@ -6192,7 +6139,7 @@
 							(5520, 2022))
 						    line_style 	0
 						    x_offset   	FALSE)
-						(object StateView "EndState" "$UNNAMED$44" @174
+						(object StateView "EndState" "$UNNAMED$32" @174
 						    Parent_View 	@66
 						    location   	(1920, 2016)
 						    icon_style 	"Icon"
@@ -6210,7 +6157,7 @@
 							(1920, 1974))
 						    line_style 	0
 						    x_offset   	FALSE)
-						(object StateView "EndState" "$UNNAMED$45" @176
+						(object StateView "EndState" "$UNNAMED$33" @176
 						    Parent_View 	@66
 						    location   	(3152, 2000)
 						    icon_style 	"Icon"
@@ -6228,7 +6175,7 @@
 							(3152, 1958))
 						    line_style 	0
 						    x_offset   	FALSE)
-						(object StateView "EndState" "$UNNAMED$46" @178
+						(object StateView "EndState" "$UNNAMED$34" @178
 						    Parent_View 	@66
 						    location   	(4240, 2016)
 						    icon_style 	"Icon"
@@ -6804,7 +6751,7 @@
 							(4034, 2440))
 						    line_style 	0
 						    x_offset   	FALSE)
-						(object StateView "EndState" "$UNNAMED$47" @207
+						(object StateView "EndState" "$UNNAMED$35" @207
 						    Parent_View 	@66
 						    location   	(1872, 2608)
 						    icon_style 	"Icon"
@@ -6822,7 +6769,7 @@
 							(1872, 2566))
 						    line_style 	0
 						    x_offset   	FALSE)
-						(object StateView "EndState" "$UNNAMED$48" @209
+						(object StateView "EndState" "$UNNAMED$36" @209
 						    Parent_View 	@66
 						    location   	(2976, 2624)
 						    icon_style 	"Icon"
@@ -6840,7 +6787,7 @@
 							(2976, 2582))
 						    line_style 	0
 						    x_offset   	FALSE)
-						(object StateView "EndState" "$UNNAMED$49" @211
+						(object StateView "EndState" "$UNNAMED$37" @211
 						    Parent_View 	@66
 						    location   	(4192, 2656)
 						    icon_style 	"Icon"
@@ -7212,7 +7159,7 @@
 							(3944, 2987))
 						    line_style 	0
 						    x_offset   	FALSE)
-						(object StateView "EndState" "$UNNAMED$50" @231
+						(object StateView "EndState" "$UNNAMED$38" @231
 						    Parent_View 	@66
 						    location   	(1808, 3200)
 						    icon_style 	"Icon"
@@ -7230,7 +7177,7 @@
 							(1812, 3158))
 						    line_style 	0
 						    x_offset   	FALSE)
-						(object StateView "EndState" "$UNNAMED$51" @233
+						(object StateView "EndState" "$UNNAMED$39" @233
 						    Parent_View 	@66
 						    location   	(2944, 3200)
 						    icon_style 	"Icon"
@@ -7248,7 +7195,7 @@
 							(2944, 3158))
 						    line_style 	0
 						    x_offset   	FALSE)
-						(object StateView "EndState" "$UNNAMED$52" @235
+						(object StateView "EndState" "$UNNAMED$40" @235
 						    Parent_View 	@66
 						    location   	(4096, 3200)
 						    icon_style 	"Icon"
@@ -7824,7 +7771,7 @@
 							(2759, 3628))
 						    line_style 	0
 						    x_offset   	FALSE)
-						(object StateView "EndState" "$UNNAMED$53" @264
+						(object StateView "EndState" "$UNNAMED$41" @264
 						    Parent_View 	@66
 						    location   	(1824, 3856)
 						    icon_style 	"Icon"
@@ -7842,7 +7789,7 @@
 							(1824, 3814))
 						    line_style 	0
 						    x_offset   	FALSE)
-						(object StateView "EndState" "$UNNAMED$54" @266
+						(object StateView "EndState" "$UNNAMED$42" @266
 						    Parent_View 	@66
 						    location   	(2896, 3856)
 						    icon_style 	"Icon"
@@ -7930,7 +7877,7 @@
 							(3572, 3771))
 						    line_style 	0
 						    x_offset   	FALSE)
-						(object StateView "EndState" "$UNNAMED$55" @271
+						(object StateView "EndState" "$UNNAMED$43" @271
 						    Parent_View 	@66
 						    location   	(3600, 4000)
 						    icon_style 	"Icon"
@@ -8084,7 +8031,7 @@
 							(4157, 3608))
 						    line_style 	0
 						    x_offset   	FALSE)
-						(object DecisionView "$UNNAMED$56" @279
+						(object DecisionView "$UNNAMED$44" @279
 						    Parent_View 	@66
 						    location   	(1504, 4128)
 						    icon_style 	"Icon"
@@ -8305,7 +8252,7 @@
 							(2586, 5528))
 						    line_style 	0
 						    x_offset   	FALSE)
-						(object StateView "EndState" "$UNNAMED$57" @291
+						(object StateView "EndState" "$UNNAMED$45" @291
 						    Parent_View 	@66
 						    location   	(2688, 5776)
 						    icon_style 	"Icon"
@@ -8392,7 +8339,7 @@
 							(2176, 5688))
 						    line_style 	0
 						    x_offset   	FALSE)
-						(object StateView "EndState" "$UNNAMED$58" @296
+						(object StateView "EndState" "$UNNAMED$46" @296
 						    Parent_View 	@66
 						    location   	(2176, 5968)
 						    icon_style 	"Icon"
@@ -8441,7 +8388,7 @@
 						    height     	113
 						    annotation 	1
 						    autoResize 	TRUE)
-						(object StateView "EndState" "$UNNAMED$59" @299
+						(object StateView "EndState" "$UNNAMED$47" @299
 						    Parent_View 	@66
 						    location   	(1728, 4944)
 						    icon_style 	"Icon"
@@ -8675,7 +8622,7 @@
 							(1615, 5371))
 						    line_style 	0
 						    x_offset   	FALSE)
-						(object StateView "EndState" "$UNNAMED$60" @311
+						(object StateView "EndState" "$UNNAMED$48" @311
 						    Parent_View 	@66
 						    location   	(1728, 5584)
 						    icon_style 	"Icon"
@@ -8693,7 +8640,7 @@
 							(1719, 5541))
 						    line_style 	0
 						    x_offset   	FALSE)
-						(object StateView "EndState" "$UNNAMED$61" @313
+						(object StateView "EndState" "$UNNAMED$49" @313
 						    Parent_View 	@66
 						    location   	(1376, 5872)
 						    icon_style 	"Icon"
@@ -8711,7 +8658,7 @@
 							(1383, 5829))
 						    line_style 	0
 						    x_offset   	FALSE)
-						(object DecisionView "$UNNAMED$62" @315
+						(object DecisionView "$UNNAMED$50" @315
 						    Parent_View 	@66
 						    location   	(2576, 4128)
 						    icon_style 	"Icon"
@@ -8850,7 +8797,7 @@
 							(1535, 6519))
 						    line_style 	0
 						    x_offset   	FALSE)
-						(object StateView "EndState" "$UNNAMED$63" @323
+						(object StateView "EndState" "$UNNAMED$51" @323
 						    Parent_View 	@66
 						    location   	(1536, 6736)
 						    icon_style 	"Icon"
@@ -9055,7 +9002,7 @@
 							(2011, 6923))
 						    line_style 	0
 						    x_offset   	FALSE)
-						(object StateView "EndState" "$UNNAMED$64" @334
+						(object StateView "EndState" "$UNNAMED$52" @334
 						    Parent_View 	@66
 						    location   	(1840, 7168)
 						    icon_style 	"Icon"
@@ -9141,7 +9088,7 @@
 							(2537, 7020))
 						    line_style 	0
 						    x_offset   	FALSE)
-						(object DecisionView "$UNNAMED$65" @339
+						(object DecisionView "$UNNAMED$53" @339
 						    Parent_View 	@66
 						    location   	(2576, 7264)
 						    icon_style 	"Icon"
@@ -9358,7 +9305,7 @@
 							(1550, 7575))
 						    line_style 	0
 						    x_offset   	FALSE)
-						(object StateView "EndState" "$UNNAMED$66" @351
+						(object StateView "EndState" "$UNNAMED$54" @351
 						    Parent_View 	@66
 						    location   	(1552, 7808)
 						    icon_style 	"Icon"
@@ -9446,7 +9393,7 @@
 							(2104, 7756))
 						    line_style 	0
 						    x_offset   	FALSE)
-						(object StateView "EndState" "$UNNAMED$67" @356
+						(object StateView "EndState" "$UNNAMED$55" @356
 						    Parent_View 	@66
 						    location   	(2144, 7984)
 						    icon_style 	"Icon"
@@ -9535,7 +9482,7 @@
 						    height     	113
 						    annotation 	1
 						    autoResize 	TRUE)
-						(object StateView "EndState" "$UNNAMED$68" @361
+						(object StateView "EndState" "$UNNAMED$56" @361
 						    Parent_View 	@66
 						    location   	(1728, 4944)
 						    font       	(object Font
@@ -9798,7 +9745,7 @@
 							(1615, 5371))
 						    line_style 	0
 						    x_offset   	FALSE)
-						(object StateView "EndState" "$UNNAMED$69" @374
+						(object StateView "EndState" "$UNNAMED$57" @374
 						    Parent_View 	@66
 						    location   	(1728, 5584)
 						    font       	(object Font
@@ -9845,7 +9792,7 @@
 							(1719, 5541))
 						    line_style 	0
 						    x_offset   	FALSE)
-						(object StateView "EndState" "$UNNAMED$70" @377
+						(object StateView "EndState" "$UNNAMED$58" @377
 						    Parent_View 	@66
 						    location   	(1376, 5872)
 						    font       	(object Font
@@ -10278,7 +10225,7 @@
 							(3291, 7720))
 						    line_style 	0
 						    x_offset   	FALSE)
-						(object StateView "EndState" "$UNNAMED$71" @399
+						(object StateView "EndState" "$UNNAMED$59" @399
 						    Parent_View 	@66
 						    location   	(3456, 7952)
 						    icon_style 	"Icon"
@@ -10485,7 +10432,7 @@
 							(2279, 8268))
 						    line_style 	0
 						    x_offset   	FALSE)
-						(object StateView "EndState" "$UNNAMED$72" @410
+						(object StateView "EndState" "$UNNAMED$60" @410
 						    Parent_View 	@66
 						    location   	(2276, 8496)
 						    icon_style 	"Icon"
@@ -10503,7 +10450,7 @@
 							(2275, 8453))
 						    line_style 	0
 						    x_offset   	FALSE)
-						(object StateView "EndState" "$UNNAMED$73" @412
+						(object StateView "EndState" "$UNNAMED$61" @412
 						    Parent_View 	@66
 						    location   	(3280, 8560)
 						    icon_style 	"Icon"
@@ -10710,7 +10657,7 @@
 							(2756, 4728))
 						    line_style 	0
 						    x_offset   	FALSE)
-						(object StateView "EndState" "$UNNAMED$74" @423
+						(object StateView "EndState" "$UNNAMED$62" @423
 						    Parent_View 	@66
 						    location   	(2912, 4960)
 						    icon_style 	"Icon"
@@ -10915,7 +10862,7 @@
 							(3758, 5387))
 						    line_style 	0
 						    x_offset   	FALSE)
-						(object StateView "EndState" "$UNNAMED$75" @434
+						(object StateView "EndState" "$UNNAMED$63" @434
 						    Parent_View 	@66
 						    location   	(3328, 5440)
 						    icon_style 	"Icon"
@@ -11162,7 +11109,7 @@
 							(4254, 4951))
 						    line_style 	0
 						    x_offset   	FALSE)
-						(object StateView "EndState" "$UNNAMED$76" @447
+						(object StateView "EndState" "$UNNAMED$64" @447
 						    Parent_View 	@66
 						    location   	(3872, 4960)
 						    icon_style 	"Icon"
@@ -11180,7 +11127,7 @@
 							(3872, 4918))
 						    line_style 	0
 						    x_offset   	FALSE)
-						(object StateView "EndState" "$UNNAMED$77" @449
+						(object StateView "EndState" "$UNNAMED$65" @449
 						    Parent_View 	@66
 						    location   	(4208, 5216)
 						    icon_style 	"Icon"
@@ -11360,7 +11307,7 @@
 							(3397, 6072))
 						    line_style 	0
 						    x_offset   	FALSE)
-						(object StateView "EndState" "$UNNAMED$78" @459
+						(object StateView "EndState" "$UNNAMED$66" @459
 						    Parent_View 	@66
 						    location   	(3396, 6320)
 						    icon_style 	"Icon"
@@ -11564,7 +11511,7 @@
 							(3861, 6540))
 						    line_style 	0
 						    x_offset   	FALSE)
-						(object StateView "EndState" "$UNNAMED$79" @470
+						(object StateView "EndState" "$UNNAMED$67" @470
 						    Parent_View 	@66
 						    location   	(3792, 6768)
 						    icon_style 	"Icon"
@@ -11650,7 +11597,7 @@
 							(4486, 6572))
 						    line_style 	0
 						    x_offset   	FALSE)
-						(object DecisionView "$UNNAMED$80" @475
+						(object DecisionView "$UNNAMED$68" @475
 						    Parent_View 	@66
 						    location   	(4560, 6816)
 						    icon_style 	"Icon"
@@ -11936,7 +11883,7 @@
 							(4368, 7467))
 						    line_style 	0
 						    x_offset   	FALSE)
-						(object StateView "EndState" "$UNNAMED$81" @490
+						(object StateView "EndState" "$UNNAMED$69" @490
 						    Parent_View 	@66
 						    location   	(3744, 7536)
 						    icon_style 	"Icon"
@@ -11954,7 +11901,7 @@
 							(3744, 7494))
 						    line_style 	0
 						    x_offset   	FALSE)
-						(object StateView "EndState" "$UNNAMED$82" @492
+						(object StateView "EndState" "$UNNAMED$70" @492
 						    Parent_View 	@66
 						    location   	(4400, 7712)
 						    icon_style 	"Icon"
@@ -12091,7 +12038,7 @@
 							(5314, 7416))
 						    line_style 	0
 						    x_offset   	FALSE)
-						(object StateView "EndState" "$UNNAMED$83" @500
+						(object StateView "EndState" "$UNNAMED$71" @500
 						    Parent_View 	@66
 						    location   	(5440, 7680)
 						    icon_style 	"Icon"
@@ -12368,7 +12315,7 @@
 							(5278, 8107))
 						    line_style 	0
 						    x_offset   	FALSE)
-						(object StateView "EndState" "$UNNAMED$84" @514
+						(object StateView "EndState" "$UNNAMED$72" @514
 						    Parent_View 	@66
 						    location   	(4307, 8304)
 						    icon_style 	"Icon"
@@ -12386,7 +12333,7 @@
 							(4307, 8262))
 						    line_style 	0
 						    x_offset   	FALSE)
-						(object StateView "EndState" "$UNNAMED$85" @516
+						(object StateView "EndState" "$UNNAMED$73" @516
 						    Parent_View 	@66
 						    location   	(5376, 8336)
 						    icon_style 	"Icon"
@@ -12404,7 +12351,7 @@
 							(5376, 8294))
 						    line_style 	0
 						    x_offset   	FALSE)
-						(object DecisionView "$UNNAMED$86" @518
+						(object DecisionView "$UNNAMED$74" @518
 						    Parent_View 	@66
 						    location   	(4912, 3872)
 						    icon_style 	"Icon"
@@ -12770,7 +12717,7 @@
 							(5002, 5307))
 						    line_style 	0
 						    x_offset   	FALSE)
-						(object StateView "EndState" "$UNNAMED$87" @537
+						(object StateView "EndState" "$UNNAMED$75" @537
 						    Parent_View 	@66
 						    location   	(3760, 5600)
 						    icon_style 	"Icon"
@@ -12788,7 +12735,7 @@
 							(3760, 5558))
 						    line_style 	0
 						    x_offset   	FALSE)
-						(object StateView "EndState" "$UNNAMED$88" @539
+						(object StateView "EndState" "$UNNAMED$76" @539
 						    Parent_View 	@66
 						    location   	(4944, 5536)
 						    icon_style 	"Icon"
@@ -12875,7 +12822,7 @@
 							(5456, 5484))
 						    line_style 	0
 						    x_offset   	FALSE)
-						(object StateView "EndState" "$UNNAMED$89" @544
+						(object StateView "EndState" "$UNNAMED$77" @544
 						    Parent_View 	@66
 						    location   	(5456, 5712)
 						    icon_style 	"Icon"
@@ -13120,7 +13067,7 @@
 							(5724, 4871))
 						    line_style 	0
 						    x_offset   	FALSE)
-						(object StateView "EndState" "$UNNAMED$90" @557
+						(object StateView "EndState" "$UNNAMED$78" @557
 						    Parent_View 	@66
 						    location   	(6288, 4960)
 						    icon_style 	"Icon"
@@ -13138,7 +13085,7 @@
 							(6255, 4918))
 						    line_style 	0
 						    x_offset   	FALSE)
-						(object StateView "EndState" "$UNNAMED$91" @559
+						(object StateView "EndState" "$UNNAMED$79" @559
 						    Parent_View 	@66
 						    location   	(5776, 5120)
 						    icon_style 	"Icon"
@@ -13318,7 +13265,7 @@
 							(5152, 6295))
 						    line_style 	0
 						    x_offset   	FALSE)
-						(object StateView "EndState" "$UNNAMED$92" @569
+						(object StateView "EndState" "$UNNAMED$80" @569
 						    Parent_View 	@66
 						    location   	(5152, 6544)
 						    icon_style 	"Icon"
@@ -13590,7 +13537,7 @@
 							(6995, 6683))
 						    line_style 	0
 						    x_offset   	FALSE)
-						(object StateView "EndState" "$UNNAMED$93" @583
+						(object StateView "EndState" "$UNNAMED$81" @583
 						    Parent_View 	@66
 						    location   	(6048, 6928)
 						    icon_style 	"Icon"
@@ -13608,7 +13555,7 @@
 							(6048, 6886))
 						    line_style 	0
 						    x_offset   	FALSE)
-						(object DecisionView "$UNNAMED$94" @585
+						(object DecisionView "$UNNAMED$82" @585
 						    Parent_View 	@66
 						    location   	(7168, 6960)
 						    icon_style 	"Icon"
@@ -13824,7 +13771,7 @@
 							(7889, 7543))
 						    line_style 	0
 						    x_offset   	FALSE)
-						(object StateView "EndState" "$UNNAMED$95" @597
+						(object StateView "EndState" "$UNNAMED$83" @597
 						    Parent_View 	@66
 						    location   	(7984, 7808)
 						    icon_style 	"Icon"
@@ -14100,7 +14047,7 @@
 							(7196, 8268))
 						    line_style 	0
 						    x_offset   	FALSE)
-						(object StateView "EndState" "$UNNAMED$96" @611
+						(object StateView "EndState" "$UNNAMED$84" @611
 						    Parent_View 	@66
 						    location   	(7106, 8512)
 						    icon_style 	"Icon"
@@ -14118,7 +14065,7 @@
 							(7105, 8470))
 						    line_style 	0
 						    x_offset   	FALSE)
-						(object StateView "EndState" "$UNNAMED$97" @613
+						(object StateView "EndState" "$UNNAMED$85" @613
 						    Parent_View 	@66
 						    location   	(8032, 8512)
 						    icon_style 	"Icon"
@@ -14326,14 +14273,14 @@
 							(6359, 7495))
 						    line_style 	0
 						    x_offset   	FALSE)
-						(object StateView "EndState" "$UNNAMED$98" @624
+						(object StateView "EndState" "$UNNAMED$86" @624
 						    Parent_View 	@66
 						    location   	(6368, 7728)
 						    icon_style 	"Icon"
 						    line_color 	3342489
 						    quidu      	"561A0F260000"
 						    autoResize 	TRUE)
-						(object StateView "EndState" "$UNNAMED$99" @625
+						(object StateView "EndState" "$UNNAMED$87" @625
 						    Parent_View 	@66
 						    location   	(6864, 7952)
 						    icon_style 	"Icon"
@@ -14444,7 +14391,7 @@
 				quidu      	"5B21F964037B"
 				annotation 	8
 				autoResize 	TRUE)
-			    (object AssociationViewNew "$UNNAMED$6" @631
+			    (object AssociationViewNew "$UNNAMED$0" @631
 				location   	(501, 1696)
 				font       	(object Font
 				    size       	9
@@ -14459,7 +14406,7 @@
 				line_color 	3342489
 				quidu      	"5B21F98401D5"
 				roleview_list 	(list RoleViews
-				    (object RoleView "$UNNAMED$7" @632
+				    (object RoleView "$UNNAMED$1" @632
 					Parent_View 	@631
 					location   	(117, 176)
 					stereotype 	TRUE
@@ -14471,7 +14418,7 @@
 					    (501, 1696)
 					    (674, 1696))
 					line_style 	0)
-				    (object RoleView "$UNNAMED$8" @633
+				    (object RoleView "$UNNAMED$2" @633
 					Parent_View 	@631
 					location   	(117, 176)
 					stereotype 	TRUE
@@ -14535,7 +14482,7 @@
 				quidu      	"5B21FAEC009C"
 				annotation 	8
 				autoResize 	TRUE)
-			    (object AssociationViewNew "$UNNAMED$15" @636
+			    (object AssociationViewNew "$UNNAMED$6" @636
 				location   	(1853, 144)
 				font       	(object Font
 				    size       	9
@@ -14550,7 +14497,7 @@
 				line_color 	3342489
 				quidu      	"5BC6C4BA003E"
 				roleview_list 	(list RoleViews
-				    (object RoleView "$UNNAMED$16" @637
+				    (object RoleView "$UNNAMED$7" @637
 					Parent_View 	@636
 					location   	(429, -64)
 					stereotype 	TRUE
@@ -14562,7 +14509,7 @@
 					    (1853, 144)
 					    (2066, 144))
 					line_style 	0)
-				    (object RoleView "$UNNAMED$17" @638
+				    (object RoleView "$UNNAMED$8" @638
 					Parent_View 	@636
 					location   	(429, -64)
 					stereotype 	TRUE
@@ -14674,7 +14621,7 @@
 				quidu      	"5B21FB2500AC"
 				annotation 	8
 				autoResize 	TRUE)
-			    (object AssociationViewNew "$UNNAMED$12" @643
+			    (object AssociationViewNew "$UNNAMED$3" @643
 				location   	(1877, 1076)
 				font       	(object Font
 				    size       	9
@@ -14689,7 +14636,7 @@
 				line_color 	3342489
 				quidu      	"5B21FB3E02AF"
 				roleview_list 	(list RoleViews
-				    (object RoleView "$UNNAMED$13" @644
+				    (object RoleView "$UNNAMED$4" @644
 					Parent_View 	@643
 					location   	(357, -76)
 					stereotype 	TRUE
@@ -14701,7 +14648,7 @@
 					    (1877, 1076)
 					    (2177, 1200))
 					line_style 	0)
-				    (object RoleView "$UNNAMED$14" @645
+				    (object RoleView "$UNNAMED$5" @645
 					Parent_View 	@643
 					location   	(357, -76)
 					stereotype 	TRUE
@@ -14713,7 +14660,7 @@
 					    (1877, 1076)
 					    (1577, 951))
 					line_style 	0)))
-			    (object AssociationViewNew "$UNNAMED$18" @646
+			    (object AssociationViewNew "$UNNAMED$9" @646
 				location   	(1877, 872)
 				font       	(object Font
 				    size       	9
@@ -14728,7 +14675,7 @@
 				line_color 	3342489
 				quidu      	"5BC6C4E30252"
 				roleview_list 	(list RoleViews
-				    (object RoleView "$UNNAMED$19" @647
+				    (object RoleView "$UNNAMED$10" @647
 					Parent_View 	@646
 					location   	(613, -184)
 					stereotype 	TRUE
@@ -14740,7 +14687,7 @@
 					    (1877, 872)
 					    (2177, 827))
 					line_style 	0)
-				    (object RoleView "$UNNAMED$20" @648
+				    (object RoleView "$UNNAMED$11" @648
 					Parent_View 	@646
 					location   	(613, -184)
 					stereotype 	TRUE
@@ -14752,7 +14699,7 @@
 					    (1877, 872)
 					    (1577, 916))
 					line_style 	0)))
-			    (object AssociationViewNew "$UNNAMED$21" @649
+			    (object AssociationViewNew "$UNNAMED$12" @649
 				location   	(1775, 777)
 				font       	(object Font
 				    size       	9
@@ -14767,7 +14714,7 @@
 				line_color 	3342489
 				quidu      	"5BC6C4E700DB"
 				roleview_list 	(list RoleViews
-				    (object RoleView "$UNNAMED$22" @650
+				    (object RoleView "$UNNAMED$13" @650
 					Parent_View 	@649
 					location   	(511, -279)
 					stereotype 	TRUE
@@ -14779,7 +14726,7 @@
 					    (1775, 777)
 					    (1955, 673))
 					line_style 	0)
-				    (object RoleView "$UNNAMED$23" @651
+				    (object RoleView "$UNNAMED$14" @651
 					Parent_View 	@649
 					location   	(511, -279)
 					stereotype 	TRUE
@@ -14887,191 +14834,7 @@
 				fill_color 	13434879
 				quidu      	"5BC6C5FD01F4"
 				height     	118)
-			    (object ClassView "Class" "Use Case View::Use-Case Model::Actors::usuario sistema" @656
-				ShowCompartmentStereotypes 	TRUE
-				IncludeAttribute 	TRUE
-				IncludeOperation 	TRUE
-				location   	(1040, 656)
-				font       	(object Font
-				    size       	9
-				    face       	"Arial"
-				    bold       	FALSE
-				    italics    	FALSE
-				    underline  	FALSE
-				    strike     	FALSE
-				    color      	0
-				    default_color 	TRUE)
-				label      	(object ItemLabel
-				    Parent_View 	@656
-				    location   	(1040, 816)
-				    anchor_loc 	1
-				    nlines     	2
-				    max_width  	325
-				    justify    	0
-				    label      	"usuario sistema")
-				icon       	"Actor"
-				icon_style 	"Icon"
-				line_color 	3342489
-				quidu      	"5B21F82D032C"
-				annotation 	8
-				autoResize 	TRUE)
-			    (object AssociationViewNew "$UNNAMED$0" @657
-				location   	(824, 439)
-				font       	(object Font
-				    size       	9
-				    face       	"Arial"
-				    bold       	FALSE
-				    italics    	FALSE
-				    underline  	FALSE
-				    strike     	FALSE
-				    color      	0
-				    default_color 	TRUE)
-				stereotype 	TRUE
-				line_color 	3342489
-				quidu      	"5B21F866036B"
-				roleview_list 	(list RoleViews
-				    (object RoleView "$UNNAMED$1" @658
-					Parent_View 	@657
-					location   	(-24, -249)
-					stereotype 	TRUE
-					line_color 	3342489
-					quidu      	"5B21F8670261"
-					client     	@657
-					supplier   	@652
-					vertices   	(list Points
-					    (824, 439)
-					    (705, 321))
-					line_style 	0)
-				    (object RoleView "$UNNAMED$2" @659
-					Parent_View 	@657
-					location   	(-24, -249)
-					stereotype 	TRUE
-					line_color 	3342489
-					quidu      	"5B21F8670263"
-					client     	@657
-					supplier   	@656
-					vertices   	(list Points
-					    (824, 439)
-					    (981, 597))
-					line_style 	0)))
-			    (object AssociationViewNew "$UNNAMED$9" @660
-				location   	(704, 734)
-				font       	(object Font
-				    size       	9
-				    face       	"Arial"
-				    bold       	FALSE
-				    italics    	FALSE
-				    underline  	FALSE
-				    strike     	FALSE
-				    color      	0
-				    default_color 	TRUE)
-				stereotype 	TRUE
-				line_color 	3342489
-				quidu      	"5B21F869005E"
-				roleview_list 	(list RoleViews
-				    (object RoleView "$UNNAMED$10" @661
-					Parent_View 	@660
-					location   	(-144, 46)
-					stereotype 	TRUE
-					line_color 	3342489
-					quidu      	"5B21F86902AF"
-					client     	@660
-					supplier   	@653
-					vertices   	(list Points
-					    (704, 734)
-					    (428, 800))
-					line_style 	0)
-				    (object RoleView "$UNNAMED$11" @662
-					Parent_View 	@660
-					location   	(-144, 46)
-					stereotype 	TRUE
-					line_color 	3342489
-					quidu      	"5B21F86902B1"
-					client     	@660
-					supplier   	@656
-					vertices   	(list Points
-					    (704, 734)
-					    (980, 667))
-					line_style 	0)))
-			    (object AssociationViewNew "$UNNAMED$3" @663
-				location   	(736, 949)
-				font       	(object Font
-				    size       	9
-				    face       	"Arial"
-				    bold       	FALSE
-				    italics    	FALSE
-				    underline  	FALSE
-				    strike     	FALSE
-				    color      	0
-				    default_color 	TRUE)
-				stereotype 	TRUE
-				line_color 	3342489
-				quidu      	"5B21F86C007D"
-				roleview_list 	(list RoleViews
-				    (object RoleView "$UNNAMED$4" @664
-					Parent_View 	@663
-					location   	(-112, 261)
-					stereotype 	TRUE
-					line_color 	3342489
-					quidu      	"5B21F86D005E"
-					client     	@663
-					supplier   	@654
-					vertices   	(list Points
-					    (736, 949)
-					    (516, 1158))
-					line_style 	0)
-				    (object RoleView "$UNNAMED$5" @665
-					Parent_View 	@663
-					location   	(-112, 261)
-					stereotype 	TRUE
-					line_color 	3342489
-					quidu      	"5B21F86D0060"
-					client     	@663
-					supplier   	@656
-					vertices   	(list Points
-					    (736, 949)
-					    (981, 709))
-					line_style 	0)))
-			    (object AssociationViewNew "$UNNAMED$24" @666
-				location   	(704, 578)
-				font       	(object Font
-				    size       	9
-				    face       	"Arial"
-				    bold       	FALSE
-				    italics    	FALSE
-				    underline  	FALSE
-				    strike     	FALSE
-				    color      	0
-				    default_color 	TRUE)
-				stereotype 	TRUE
-				line_color 	3342489
-				quidu      	"5BC6C70902FE"
-				roleview_list 	(list RoleViews
-				    (object RoleView "$UNNAMED$25" @667
-					Parent_View 	@666
-					location   	(-96, -94)
-					stereotype 	TRUE
-					line_color 	3342489
-					quidu      	"5BC6C70A0119"
-					client     	@666
-					supplier   	@655
-					vertices   	(list Points
-					    (704, 578)
-					    (640, 562))
-					line_style 	0)
-				    (object RoleView "$UNNAMED$26" @668
-					Parent_View 	@666
-					location   	(-96, -94)
-					stereotype 	TRUE
-					line_color 	3342489
-					quidu      	"5BC6C70A011B"
-					client     	@666
-					supplier   	@656
-					vertices   	(list Points
-					    (704, 578)
-					    (980, 640))
-					line_style 	0)))
-			    (object UseCaseView "Use Case View::Use-Case Model::modulo logistica::recibir productos y documento de confirmacion" @669
+			    (object UseCaseView "Use Case View::Use-Case Model::modulo logistica::recibir productos y documento de confirmacion" @656
 				location   	(2320, 1728)
 				font       	(object Font
 				    size       	9
@@ -15083,7 +14846,7 @@
 				    color      	0
 				    default_color 	TRUE)
 				label      	(object ItemLabel
-				    Parent_View 	@669
+				    Parent_View 	@656
 				    location   	(2320, 1866)
 				    anchor_loc 	1
 				    nlines     	2
@@ -15095,7 +14858,7 @@
 				fill_color 	13434879
 				quidu      	"5B21F8AE038A"
 				height     	118)
-			    (object ClassView "Class" "Use Case View::Use-Case Model::Actors::gerente" @670
+			    (object ClassView "Class" "Use Case View::Use-Case Model::Actors::gerente" @657
 				ShowCompartmentStereotypes 	TRUE
 				IncludeAttribute 	TRUE
 				IncludeOperation 	TRUE
@@ -15110,7 +14873,7 @@
 				    color      	0
 				    default_color 	TRUE)
 				label      	(object ItemLabel
-				    Parent_View 	@670
+				    Parent_View 	@657
 				    location   	(1696, 1888)
 				    anchor_loc 	1
 				    nlines     	2
@@ -15123,7 +14886,7 @@
 				quidu      	"561A0CA303C8"
 				annotation 	8
 				autoResize 	TRUE)
-			    (object AssociationViewNew "$UNNAMED$27" @671
+			    (object AssociationViewNew "$UNNAMED$15" @658
 				location   	(1981, 1728)
 				font       	(object Font
 				    size       	9
@@ -15138,26 +14901,26 @@
 				line_color 	3342489
 				quidu      	"561A0CAC005D"
 				roleview_list 	(list RoleViews
-				    (object RoleView "$UNNAMED$28" @672
-					Parent_View 	@671
+				    (object RoleView "$UNNAMED$16" @659
+					Parent_View 	@658
 					location   	(285, -16)
 					stereotype 	TRUE
 					line_color 	3342489
 					quidu      	"561A0CAD01F4"
-					client     	@671
-					supplier   	@669
+					client     	@658
+					supplier   	@656
 					vertices   	(list Points
 					    (1981, 1728)
 					    (2210, 1728))
 					line_style 	0)
-				    (object RoleView "$UNNAMED$29" @673
-					Parent_View 	@671
+				    (object RoleView "$UNNAMED$17" @660
+					Parent_View 	@658
 					location   	(285, -16)
 					stereotype 	TRUE
 					line_color 	3342489
 					quidu      	"561A0CAD01F6"
-					client     	@671
-					supplier   	@670
+					client     	@658
+					supplier   	@657
 					vertices   	(list Points
 					    (1981, 1728)
 					    (1753, 1728))
@@ -15175,7 +14938,7 @@
 		origin_x   	0
 		origin_y   	0
 		items      	(list diagram_item_list
-		    (object CategoryView "Use Case View::Use-Case Model::modulo de seguridad" @674
+		    (object CategoryView "Use Case View::Use-Case Model::modulo de seguridad" @661
 			location   	(512, 464)
 			font       	(object Font
 			    size       	9
@@ -15187,7 +14950,7 @@
 			    color      	0
 			    default_color 	TRUE)
 			label      	(object ItemLabel
-			    Parent_View 	@674
+			    Parent_View 	@661
 			    location   	(368, 380)
 			    fill_color 	13434879
 			    nlines     	2
@@ -15200,7 +14963,7 @@
 			quidu      	"5B21F92000CB"
 			width      	300
 			height     	180)
-		    (object CategoryView "Use Case View::Use-Case Model::modulo logistica" @675
+		    (object CategoryView "Use Case View::Use-Case Model::modulo logistica" @662
 			location   	(1312, 464)
 			font       	(object Font
 			    size       	9
@@ -15212,7 +14975,7 @@
 			    color      	0
 			    default_color 	TRUE)
 			label      	(object ItemLabel
-			    Parent_View 	@675
+			    Parent_View 	@662
 			    location   	(1132, 380)
 			    fill_color 	13434879
 			    nlines     	2
@@ -15225,7 +14988,7 @@
 			quidu      	"5B21F93A039A"
 			width      	372
 			height     	180)
-		    (object CategoryView "Use Case View::Use-Case Model::modulo administracion sistema" @676
+		    (object CategoryView "Use Case View::Use-Case Model::modulo administracion sistema" @663
 			location   	(512, 912)
 			font       	(object Font
 			    size       	9
@@ -15237,7 +15000,7 @@
 			    color      	0
 			    default_color 	TRUE)
 			label      	(object ItemLabel
-			    Parent_View 	@676
+			    Parent_View 	@663
 			    location   	(292, 828)
 			    fill_color 	13434879
 			    nlines     	2
@@ -15250,22 +15013,22 @@
 			quidu      	"5B21F99403A9"
 			width      	452
 			height     	180)
-		    (object ImportView "" @677
+		    (object ImportView "" @664
 			stereotype 	TRUE
 			line_color 	3342489
 			quidu      	"5B21FA760010"
-			client     	@675
-			supplier   	@674
+			client     	@662
+			supplier   	@661
 			vertices   	(list Points
 			    (1125, 464)
 			    (662, 464))
 			line_style 	0)
-		    (object ImportView "" @678
+		    (object ImportView "" @665
 			stereotype 	TRUE
 			line_color 	3342489
 			quidu      	"5B21FA79001F"
-			client     	@676
-			supplier   	@674
+			client     	@663
+			supplier   	@661
 			vertices   	(list Points
 			    (512, 767)
 			    (512, 554))
@@ -15310,7 +15073,7 @@
 				quid       	"561A2E1C02A0"
 				stereotype 	"use-case realization"
 				logical_models 	(list unit_reference_list
-				    (object Mechanism @679
+				    (object Mechanism @666
 					logical_models 	(list unit_reference_list)))
 				logical_presentations 	(list unit_reference_list
 				    (object ClassDiagram "ODAgestionarDatosUsuario"
@@ -15323,7 +15086,7 @@
 					origin_y   	0
 					items      	(list diagram_item_list))
 				    (object InteractionDiagram "SDAgestionarDatosUsuario"
-					mechanism_ref 	@679
+					mechanism_ref 	@666
 					quid       	"5619EE260262"
 					title      	"SDAgestionarDatosUsuario"
 					zoom       	100
@@ -15356,7 +15119,7 @@
 				quid       	"561A2DE60271"
 				stereotype 	"use-case realization"
 				logical_models 	(list unit_reference_list
-				    (object Mechanism @680
+				    (object Mechanism @667
 					logical_models 	(list unit_reference_list)))
 				logical_presentations 	(list unit_reference_list
 				    (object ClassDiagram "ODAactualizarClave"
@@ -15369,7 +15132,7 @@
 					origin_y   	0
 					items      	(list diagram_item_list))
 				    (object InteractionDiagram "SDAactualizarClave"
-					mechanism_ref 	@680
+					mechanism_ref 	@667
 					quid       	"561A2E5A0281"
 					title      	"SDAactualizarClave"
 					zoom       	100
@@ -15382,7 +15145,7 @@
 				quid       	"561A2DF30262"
 				stereotype 	"use-case realization"
 				logical_models 	(list unit_reference_list
-				    (object Mechanism @681
+				    (object Mechanism @668
 					logical_models 	(list unit_reference_list)))
 				logical_presentations 	(list unit_reference_list
 				    (object ClassDiagram "ODAautenticarUsuarioSistema"
@@ -15395,7 +15158,7 @@
 					origin_y   	0
 					items      	(list diagram_item_list))
 				    (object InteractionDiagram "SDAautenticarUsuarioSistema"
-					mechanism_ref 	@681
+					mechanism_ref 	@668
 					quid       	"5619EEFC0168"
 					title      	"SDAautenticarUsuarioSistema"
 					zoom       	100
@@ -15408,7 +15171,7 @@
 				quid       	"561A2DFF038B"
 				stereotype 	"use-case realization"
 				logical_models 	(list unit_reference_list
-				    (object Mechanism @682
+				    (object Mechanism @669
 					logical_models 	(list unit_reference_list)))
 				logical_presentations 	(list unit_reference_list
 				    (object ClassDiagram "ODAreestabelcerClave"
@@ -15421,7 +15184,7 @@
 					origin_y   	0
 					items      	(list diagram_item_list))
 				    (object InteractionDiagram "SDAreestablecerClave"
-					mechanism_ref 	@682
+					mechanism_ref 	@669
 					quid       	"5619EF16037B"
 					title      	"SDAreestablecerClave"
 					zoom       	100
@@ -15434,7 +15197,7 @@
 				quid       	"561A2E0C0177"
 				stereotype 	"use-case realization"
 				logical_models 	(list unit_reference_list
-				    (object Mechanism @683
+				    (object Mechanism @670
 					logical_models 	(list unit_reference_list)))
 				logical_presentations 	(list unit_reference_list
 				    (object ClassDiagram "ODAregistrarUsuario"
@@ -15447,7 +15210,7 @@
 					origin_y   	0
 					items      	(list diagram_item_list))
 				    (object InteractionDiagram "SDAregistrarUsuario"
-					mechanism_ref 	@683
+					mechanism_ref 	@670
 					quid       	"5619EF2D037B"
 					title      	"SDAregistrarUsuario"
 					zoom       	100
@@ -15476,11 +15239,419 @@
 			quid       	"561A2CE402A0"
 			exportControl 	"Public"
 			logical_models 	(list unit_reference_list
+			    (object Class "usuario sistema"
+				quid       	"5619ED590222"
+				stereotype 	"Actor")
+			    (object Class "CI_solicitudAbastecimiento"
+				quid       	"5619ED590229"
+				stereotype 	"boundary"
+				operations 	(list Operations
+				    (object Operation "CI_SoliciudAbastecimientoShow"
+					quid       	"5619ED59022A"
+					concurrency 	"Sequential"
+					opExportControl 	"Public"
+					uid        	0)))
+			    (object Class "CI_mensajeSistema"
+				quid       	"5619ED590269"
+				stereotype 	"boundary"
+				operations 	(list Operations
+				    (object Operation "CI_mensajesistemaShow"
+					quid       	"5619ED59026A"
+					parameters 	(list Parameters
+					    (object Parameter "mensajeSistema"
+						quid       	"5619ED59026B"
+						type       	"String")
+					    (object Parameter "botonTexto"
+						quid       	"5619ED59026C"
+						type       	"String")
+					    (object Parameter "botonLink"
+						quid       	"5619ED59026D"
+						type       	"String")
+					    (object Parameter "tipo"
+						quid       	"5619ED59026E"
+						type       	"String"))
+					concurrency 	"Sequential"
+					opExportControl 	"Public"
+					uid        	0)))
+			    (object Class "CI_historialSolicitudes"
+				quid       	"5619ED590276"
+				stereotype 	"boundary"
+				operations 	(list Operations
+				    (object Operation "CI_historialSolicitudes"
+					quid       	"5619ED590277"
+					parameters 	(list Parameters
+					    (object Parameter "listaSolicitudes"
+						quid       	"5619ED590278"
+						type       	"Array"))
+					concurrency 	"Sequential"
+					opExportControl 	"Public"
+					uid        	0)
+				    (object Operation "CI_historialSolicitudesShow"
+					quid       	"5619ED590279"
+					concurrency 	"Sequential"
+					opExportControl 	"Public"
+					uid        	0)))
+			    (object Class "CI_previewSolicitud"
+				quid       	"5619ED590281"
+				stereotype 	"boundary"
+				operations 	(list Operations
+				    (object Operation "CI_previewSolcitud"
+					quid       	"5619ED590282"
+					parameters 	(list Parameters
+					    (object Parameter "listaDetalleSol"
+						quid       	"5619ED590283"
+						type       	"Array"))
+					concurrency 	"Sequential"
+					opExportControl 	"Public"
+					uid        	0)))
+			    (object Class "CI_crearSolicitudAbastecimiento"
+				quid       	"5619ED59028B"
+				stereotype 	"boundary"
+				operations 	(list Operations
+				    (object Operation "CI_crearSolicitudAbastecimiento"
+					quid       	"5619ED59028C"
+					parameters 	(list Parameters
+					    (object Parameter "listaProducto"
+						quid       	"5619ED59028D"
+						type       	"Array"))
+					concurrency 	"Sequential"
+					opExportControl 	"Public"
+					uid        	0)
+				    (object Operation "CI_crearSolicitudAbastecimiento"
+					quid       	"5619ED59028E"
+					parameters 	(list Parameters
+					    (object Parameter "listaProductosFiltrados"
+						quid       	"5619ED59028F"
+						type       	"Array"))
+					concurrency 	"Sequential"
+					opExportControl 	"Public"
+					uid        	0)
+				    (object Operation "CI_crearSolicitudAbastecimientoShow"
+					quid       	"5619ED590290"
+					concurrency 	"Sequential"
+					opExportControl 	"Public"
+					uid        	0)))
+			    (object Class "CE_Producto"
+				quid       	"5619ED590298"
+				stereotype 	"entity"
+				operations 	(list Operations
+				    (object Operation "ObtenerProducto"
+					quid       	"5619ED590299"
+					concurrency 	"Sequential"
+					opExportControl 	"Public"
+					uid        	0)
+				    (object Operation "ObtenerCantidadLimiteProducto"
+					quid       	"5619ED59029A"
+					concurrency 	"Sequential"
+					opExportControl 	"Public"
+					uid        	0)
+				    (object Operation "ObtenerProductoFiltrado"
+					quid       	"5619ED59029B"
+					parameters 	(list Parameters
+					    (object Parameter "txtBuscar"
+						quid       	"5619ED59029C"
+						type       	"String"))
+					concurrency 	"Sequential"
+					opExportControl 	"Public"
+					uid        	0)
+				    (object Operation "InsertProducto"
+					quid       	"5619ED59029D"
+					parameters 	(list Parameters
+					    (object Parameter "codigo"
+						quid       	"5619ED59029E"
+						type       	"Integer")
+					    (object Parameter "producto"
+						quid       	"5619ED59029F"
+						type       	"String")
+					    (object Parameter "cantidad"
+						quid       	"5619ED5902A0"
+						type       	"Integer"))
+					concurrency 	"Sequential"
+					opExportControl 	"Public"
+					uid        	0)
+				    (object Operation "DeleteProducto"
+					quid       	"5619ED5902A1"
+					concurrency 	"Sequential"
+					opExportControl 	"Public"
+					uid        	0)))
+			    (object Class "CE_solicitudAbastecimiento"
+				quid       	"5619ED5902A9"
+				stereotype 	"entity"
+				operations 	(list Operations
+				    (object Operation "ObtenerSolicitudes"
+					quid       	"5619ED5902AA"
+					concurrency 	"Sequential"
+					opExportControl 	"Public"
+					uid        	0)
+				    (object Operation "ObtenerSolicitudesPendientes"
+					quid       	"5619ED5902AB"
+					concurrency 	"Sequential"
+					opExportControl 	"Public"
+					uid        	0)
+				    (object Operation "InsertarSolicitud"
+					quid       	"5619ED5902AC"
+					parameters 	(list Parameters
+					    (object Parameter "Producto"
+						quid       	"5619ED5902AD"
+						type       	"String")
+					    (object Parameter "Cantidad"
+						quid       	"5619ED5902AE"
+						type       	"Integer"))
+					concurrency 	"Sequential"
+					opExportControl 	"Public"
+					uid        	0)
+				    (object Operation "UpdateSolicitudes"
+					quid       	"5619ED5902AF"
+					parameters 	(list Parameters
+					    (object Parameter "txtcantidad"
+						quid       	"5619ED5902B0"
+						type       	"String")
+					    (object Parameter "txtestado"
+						quid       	"5619ED5902B1"
+						type       	"String")
+					    (object Parameter "txtproblema"
+						quid       	"5619ED5902B2"
+						type       	"String"))
+					concurrency 	"Sequential"
+					opExportControl 	"Public"
+					uid        	0)))
+			    (object Class "CE_solicitudProducto"
+				quid       	"5619ED5902BA"
+				stereotype 	"entity"
+				operations 	(list Operations
+				    (object Operation "ObtenerSolProducto"
+					quid       	"5619ED5902BB"
+					concurrency 	"Sequential"
+					opExportControl 	"Public"
+					uid        	0)))
+			    (object Class "CI_confirmaciónEntrega"
+				quid       	"5619ED5902C3"
+				stereotype 	"boundary"
+				operations 	(list Operations
+				    (object Operation "CI_confirmaciónEntregaShow"
+					quid       	"5619ED5902C4"
+					concurrency 	"Sequential"
+					opExportControl 	"Public"
+					uid        	0)))
+			    (object Class "CC_solicitudAbastecimiento"
+				quid       	"5619ED590231"
+				stereotype 	"control"
+				operations 	(list Operations
+				    (object Operation "Validar btnSolicitud"
+					quid       	"5619ED590232"
+					parameters 	(list Parameters
+					    (object Parameter "btnsolicitud()"
+						quid       	"5619ED590233"
+						type       	"String"))
+					concurrency 	"Sequential"
+					opExportControl 	"Public"
+					uid        	0)
+				    (object Operation "Validar botonSA"
+					quid       	"5619ED590234"
+					parameters 	(list Parameters
+					    (object Parameter "btnSolA"
+						quid       	"5619ED590235"
+						type       	"String"))
+					concurrency 	"Sequential"
+					opExportControl 	"Public"
+					uid        	0)
+				    (object Operation "ValidarbtnHiC"
+					quid       	"5619ED590236"
+					parameters 	(list Parameters
+					    (object Parameter "btnCrearSolicitud"
+						quid       	"5619ED590237"
+						type       	"String")
+					    (object Parameter "btnHistorialSolicitud"
+						quid       	"5619ED590238"
+						type       	"String"))
+					concurrency 	"Sequential"
+					opExportControl 	"Public"
+					uid        	0)
+				    (object Operation "ValidarbotonHistorialSoli"
+					quid       	"5619ED590239"
+					parameters 	(list Parameters
+					    (object Parameter "btnHistorial"
+						quid       	"5619ED59023A"
+						type       	"String"))
+					concurrency 	"Sequential"
+					opExportControl 	"Public"
+					uid        	0)
+				    (object Operation "ValidarbtnPreviewRe"
+					quid       	"5619ED59023B"
+					parameters 	(list Parameters
+					    (object Parameter "btnRegresar"
+						quid       	"5619ED59023C"
+						type       	"String")
+					    (object Parameter "btnPreviewSolicitud"
+						quid       	"5619ED59023D"
+						type       	"String"))
+					concurrency 	"Sequential"
+					opExportControl 	"Public"
+					uid        	0)
+				    (object Operation "ValidarbotonPreviewSol"
+					quid       	"5619ED59023E"
+					parameters 	(list Parameters
+					    (object Parameter "btnPreview"
+						quid       	"5619ED59023F"
+						type       	"String"))
+					concurrency 	"Sequential"
+					opExportControl 	"Public"
+					uid        	0)
+				    (object Operation "ValidarbtnRegresar"
+					quid       	"5619ED590240"
+					parameters 	(list Parameters
+					    (object Parameter "btnReg"
+						quid       	"5619ED590241"
+						type       	"String"))
+					concurrency 	"Sequential"
+					opExportControl 	"Public"
+					uid        	0)
+				    (object Operation "ValidarbotonRegre"
+					quid       	"5619ED590242"
+					parameters 	(list Parameters
+					    (object Parameter "btnRegre"
+						quid       	"5619ED590243"
+						type       	"String"))
+					concurrency 	"Sequential"
+					opExportControl 	"Public"
+					uid        	0)
+				    (object Operation "ValidarbotonRegresar"
+					quid       	"5619ED590244"
+					parameters 	(list Parameters
+					    (object Parameter "btnRegresarSA"
+						quid       	"5619ED590245"
+						type       	"String"))
+					concurrency 	"Sequential"
+					opExportControl 	"Public"
+					uid        	0)
+				    (object Operation "ValidarbotonCrear"
+					quid       	"5619ED590246"
+					parameters 	(list Parameters
+					    (object Parameter "btnCrearSol"
+						quid       	"5619ED590247"
+						type       	"String"))
+					concurrency 	"Sequential"
+					opExportControl 	"Public"
+					uid        	0)
+				    (object Operation "ValidarbtnAgElBusCanCon"
+					quid       	"5619ED590248"
+					parameters 	(list Parameters
+					    (object Parameter "btnEliminar"
+						quid       	"5619ED590249"
+						type       	"String")
+					    (object Parameter "btnAgregar"
+						quid       	"5619ED59024A"
+						type       	"String")
+					    (object Parameter "btnCancelar"
+						quid       	"5619ED59024B"
+						type       	"String")
+					    (object Parameter "btnBuscar"
+						quid       	"5619ED59024C"
+						type       	"String")
+					    (object Parameter "btnConfirmar"
+						quid       	"5619ED59024D"
+						type       	"String"))
+					concurrency 	"Sequential"
+					opExportControl 	"Public"
+					uid        	0)
+				    (object Operation "ValidarbotonConfirmar"
+					quid       	"5619ED59024E"
+					parameters 	(list Parameters
+					    (object Parameter "btnConfirmarSol"
+						quid       	"5619ED59024F"
+						type       	"String"))
+					concurrency 	"Sequential"
+					opExportControl 	"Public"
+					uid        	0)
+				    (object Operation "validarTxtCantidad"
+					quid       	"5619ED590250"
+					parameters 	(list Parameters
+					    (object Parameter "txtcantidad"
+						quid       	"5619ED590251"
+						type       	"String"))
+					concurrency 	"Sequential"
+					opExportControl 	"Public"
+					uid        	0)
+				    (object Operation "ValidarbtnConfirmarSiNo"
+					quid       	"5619ED590252"
+					parameters 	(list Parameters
+					    (object Parameter "btnConfirmarSi"
+						quid       	"5619ED590253"
+						type       	"String")
+					    (object Parameter "btnConfirmarNo"
+						quid       	"5619ED590254"
+						type       	"String"))
+					concurrency 	"Sequential"
+					opExportControl 	"Public"
+					uid        	0)
+				    (object Operation "ValidarbtnConfSi"
+					quid       	"5619ED590255"
+					parameters 	(list Parameters
+					    (object Parameter "btnConSi"
+						quid       	"5619ED590256"
+						type       	"String"))
+					concurrency 	"Sequential"
+					opExportControl 	"Public"
+					uid        	0)
+				    (object Operation "ValidarbtnConfirmarN"
+					quid       	"5619ED590257"
+					parameters 	(list Parameters
+					    (object Parameter "btnConfirmarNo"
+						quid       	"5619ED590258"
+						type       	"String"))
+					concurrency 	"Sequential"
+					opExportControl 	"Public"
+					uid        	0)
+				    (object Operation "ValidarbtnBuscar"
+					quid       	"5619ED590259"
+					parameters 	(list Parameters
+					    (object Parameter "btnBus"
+						quid       	"5619ED59025A"
+						type       	"String"))
+					concurrency 	"Sequential"
+					opExportControl 	"Public"
+					uid        	0)
+				    (object Operation "ValidartxtBuscar"
+					quid       	"5619ED59025B"
+					parameters 	(list Parameters
+					    (object Parameter "txtBuscar"
+						quid       	"5619ED59025C"
+						type       	"String"))
+					concurrency 	"Sequential"
+					opExportControl 	"Public"
+					uid        	0)
+				    (object Operation "ValidarbtnCancelar"
+					quid       	"5619ED59025D"
+					parameters 	(list Parameters
+					    (object Parameter "btnCan"
+						quid       	"5619ED59025E"
+						type       	"String"))
+					concurrency 	"Sequential"
+					opExportControl 	"Public"
+					uid        	0)
+				    (object Operation "ValidarbtnAgregar"
+					quid       	"5619ED59025F"
+					parameters 	(list Parameters
+					    (object Parameter "btnAgregarPro"
+						quid       	"5619ED590260"
+						type       	"String"))
+					concurrency 	"Sequential"
+					opExportControl 	"Public"
+					uid        	0)
+				    (object Operation "ValidarbtnEliminar"
+					quid       	"5619ED590261"
+					parameters 	(list Parameters
+					    (object Parameter "btnEliminarPro"
+						quid       	"5619ED590262"
+						type       	"String"))
+					concurrency 	"Sequential"
+					opExportControl 	"Public"
+					uid        	0)))
 			    (object UseCase "UCRemitirInformeControldeCalidad"
 				quid       	"561A2D0703D9"
 				stereotype 	"use-case realization"
 				logical_models 	(list unit_reference_list
-				    (object Mechanism @684
+				    (object Mechanism @671
 					logical_models 	(list unit_reference_list)))
 				logical_presentations 	(list unit_reference_list
 				    (object ClassDiagram "ODAemitirInformeControldeCalidad"
@@ -15493,7 +15664,7 @@
 					origin_y   	0
 					items      	(list diagram_item_list))
 				    (object InteractionDiagram "SDAemitirInformeControldeCalidad"
-					mechanism_ref 	@684
+					mechanism_ref 	@671
 					quid       	"5619EE41007D"
 					title      	"SDAemitirInformeControldeCalidad"
 					zoom       	100
@@ -15506,7 +15677,7 @@
 				quid       	"561A2D3502CF"
 				stereotype 	"use-case realization"
 				logical_models 	(list unit_reference_list
-				    (object Mechanism @685
+				    (object Mechanism @672
 					logical_models 	(list unit_reference_list)))
 				logical_presentations 	(list unit_reference_list
 				    (object ClassDiagram "ODAemitirInformedeAlmacen"
@@ -15519,7 +15690,7 @@
 					origin_y   	0
 					items      	(list diagram_item_list))
 				    (object InteractionDiagram "SDAemitirInformedeAlmacen"
-					mechanism_ref 	@685
+					mechanism_ref 	@672
 					quid       	"5619EE87008D"
 					title      	"SDAemitirInformedeAlmacen"
 					zoom       	100
@@ -15532,20 +15703,914 @@
 				quid       	"561A2D460187"
 				stereotype 	"use-case realization"
 				logical_models 	(list unit_reference_list
-				    (object Mechanism @686
+				    (object Mechanism @673
 					logical_models 	(list unit_reference_list)))
 				logical_presentations 	(list unit_reference_list
 				    (object ClassDiagram "ODAemitirSolicituddeAbastecimiento"
 					quid       	"5619EEBE036B"
 					title      	"ODAemitirSolicituddeAbastecimiento"
-					zoom       	100
+					zoom       	65
 					max_height 	28350
 					max_width  	21600
 					origin_x   	0
-					origin_y   	0
-					items      	(list diagram_item_list))
+					origin_y   	14
+					items      	(list diagram_item_list
+					    (object ClassView "Class" "Logical View::Analysis Model::realizacion modulo logistica::usuario sistema" @674
+						ShowCompartmentStereotypes 	TRUE
+						IncludeAttribute 	TRUE
+						IncludeOperation 	TRUE
+						location   	(384, 800)
+						font       	(object Font
+						    size       	9
+						    face       	"Arial"
+						    bold       	FALSE
+						    italics    	FALSE
+						    underline  	FALSE
+						    strike     	FALSE
+						    color      	0
+						    default_color 	TRUE)
+						label      	(object ItemLabel
+						    Parent_View 	@674
+						    location   	(384, 960)
+						    anchor_loc 	1
+						    nlines     	2
+						    max_width  	325
+						    justify    	0
+						    label      	"usuario sistema")
+						icon       	"Actor"
+						icon_style 	"Icon"
+						line_color 	3342489
+						quidu      	"5619ED590222"
+						annotation 	8
+						autoResize 	TRUE)
+					    (object ClassView "Class" "Logical View::Analysis Model::realizacion modulo logistica::CI_solicitudAbastecimiento" @675
+						ShowCompartmentStereotypes 	TRUE
+						IncludeAttribute 	TRUE
+						IncludeOperation 	TRUE
+						location   	(1024, 800)
+						font       	(object Font
+						    size       	9
+						    face       	"Arial"
+						    bold       	FALSE
+						    italics    	FALSE
+						    underline  	FALSE
+						    strike     	FALSE
+						    color      	0
+						    default_color 	TRUE)
+						label      	(object ItemLabel
+						    Parent_View 	@675
+						    location   	(1023, 956)
+						    anchor_loc 	1
+						    nlines     	2
+						    max_width  	652
+						    justify    	0
+						    label      	"CI_solicitudAbastecimiento")
+						icon       	"boundary"
+						icon_style 	"Icon"
+						line_color 	3342489
+						fill_color 	13434879
+						quidu      	"5619ED590229"
+						compartment 	(object Compartment
+						    Parent_View 	@675
+						    location   	(700, 996)
+						    font       	(object Font
+							size       	9
+							face       	"Arial"
+							bold       	FALSE
+							italics    	FALSE
+							underline  	FALSE
+							strike     	FALSE
+							color      	0
+							default_color 	TRUE)
+						    icon_style 	"Icon"
+						    anchor     	2
+						    nlines     	2
+						    max_width  	625
+						    justify    	0)
+						width      	230
+						height     	154
+						annotation 	8
+						autoResize 	TRUE)
+					    (object ClassView "Class" "Logical View::Analysis Model::realizacion modulo logistica::CI_mensajeSistema" @676
+						ShowCompartmentStereotypes 	TRUE
+						IncludeAttribute 	TRUE
+						IncludeOperation 	TRUE
+						location   	(752, 352)
+						font       	(object Font
+						    size       	9
+						    face       	"Arial"
+						    bold       	FALSE
+						    italics    	FALSE
+						    underline  	FALSE
+						    strike     	FALSE
+						    color      	0
+						    default_color 	TRUE)
+						label      	(object ItemLabel
+						    Parent_View 	@676
+						    location   	(751, 508)
+						    anchor_loc 	1
+						    nlines     	2
+						    max_width  	652
+						    justify    	0
+						    label      	"CI_mensajeSistema")
+						icon       	"boundary"
+						icon_style 	"Icon"
+						line_color 	3342489
+						fill_color 	13434879
+						quidu      	"5619ED590269"
+						compartment 	(object Compartment
+						    Parent_View 	@676
+						    location   	(483, 548)
+						    font       	(object Font
+							size       	9
+							face       	"Arial"
+							bold       	FALSE
+							italics    	FALSE
+							underline  	FALSE
+							strike     	FALSE
+							color      	0
+							default_color 	TRUE)
+						    icon_style 	"Icon"
+						    anchor     	2
+						    nlines     	2
+						    max_width  	514
+						    justify    	0)
+						width      	230
+						height     	154
+						annotation 	8
+						autoResize 	TRUE)
+					    (object ClassView "Class" "Logical View::Analysis Model::realizacion modulo logistica::CI_historialSolicitudes" @677
+						ShowCompartmentStereotypes 	TRUE
+						IncludeAttribute 	TRUE
+						IncludeOperation 	TRUE
+						location   	(1344, 96)
+						font       	(object Font
+						    size       	9
+						    face       	"Arial"
+						    bold       	FALSE
+						    italics    	FALSE
+						    underline  	FALSE
+						    strike     	FALSE
+						    color      	0
+						    default_color 	TRUE)
+						label      	(object ItemLabel
+						    Parent_View 	@677
+						    location   	(1343, 252)
+						    anchor_loc 	1
+						    nlines     	2
+						    max_width  	652
+						    justify    	0
+						    label      	"CI_historialSolicitudes")
+						icon       	"boundary"
+						icon_style 	"Icon"
+						line_color 	3342489
+						fill_color 	13434879
+						quidu      	"5619ED590276"
+						compartment 	(object Compartment
+						    Parent_View 	@677
+						    location   	(1058, 292)
+						    font       	(object Font
+							size       	9
+							face       	"Arial"
+							bold       	FALSE
+							italics    	FALSE
+							underline  	FALSE
+							strike     	FALSE
+							color      	0
+							default_color 	TRUE)
+						    icon_style 	"Icon"
+						    anchor     	2
+						    nlines     	3
+						    max_width  	553
+						    justify    	0)
+						width      	230
+						height     	154
+						annotation 	8
+						autoResize 	TRUE)
+					    (object ClassView "Class" "Logical View::Analysis Model::realizacion modulo logistica::CI_previewSolicitud" @678
+						ShowCompartmentStereotypes 	TRUE
+						IncludeAttribute 	TRUE
+						IncludeOperation 	TRUE
+						location   	(928, 1440)
+						font       	(object Font
+						    size       	9
+						    face       	"Arial"
+						    bold       	FALSE
+						    italics    	FALSE
+						    underline  	FALSE
+						    strike     	FALSE
+						    color      	0
+						    default_color 	TRUE)
+						label      	(object ItemLabel
+						    Parent_View 	@678
+						    location   	(927, 1596)
+						    anchor_loc 	1
+						    nlines     	2
+						    max_width  	652
+						    justify    	0
+						    label      	"CI_previewSolicitud")
+						icon       	"boundary"
+						icon_style 	"Icon"
+						line_color 	3342489
+						fill_color 	13434879
+						quidu      	"5619ED590281"
+						compartment 	(object Compartment
+						    Parent_View 	@678
+						    location   	(720, 1636)
+						    font       	(object Font
+							size       	9
+							face       	"Arial"
+							bold       	FALSE
+							italics    	FALSE
+							underline  	FALSE
+							strike     	FALSE
+							color      	0
+							default_color 	TRUE)
+						    icon_style 	"Icon"
+						    anchor     	2
+						    nlines     	2
+						    max_width  	414
+						    justify    	0)
+						width      	230
+						height     	154
+						annotation 	8
+						autoResize 	TRUE)
+					    (object ClassView "Class" "Logical View::Analysis Model::realizacion modulo logistica::CI_crearSolicitudAbastecimiento" @679
+						ShowCompartmentStereotypes 	TRUE
+						IncludeAttribute 	TRUE
+						IncludeOperation 	TRUE
+						location   	(1216, 1808)
+						font       	(object Font
+						    size       	9
+						    face       	"Arial"
+						    bold       	FALSE
+						    italics    	FALSE
+						    underline  	FALSE
+						    strike     	FALSE
+						    color      	0
+						    default_color 	TRUE)
+						label      	(object ItemLabel
+						    Parent_View 	@679
+						    location   	(1215, 1964)
+						    anchor_loc 	1
+						    nlines     	2
+						    max_width  	652
+						    justify    	0
+						    label      	"CI_crearSolicitudAbastecimiento")
+						icon       	"boundary"
+						icon_style 	"Icon"
+						line_color 	3342489
+						fill_color 	13434879
+						quidu      	"5619ED59028B"
+						compartment 	(object Compartment
+						    Parent_View 	@679
+						    location   	(844, 2004)
+						    font       	(object Font
+							size       	9
+							face       	"Arial"
+							bold       	FALSE
+							italics    	FALSE
+							underline  	FALSE
+							strike     	FALSE
+							color      	0
+							default_color 	TRUE)
+						    icon_style 	"Icon"
+						    anchor     	2
+						    nlines     	4
+						    max_width  	716
+						    justify    	0)
+						width      	230
+						height     	154
+						annotation 	8
+						autoResize 	TRUE)
+					    (object ClassView "Class" "Logical View::Analysis Model::realizacion modulo logistica::CE_Producto" @680
+						ShowCompartmentStereotypes 	TRUE
+						IncludeAttribute 	TRUE
+						IncludeOperation 	TRUE
+						location   	(2624, 240)
+						font       	(object Font
+						    size       	9
+						    face       	"Arial"
+						    bold       	FALSE
+						    italics    	FALSE
+						    underline  	FALSE
+						    strike     	FALSE
+						    color      	0
+						    default_color 	TRUE)
+						label      	(object ItemLabel
+						    Parent_View 	@680
+						    location   	(2624, 396)
+						    anchor_loc 	1
+						    nlines     	2
+						    max_width  	427
+						    justify    	0
+						    label      	"CE_Producto")
+						icon       	"entity"
+						icon_style 	"Icon"
+						line_color 	3342489
+						fill_color 	13434879
+						quidu      	"5619ED590298"
+						compartment 	(object Compartment
+						    Parent_View 	@680
+						    location   	(2304, 436)
+						    font       	(object Font
+							size       	9
+							face       	"Arial"
+							bold       	FALSE
+							italics    	FALSE
+							underline  	FALSE
+							strike     	FALSE
+							color      	0
+							default_color 	TRUE)
+						    icon_style 	"Icon"
+						    anchor     	2
+						    nlines     	6
+						    max_width  	611
+						    justify    	0)
+						height     	154
+						annotation 	8
+						autoResize 	TRUE)
+					    (object ClassView "Class" "Logical View::Analysis Model::realizacion modulo logistica::CE_solicitudAbastecimiento" @681
+						ShowCompartmentStereotypes 	TRUE
+						IncludeAttribute 	TRUE
+						IncludeOperation 	TRUE
+						location   	(2608, 1296)
+						font       	(object Font
+						    size       	9
+						    face       	"Arial"
+						    bold       	FALSE
+						    italics    	FALSE
+						    underline  	FALSE
+						    strike     	FALSE
+						    color      	0
+						    default_color 	TRUE)
+						label      	(object ItemLabel
+						    Parent_View 	@681
+						    location   	(2608, 1452)
+						    anchor_loc 	1
+						    nlines     	2
+						    max_width  	427
+						    justify    	0
+						    label      	"CE_solicitudAbastecimiento")
+						icon       	"entity"
+						icon_style 	"Icon"
+						line_color 	3342489
+						fill_color 	13434879
+						quidu      	"5619ED5902A9"
+						compartment 	(object Compartment
+						    Parent_View 	@681
+						    location   	(2302, 1516)
+						    font       	(object Font
+							size       	9
+							face       	"Arial"
+							bold       	FALSE
+							italics    	FALSE
+							underline  	FALSE
+							strike     	FALSE
+							color      	0
+							default_color 	TRUE)
+						    icon_style 	"Icon"
+						    anchor     	2
+						    nlines     	5
+						    max_width  	582
+						    justify    	0)
+						height     	154
+						annotation 	8
+						autoResize 	TRUE)
+					    (object ClassView "Class" "Logical View::Analysis Model::realizacion modulo logistica::CE_solicitudProducto" @682
+						ShowCompartmentStereotypes 	TRUE
+						IncludeAttribute 	TRUE
+						IncludeOperation 	TRUE
+						location   	(2800, 752)
+						font       	(object Font
+						    size       	9
+						    face       	"Arial"
+						    bold       	FALSE
+						    italics    	FALSE
+						    underline  	FALSE
+						    strike     	FALSE
+						    color      	0
+						    default_color 	TRUE)
+						label      	(object ItemLabel
+						    Parent_View 	@682
+						    location   	(2800, 908)
+						    anchor_loc 	1
+						    nlines     	2
+						    max_width  	427
+						    justify    	0
+						    label      	"CE_solicitudProducto")
+						icon       	"entity"
+						icon_style 	"Icon"
+						line_color 	3342489
+						fill_color 	13434879
+						quidu      	"5619ED5902BA"
+						compartment 	(object Compartment
+						    Parent_View 	@682
+						    location   	(2583, 948)
+						    font       	(object Font
+							size       	9
+							face       	"Arial"
+							bold       	FALSE
+							italics    	FALSE
+							underline  	FALSE
+							strike     	FALSE
+							color      	0
+							default_color 	TRUE)
+						    icon_style 	"Icon"
+						    anchor     	2
+						    nlines     	2
+						    max_width  	428
+						    justify    	0)
+						height     	154
+						annotation 	8
+						autoResize 	TRUE)
+					    (object ClassView "Class" "Logical View::Analysis Model::realizacion modulo logistica::CI_confirmaciónEntrega" @683
+						ShowCompartmentStereotypes 	TRUE
+						IncludeAttribute 	TRUE
+						IncludeOperation 	TRUE
+						location   	(1840, 2320)
+						font       	(object Font
+						    size       	9
+						    face       	"Arial"
+						    bold       	FALSE
+						    italics    	FALSE
+						    underline  	FALSE
+						    strike     	FALSE
+						    color      	0
+						    default_color 	TRUE)
+						label      	(object ItemLabel
+						    Parent_View 	@683
+						    location   	(1839, 2476)
+						    anchor_loc 	1
+						    nlines     	2
+						    max_width  	652
+						    justify    	0
+						    label      	"CI_confirmaciónEntrega")
+						icon       	"boundary"
+						icon_style 	"Icon"
+						line_color 	3342489
+						fill_color 	13434879
+						quidu      	"5619ED5902C3"
+						compartment 	(object Compartment
+						    Parent_View 	@683
+						    location   	(1540, 2516)
+						    font       	(object Font
+							size       	9
+							face       	"Arial"
+							bold       	FALSE
+							italics    	FALSE
+							underline  	FALSE
+							strike     	FALSE
+							color      	0
+							default_color 	TRUE)
+						    icon_style 	"Icon"
+						    anchor     	2
+						    nlines     	2
+						    max_width  	582
+						    justify    	0)
+						width      	230
+						height     	154
+						annotation 	8
+						autoResize 	TRUE)
+					    (object ClassView "Class" "Logical View::Analysis Model::realizacion modulo logistica::CC_solicitudAbastecimiento" @684
+						ShowCompartmentStereotypes 	TRUE
+						IncludeAttribute 	TRUE
+						IncludeOperation 	TRUE
+						location   	(1824, 736)
+						font       	(object Font
+						    size       	9
+						    face       	"Arial"
+						    bold       	FALSE
+						    italics    	FALSE
+						    underline  	FALSE
+						    strike     	FALSE
+						    color      	0
+						    default_color 	TRUE)
+						label      	(object ItemLabel
+						    Parent_View 	@684
+						    location   	(1823, 897)
+						    anchor_loc 	1
+						    nlines     	2
+						    max_width  	436
+						    justify    	0
+						    label      	"CC_solicitudAbastecimiento")
+						icon       	"control"
+						icon_style 	"Icon"
+						line_color 	3342489
+						fill_color 	13434879
+						quidu      	"5619ED590231"
+						compartment 	(object Compartment
+						    Parent_View 	@684
+						    location   	(1550, 961)
+						    font       	(object Font
+							size       	9
+							face       	"Arial"
+							bold       	FALSE
+							italics    	FALSE
+							underline  	FALSE
+							strike     	FALSE
+							color      	0
+							default_color 	TRUE)
+						    icon_style 	"Icon"
+						    anchor     	2
+						    nlines     	22
+						    max_width  	529
+						    justify    	0)
+						width      	158
+						annotation 	8
+						autoResize 	TRUE)
+					    (object AssociationViewNew "" @685
+						location   	(674, 800)
+						font       	(object Font
+						    size       	9
+						    face       	"Arial"
+						    bold       	FALSE
+						    italics    	FALSE
+						    underline  	FALSE
+						    strike     	FALSE
+						    color      	0
+						    default_color 	TRUE)
+						stereotype 	TRUE
+						line_color 	3342489
+						quidu      	"5619ED590224"
+						roleview_list 	(list RoleViews
+						    (object RoleView "" @686
+							Parent_View 	@685
+							location   	(290, 16)
+							stereotype 	TRUE
+							line_color 	3342489
+							quidu      	"5619ED590225"
+							client     	@685
+							supplier   	@675
+							vertices   	(list Points
+							    (674, 800)
+							    (910, 800))
+							line_style 	0)
+						    (object RoleView "" @687
+							Parent_View 	@685
+							location   	(290, 16)
+							stereotype 	TRUE
+							line_color 	3342489
+							quidu      	"5619ED590226"
+							client     	@685
+							supplier   	@674
+							vertices   	(list Points
+							    (674, 800)
+							    (441, 800))
+							line_style 	0)))
+					    (object AssociationViewNew "" @688
+						location   	(1440, 762)
+						font       	(object Font
+						    size       	9
+						    face       	"Arial"
+						    bold       	FALSE
+						    italics    	FALSE
+						    underline  	FALSE
+						    strike     	FALSE
+						    color      	0
+						    default_color 	TRUE)
+						stereotype 	TRUE
+						line_color 	3342489
+						quidu      	"5619ED59022C"
+						roleview_list 	(list RoleViews
+						    (object RoleView "" @689
+							Parent_View 	@688
+							location   	(480, -38)
+							stereotype 	TRUE
+							line_color 	3342489
+							quidu      	"5619ED59022D"
+							client     	@688
+							supplier   	@684
+							vertices   	(list Points
+							    (1440, 762)
+							    (1746, 739))
+							line_style 	0)
+						    (object RoleView "" @690
+							Parent_View 	@688
+							location   	(480, -38)
+							stereotype 	TRUE
+							line_color 	3342489
+							quidu      	"5619ED59022E"
+							client     	@688
+							supplier   	@675
+							vertices   	(list Points
+							    (1440, 762)
+							    (1136, 786))
+							line_style 	0)))
+					    (object AssociationViewNew "" @691
+						location   	(1304, 548)
+						font       	(object Font
+						    size       	9
+						    face       	"Arial"
+						    bold       	FALSE
+						    italics    	FALSE
+						    underline  	FALSE
+						    strike     	FALSE
+						    color      	0
+						    default_color 	TRUE)
+						stereotype 	TRUE
+						line_color 	3342489
+						quidu      	"5619ED590264"
+						roleview_list 	(list RoleViews
+						    (object RoleView "" @692
+							Parent_View 	@691
+							location   	(-184, -252)
+							stereotype 	TRUE
+							line_color 	3342489
+							quidu      	"5619ED590265"
+							client     	@691
+							supplier   	@676
+							vertices   	(list Points
+							    (1304, 548)
+							    (864, 389))
+							line_style 	0)
+						    (object RoleView "" @693
+							Parent_View 	@691
+							location   	(-184, -252)
+							stereotype 	TRUE
+							line_color 	3342489
+							quidu      	"5619ED590266"
+							client     	@691
+							supplier   	@684
+							vertices   	(list Points
+							    (1304, 548)
+							    (1746, 706))
+							line_style 	0)))
+					    (object AssociationViewNew "" @694
+						location   	(1679, 545)
+						font       	(object Font
+						    size       	9
+						    face       	"Arial"
+						    bold       	FALSE
+						    italics    	FALSE
+						    underline  	FALSE
+						    strike     	FALSE
+						    color      	0
+						    default_color 	TRUE)
+						stereotype 	TRUE
+						line_color 	3342489
+						quidu      	"5619ED590271"
+						roleview_list 	(list RoleViews
+						    (object RoleView "" @695
+							Parent_View 	@694
+							location   	(191, -255)
+							stereotype 	TRUE
+							line_color 	3342489
+							quidu      	"5619ED590272"
+							client     	@694
+							supplier   	@677
+							vertices   	(list Points
+							    (1679, 545)
+							    (1429, 211))
+							line_style 	0)
+						    (object RoleView "" @696
+							Parent_View 	@694
+							location   	(191, -255)
+							stereotype 	TRUE
+							line_color 	3342489
+							quidu      	"5619ED590273"
+							client     	@694
+							supplier   	@684
+							vertices   	(list Points
+							    (1679, 545)
+							    (1762, 655))
+							line_style 	0)))
+					    (object AssociationViewNew "" @697
+						location   	(1303, 1142)
+						font       	(object Font
+						    size       	9
+						    face       	"Arial"
+						    bold       	FALSE
+						    italics    	FALSE
+						    underline  	FALSE
+						    strike     	FALSE
+						    color      	0
+						    default_color 	TRUE)
+						stereotype 	TRUE
+						line_color 	3342489
+						quidu      	"5619ED59027C"
+						roleview_list 	(list RoleViews
+						    (object RoleView "" @698
+							Parent_View 	@697
+							location   	(-185, 342)
+							stereotype 	TRUE
+							line_color 	3342489
+							quidu      	"5619ED59027D"
+							client     	@697
+							supplier   	@678
+							vertices   	(list Points
+							    (1303, 1142)
+							    (1018, 1364))
+							line_style 	0)
+						    (object RoleView "" @699
+							Parent_View 	@697
+							location   	(-185, 342)
+							stereotype 	TRUE
+							line_color 	3342489
+							quidu      	"5619ED59027E"
+							client     	@697
+							supplier   	@684
+							vertices   	(list Points
+							    (1303, 1142)
+							    (1746, 792))
+							line_style 	0)))
+					    (object AssociationViewNew "" @700
+						location   	(1407, 1467)
+						font       	(object Font
+						    size       	9
+						    face       	"Arial"
+						    bold       	FALSE
+						    italics    	FALSE
+						    underline  	FALSE
+						    strike     	FALSE
+						    color      	0
+						    default_color 	TRUE)
+						stereotype 	TRUE
+						line_color 	3342489
+						quidu      	"5619ED590286"
+						roleview_list 	(list RoleViews
+						    (object RoleView "" @701
+							Parent_View 	@700
+							location   	(-81, 667)
+							stereotype 	TRUE
+							line_color 	3342489
+							quidu      	"5619ED590287"
+							client     	@700
+							supplier   	@679
+							vertices   	(list Points
+							    (1407, 1467)
+							    (1253, 1731))
+							line_style 	0)
+						    (object RoleView "" @702
+							Parent_View 	@700
+							location   	(-81, 667)
+							stereotype 	TRUE
+							line_color 	3342489
+							quidu      	"5619ED590288"
+							client     	@700
+							supplier   	@684
+							vertices   	(list Points
+							    (1407, 1467)
+							    (1736, 892))
+							line_style 	0)))
+					    (object AssociationViewNew "" @703
+						location   	(2224, 482)
+						font       	(object Font
+						    size       	9
+						    face       	"Arial"
+						    bold       	FALSE
+						    italics    	FALSE
+						    underline  	FALSE
+						    strike     	FALSE
+						    color      	0
+						    default_color 	TRUE)
+						stereotype 	TRUE
+						line_color 	3342489
+						quidu      	"5619ED590293"
+						roleview_list 	(list RoleViews
+						    (object RoleView "" @704
+							Parent_View 	@703
+							location   	(736, -318)
+							stereotype 	TRUE
+							line_color 	3342489
+							quidu      	"5619ED590294"
+							client     	@703
+							supplier   	@680
+							vertices   	(list Points
+							    (2224, 482)
+							    (2548, 282))
+							line_style 	0)
+						    (object RoleView "" @705
+							Parent_View 	@703
+							location   	(736, -318)
+							stereotype 	TRUE
+							line_color 	3342489
+							quidu      	"5619ED590295"
+							client     	@703
+							supplier   	@684
+							vertices   	(list Points
+							    (2224, 482)
+							    (1900, 683))
+							line_style 	0)))
+					    (object AssociationViewNew "" @706
+						location   	(2297, 1072)
+						font       	(object Font
+						    size       	9
+						    face       	"Arial"
+						    bold       	FALSE
+						    italics    	FALSE
+						    underline  	FALSE
+						    strike     	FALSE
+						    color      	0
+						    default_color 	TRUE)
+						stereotype 	TRUE
+						line_color 	3342489
+						quidu      	"5619ED5902A4"
+						roleview_list 	(list RoleViews
+						    (object RoleView "" @707
+							Parent_View 	@706
+							location   	(809, 272)
+							stereotype 	TRUE
+							line_color 	3342489
+							quidu      	"5619ED5902A5"
+							client     	@706
+							supplier   	@681
+							vertices   	(list Points
+							    (2297, 1072)
+							    (2532, 1239))
+							line_style 	0)
+						    (object RoleView "" @708
+							Parent_View 	@706
+							location   	(809, 272)
+							stereotype 	TRUE
+							line_color 	3342489
+							quidu      	"5619ED5902A6"
+							client     	@706
+							supplier   	@684
+							vertices   	(list Points
+							    (2297, 1072)
+							    (1900, 790))
+							line_style 	0)))
+					    (object AssociationViewNew "" @709
+						location   	(2312, 742)
+						font       	(object Font
+						    size       	9
+						    face       	"Arial"
+						    bold       	FALSE
+						    italics    	FALSE
+						    underline  	FALSE
+						    strike     	FALSE
+						    color      	0
+						    default_color 	TRUE)
+						stereotype 	TRUE
+						line_color 	3342489
+						quidu      	"5619ED5902B5"
+						roleview_list 	(list RoleViews
+						    (object RoleView "" @710
+							Parent_View 	@709
+							location   	(824, -58)
+							stereotype 	TRUE
+							line_color 	3342489
+							quidu      	"5619ED5902B6"
+							client     	@709
+							supplier   	@682
+							vertices   	(list Points
+							    (2312, 742)
+							    (2723, 748))
+							line_style 	0)
+						    (object RoleView "" @711
+							Parent_View 	@709
+							location   	(824, -58)
+							stereotype 	TRUE
+							line_color 	3342489
+							quidu      	"5619ED5902B7"
+							client     	@709
+							supplier   	@684
+							vertices   	(list Points
+							    (2312, 742)
+							    (1900, 736))
+							line_style 	0)))
+					    (object AssociationViewNew "" @712
+						location   	(1835, 2127)
+						font       	(object Font
+						    size       	9
+						    face       	"Arial"
+						    bold       	FALSE
+						    italics    	FALSE
+						    underline  	FALSE
+						    strike     	FALSE
+						    color      	0
+						    default_color 	TRUE)
+						stereotype 	TRUE
+						line_color 	3342489
+						quidu      	"5619ED5902BE"
+						roleview_list 	(list RoleViews
+						    (object RoleView "" @713
+							Parent_View 	@712
+							location   	(11, 1391)
+							stereotype 	TRUE
+							line_color 	3342489
+							quidu      	"5619ED5902BF"
+							client     	@712
+							supplier   	@683
+							vertices   	(list Points
+							    (1835, 2127)
+							    (1836, 2243))
+							line_style 	0)
+						    (object RoleView "" @714
+							Parent_View 	@712
+							location   	(11, 1391)
+							stereotype 	TRUE
+							line_color 	3342489
+							quidu      	"5619ED5902C0"
+							client     	@712
+							supplier   	@684
+							vertices   	(list Points
+							    (1835, 2127)
+							    (1823, 920))
+							line_style 	0)))))
 				    (object InteractionDiagram "SDAemtiriSolicituddeAbastecimiento"
-					mechanism_ref 	@686
+					mechanism_ref 	@673
 					quid       	"5619EEB40000"
 					title      	"SDAemtiriSolicituddeAbastecimiento"
 					zoom       	100
@@ -15558,7 +16623,7 @@
 				quid       	"561A2D5B02BF"
 				stereotype 	"use-case realization"
 				logical_models 	(list unit_reference_list
-				    (object Mechanism @687
+				    (object Mechanism @715
 					logical_models 	(list unit_reference_list)))
 				logical_presentations 	(list unit_reference_list
 				    (object ClassDiagram "ODAemitirInformeInventario"
@@ -15571,7 +16636,7 @@
 					origin_y   	0
 					items      	(list diagram_item_list))
 				    (object InteractionDiagram "SDAemitirInformeInventario"
-					mechanism_ref 	@687
+					mechanism_ref 	@715
 					quid       	"5619EEA9038B"
 					title      	"SDAemitirInformeInventario"
 					zoom       	100
@@ -15584,20 +16649,20 @@
 				quid       	"561A2D71008D"
 				stereotype 	"use-case realization"
 				logical_models 	(list unit_reference_list
-				    (object Mechanism @688
+				    (object Mechanism @716
 					logical_models 	(list unit_reference_list)))
 				logical_presentations 	(list unit_reference_list
 				    (object ClassDiagram "ODArecibirProductosyDocumentos"
 					quid       	"5619EED802DF"
 					title      	"ODArecibirProductosyDocumentos"
-					zoom       	100
+					zoom       	65
 					max_height 	28350
 					max_width  	21600
-					origin_x   	0
+					origin_x   	98
 					origin_y   	0
 					items      	(list diagram_item_list))
 				    (object InteractionDiagram "SDArecibirProductosyDocumentos"
-					mechanism_ref 	@688
+					mechanism_ref 	@716
 					quid       	"5619EECD01C6"
 					title      	"SDArecibirProductosyDocumentos"
 					zoom       	100
@@ -15606,6 +16671,126 @@
 					origin_x   	0
 					origin_y   	0
 					items      	(list diagram_item_list))))
+			    (object Association "$UNNAMED$89"
+				quid       	"5619ED590224"
+				roles      	(list role_list
+				    (object Role "$UNNAMED$90"
+					quid       	"5619ED590225"
+					supplier   	"Logical View::Analysis Model::realizacion modulo logistica::CI_solicitudAbastecimiento"
+					quidu      	"5619ED590229"
+					is_navigable 	TRUE)
+				    (object Role "$UNNAMED$91"
+					quid       	"5619ED590226"
+					supplier   	"Logical View::Analysis Model::realizacion modulo logistica::usuario sistema"
+					quidu      	"5619ED590222")))
+			    (object Association "$UNNAMED$92"
+				quid       	"5619ED59022C"
+				roles      	(list role_list
+				    (object Role "$UNNAMED$93"
+					quid       	"5619ED59022D"
+					supplier   	"Logical View::Analysis Model::realizacion modulo logistica::CC_solicitudAbastecimiento"
+					quidu      	"5619ED590231"
+					is_navigable 	TRUE)
+				    (object Role "$UNNAMED$94"
+					quid       	"5619ED59022E"
+					supplier   	"Logical View::Analysis Model::realizacion modulo logistica::CI_solicitudAbastecimiento"
+					quidu      	"5619ED590229")))
+			    (object Association "$UNNAMED$95"
+				quid       	"5619ED590264"
+				roles      	(list role_list
+				    (object Role "$UNNAMED$96"
+					quid       	"5619ED590265"
+					supplier   	"Logical View::Analysis Model::realizacion modulo logistica::CI_mensajeSistema"
+					quidu      	"5619ED590269"
+					is_navigable 	TRUE)
+				    (object Role "$UNNAMED$97"
+					quid       	"5619ED590266"
+					supplier   	"Logical View::Analysis Model::realizacion modulo logistica::CC_solicitudAbastecimiento"
+					quidu      	"5619ED590231")))
+			    (object Association "$UNNAMED$98"
+				quid       	"5619ED590271"
+				roles      	(list role_list
+				    (object Role "$UNNAMED$99"
+					quid       	"5619ED590272"
+					supplier   	"Logical View::Analysis Model::realizacion modulo logistica::CI_historialSolicitudes"
+					quidu      	"5619ED590276"
+					is_navigable 	TRUE)
+				    (object Role "$UNNAMED$100"
+					quid       	"5619ED590273"
+					supplier   	"Logical View::Analysis Model::realizacion modulo logistica::CC_solicitudAbastecimiento"
+					quidu      	"5619ED590231")))
+			    (object Association "$UNNAMED$101"
+				quid       	"5619ED59027C"
+				roles      	(list role_list
+				    (object Role "$UNNAMED$102"
+					quid       	"5619ED59027D"
+					supplier   	"Logical View::Analysis Model::realizacion modulo logistica::CI_previewSolicitud"
+					quidu      	"5619ED590281"
+					is_navigable 	TRUE)
+				    (object Role "$UNNAMED$103"
+					quid       	"5619ED59027E"
+					supplier   	"Logical View::Analysis Model::realizacion modulo logistica::CC_solicitudAbastecimiento"
+					quidu      	"5619ED590231")))
+			    (object Association "$UNNAMED$104"
+				quid       	"5619ED590286"
+				roles      	(list role_list
+				    (object Role "$UNNAMED$105"
+					quid       	"5619ED590287"
+					supplier   	"Logical View::Analysis Model::realizacion modulo logistica::CI_crearSolicitudAbastecimiento"
+					quidu      	"5619ED59028B"
+					is_navigable 	TRUE)
+				    (object Role "$UNNAMED$106"
+					quid       	"5619ED590288"
+					supplier   	"Logical View::Analysis Model::realizacion modulo logistica::CC_solicitudAbastecimiento"
+					quidu      	"5619ED590231")))
+			    (object Association "$UNNAMED$107"
+				quid       	"5619ED590293"
+				roles      	(list role_list
+				    (object Role "$UNNAMED$108"
+					quid       	"5619ED590294"
+					supplier   	"Logical View::Analysis Model::realizacion modulo logistica::CE_Producto"
+					quidu      	"5619ED590298"
+					is_navigable 	TRUE)
+				    (object Role "$UNNAMED$109"
+					quid       	"5619ED590295"
+					supplier   	"Logical View::Analysis Model::realizacion modulo logistica::CC_solicitudAbastecimiento"
+					quidu      	"5619ED590231")))
+			    (object Association "$UNNAMED$110"
+				quid       	"5619ED5902A4"
+				roles      	(list role_list
+				    (object Role "$UNNAMED$111"
+					quid       	"5619ED5902A5"
+					supplier   	"Logical View::Analysis Model::realizacion modulo logistica::CE_solicitudAbastecimiento"
+					quidu      	"5619ED5902A9"
+					is_navigable 	TRUE)
+				    (object Role "$UNNAMED$112"
+					quid       	"5619ED5902A6"
+					supplier   	"Logical View::Analysis Model::realizacion modulo logistica::CC_solicitudAbastecimiento"
+					quidu      	"5619ED590231")))
+			    (object Association "$UNNAMED$113"
+				quid       	"5619ED5902B5"
+				roles      	(list role_list
+				    (object Role "$UNNAMED$114"
+					quid       	"5619ED5902B6"
+					supplier   	"Logical View::Analysis Model::realizacion modulo logistica::CE_solicitudProducto"
+					quidu      	"5619ED5902BA"
+					is_navigable 	TRUE)
+				    (object Role "$UNNAMED$115"
+					quid       	"5619ED5902B7"
+					supplier   	"Logical View::Analysis Model::realizacion modulo logistica::CC_solicitudAbastecimiento"
+					quidu      	"5619ED590231")))
+			    (object Association "$UNNAMED$116"
+				quid       	"5619ED5902BE"
+				roles      	(list role_list
+				    (object Role "$UNNAMED$117"
+					quid       	"5619ED5902BF"
+					supplier   	"Logical View::Analysis Model::realizacion modulo logistica::CI_confirmaciónEntrega"
+					quidu      	"5619ED5902C3"
+					is_navigable 	TRUE)
+				    (object Role "$UNNAMED$118"
+					quid       	"5619ED5902C0"
+					supplier   	"Logical View::Analysis Model::realizacion modulo logistica::CC_solicitudAbastecimiento"
+					quidu      	"5619ED590231")))
 			    (object Class_Category "boundaries"
 				quid       	"561A325100BC"
 				exportControl 	"Public"
@@ -15645,7 +16830,7 @@
 				quid       	"5619F36402A0"
 				stereotype 	"use-case realization"
 				logical_models 	(list unit_reference_list
-				    (object Mechanism @689
+				    (object Mechanism @717
 					logical_models 	(list unit_reference_list)))
 				logical_presentations 	(list unit_reference_list
 				    (object ClassDiagram "ODgestionarDatosUsuario"
@@ -15658,7 +16843,7 @@
 					origin_y   	0
 					items      	(list diagram_item_list))
 				    (object InteractionDiagram "SDgestionarDatosUsuario"
-					mechanism_ref 	@689
+					mechanism_ref 	@717
 					quid       	"5619F3720158"
 					title      	"SDgestionarDatosUsuario"
 					zoom       	100
@@ -15676,7 +16861,7 @@
 				quid       	"5619F14A008D"
 				stereotype 	"use-case realization"
 				logical_models 	(list unit_reference_list
-				    (object Mechanism @690
+				    (object Mechanism @718
 					logical_models 	(list unit_reference_list)))
 				logical_presentations 	(list unit_reference_list
 				    (object ClassDiagram "ODactualizarClave"
@@ -15689,7 +16874,7 @@
 					origin_y   	0
 					items      	(list diagram_item_list))
 				    (object InteractionDiagram "SDactualizarClave"
-					mechanism_ref 	@690
+					mechanism_ref 	@718
 					quid       	"5619F19401E5"
 					title      	"SDactualizarClave"
 					zoom       	100
@@ -15702,7 +16887,7 @@
 				quid       	"5619F159032D"
 				stereotype 	"use-case realization"
 				logical_models 	(list unit_reference_list
-				    (object Mechanism @691
+				    (object Mechanism @719
 					logical_models 	(list unit_reference_list)))
 				logical_presentations 	(list unit_reference_list
 				    (object ClassDiagram "ODautenticarUsuarioSistema"
@@ -15715,7 +16900,7 @@
 					origin_y   	0
 					items      	(list diagram_item_list))
 				    (object InteractionDiagram "SDautenticarUsuarioSistema"
-					mechanism_ref 	@691
+					mechanism_ref 	@719
 					quid       	"5619F31C037B"
 					title      	"SDautenticarUsuarioSistema"
 					zoom       	100
@@ -15728,7 +16913,7 @@
 				quid       	"5619F1650271"
 				stereotype 	"use-case realization"
 				logical_models 	(list unit_reference_list
-				    (object Mechanism @692
+				    (object Mechanism @720
 					logical_models 	(list unit_reference_list)))
 				logical_presentations 	(list unit_reference_list
 				    (object ClassDiagram "ODreestablecerClave"
@@ -15741,7 +16926,7 @@
 					origin_y   	0
 					items      	(list diagram_item_list))
 				    (object InteractionDiagram "SDreestablecerClave"
-					mechanism_ref 	@692
+					mechanism_ref 	@720
 					quid       	"5619F3390281"
 					title      	"SDreestablecerClave"
 					zoom       	100
@@ -15754,7 +16939,7 @@
 				quid       	"5619F172011A"
 				stereotype 	"use-case realization"
 				logical_models 	(list unit_reference_list
-				    (object Mechanism @693
+				    (object Mechanism @721
 					logical_models 	(list unit_reference_list)))
 				logical_presentations 	(list unit_reference_list
 				    (object ClassDiagram "ODregistrarUsuario"
@@ -15767,7 +16952,7 @@
 					origin_y   	0
 					items      	(list diagram_item_list))
 				    (object InteractionDiagram "SDregistrarUsuario"
-					mechanism_ref 	@693
+					mechanism_ref 	@721
 					quid       	"5619F34C0291"
 					title      	"SDregistrarUsuario"
 					zoom       	100
@@ -15785,7 +16970,7 @@
 				quid       	"5619F1E60271"
 				stereotype 	"use-case realization"
 				logical_models 	(list unit_reference_list
-				    (object Mechanism @694
+				    (object Mechanism @722
 					logical_models 	(list unit_reference_list)))
 				logical_presentations 	(list unit_reference_list
 				    (object ClassDiagram "ODemitirInformeControldeCalidad"
@@ -15798,7 +16983,7 @@
 					origin_y   	0
 					items      	(list diagram_item_list))
 				    (object InteractionDiagram "SDemitirInformeControldeCalidad"
-					mechanism_ref 	@694
+					mechanism_ref 	@722
 					quid       	"5619F3880158"
 					title      	"SDemitirInformeControldeCalidad"
 					zoom       	100
@@ -15811,7 +16996,7 @@
 				quid       	"5619F1F801A6"
 				stereotype 	"use-case realization"
 				logical_models 	(list unit_reference_list
-				    (object Mechanism @695
+				    (object Mechanism @723
 					logical_models 	(list unit_reference_list)))
 				logical_presentations 	(list unit_reference_list
 				    (object ClassDiagram "ODemitirInformedeAlmacen"
@@ -15824,7 +17009,7 @@
 					origin_y   	0
 					items      	(list diagram_item_list))
 				    (object InteractionDiagram "SDemitirInformedeAlmacen"
-					mechanism_ref 	@695
+					mechanism_ref 	@723
 					quid       	"5619F3A400FA"
 					title      	"SDemitirInformedeAlmacen"
 					zoom       	100
@@ -15837,7 +17022,7 @@
 				quid       	"5619F20500DB"
 				stereotype 	"use-case realization"
 				logical_models 	(list unit_reference_list
-				    (object Mechanism @696
+				    (object Mechanism @724
 					logical_models 	(list unit_reference_list)))
 				logical_presentations 	(list unit_reference_list
 				    (object ClassDiagram "ODemitirInformeInventario"
@@ -15850,7 +17035,7 @@
 					origin_y   	0
 					items      	(list diagram_item_list))
 				    (object InteractionDiagram "SDemitirInformeInventario"
-					mechanism_ref 	@696
+					mechanism_ref 	@724
 					quid       	"5619F3C103BA"
 					title      	"SDemitirInformeInventario"
 					zoom       	100
@@ -15863,7 +17048,7 @@
 				quid       	"5619F20F039A"
 				stereotype 	"use-case realization"
 				logical_models 	(list unit_reference_list
-				    (object Mechanism @697
+				    (object Mechanism @725
 					logical_models 	(list unit_reference_list)))
 				logical_presentations 	(list unit_reference_list
 				    (object ClassDiagram "ODemitirSolicituddeAbastecimiento"
@@ -15876,7 +17061,7 @@
 					origin_y   	0
 					items      	(list diagram_item_list))
 				    (object InteractionDiagram "SDemitirSolicituddeAbastecimiento"
-					mechanism_ref 	@697
+					mechanism_ref 	@725
 					quid       	"5619F3F200AC"
 					title      	"SDemitirSolicituddeAbastecimiento"
 					zoom       	100
@@ -15889,7 +17074,7 @@
 				quid       	"5619F2920010"
 				stereotype 	"use-case realization"
 				logical_models 	(list unit_reference_list
-				    (object Mechanism @698
+				    (object Mechanism @726
 					logical_models 	(list unit_reference_list)))
 				logical_presentations 	(list unit_reference_list
 				    (object ClassDiagram "ODrecibirProductosyDocumentos"
@@ -15902,7 +17087,7 @@
 					origin_y   	0
 					items      	(list diagram_item_list))
 				    (object InteractionDiagram "SDrecibirProductosyDocumentos"
-					mechanism_ref 	@698
+					mechanism_ref 	@726
 					quid       	"5619F4160168"
 					title      	"SDrecibirProductosyDocumentos"
 					zoom       	100
@@ -15939,7 +17124,7 @@
 		origin_x   	0
 		origin_y   	0
 		items      	(list diagram_item_list
-		    (object NoteView @699
+		    (object NoteView @727
 			location   	(1376, 480)
 			font       	(object Font
 			    size       	9
@@ -15951,7 +17136,7 @@
 			    color      	0
 			    default_color 	TRUE)
 			label      	(object ItemLabel
-			    Parent_View 	@699
+			    Parent_View 	@727
 			    location   	(729, 192)
 			    fill_color 	13434879
 			    nlines     	14
@@ -16011,7 +17196,7 @@
 			origin_x   	0
 			origin_y   	0
 			items      	(list diagram_item_list
-			    (object NoteView @700
+			    (object NoteView @728
 				location   	(624, 160)
 				font       	(object Font
 				    size       	9
@@ -16023,7 +17208,7 @@
 				    color      	0
 				    default_color 	TRUE)
 				label      	(object ItemLabel
-				    Parent_View 	@700
+				    Parent_View 	@728
 				    location   	(21, 26)
 				    fill_color 	13434879
 				    nlines     	5
@@ -16050,7 +17235,7 @@
 		origin_x   	0
 		origin_y   	0
 		items      	(list diagram_item_list
-		    (object SubSysView "Component View::Implementation Model" @701
+		    (object SubSysView "Component View::Implementation Model" @729
 			location   	(736, 800)
 			font       	(object Font
 			    size       	9
@@ -16062,7 +17247,7 @@
 			    color      	0
 			    default_color 	TRUE)
 			label      	(object ItemLabel
-			    Parent_View 	@701
+			    Parent_View 	@729
 			    location   	(552, 713)
 			    fill_color 	13434879
 			    nlines     	2
@@ -16125,7 +17310,7 @@
 		origin_x   	0
 		origin_y   	0
 		items      	(list diagram_item_list
-		    (object ProcessorView "<processor name>" @702
+		    (object ProcessorView "<processor name>" @730
 			location   	(512, 1056)
 			font       	(object Font
 			    size       	9
@@ -16137,7 +17322,7 @@
 			    color      	0
 			    default_color 	TRUE)
 			label      	(object ItemLabel
-			    Parent_View 	@702
+			    Parent_View 	@730
 			    location   	(276, 900)
 			    nlines     	2
 			    max_width  	400
@@ -16148,7 +17333,7 @@
 			width      	475
 			height     	381
 			annotation 	3)
-		    (object DeviceView "<device name>" @703
+		    (object DeviceView "<device name>" @731
 			location   	(1040, 1056)
 			font       	(object Font
 			    size       	9
@@ -16160,7 +17345,7 @@
 			    color      	0
 			    default_color 	TRUE)
 			label      	(object ItemLabel
-			    Parent_View 	@703
+			    Parent_View 	@731
 			    location   	(867, 950)
 			    nlines     	2
 			    max_width  	275
@@ -16171,16 +17356,16 @@
 			width      	350
 			height     	282
 			annotation 	0)
-		    (object ConnectionView "" @704
+		    (object ConnectionView "" @732
 			stereotype 	TRUE
 			quidu      	"34DBBD4B008C"
-			client     	@702
-			supplier   	@703
+			client     	@730
+			supplier   	@731
 			vertices   	(list Points
 			    (718, 1056)
 			    (865, 1056))
 			line_style 	0)
-		    (object NoteView @705
+		    (object NoteView @733
 			location   	(816, 304)
 			font       	(object Font
 			    size       	9
@@ -16192,7 +17377,7 @@
 			    color      	0
 			    default_color 	TRUE)
 			label      	(object ItemLabel
-			    Parent_View 	@705
+			    Parent_View 	@733
 			    location   	(38, 29)
 			    fill_color 	13434879
 			    nlines     	11
