@@ -34193,7 +34193,7 @@
 				    location   	(272, 1856)
 				    anchor_loc 	1
 				    nlines     	2
-				    max_width  	325
+				    max_width  	327
 				    justify    	0
 				    label      	"administrador")
 				icon       	"Actor"
@@ -34284,7 +34284,7 @@
 				    location   	(1584, 304)
 				    anchor_loc 	1
 				    nlines     	2
-				    max_width  	325
+				    max_width  	327
 				    justify    	0
 				    label      	"cocinero")
 				icon       	"Actor"
@@ -34423,7 +34423,7 @@
 				    location   	(1520, 1088)
 				    anchor_loc 	1
 				    nlines     	2
-				    max_width  	325
+				    max_width  	327
 				    justify    	0
 				    label      	"encargado de almacen")
 				icon       	"Actor"
@@ -34664,7 +34664,7 @@
 				    location   	(1040, 816)
 				    anchor_loc 	1
 				    nlines     	2
-				    max_width  	339
+				    max_width  	327
 				    justify    	0
 				    label      	"usuario sistema")
 				icon       	"Actor"
@@ -34872,7 +34872,7 @@
 				    location   	(1696, 1888)
 				    anchor_loc 	1
 				    nlines     	2
-				    max_width  	325
+				    max_width  	327
 				    justify    	0
 				    label      	"gerente")
 				icon       	"Actor"
@@ -35107,7 +35107,7 @@
 							supplier   	"$UNNAMED$204"
 							quidu      	"54D1C7CC01E5"
 							messages   	(list Messages
-							    (object Message "ValidarbtnGestionarInventario(String)"
+							    (object Message "ValidarbtnGestionarInventario(btnGestionarInventario : String)"
 								quid       	"54D1C9A5007E"
 								frequency  	"Aperiodic"
 								synchronization 	"Simple"
@@ -35227,7 +35227,7 @@
 							supplier   	"$UNNAMED$204"
 							quidu      	"54D1C7CC01E5"
 							messages   	(list Messages
-							    (object Message "ValidarbotonGI(String)"
+							    (object Message "ValidarbotonGI(btnGI : String)"
 								quid       	"54D1CA8B005F"
 								frequency  	"Aperiodic"
 								synchronization 	"Simple"
@@ -35236,43 +35236,43 @@
 								ordinal    	1
 								quidu      	"54D1CA940148"
 								creation   	FALSE)
-							    (object Message "validarbotonCancelar(String)"
+							    (object Message "validarbotonCancelar(btnCancel : String)"
 								quid       	"54D1F53101A6"
 								frequency  	"Aperiodic"
 								synchronization 	"Simple"
 								dir        	"FromClientToSupplier"
-								sequence   	"2.1.4.1.1"
+								sequence   	"1.3.1.1.3.1.4.1.1"
 								ordinal    	17
 								quidu      	"54D1F535008D"
 								creation   	FALSE)
-							    (object Message "ValidarbotonGuardar(String)"
+							    (object Message "ValidarbotonGuardar(btnGuardar : String)"
 								quid       	"54D1FBA000BC"
 								frequency  	"Aperiodic"
 								synchronization 	"Simple"
 								dir        	"FromClientToSupplier"
-								sequence   	"2.1.4.1.1.3"
+								sequence   	"1.3.1.1.3.1.4.1.1.3"
 								ordinal    	20
 								quidu      	"54D1FBA50281"
 								creation   	FALSE)
-							    (object Message "ValidarbotonRegresar(String)"
+							    (object Message "ValidarbotonRegresar(btnRegre : String)"
 								quid       	"54D20EAC038A"
 								frequency  	"Aperiodic"
 								synchronization 	"Simple"
 								dir        	"FromClientToSupplier"
-								sequence   	"2.1.4.1.1.3.5"
+								sequence   	"1.3.1.1.3.1.4.1.1.3.5"
 								ordinal    	26
 								quidu      	"54D20EB3035C"
 								creation   	FALSE)
-							    (object Message "validarbotonEditarProSec(String)"
+							    (object Message "validarbotonEditarProSec(btnEditPS : String)"
 								quid       	"54D1D1A7009C"
 								frequency  	"Aperiodic"
 								synchronization 	"Simple"
 								dir        	"FromClientToSupplier"
-								sequence   	"2.1.1"
+								sequence   	"1.3.1.1.3.1.1"
 								ordinal    	11
 								quidu      	"54D1D1AA010A"
 								creation   	FALSE)
-							    (object Message "ValidarbotonProductoSeco(String)"
+							    (object Message "ValidarbotonProductoSeco(btnProS : String)"
 								quid       	"54D1CEEA03B9"
 								frequency  	"Aperiodic"
 								synchronization 	"Simple"
@@ -35281,21 +35281,21 @@
 								ordinal    	5
 								quidu      	"54D1CEF200FA"
 								creation   	FALSE)
-							    (object Message "ValidarProductosFrescos(String)"
+							    (object Message "ValidarProductosFrescos(btnproF : String)"
 								quid       	"54D21A8D0129"
 								frequency  	"Aperiodic"
 								synchronization 	"Simple"
 								dir        	"FromClientToSupplier"
-								sequence   	"2.1.4.1.1.3.5.3"
+								sequence   	"1.3.1.1.3.1.4.1.1.3.5.3"
 								ordinal    	29
 								quidu      	"54D21AC8037B"
 								creation   	FALSE)
-							    (object Message "ValidarbotonEditarProFre(String)"
+							    (object Message "ValidarbotonEditarProFre(btnEditProF : String)"
 								quid       	"54D21F7401E5"
 								frequency  	"Aperiodic"
 								synchronization 	"Simple"
 								dir        	"FromClientToSupplier"
-								sequence   	"2.1.4.1.1.3.5.3.3.1.1"
+								sequence   	"1.3.1.1.3.1.4.1.1.3.5.3.3.1.1"
 								ordinal    	35
 								quidu      	"54D2207400FA"
 								creation   	FALSE)))
@@ -35304,7 +35304,7 @@
 							supplier   	"$UNNAMED$206"
 							quidu      	"54D1C640004E"
 							messages   	(list Messages
-							    (object Message "viewmensajesistemaShow(String, String, String, String)"
+							    (object Message "viewmensajesistemaShow(mensajeSistema : String, botonTexto : String, botonLink : String, tipo : String)"
 								quid       	"54D1CAF00224"
 								frequency  	"Aperiodic"
 								synchronization 	"Simple"
@@ -35313,93 +35313,93 @@
 								ordinal    	2
 								quidu      	"54D1CB25037B"
 								creation   	FALSE)
-							    (object Message "viewmensajesistemaShow(String, String, String, String)"
+							    (object Message "viewmensajesistemaShow(mensajeSistema : String, botonTexto : String, botonLink : String, tipo : String)"
 								quid       	"54D20F4B00DB"
 								frequency  	"Aperiodic"
 								synchronization 	"Simple"
 								dir        	"FromClientToSupplier"
-								sequence   	"2.1.4.1.1.3.5.1"
+								sequence   	"1.3.1.1.3.1.4.1.1.3.5.1"
 								ordinal    	27
 								quidu      	"54D1CB25037B"
 								creation   	FALSE)
-							    (object Message "viewmensajesistemaShow(String, String, String, String)"
+							    (object Message "viewmensajesistemaShow(mensajeSistema : String, botonTexto : String, botonLink : String, tipo : String)"
 								quid       	"54D1FDEE008D"
 								frequency  	"Aperiodic"
 								synchronization 	"Simple"
 								dir        	"FromClientToSupplier"
-								sequence   	"2.1.4.1.1.3.4"
+								sequence   	"1.3.1.1.3.1.4.1.1.3.4"
 								ordinal    	25
 								quidu      	"54D1CB25037B"
 								creation   	FALSE)
-							    (object Message "viewmensajesistemaShow(String, String, String, String)"
+							    (object Message "viewmensajesistemaShow(mensajeSistema : String, botonTexto : String, botonLink : String, tipo : String)"
 								quid       	"54D1FDC0036B"
 								frequency  	"Aperiodic"
 								synchronization 	"Simple"
 								dir        	"FromClientToSupplier"
-								sequence   	"2.1.4.1.1.3.3"
+								sequence   	"1.3.1.1.3.1.4.1.1.3.3"
 								ordinal    	24
 								quidu      	"54D1CB25037B"
 								creation   	FALSE)
-							    (object Message "viewmensajesistemaShow(String, String, String, String)"
+							    (object Message "viewmensajesistemaShow(mensajeSistema : String, botonTexto : String, botonLink : String, tipo : String)"
 								quid       	"54D1FBFB01A6"
 								frequency  	"Aperiodic"
 								synchronization 	"Simple"
 								dir        	"FromClientToSupplier"
-								sequence   	"2.1.4.1.1.3.1"
+								sequence   	"1.3.1.1.3.1.4.1.1.3.1"
 								ordinal    	21
 								quidu      	"54D1CB25037B"
 								creation   	FALSE)
-							    (object Message "viewmensajesistemaShow(String, String, String, String)"
+							    (object Message "viewmensajesistemaShow(mensajeSistema : String, botonTexto : String, botonLink : String, tipo : String)"
 								quid       	"54D1F62A0187"
 								frequency  	"Aperiodic"
 								synchronization 	"Simple"
 								dir        	"FromClientToSupplier"
-								sequence   	"2.1.4.1.1.2"
+								sequence   	"1.3.1.1.3.1.4.1.1.2"
 								ordinal    	19
 								quidu      	"54D1CB25037B"
 								creation   	FALSE)
-							    (object Message "viewmensajesistemaShow(String, String, String, String)"
+							    (object Message "viewmensajesistemaShow(mensajeSistema : String, botonTexto : String, botonLink : String, tipo : String)"
 								quid       	"54D1F55F003F"
 								frequency  	"Aperiodic"
 								synchronization 	"Simple"
 								dir        	"FromClientToSupplier"
-								sequence   	"2.1.4.1.1.1"
+								sequence   	"1.3.1.1.3.1.4.1.1.1"
 								ordinal    	18
 								quidu      	"54D1CB25037B"
 								creation   	FALSE)
-							    (object Message "viewmensajesistemaShow(String, String, String, String)"
+							    (object Message "viewmensajesistemaShow(mensajeSistema : String, botonTexto : String, botonLink : String, tipo : String)"
 								quid       	"54D1D1FA039A"
 								frequency  	"Aperiodic"
 								synchronization 	"Simple"
 								dir        	"FromClientToSupplier"
-								sequence   	"2.1.2"
+								sequence   	"1.3.1.1.3.1.2"
 								ordinal    	12
 								quidu      	"54D1CB25037B"
 								creation   	FALSE)
-							    (object Message "viewmensajesistemaShow(String, String, String, String)"
+							    (object Message "viewmensajesistemaShow(mensajeSistema : String, botonTexto : String, botonLink : String, tipo : String)"
 								quid       	"54D1CF5E0271"
 								frequency  	"Aperiodic"
 								synchronization 	"Simple"
 								dir        	"FromClientToSupplier"
-								sequence   	"4"
+								sequence   	"1.3.1.1.1"
 								ordinal    	6
 								quidu      	"54D1CB25037B"
 								creation   	FALSE)
-							    (object Message "viewmensajesistemaShow(String, String, String, String)"
+							    (object Message "viewmensajesistemaShow(mensajeSistema : String, botonTexto : String, botonLink : String, tipo : String)"
 								quid       	"54D21C320119"
 								frequency  	"Aperiodic"
 								synchronization 	"Simple"
 								dir        	"FromClientToSupplier"
-								sequence   	"2.1.4.1.1.3.5.3.1"
+								sequence   	"1.3.1.1.3.1.4.1.1.3.5.3.1"
 								ordinal    	30
 								quidu      	"54D1CB25037B"
 								creation   	FALSE)
-							    (object Message "viewmensajesistemaShow(String, String, String, String)"
+							    (object Message "viewmensajesistemaShow(mensajeSistema : String, botonTexto : String, botonLink : String, tipo : String)"
 								quid       	"54D220C30196"
 								frequency  	"Aperiodic"
 								synchronization 	"Simple"
 								dir        	"FromClientToSupplier"
-								sequence   	"2.1.4.1.1.3.5.3.3.1.1.1"
+								sequence   	"1.3.1.1.3.1.4.1.1.3.5.3.3.1.1.1"
 								ordinal    	36
 								quidu      	"54D1CB25037B"
 								creation   	FALSE)))
@@ -35417,7 +35417,7 @@
 								ordinal    	3
 								quidu      	"000000000000"
 								creation   	FALSE)
-							    (object Message "ValidarbtnprosecoProfrescoProcongeladoBebProdesGeninforinvenAgregpro(String, String, String, String, String, String, String)"
+							    (object Message "ValidarbtnprosecoProfrescoProcongeladoBebProdesGeninforinvenAgregpro(btnproductossecos : String, btnproductosfrescos : String, btnproductoscongelados : String, btnbebidas : String, btnproductosdespensa : String, btngenerarinformeinventario : String, btnagregarproducto : String)"
 								quid       	"54D1CCEA02A0"
 								frequency  	"Aperiodic"
 								synchronization 	"Simple"
@@ -35431,7 +35431,7 @@
 								frequency  	"Aperiodic"
 								synchronization 	"Simple"
 								dir        	"FromClientToSupplier"
-								sequence   	"2.1.4.1.1.3.5.2"
+								sequence   	"1.3.1.1.3.1.4.1.1.3.5.2"
 								ordinal    	28
 								quidu      	"54D20FFE036B"
 								creation   	FALSE)))
@@ -35445,7 +35445,7 @@
 								frequency  	"Aperiodic"
 								synchronization 	"Simple"
 								dir        	"FromClientToSupplier"
-								sequence   	"2.1.3"
+								sequence   	"1.3.1.1.3.1.3"
 								ordinal    	13
 								quidu      	"54D1CFE103AA"
 								creation   	FALSE)
@@ -35454,7 +35454,7 @@
 								frequency  	"Aperiodic"
 								synchronization 	"Return"
 								dir        	"ToClientFromSupplier"
-								sequence   	"2.1.3.1"
+								sequence   	"1.3.1.1.3.1.3.1"
 								ordinal    	14
 								quidu      	"000000000000"
 								creation   	FALSE)
@@ -35463,7 +35463,7 @@
 								frequency  	"Aperiodic"
 								synchronization 	"Simple"
 								dir        	"FromClientToSupplier"
-								sequence   	"3"
+								sequence   	"1.3.1.1.2"
 								ordinal    	7
 								quidu      	"54D1CFE103AA"
 								creation   	FALSE)
@@ -35472,7 +35472,7 @@
 								frequency  	"Aperiodic"
 								synchronization 	"Return"
 								dir        	"ToClientFromSupplier"
-								sequence   	"3.1"
+								sequence   	"1.3.1.1.2.1"
 								ordinal    	8
 								quidu      	"000000000000"
 								creation   	FALSE)
@@ -35481,7 +35481,7 @@
 								frequency  	"Aperiodic"
 								synchronization 	"Simple"
 								dir        	"FromClientToSupplier"
-								sequence   	"2.1.4.1.1.3.5.3.2"
+								sequence   	"1.3.1.1.3.1.4.1.1.3.5.3.2"
 								ordinal    	31
 								quidu      	"54D1CFE103AA"
 								creation   	FALSE)
@@ -35490,7 +35490,7 @@
 								frequency  	"Aperiodic"
 								synchronization 	"Return"
 								dir        	"ToClientFromSupplier"
-								sequence   	"2.1.4.1.1.3.5.3.2.1"
+								sequence   	"1.3.1.1.3.1.4.1.1.3.5.3.2.1"
 								ordinal    	32
 								quidu      	"000000000000"
 								creation   	FALSE)))
@@ -35499,21 +35499,21 @@
 							supplier   	"$UNNAMED$207"
 							quidu      	"54D1C6B00196"
 							messages   	(list Messages
-							    (object Message "CI_formprodsecosyenlatados(Array)"
+							    (object Message "CI_formprodsecosyenlatados(listacategoriaproducto : Array)"
 								quid       	"54D1D08102A1"
 								frequency  	"Aperiodic"
 								synchronization 	"Simple"
 								dir        	"FromClientToSupplier"
-								sequence   	"2"
+								sequence   	"1.3.1.1.3"
 								ordinal    	9
 								quidu      	"54D1D09D00AC"
 								creation   	FALSE)
-							    (object Message "ValidarbtneditarprosRegresar(String, String)"
+							    (object Message "ValidarbtneditarprosRegresar(btnEditarProductoSeco : String, btnRegresar : String)"
 								quid       	"54D1D13C03D9"
 								frequency  	"Aperiodic"
 								synchronization 	"Simple"
 								dir        	"ToClientFromSupplier"
-								sequence   	"2.1"
+								sequence   	"1.3.1.1.3.1"
 								ordinal    	10
 								quidu      	"54D1D14F0119"
 								creation   	FALSE)))
@@ -35522,21 +35522,21 @@
 							supplier   	"$UNNAMED$214"
 							quidu      	"54D1C718002F"
 							messages   	(list Messages
-							    (object Message "CI_formeditprodsecosyenlatados(Array)"
+							    (object Message "CI_formeditprodsecosyenlatados(listacategoriaproducto : Array)"
 								quid       	"54D1D287033D"
 								frequency  	"Aperiodic"
 								synchronization 	"Simple"
 								dir        	"FromClientToSupplier"
-								sequence   	"2.1.4"
+								sequence   	"1.3.1.1.3.1.4"
 								ordinal    	15
 								quidu      	"54D1D29901A6"
 								creation   	FALSE)
-							    (object Message "ValidarbtnGuardarCancelar(String, String)"
+							    (object Message "ValidarbtnGuardarCancelar(btnCancelar : String, btnGuardar : String)"
 								quid       	"54D1E2650010"
 								frequency  	"Aperiodic"
 								synchronization 	"Simple"
 								dir        	"ToClientFromSupplier"
-								sequence   	"2.1.4.1"
+								sequence   	"1.3.1.1.3.1.4.1"
 								ordinal    	16
 								quidu      	"54D1F40900DB"
 								creation   	FALSE)))
@@ -35549,12 +35549,12 @@
 							supplier   	"$UNNAMED$220"
 							quidu      	"54D1C7EC0187"
 							messages   	(list Messages
-							    (object Message "insertarproducto(Integer, Date)"
+							    (object Message "insertarproducto(cantidad : Integer, fechavencimiento : Date)"
 								quid       	"54D1FCAC039B"
 								frequency  	"Aperiodic"
 								synchronization 	"Simple"
 								dir        	"FromClientToSupplier"
-								sequence   	"2.1.4.1.1.3.2"
+								sequence   	"1.3.1.1.3.1.4.1.1.3.2"
 								ordinal    	22
 								quidu      	"54D1FCB30129"
 								creation   	FALSE)))
@@ -35563,28 +35563,28 @@
 							supplier   	"$UNNAMED$208"
 							quidu      	"54D1C6B901A6"
 							messages   	(list Messages
-							    (object Message "CI_formprodfrescos(Array)"
+							    (object Message "CI_formprodfrescos(listacategoriaproducto : Array)"
 								quid       	"54D21E8A02FE"
 								frequency  	"Aperiodic"
 								synchronization 	"Simple"
 								dir        	"FromClientToSupplier"
-								sequence   	"2.1.4.1.1.3.5.3.3"
+								sequence   	"1.3.1.1.3.1.4.1.1.3.5.3.3"
 								ordinal    	33
 								quidu      	"54D21E8F02B0"
 								creation   	FALSE)
-							    (object Message "ValidarbtneditarprofRegresar(String, String)"
+							    (object Message "ValidarbtneditarprofRegresar(btnEditarProductoFresco : String, btnRegresar : String)"
 								quid       	"54D21ED9030D"
 								frequency  	"Aperiodic"
 								synchronization 	"Simple"
 								dir        	"ToClientFromSupplier"
-								sequence   	"2.1.4.1.1.3.5.3.3.1"
+								sequence   	"1.3.1.1.3.1.4.1.1.3.5.3.3.1"
 								ordinal    	34
 								quidu      	"54D21F210187"
 								creation   	FALSE))))
 						class      	"Logical View::Analysis Model::realizacion modelo logistica::controllers::CC_gestionInventario"
 						quidu      	"54D1B62E02FE"
 						persistence 	"Transient"
-						creationObj 	TRUE
+						creationObj 	FALSE
 						multi      	FALSE)
 					    (object Object "$UNNAMED$220"
 						quid       	"54D1C7EC0187"
@@ -35599,28 +35599,28 @@
 								frequency  	"Aperiodic"
 								synchronization 	"Return"
 								dir        	"FromClientToSupplier"
-								sequence   	"2.1.4.1.1.3.2.1"
+								sequence   	"1.3.1.1.3.1.4.1.1.3.2.1"
 								ordinal    	23
 								quidu      	"000000000000"
 								creation   	FALSE))))
 						class      	"Logical View::Analysis Model::realizacion modelo logistica::entities::CE_producto"
 						quidu      	"54D1B65C0010"
 						persistence 	"Transient"
-						creationObj 	TRUE
+						creationObj 	FALSE
 						multi      	FALSE)
 					    (object Object "$UNNAMED$219"
 						quid       	"54D1C7F300DB"
 						class      	"Logical View::Analysis Model::realizacion modelo logistica::entities::CE_categoriaProducto"
 						quidu      	"54D1B65D0129"
 						persistence 	"Transient"
-						creationObj 	TRUE
+						creationObj 	FALSE
 						multi      	FALSE)
 					    (object Object "$UNNAMED$221"
 						quid       	"54D1C7FE01B6"
 						class      	"Logical View::Analysis Model::realizacion modelo logistica::entities::CE_categoria"
 						quidu      	"54D1B65E0290"
 						persistence 	"Transient"
-						creationObj 	TRUE
+						creationObj 	FALSE
 						multi      	FALSE))))
 				logical_presentations 	(list unit_reference_list
 				    (object ClassDiagram "ODAEmitirInformeInventario"
@@ -35632,7 +35632,35 @@
 					origin_x   	0
 					origin_y   	263
 					items      	(list diagram_item_list
-					    (object ClassView "Class" "Logical View::Analysis Model::realizacion modelo logistica::entities::CE_producto" @1558
+					    (object ClassView "Class" "Use Case View::Use-Case Model::Actors::usuario sistema" @1558
+						ShowCompartmentStereotypes 	TRUE
+						IncludeAttribute 	TRUE
+						IncludeOperation 	TRUE
+						location   	(192, 1520)
+						font       	(object Font
+						    size       	9
+						    face       	"Arial"
+						    bold       	FALSE
+						    italics    	FALSE
+						    underline  	FALSE
+						    strike     	FALSE
+						    color      	0
+						    default_color 	TRUE)
+						label      	(object ItemLabel
+						    Parent_View 	@1558
+						    location   	(192, 1680)
+						    anchor_loc 	1
+						    nlines     	2
+						    max_width  	325
+						    justify    	0
+						    label      	"usuario sistema")
+						icon       	"Actor"
+						icon_style 	"Icon"
+						line_color 	3342489
+						quidu      	"5B21F82D032C"
+						annotation 	8
+						autoResize 	TRUE)
+					    (object ClassView "Class" "Logical View::Analysis Model::realizacion modelo logistica::entities::CE_producto" @1559
 						ShowCompartmentStereotypes 	TRUE
 						IncludeAttribute 	TRUE
 						IncludeOperation 	TRUE
@@ -35647,7 +35675,7 @@
 						    color      	0
 						    default_color 	TRUE)
 						label      	(object ItemLabel
-						    Parent_View 	@1558
+						    Parent_View 	@1559
 						    location   	(4528, 1084)
 						    anchor_loc 	1
 						    nlines     	2
@@ -35659,27 +35687,10 @@
 						line_color 	3342489
 						fill_color 	13434879
 						quidu      	"54D1B65C0010"
-						compartment 	(object Compartment
-						    Parent_View 	@1558
-						    location   	(4355, 1165)
-						    font       	(object Font
-							size       	9
-							face       	"Arial"
-							bold       	FALSE
-							italics    	FALSE
-							underline  	FALSE
-							strike     	FALSE
-							color      	0
-							default_color 	TRUE)
-						    icon_style 	"Icon"
-						    anchor     	2
-						    nlines     	2
-						    max_width  	344
-						    justify    	0)
 						height     	154
 						annotation 	8
 						autoResize 	TRUE)
-					    (object ClassView "Class" "Logical View::Analysis Model::realizacion modelo logistica::entities::CE_categoriaProducto" @1559
+					    (object ClassView "Class" "Logical View::Analysis Model::realizacion modelo logistica::entities::CE_categoriaProducto" @1560
 						ShowCompartmentStereotypes 	TRUE
 						IncludeAttribute 	TRUE
 						IncludeOperation 	TRUE
@@ -35694,7 +35705,7 @@
 						    color      	0
 						    default_color 	TRUE)
 						label      	(object ItemLabel
-						    Parent_View 	@1559
+						    Parent_View 	@1560
 						    location   	(4480, 1660)
 						    anchor_loc 	1
 						    nlines     	2
@@ -35706,27 +35717,10 @@
 						line_color 	3342489
 						fill_color 	13434879
 						quidu      	"54D1B65D0129"
-						compartment 	(object Compartment
-						    Parent_View 	@1559
-						    location   	(4230, 1741)
-						    font       	(object Font
-							size       	9
-							face       	"Arial"
-							bold       	FALSE
-							italics    	FALSE
-							underline  	FALSE
-							strike     	FALSE
-							color      	0
-							default_color 	TRUE)
-						    icon_style 	"Icon"
-						    anchor     	2
-						    nlines     	2
-						    max_width  	497
-						    justify    	0)
 						height     	154
 						annotation 	8
 						autoResize 	TRUE)
-					    (object ClassView "Class" "Logical View::Analysis Model::realizacion modelo logistica::entities::CE_categoria" @1560
+					    (object ClassView "Class" "Logical View::Analysis Model::realizacion modelo logistica::entities::CE_categoria" @1561
 						ShowCompartmentStereotypes 	TRUE
 						IncludeAttribute 	TRUE
 						IncludeOperation 	TRUE
@@ -35741,7 +35735,7 @@
 						    color      	0
 						    default_color 	TRUE)
 						label      	(object ItemLabel
-						    Parent_View 	@1560
+						    Parent_View 	@1561
 						    location   	(4496, 2268)
 						    anchor_loc 	1
 						    nlines     	2
@@ -35756,7 +35750,7 @@
 						height     	154
 						annotation 	8
 						autoResize 	TRUE)
-					    (object ClassView "Class" "Logical View::Analysis Model::realizacion modelo logistica::boundarys::CI_formprodcongelados" @1561
+					    (object ClassView "Class" "Logical View::Analysis Model::realizacion modelo logistica::boundarys::CI_formprodcongelados" @1562
 						ShowCompartmentStereotypes 	TRUE
 						IncludeAttribute 	TRUE
 						IncludeOperation 	TRUE
@@ -35771,7 +35765,7 @@
 						    color      	0
 						    default_color 	TRUE)
 						label      	(object ItemLabel
-						    Parent_View 	@1561
+						    Parent_View 	@1562
 						    location   	(559, 1308)
 						    anchor_loc 	1
 						    nlines     	2
@@ -35787,7 +35781,7 @@
 						height     	154
 						annotation 	8
 						autoResize 	TRUE)
-					    (object ClassView "Class" "Logical View::Analysis Model::realizacion modelo logistica::boundarys::CI_formprodfrescos" @1562
+					    (object ClassView "Class" "Logical View::Analysis Model::realizacion modelo logistica::boundarys::CI_formprodfrescos" @1563
 						ShowCompartmentStereotypes 	TRUE
 						IncludeAttribute 	TRUE
 						IncludeOperation 	TRUE
@@ -35802,7 +35796,7 @@
 						    color      	0
 						    default_color 	TRUE)
 						label      	(object ItemLabel
-						    Parent_View 	@1562
+						    Parent_View 	@1563
 						    location   	(543, 1004)
 						    anchor_loc 	1
 						    nlines     	2
@@ -35814,53 +35808,8 @@
 						line_color 	3342489
 						fill_color 	13434879
 						quidu      	"54D1B6340233"
-						compartment 	(object Compartment
-						    Parent_View 	@1562
-						    location   	(339, 1085)
-						    font       	(object Font
-							size       	9
-							face       	"Arial"
-							bold       	FALSE
-							italics    	FALSE
-							underline  	FALSE
-							strike     	FALSE
-							color      	0
-							default_color 	TRUE)
-						    icon_style 	"Icon"
-						    anchor     	2
-						    nlines     	2
-						    max_width  	406
-						    justify    	0)
 						width      	230
 						height     	154
-						annotation 	8
-						autoResize 	TRUE)
-					    (object ClassView "Class" "Use Case View::Use-Case Model::Actors::usuario sistema" @1563
-						ShowCompartmentStereotypes 	TRUE
-						IncludeAttribute 	TRUE
-						IncludeOperation 	TRUE
-						location   	(192, 1520)
-						font       	(object Font
-						    size       	9
-						    face       	"Arial"
-						    bold       	FALSE
-						    italics    	FALSE
-						    underline  	FALSE
-						    strike     	FALSE
-						    color      	0
-						    default_color 	TRUE)
-						label      	(object ItemLabel
-						    Parent_View 	@1563
-						    location   	(192, 1680)
-						    anchor_loc 	1
-						    nlines     	2
-						    max_width  	328
-						    justify    	0
-						    label      	"usuario sistema")
-						icon       	"Actor"
-						icon_style 	"Icon"
-						line_color 	3342489
-						quidu      	"5B21F82D032C"
 						annotation 	8
 						autoResize 	TRUE)
 					    (object ClassView "Class" "Logical View::Analysis Model::realizacion modelo logistica::boundarys::CI_formgestionInventario" @1564
@@ -35890,23 +35839,6 @@
 						line_color 	3342489
 						fill_color 	13434879
 						quidu      	"54D1B631007D"
-						compartment 	(object Compartment
-						    Parent_View 	@1564
-						    location   	(281, 1757)
-						    font       	(object Font
-							size       	9
-							face       	"Arial"
-							bold       	FALSE
-							italics    	FALSE
-							underline  	FALSE
-							strike     	FALSE
-							color      	0
-							default_color 	TRUE)
-						    icon_style 	"Icon"
-						    anchor     	2
-						    nlines     	3
-						    max_width  	585
-						    justify    	0)
 						width      	230
 						height     	154
 						annotation 	8
@@ -35936,7 +35868,7 @@
 							supplier   	@1564
 							vertices   	(list Points
 							    (355, 1520)
-							    (462, 1520))
+							    (461, 1520))
 							line_style 	0)
 						    (object RoleView "" @1567
 							Parent_View 	@1565
@@ -35945,7 +35877,7 @@
 							line_color 	3342489
 							quidu      	"54D1B7E8015A"
 							client     	@1565
-							supplier   	@1563
+							supplier   	@1558
 							vertices   	(list Points
 							    (355, 1520)
 							    (249, 1520))
@@ -36101,23 +36033,6 @@
 						line_color 	3342489
 						fill_color 	13434879
 						quidu      	"54D1B63301A6"
-						compartment 	(object Compartment
-						    Parent_View 	@1572
-						    location   	(275, 781)
-						    font       	(object Font
-							size       	9
-							face       	"Arial"
-							bold       	FALSE
-							italics    	FALSE
-							underline  	FALSE
-							strike     	FALSE
-							color      	0
-							default_color 	TRUE)
-						    icon_style 	"Icon"
-						    anchor     	2
-						    nlines     	2
-						    max_width  	566
-						    justify    	0)
 						width      	230
 						height     	154
 						annotation 	8
@@ -36211,23 +36126,6 @@
 						line_color 	3342489
 						fill_color 	13434879
 						quidu      	"54D1B7260139"
-						compartment 	(object Compartment
-						    Parent_View 	@1575
-						    location   	(661, 4077)
-						    font       	(object Font
-							size       	9
-							face       	"Arial"
-							bold       	FALSE
-							italics    	FALSE
-							underline  	FALSE
-							strike     	FALSE
-							color      	0
-							default_color 	TRUE)
-						    icon_style 	"Icon"
-						    anchor     	2
-						    nlines     	2
-						    max_width  	625
-						    justify    	0)
 						width      	230
 						height     	154
 						annotation 	8
@@ -36294,678 +36192,7 @@
 						height     	154
 						annotation 	8
 						autoResize 	TRUE)
-					    (object ClassView "Class" "Logical View::Analysis Model::realizacion modelo logistica::controllers::CC_gestionInventario" @1578
-						ShowCompartmentStereotypes 	TRUE
-						IncludeAttribute 	TRUE
-						IncludeOperation 	TRUE
-						location   	(2848, 1584)
-						font       	(object Font
-						    size       	9
-						    face       	"Arial"
-						    bold       	FALSE
-						    italics    	FALSE
-						    underline  	FALSE
-						    strike     	FALSE
-						    color      	0
-						    default_color 	TRUE)
-						label      	(object ItemLabel
-						    Parent_View 	@1578
-						    location   	(2847, 1745)
-						    anchor_loc 	1
-						    nlines     	2
-						    max_width  	436
-						    justify    	0
-						    label      	"CC_gestionInventario")
-						icon       	"control"
-						icon_style 	"Icon"
-						line_color 	3342489
-						fill_color 	13434879
-						quidu      	"54D1B62E02FE"
-						compartment 	(object Compartment
-						    Parent_View 	@1578
-						    location   	(2180, 1826)
-						    font       	(object Font
-							size       	9
-							face       	"Arial"
-							bold       	FALSE
-							italics    	FALSE
-							underline  	FALSE
-							strike     	FALSE
-							color      	0
-							default_color 	TRUE)
-						    icon_style 	"Icon"
-						    anchor     	2
-						    nlines     	15
-						    max_width  	1329
-						    justify    	0)
-						width      	158
-						annotation 	8
-						autoResize 	TRUE)
-					    (object AssociationViewNew "" @1579
-						location   	(3688, 1251)
-						font       	(object Font
-						    size       	9
-						    face       	"Arial"
-						    bold       	FALSE
-						    italics    	FALSE
-						    underline  	FALSE
-						    strike     	FALSE
-						    color      	0
-						    default_color 	TRUE)
-						stereotype 	TRUE
-						line_color 	3342489
-						quidu      	"54D1B7BA01D5"
-						roleview_list 	(list RoleViews
-						    (object RoleView "" @1580
-							Parent_View 	@1579
-							location   	(2536, 115)
-							stereotype 	TRUE
-							line_color 	3342489
-							quidu      	"54D1B7BA03C9"
-							client     	@1579
-							supplier   	@1558
-							vertices   	(list Points
-							    (3688, 1251)
-							    (4452, 952))
-							line_style 	0)
-						    (object RoleView "" @1581
-							Parent_View 	@1579
-							location   	(2536, 115)
-							stereotype 	TRUE
-							line_color 	3342489
-							quidu      	"54D1B7BA03CB"
-							client     	@1579
-							supplier   	@1578
-							vertices   	(list Points
-							    (3688, 1251)
-							    (2924, 1550))
-							line_style 	0)))
-					    (object AssociationViewNew "" @1582
-						location   	(3664, 1541)
-						font       	(object Font
-						    size       	9
-						    face       	"Arial"
-						    bold       	FALSE
-						    italics    	FALSE
-						    underline  	FALSE
-						    strike     	FALSE
-						    color      	0
-						    default_color 	TRUE)
-						stereotype 	TRUE
-						line_color 	3342489
-						quidu      	"54D1B7C9036B"
-						roleview_list 	(list RoleViews
-						    (object RoleView "" @1583
-							Parent_View 	@1582
-							location   	(2512, 405)
-							stereotype 	TRUE
-							line_color 	3342489
-							quidu      	"54D1B7CA0139"
-							client     	@1582
-							supplier   	@1559
-							vertices   	(list Points
-							    (3664, 1541)
-							    (4404, 1505))
-							line_style 	0)
-						    (object RoleView "" @1584
-							Parent_View 	@1582
-							location   	(2512, 405)
-							stereotype 	TRUE
-							line_color 	3342489
-							quidu      	"54D1B7CA013B"
-							client     	@1582
-							supplier   	@1578
-							vertices   	(list Points
-							    (3664, 1541)
-							    (2924, 1577))
-							line_style 	0)))
-					    (object AssociationViewNew "" @1585
-						location   	(3672, 1845)
-						font       	(object Font
-						    size       	9
-						    face       	"Arial"
-						    bold       	FALSE
-						    italics    	FALSE
-						    underline  	FALSE
-						    strike     	FALSE
-						    color      	0
-						    default_color 	TRUE)
-						stereotype 	TRUE
-						line_color 	3342489
-						quidu      	"54D1B7D9031D"
-						roleview_list 	(list RoleViews
-						    (object RoleView "" @1586
-							Parent_View 	@1585
-							location   	(2520, 709)
-							stereotype 	TRUE
-							line_color 	3342489
-							quidu      	"54D1B7DA01A6"
-							client     	@1585
-							supplier   	@1560
-							vertices   	(list Points
-							    (3672, 1845)
-							    (4420, 2085))
-							line_style 	0)
-						    (object RoleView "" @1587
-							Parent_View 	@1585
-							location   	(2520, 709)
-							stereotype 	TRUE
-							line_color 	3342489
-							quidu      	"54D1B7DA01B6"
-							client     	@1585
-							supplier   	@1578
-							vertices   	(list Points
-							    (3672, 1845)
-							    (2924, 1606))
-							line_style 	0)))
-					    (object AssociationViewNew "" @1588
-						location   	(1721, 1368)
-						font       	(object Font
-						    size       	9
-						    face       	"Arial"
-						    bold       	FALSE
-						    italics    	FALSE
-						    underline  	FALSE
-						    strike     	FALSE
-						    color      	0
-						    default_color 	TRUE)
-						stereotype 	TRUE
-						line_color 	3342489
-						quidu      	"54D1B7DD002F"
-						roleview_list 	(list RoleViews
-						    (object RoleView "" @1589
-							Parent_View 	@1588
-							location   	(569, 232)
-							stereotype 	TRUE
-							line_color 	3342489
-							quidu      	"54D1B7DD03D9"
-							client     	@1588
-							supplier   	@1561
-							vertices   	(list Points
-							    (1721, 1368)
-							    (672, 1171))
-							line_style 	0)
-						    (object RoleView "" @1590
-							Parent_View 	@1588
-							location   	(569, 232)
-							stereotype 	TRUE
-							line_color 	3342489
-							quidu      	"54D1B7DD03DB"
-							client     	@1588
-							supplier   	@1578
-							vertices   	(list Points
-							    (1721, 1368)
-							    (2770, 1566))
-							line_style 	0)))
-					    (object AssociationViewNew "" @1591
-						location   	(1713, 1219)
-						font       	(object Font
-						    size       	9
-						    face       	"Arial"
-						    bold       	FALSE
-						    italics    	FALSE
-						    underline  	FALSE
-						    strike     	FALSE
-						    color      	0
-						    default_color 	TRUE)
-						stereotype 	TRUE
-						line_color 	3342489
-						quidu      	"54D1B7E10010"
-						roleview_list 	(list RoleViews
-						    (object RoleView "" @1592
-							Parent_View 	@1591
-							location   	(561, 83)
-							stereotype 	TRUE
-							line_color 	3342489
-							quidu      	"54D1B7E102DF"
-							client     	@1591
-							supplier   	@1562
-							vertices   	(list Points
-							    (1713, 1219)
-							    (656, 882))
-							line_style 	0)
-						    (object RoleView "" @1593
-							Parent_View 	@1591
-							location   	(561, 83)
-							stereotype 	TRUE
-							line_color 	3342489
-							quidu      	"54D1B7E102E1"
-							client     	@1591
-							supplier   	@1578
-							vertices   	(list Points
-							    (1713, 1219)
-							    (2770, 1556))
-							line_style 	0)))
-					    (object AssociationViewNew "" @1594
-						location   	(1729, 1549)
-						font       	(object Font
-						    size       	9
-						    face       	"Arial"
-						    bold       	FALSE
-						    italics    	FALSE
-						    underline  	FALSE
-						    strike     	FALSE
-						    color      	0
-						    default_color 	TRUE)
-						stereotype 	TRUE
-						line_color 	3342489
-						quidu      	"54D1B7E501B6"
-						roleview_list 	(list RoleViews
-						    (object RoleView "" @1595
-							Parent_View 	@1594
-							location   	(1169, 413)
-							stereotype 	TRUE
-							line_color 	3342489
-							quidu      	"54D1B7E60000"
-							client     	@1594
-							supplier   	@1578
-							vertices   	(list Points
-							    (1729, 1549)
-							    (2770, 1579))
-							line_style 	0)
-						    (object RoleView "" @1596
-							Parent_View 	@1594
-							location   	(1169, 413)
-							stereotype 	TRUE
-							line_color 	3342489
-							quidu      	"54D1B7E60002"
-							client     	@1594
-							supplier   	@1564
-							vertices   	(list Points
-							    (1729, 1549)
-							    (688, 1520))
-							line_style 	0)))
-					    (object AssociationViewNew "" @1597
-						location   	(1697, 1896)
-						font       	(object Font
-						    size       	9
-						    face       	"Arial"
-						    bold       	FALSE
-						    italics    	FALSE
-						    underline  	FALSE
-						    strike     	FALSE
-						    color      	0
-						    default_color 	TRUE)
-						stereotype 	TRUE
-						line_color 	3342489
-						quidu      	"54D1B7EC008D"
-						roleview_list 	(list RoleViews
-						    (object RoleView "" @1598
-							Parent_View 	@1597
-							location   	(545, 760)
-							stereotype 	TRUE
-							line_color 	3342489
-							quidu      	"54D1B7EC036B"
-							client     	@1597
-							supplier   	@1568
-							vertices   	(list Points
-							    (1697, 1896)
-							    (624, 2190))
-							line_style 	0)
-						    (object RoleView "" @1599
-							Parent_View 	@1597
-							location   	(545, 760)
-							stereotype 	TRUE
-							line_color 	3342489
-							quidu      	"54D1B7EC036D"
-							client     	@1597
-							supplier   	@1578
-							vertices   	(list Points
-							    (1697, 1896)
-							    (2770, 1602))
-							line_style 	0)))
-					    (object AssociationViewNew "" @1600
-						location   	(1697, 1714)
-						font       	(object Font
-						    size       	9
-						    face       	"Arial"
-						    bold       	FALSE
-						    italics    	FALSE
-						    underline  	FALSE
-						    strike     	FALSE
-						    color      	0
-						    default_color 	TRUE)
-						stereotype 	TRUE
-						line_color 	3342489
-						quidu      	"54D1B7EE01C5"
-						roleview_list 	(list RoleViews
-						    (object RoleView "" @1601
-							Parent_View 	@1600
-							location   	(545, 578)
-							stereotype 	TRUE
-							line_color 	3342489
-							quidu      	"54D1B7EF00BC"
-							client     	@1600
-							supplier   	@1569
-							vertices   	(list Points
-							    (1697, 1714)
-							    (624, 1839))
-							line_style 	0)
-						    (object RoleView "" @1602
-							Parent_View 	@1600
-							location   	(545, 578)
-							stereotype 	TRUE
-							line_color 	3342489
-							quidu      	"54D1B7EF00BE"
-							client     	@1600
-							supplier   	@1578
-							vertices   	(list Points
-							    (1697, 1714)
-							    (2770, 1590))
-							line_style 	0)))
-					    (object AssociationViewNew "" @1603
-						location   	(1401, 2196)
-						font       	(object Font
-						    size       	9
-						    face       	"Arial"
-						    bold       	FALSE
-						    italics    	FALSE
-						    underline  	FALSE
-						    strike     	FALSE
-						    color      	0
-						    default_color 	TRUE)
-						stereotype 	TRUE
-						line_color 	3342489
-						quidu      	"54D1B7F002EE"
-						roleview_list 	(list RoleViews
-						    (object RoleView "" @1604
-							Parent_View 	@1603
-							location   	(249, 1060)
-							stereotype 	TRUE
-							line_color 	3342489
-							quidu      	"54D1B7F102EE"
-							client     	@1603
-							supplier   	@1570
-							vertices   	(list Points
-							    (1401, 2196)
-							    (624, 2525))
-							line_style 	0)
-						    (object RoleView "" @1605
-							Parent_View 	@1603
-							location   	(249, 1060)
-							stereotype 	TRUE
-							line_color 	3342489
-							quidu      	"54D1B7F102FE"
-							client     	@1603
-							supplier   	@1578
-							vertices   	(list Points
-							    (1401, 2196)
-							    (2178, 1867))
-							line_style 	0)))
-					    (object AssociationViewNew "" @1606
-						location   	(1417, 2417)
-						font       	(object Font
-						    size       	9
-						    face       	"Arial"
-						    bold       	FALSE
-						    italics    	FALSE
-						    underline  	FALSE
-						    strike     	FALSE
-						    color      	0
-						    default_color 	TRUE)
-						stereotype 	TRUE
-						line_color 	3342489
-						quidu      	"54D1B7F30129"
-						roleview_list 	(list RoleViews
-						    (object RoleView "" @1607
-							Parent_View 	@1606
-							location   	(265, 1281)
-							stereotype 	TRUE
-							line_color 	3342489
-							quidu      	"54D1B7F40010"
-							client     	@1606
-							supplier   	@1571
-							vertices   	(list Points
-							    (1417, 2417)
-							    (656, 2859))
-							line_style 	0)
-						    (object RoleView "" @1608
-							Parent_View 	@1606
-							location   	(265, 1281)
-							stereotype 	TRUE
-							line_color 	3342489
-							quidu      	"54D1B7F40012"
-							client     	@1606
-							supplier   	@1578
-							vertices   	(list Points
-							    (1417, 2417)
-							    (2178, 1975))
-							line_style 	0)))
-					    (object AssociationViewNew "" @1609
-						location   	(1789, 1101)
-						font       	(object Font
-						    size       	9
-						    face       	"Arial"
-						    bold       	FALSE
-						    italics    	FALSE
-						    underline  	FALSE
-						    strike     	FALSE
-						    color      	0
-						    default_color 	TRUE)
-						stereotype 	TRUE
-						line_color 	3342489
-						quidu      	"54D1B7F80129"
-						roleview_list 	(list RoleViews
-						    (object RoleView "" @1610
-							Parent_View 	@1609
-							location   	(637, -35)
-							stereotype 	TRUE
-							line_color 	3342489
-							quidu      	"54D1B7F9003F"
-							client     	@1609
-							supplier   	@1572
-							vertices   	(list Points
-							    (1789, 1101)
-							    (809, 655))
-							line_style 	0)
-						    (object RoleView "" @1611
-							Parent_View 	@1609
-							location   	(637, -35)
-							stereotype 	TRUE
-							line_color 	3342489
-							quidu      	"54D1B7F90041"
-							client     	@1609
-							supplier   	@1578
-							vertices   	(list Points
-							    (1789, 1101)
-							    (2770, 1547))
-							line_style 	0)))
-					    (object AssociationViewNew "" @1612
-						location   	(2014, 904)
-						font       	(object Font
-						    size       	9
-						    face       	"Arial"
-						    bold       	FALSE
-						    italics    	FALSE
-						    underline  	FALSE
-						    strike     	FALSE
-						    color      	0
-						    default_color 	TRUE)
-						stereotype 	TRUE
-						line_color 	3342489
-						quidu      	"54D1BC0002CF"
-						roleview_list 	(list RoleViews
-						    (object RoleView "" @1613
-							Parent_View 	@1612
-							location   	(862, -232)
-							stereotype 	TRUE
-							line_color 	3342489
-							quidu      	"54D1BC0100DB"
-							client     	@1612
-							supplier   	@1573
-							vertices   	(list Points
-							    (2014, 904)
-							    (1261, 291))
-							line_style 	0)
-						    (object RoleView "" @1614
-							Parent_View 	@1612
-							location   	(862, -232)
-							stereotype 	TRUE
-							line_color 	3342489
-							quidu      	"54D1BC0100EB"
-							client     	@1612
-							supplier   	@1578
-							vertices   	(list Points
-							    (2014, 904)
-							    (2768, 1518))
-							line_style 	0)))
-					    (object AssociationViewNew "" @1615
-						location   	(1820, 963)
-						font       	(object Font
-						    size       	9
-						    face       	"Arial"
-						    bold       	FALSE
-						    italics    	FALSE
-						    underline  	FALSE
-						    strike     	FALSE
-						    color      	0
-						    default_color 	TRUE)
-						stereotype 	TRUE
-						line_color 	3342489
-						quidu      	"54D1BC0300DB"
-						roleview_list 	(list RoleViews
-						    (object RoleView "" @1616
-							Parent_View 	@1615
-							location   	(668, -173)
-							stereotype 	TRUE
-							line_color 	3342489
-							quidu      	"54D1BC0303C9"
-							client     	@1615
-							supplier   	@1574
-							vertices   	(list Points
-							    (1820, 963)
-							    (871, 391))
-							line_style 	0)
-						    (object RoleView "" @1617
-							Parent_View 	@1615
-							location   	(668, -173)
-							stereotype 	TRUE
-							line_color 	3342489
-							quidu      	"54D1BC0303CB"
-							client     	@1615
-							supplier   	@1578
-							vertices   	(list Points
-							    (1820, 963)
-							    (2770, 1536))
-							line_style 	0)))
-					    (object AssociationViewNew "" @1618
-						location   	(1606, 3078)
-						font       	(object Font
-						    size       	9
-						    face       	"Arial"
-						    bold       	FALSE
-						    italics    	FALSE
-						    underline  	FALSE
-						    strike     	FALSE
-						    color      	0
-						    default_color 	TRUE)
-						stereotype 	TRUE
-						line_color 	3342489
-						quidu      	"54D1BC0503C9"
-						roleview_list 	(list RoleViews
-						    (object RoleView "" @1619
-							Parent_View 	@1618
-							location   	(454, 1942)
-							stereotype 	TRUE
-							line_color 	3342489
-							quidu      	"54D1BC06032D"
-							client     	@1618
-							supplier   	@1575
-							vertices   	(list Points
-							    (1606, 3078)
-							    (1034, 3764))
-							line_style 	0)
-						    (object RoleView "" @1620
-							Parent_View 	@1618
-							location   	(454, 1942)
-							stereotype 	TRUE
-							line_color 	3342489
-							quidu      	"54D1BC06032F"
-							client     	@1618
-							supplier   	@1578
-							vertices   	(list Points
-							    (1606, 3078)
-							    (2178, 2392))
-							line_style 	0)))
-					    (object AssociationViewNew "" @1621
-						location   	(1495, 2831)
-						font       	(object Font
-						    size       	9
-						    face       	"Arial"
-						    bold       	FALSE
-						    italics    	FALSE
-						    underline  	FALSE
-						    strike     	FALSE
-						    color      	0
-						    default_color 	TRUE)
-						stereotype 	TRUE
-						line_color 	3342489
-						quidu      	"54D1BC0803B9"
-						roleview_list 	(list RoleViews
-						    (object RoleView "" @1622
-							Parent_View 	@1621
-							location   	(343, 1695)
-							stereotype 	TRUE
-							line_color 	3342489
-							quidu      	"54D1BC0901B6"
-							client     	@1621
-							supplier   	@1576
-							vertices   	(list Points
-							    (1495, 2831)
-							    (812, 3459))
-							line_style 	0)
-						    (object RoleView "" @1623
-							Parent_View 	@1621
-							location   	(343, 1695)
-							stereotype 	TRUE
-							line_color 	3342489
-							quidu      	"54D1BC0901B8"
-							client     	@1621
-							supplier   	@1578
-							vertices   	(list Points
-							    (1495, 2831)
-							    (2178, 2203))
-							line_style 	0)))
-					    (object AssociationViewNew "" @1624
-						location   	(1443, 2605)
-						font       	(object Font
-						    size       	9
-						    face       	"Arial"
-						    bold       	FALSE
-						    italics    	FALSE
-						    underline  	FALSE
-						    strike     	FALSE
-						    color      	0
-						    default_color 	TRUE)
-						stereotype 	TRUE
-						line_color 	3342489
-						quidu      	"54D1BC0B03C9"
-						roleview_list 	(list RoleViews
-						    (object RoleView "" @1625
-							Parent_View 	@1624
-							location   	(291, 1469)
-							stereotype 	TRUE
-							line_color 	3342489
-							quidu      	"54D1BC0C02CF"
-							client     	@1624
-							supplier   	@1577
-							vertices   	(list Points
-							    (1443, 2605)
-							    (708, 3140))
-							line_style 	0)
-						    (object RoleView "" @1626
-							Parent_View 	@1624
-							location   	(291, 1469)
-							stereotype 	TRUE
-							line_color 	3342489
-							quidu      	"54D1BC0C02D1"
-							client     	@1624
-							supplier   	@1578
-							vertices   	(list Points
-							    (1443, 2605)
-							    (2178, 2071))
-							line_style 	0)))
-					    (object ClassView "Class" "Logical View::Analysis Model::realizacion modelo logistica::boundarys::CI_viewmensajeSistema" @1627
+					    (object ClassView "Class" "Logical View::Analysis Model::realizacion modelo logistica::boundarys::CI_viewmensajeSistema" @1578
 						ShowCompartmentStereotypes 	TRUE
 						IncludeAttribute 	TRUE
 						IncludeOperation 	TRUE
@@ -36980,7 +36207,7 @@
 						    color      	0
 						    default_color 	TRUE)
 						label      	(object ItemLabel
-						    Parent_View 	@1627
+						    Parent_View 	@1578
 						    location   	(1455, 284)
 						    anchor_loc 	1
 						    nlines     	2
@@ -36992,27 +36219,664 @@
 						line_color 	3342489
 						fill_color 	13434879
 						quidu      	"54D1C61E0252"
-						compartment 	(object Compartment
-						    Parent_View 	@1627
-						    location   	(1191, 365)
-						    font       	(object Font
-							size       	9
-							face       	"Arial"
-							bold       	FALSE
-							italics    	FALSE
-							underline  	FALSE
-							strike     	FALSE
-							color      	0
-							default_color 	TRUE)
-						    icon_style 	"Icon"
-						    anchor     	2
-						    nlines     	2
-						    max_width  	525
-						    justify    	0)
 						width      	230
 						height     	154
 						annotation 	8
 						autoResize 	TRUE)
+					    (object ClassView "Class" "Logical View::Analysis Model::realizacion modelo logistica::controllers::CC_gestionInventario" @1579
+						ShowCompartmentStereotypes 	TRUE
+						IncludeAttribute 	TRUE
+						IncludeOperation 	TRUE
+						location   	(2848, 1584)
+						font       	(object Font
+						    size       	9
+						    face       	"Arial"
+						    bold       	FALSE
+						    italics    	FALSE
+						    underline  	FALSE
+						    strike     	FALSE
+						    color      	0
+						    default_color 	TRUE)
+						label      	(object ItemLabel
+						    Parent_View 	@1579
+						    location   	(2847, 1745)
+						    anchor_loc 	1
+						    nlines     	2
+						    max_width  	436
+						    justify    	0
+						    label      	"CC_gestionInventario")
+						icon       	"control"
+						icon_style 	"Icon"
+						line_color 	3342489
+						fill_color 	13434879
+						quidu      	"54D1B62E02FE"
+						width      	158
+						annotation 	8
+						autoResize 	TRUE)
+					    (object AssociationViewNew "" @1580
+						location   	(3688, 1251)
+						font       	(object Font
+						    size       	9
+						    face       	"Arial"
+						    bold       	FALSE
+						    italics    	FALSE
+						    underline  	FALSE
+						    strike     	FALSE
+						    color      	0
+						    default_color 	TRUE)
+						stereotype 	TRUE
+						line_color 	3342489
+						quidu      	"54D1B7BA01D5"
+						roleview_list 	(list RoleViews
+						    (object RoleView "" @1581
+							Parent_View 	@1580
+							location   	(2536, 115)
+							stereotype 	TRUE
+							line_color 	3342489
+							quidu      	"54D1B7BA03C9"
+							client     	@1580
+							supplier   	@1559
+							vertices   	(list Points
+							    (3688, 1251)
+							    (4450, 955))
+							line_style 	0)
+						    (object RoleView "" @1582
+							Parent_View 	@1580
+							location   	(2536, 115)
+							stereotype 	TRUE
+							line_color 	3342489
+							quidu      	"54D1B7BA03CB"
+							client     	@1580
+							supplier   	@1579
+							vertices   	(list Points
+							    (3688, 1251)
+							    (2924, 1551))
+							line_style 	0)))
+					    (object AssociationViewNew "" @1583
+						location   	(3664, 1541)
+						font       	(object Font
+						    size       	9
+						    face       	"Arial"
+						    bold       	FALSE
+						    italics    	FALSE
+						    underline  	FALSE
+						    strike     	FALSE
+						    color      	0
+						    default_color 	TRUE)
+						stereotype 	TRUE
+						line_color 	3342489
+						quidu      	"54D1B7C9036B"
+						roleview_list 	(list RoleViews
+						    (object RoleView "" @1584
+							Parent_View 	@1583
+							location   	(2512, 405)
+							stereotype 	TRUE
+							line_color 	3342489
+							quidu      	"54D1B7CA0139"
+							client     	@1583
+							supplier   	@1560
+							vertices   	(list Points
+							    (3664, 1541)
+							    (4403, 1504))
+							line_style 	0)
+						    (object RoleView "" @1585
+							Parent_View 	@1583
+							location   	(2512, 405)
+							stereotype 	TRUE
+							line_color 	3342489
+							quidu      	"54D1B7CA013B"
+							client     	@1583
+							supplier   	@1579
+							vertices   	(list Points
+							    (3664, 1541)
+							    (2924, 1577))
+							line_style 	0)))
+					    (object AssociationViewNew "" @1586
+						location   	(3672, 1845)
+						font       	(object Font
+						    size       	9
+						    face       	"Arial"
+						    bold       	FALSE
+						    italics    	FALSE
+						    underline  	FALSE
+						    strike     	FALSE
+						    color      	0
+						    default_color 	TRUE)
+						stereotype 	TRUE
+						line_color 	3342489
+						quidu      	"54D1B7D9031D"
+						roleview_list 	(list RoleViews
+						    (object RoleView "" @1587
+							Parent_View 	@1586
+							location   	(2520, 709)
+							stereotype 	TRUE
+							line_color 	3342489
+							quidu      	"54D1B7DA01A6"
+							client     	@1586
+							supplier   	@1561
+							vertices   	(list Points
+							    (3672, 1845)
+							    (4419, 2085))
+							line_style 	0)
+						    (object RoleView "" @1588
+							Parent_View 	@1586
+							location   	(2520, 709)
+							stereotype 	TRUE
+							line_color 	3342489
+							quidu      	"54D1B7DA01B6"
+							client     	@1586
+							supplier   	@1579
+							vertices   	(list Points
+							    (3672, 1845)
+							    (2924, 1607))
+							line_style 	0)))
+					    (object AssociationViewNew "" @1589
+						location   	(1721, 1368)
+						font       	(object Font
+						    size       	9
+						    face       	"Arial"
+						    bold       	FALSE
+						    italics    	FALSE
+						    underline  	FALSE
+						    strike     	FALSE
+						    color      	0
+						    default_color 	TRUE)
+						stereotype 	TRUE
+						line_color 	3342489
+						quidu      	"54D1B7DD002F"
+						roleview_list 	(list RoleViews
+						    (object RoleView "" @1590
+							Parent_View 	@1589
+							location   	(569, 232)
+							stereotype 	TRUE
+							line_color 	3342489
+							quidu      	"54D1B7DD03D9"
+							client     	@1589
+							supplier   	@1562
+							vertices   	(list Points
+							    (1721, 1368)
+							    (672, 1170))
+							line_style 	0)
+						    (object RoleView "" @1591
+							Parent_View 	@1589
+							location   	(569, 232)
+							stereotype 	TRUE
+							line_color 	3342489
+							quidu      	"54D1B7DD03DB"
+							client     	@1589
+							supplier   	@1579
+							vertices   	(list Points
+							    (1721, 1368)
+							    (2769, 1568))
+							line_style 	0)))
+					    (object AssociationViewNew "" @1592
+						location   	(1713, 1219)
+						font       	(object Font
+						    size       	9
+						    face       	"Arial"
+						    bold       	FALSE
+						    italics    	FALSE
+						    underline  	FALSE
+						    strike     	FALSE
+						    color      	0
+						    default_color 	TRUE)
+						stereotype 	TRUE
+						line_color 	3342489
+						quidu      	"54D1B7E10010"
+						roleview_list 	(list RoleViews
+						    (object RoleView "" @1593
+							Parent_View 	@1592
+							location   	(561, 83)
+							stereotype 	TRUE
+							line_color 	3342489
+							quidu      	"54D1B7E102DF"
+							client     	@1592
+							supplier   	@1563
+							vertices   	(list Points
+							    (1713, 1219)
+							    (656, 881))
+							line_style 	0)
+						    (object RoleView "" @1594
+							Parent_View 	@1592
+							location   	(561, 83)
+							stereotype 	TRUE
+							line_color 	3342489
+							quidu      	"54D1B7E102E1"
+							client     	@1592
+							supplier   	@1579
+							vertices   	(list Points
+							    (1713, 1219)
+							    (2768, 1556))
+							line_style 	0)))
+					    (object AssociationViewNew "" @1595
+						location   	(1729, 1549)
+						font       	(object Font
+						    size       	9
+						    face       	"Arial"
+						    bold       	FALSE
+						    italics    	FALSE
+						    underline  	FALSE
+						    strike     	FALSE
+						    color      	0
+						    default_color 	TRUE)
+						stereotype 	TRUE
+						line_color 	3342489
+						quidu      	"54D1B7E501B6"
+						roleview_list 	(list RoleViews
+						    (object RoleView "" @1596
+							Parent_View 	@1595
+							location   	(1169, 413)
+							stereotype 	TRUE
+							line_color 	3342489
+							quidu      	"54D1B7E60000"
+							client     	@1595
+							supplier   	@1579
+							vertices   	(list Points
+							    (1729, 1549)
+							    (2769, 1579))
+							line_style 	0)
+						    (object RoleView "" @1597
+							Parent_View 	@1595
+							location   	(1169, 413)
+							stereotype 	TRUE
+							line_color 	3342489
+							quidu      	"54D1B7E60002"
+							client     	@1595
+							supplier   	@1564
+							vertices   	(list Points
+							    (1729, 1549)
+							    (688, 1520))
+							line_style 	0)))
+					    (object AssociationViewNew "" @1598
+						location   	(1697, 1896)
+						font       	(object Font
+						    size       	9
+						    face       	"Arial"
+						    bold       	FALSE
+						    italics    	FALSE
+						    underline  	FALSE
+						    strike     	FALSE
+						    color      	0
+						    default_color 	TRUE)
+						stereotype 	TRUE
+						line_color 	3342489
+						quidu      	"54D1B7EC008D"
+						roleview_list 	(list RoleViews
+						    (object RoleView "" @1599
+							Parent_View 	@1598
+							location   	(545, 760)
+							stereotype 	TRUE
+							line_color 	3342489
+							quidu      	"54D1B7EC036B"
+							client     	@1598
+							supplier   	@1568
+							vertices   	(list Points
+							    (1697, 1896)
+							    (624, 2190))
+							line_style 	0)
+						    (object RoleView "" @1600
+							Parent_View 	@1598
+							location   	(545, 760)
+							stereotype 	TRUE
+							line_color 	3342489
+							quidu      	"54D1B7EC036D"
+							client     	@1598
+							supplier   	@1579
+							vertices   	(list Points
+							    (1697, 1896)
+							    (2770, 1601))
+							line_style 	0)))
+					    (object AssociationViewNew "" @1601
+						location   	(1697, 1714)
+						font       	(object Font
+						    size       	9
+						    face       	"Arial"
+						    bold       	FALSE
+						    italics    	FALSE
+						    underline  	FALSE
+						    strike     	FALSE
+						    color      	0
+						    default_color 	TRUE)
+						stereotype 	TRUE
+						line_color 	3342489
+						quidu      	"54D1B7EE01C5"
+						roleview_list 	(list RoleViews
+						    (object RoleView "" @1602
+							Parent_View 	@1601
+							location   	(545, 578)
+							stereotype 	TRUE
+							line_color 	3342489
+							quidu      	"54D1B7EF00BC"
+							client     	@1601
+							supplier   	@1569
+							vertices   	(list Points
+							    (1697, 1714)
+							    (624, 1839))
+							line_style 	0)
+						    (object RoleView "" @1603
+							Parent_View 	@1601
+							location   	(545, 578)
+							stereotype 	TRUE
+							line_color 	3342489
+							quidu      	"54D1B7EF00BE"
+							client     	@1601
+							supplier   	@1579
+							vertices   	(list Points
+							    (1697, 1714)
+							    (2770, 1590))
+							line_style 	0)))
+					    (object AssociationViewNew "" @1604
+						location   	(1401, 2196)
+						font       	(object Font
+						    size       	9
+						    face       	"Arial"
+						    bold       	FALSE
+						    italics    	FALSE
+						    underline  	FALSE
+						    strike     	FALSE
+						    color      	0
+						    default_color 	TRUE)
+						stereotype 	TRUE
+						line_color 	3342489
+						quidu      	"54D1B7F002EE"
+						roleview_list 	(list RoleViews
+						    (object RoleView "" @1605
+							Parent_View 	@1604
+							location   	(249, 1060)
+							stereotype 	TRUE
+							line_color 	3342489
+							quidu      	"54D1B7F102EE"
+							client     	@1604
+							supplier   	@1570
+							vertices   	(list Points
+							    (1401, 2196)
+							    (624, 2524))
+							line_style 	0)
+						    (object RoleView "" @1606
+							Parent_View 	@1604
+							location   	(249, 1060)
+							stereotype 	TRUE
+							line_color 	3342489
+							quidu      	"54D1B7F102FE"
+							client     	@1604
+							supplier   	@1579
+							vertices   	(list Points
+							    (1401, 2196)
+							    (2770, 1612))
+							line_style 	0)))
+					    (object AssociationViewNew "" @1607
+						location   	(1417, 2417)
+						font       	(object Font
+						    size       	9
+						    face       	"Arial"
+						    bold       	FALSE
+						    italics    	FALSE
+						    underline  	FALSE
+						    strike     	FALSE
+						    color      	0
+						    default_color 	TRUE)
+						stereotype 	TRUE
+						line_color 	3342489
+						quidu      	"54D1B7F30129"
+						roleview_list 	(list RoleViews
+						    (object RoleView "" @1608
+							Parent_View 	@1607
+							location   	(265, 1281)
+							stereotype 	TRUE
+							line_color 	3342489
+							quidu      	"54D1B7F40010"
+							client     	@1607
+							supplier   	@1571
+							vertices   	(list Points
+							    (1417, 2417)
+							    (656, 2860))
+							line_style 	0)
+						    (object RoleView "" @1609
+							Parent_View 	@1607
+							location   	(265, 1281)
+							stereotype 	TRUE
+							line_color 	3342489
+							quidu      	"54D1B7F40012"
+							client     	@1607
+							supplier   	@1579
+							vertices   	(list Points
+							    (1417, 2417)
+							    (2768, 1625))
+							line_style 	0)))
+					    (object AssociationViewNew "" @1610
+						location   	(1789, 1101)
+						font       	(object Font
+						    size       	9
+						    face       	"Arial"
+						    bold       	FALSE
+						    italics    	FALSE
+						    underline  	FALSE
+						    strike     	FALSE
+						    color      	0
+						    default_color 	TRUE)
+						stereotype 	TRUE
+						line_color 	3342489
+						quidu      	"54D1B7F80129"
+						roleview_list 	(list RoleViews
+						    (object RoleView "" @1611
+							Parent_View 	@1610
+							location   	(637, -35)
+							stereotype 	TRUE
+							line_color 	3342489
+							quidu      	"54D1B7F9003F"
+							client     	@1610
+							supplier   	@1572
+							vertices   	(list Points
+							    (1789, 1101)
+							    (672, 593))
+							line_style 	0)
+						    (object RoleView "" @1612
+							Parent_View 	@1610
+							location   	(637, -35)
+							stereotype 	TRUE
+							line_color 	3342489
+							quidu      	"54D1B7F90041"
+							client     	@1610
+							supplier   	@1579
+							vertices   	(list Points
+							    (1789, 1101)
+							    (2769, 1547))
+							line_style 	0)))
+					    (object AssociationViewNew "" @1613
+						location   	(2014, 904)
+						font       	(object Font
+						    size       	9
+						    face       	"Arial"
+						    bold       	FALSE
+						    italics    	FALSE
+						    underline  	FALSE
+						    strike     	FALSE
+						    color      	0
+						    default_color 	TRUE)
+						stereotype 	TRUE
+						line_color 	3342489
+						quidu      	"54D1BC0002CF"
+						roleview_list 	(list RoleViews
+						    (object RoleView "" @1614
+							Parent_View 	@1613
+							location   	(862, -232)
+							stereotype 	TRUE
+							line_color 	3342489
+							quidu      	"54D1BC0100DB"
+							client     	@1613
+							supplier   	@1573
+							vertices   	(list Points
+							    (2014, 904)
+							    (1131, 186))
+							line_style 	0)
+						    (object RoleView "" @1615
+							Parent_View 	@1613
+							location   	(862, -232)
+							stereotype 	TRUE
+							line_color 	3342489
+							quidu      	"54D1BC0100EB"
+							client     	@1613
+							supplier   	@1579
+							vertices   	(list Points
+							    (2014, 904)
+							    (2769, 1521))
+							line_style 	0)))
+					    (object AssociationViewNew "" @1616
+						location   	(1820, 963)
+						font       	(object Font
+						    size       	9
+						    face       	"Arial"
+						    bold       	FALSE
+						    italics    	FALSE
+						    underline  	FALSE
+						    strike     	FALSE
+						    color      	0
+						    default_color 	TRUE)
+						stereotype 	TRUE
+						line_color 	3342489
+						quidu      	"54D1BC0300DB"
+						roleview_list 	(list RoleViews
+						    (object RoleView "" @1617
+							Parent_View 	@1616
+							location   	(668, -173)
+							stereotype 	TRUE
+							line_color 	3342489
+							quidu      	"54D1BC0303C9"
+							client     	@1616
+							supplier   	@1574
+							vertices   	(list Points
+							    (1820, 963)
+							    (784, 338))
+							line_style 	0)
+						    (object RoleView "" @1618
+							Parent_View 	@1616
+							location   	(668, -173)
+							stereotype 	TRUE
+							line_color 	3342489
+							quidu      	"54D1BC0303CB"
+							client     	@1616
+							supplier   	@1579
+							vertices   	(list Points
+							    (1820, 963)
+							    (2768, 1533))
+							line_style 	0)))
+					    (object AssociationViewNew "" @1619
+						location   	(1606, 3078)
+						font       	(object Font
+						    size       	9
+						    face       	"Arial"
+						    bold       	FALSE
+						    italics    	FALSE
+						    underline  	FALSE
+						    strike     	FALSE
+						    color      	0
+						    default_color 	TRUE)
+						stereotype 	TRUE
+						line_color 	3342489
+						quidu      	"54D1BC0503C9"
+						roleview_list 	(list RoleViews
+						    (object RoleView "" @1620
+							Parent_View 	@1619
+							location   	(454, 1942)
+							stereotype 	TRUE
+							line_color 	3342489
+							quidu      	"54D1BC06032D"
+							client     	@1619
+							supplier   	@1575
+							vertices   	(list Points
+							    (1606, 3078)
+							    (1033, 3764))
+							line_style 	0)
+						    (object RoleView "" @1621
+							Parent_View 	@1619
+							location   	(454, 1942)
+							stereotype 	TRUE
+							line_color 	3342489
+							quidu      	"54D1BC06032F"
+							client     	@1619
+							supplier   	@1579
+							vertices   	(list Points
+							    (1606, 3078)
+							    (2760, 1688))
+							line_style 	0)))
+					    (object AssociationViewNew "" @1622
+						location   	(1495, 2831)
+						font       	(object Font
+						    size       	9
+						    face       	"Arial"
+						    bold       	FALSE
+						    italics    	FALSE
+						    underline  	FALSE
+						    strike     	FALSE
+						    color      	0
+						    default_color 	TRUE)
+						stereotype 	TRUE
+						line_color 	3342489
+						quidu      	"54D1BC0803B9"
+						roleview_list 	(list RoleViews
+						    (object RoleView "" @1623
+							Parent_View 	@1622
+							location   	(343, 1695)
+							stereotype 	TRUE
+							line_color 	3342489
+							quidu      	"54D1BC0901B6"
+							client     	@1622
+							supplier   	@1576
+							vertices   	(list Points
+							    (1495, 2831)
+							    (813, 3460))
+							line_style 	0)
+						    (object RoleView "" @1624
+							Parent_View 	@1622
+							location   	(343, 1695)
+							stereotype 	TRUE
+							line_color 	3342489
+							quidu      	"54D1BC0901B8"
+							client     	@1622
+							supplier   	@1579
+							vertices   	(list Points
+							    (1495, 2831)
+							    (2760, 1663))
+							line_style 	0)))
+					    (object AssociationViewNew "" @1625
+						location   	(1443, 2605)
+						font       	(object Font
+						    size       	9
+						    face       	"Arial"
+						    bold       	FALSE
+						    italics    	FALSE
+						    underline  	FALSE
+						    strike     	FALSE
+						    color      	0
+						    default_color 	TRUE)
+						stereotype 	TRUE
+						line_color 	3342489
+						quidu      	"54D1BC0B03C9"
+						roleview_list 	(list RoleViews
+						    (object RoleView "" @1626
+							Parent_View 	@1625
+							location   	(291, 1469)
+							stereotype 	TRUE
+							line_color 	3342489
+							quidu      	"54D1BC0C02CF"
+							client     	@1625
+							supplier   	@1577
+							vertices   	(list Points
+							    (1443, 2605)
+							    (704, 3139))
+							line_style 	0)
+						    (object RoleView "" @1627
+							Parent_View 	@1625
+							location   	(291, 1469)
+							stereotype 	TRUE
+							line_color 	3342489
+							quidu      	"54D1BC0C02D1"
+							client     	@1625
+							supplier   	@1579
+							vertices   	(list Points
+							    (1443, 2605)
+							    (2769, 1636))
+							line_style 	0)))
 					    (object AssociationViewNew "" @1628
 						location   	(2243, 951)
 						font       	(object Font
@@ -37035,10 +36899,10 @@
 							line_color 	3342489
 							quidu      	"54D1C62F00EB"
 							client     	@1628
-							supplier   	@1627
+							supplier   	@1578
 							vertices   	(list Points
 							    (2243, 951)
-							    (1717, 400))
+							    (1541, 218))
 							line_style 	0)
 						    (object RoleView "" @1630
 							Parent_View 	@1628
@@ -37047,20 +36911,20 @@
 							line_color 	3342489
 							quidu      	"54D1C62F00ED"
 							client     	@1628
-							supplier   	@1578
+							supplier   	@1579
 							vertices   	(list Points
 							    (2243, 951)
-							    (2770, 1503))
+							    (2768, 1502))
 							line_style 	0)))))
 				    (object InteractionDiagram "SDAEmitirInformeInventario"
 					mechanism_ref 	@1557
 					quid       	"54D1BDB4006E"
 					title      	"SDAEmitirInformeInventario"
-					zoom       	75
+					zoom       	90
 					max_height 	28350
 					max_width  	21600
-					origin_x   	1184
-					origin_y   	1971
+					origin_x   	10888
+					origin_y   	0
 					items      	(list diagram_item_list
 					    (object InterObjView "$UNNAMED$203" @1631
 						location   	(176, 224)
@@ -37078,7 +36942,7 @@
 						    location   	(176, 247)
 						    anchor_loc 	1
 						    nlines     	2
-						    max_width  	324
+						    max_width  	360
 						    justify    	0
 						    label      	"")
 						icon       	"Actor"
@@ -37086,10 +36950,10 @@
 						line_color 	3342489
 						fill_color 	13434879
 						quidu      	"54D1C5BC034C"
-						width      	300
+						width      	120
 						height     	4810
-						icon_height 	150
-						icon_width 	108
+						icon_height 	162
+						icon_width 	120
 						icon_y_offset 	0
 						annotation 	1
 						Focus_Of_Control 	(object Focus_Of_Control "" @1632
@@ -37115,7 +36979,7 @@
 						    location   	(608, 248)
 						    anchor_loc 	1
 						    nlines     	2
-						    max_width  	651
+						    max_width  	687
 						    justify    	0
 						    label      	"")
 						icon       	"boundary"
@@ -37123,10 +36987,10 @@
 						line_color 	3342489
 						fill_color 	13434879
 						quidu      	"54D1C606033C"
-						width      	300
+						width      	229
 						height     	4810
-						icon_height 	141
-						icon_width 	217
+						icon_height 	153
+						icon_width 	229
 						icon_y_offset 	0
 						annotation 	1
 						Focus_Of_Control 	(object Focus_Of_Control "" @1634
@@ -37159,7 +37023,7 @@
 						    location   	(1088, 248)
 						    anchor_loc 	1
 						    nlines     	2
-						    max_width  	651
+						    max_width  	687
 						    justify    	0
 						    label      	"")
 						icon       	"boundary"
@@ -37167,10 +37031,10 @@
 						line_color 	3342489
 						fill_color 	13434879
 						quidu      	"54D1C640004E"
-						width      	300
+						width      	229
 						height     	4810
-						icon_height 	141
-						icon_width 	217
+						icon_height 	153
+						icon_width 	229
 						icon_y_offset 	0
 						annotation 	1
 						Focus_Of_Control 	(object Focus_Of_Control "" @1637
@@ -37266,7 +37130,7 @@
 						    location   	(1584, 248)
 						    anchor_loc 	1
 						    nlines     	2
-						    max_width  	651
+						    max_width  	687
 						    justify    	0
 						    label      	"")
 						icon       	"boundary"
@@ -37274,10 +37138,10 @@
 						line_color 	3342489
 						fill_color 	13434879
 						quidu      	"54D1C6B00196"
-						width      	300
+						width      	229
 						height     	4810
-						icon_height 	141
-						icon_width 	217
+						icon_height 	153
+						icon_width 	229
 						icon_y_offset 	0
 						annotation 	1
 						Focus_Of_Control 	(object Focus_Of_Control "" @1649
@@ -37303,7 +37167,7 @@
 						    location   	(2080, 248)
 						    anchor_loc 	1
 						    nlines     	2
-						    max_width  	651
+						    max_width  	687
 						    justify    	0
 						    label      	"")
 						icon       	"boundary"
@@ -37311,10 +37175,10 @@
 						line_color 	3342489
 						fill_color 	13434879
 						quidu      	"54D1C6B901A6"
-						width      	300
+						width      	229
 						height     	4810
-						icon_height 	141
-						icon_width 	217
+						icon_height 	153
+						icon_width 	229
 						icon_y_offset 	0
 						annotation 	1
 						Focus_Of_Control 	(object Focus_Of_Control "" @1651
@@ -37340,7 +37204,7 @@
 						    location   	(2496, 248)
 						    anchor_loc 	1
 						    nlines     	2
-						    max_width  	651
+						    max_width  	687
 						    justify    	0
 						    label      	"")
 						icon       	"boundary"
@@ -37348,10 +37212,10 @@
 						line_color 	3342489
 						fill_color 	13434879
 						quidu      	"54D1C6C301C5"
-						width      	300
+						width      	229
 						height     	4810
-						icon_height 	141
-						icon_width 	217
+						icon_height 	153
+						icon_width 	229
 						icon_y_offset 	0
 						annotation 	1)
 					    (object InterObjView "$UNNAMED$210" @1653
@@ -37370,7 +37234,7 @@
 						    location   	(2928, 248)
 						    anchor_loc 	1
 						    nlines     	2
-						    max_width  	651
+						    max_width  	687
 						    justify    	0
 						    label      	"")
 						icon       	"boundary"
@@ -37378,10 +37242,10 @@
 						line_color 	3342489
 						fill_color 	13434879
 						quidu      	"54D1C6CC00CB"
-						width      	300
+						width      	229
 						height     	4810
-						icon_height 	141
-						icon_width 	217
+						icon_height 	153
+						icon_width 	229
 						icon_y_offset 	0
 						annotation 	1)
 					    (object InterObjView "$UNNAMED$211" @1654
@@ -37400,7 +37264,7 @@
 						    location   	(3328, 248)
 						    anchor_loc 	1
 						    nlines     	2
-						    max_width  	651
+						    max_width  	687
 						    justify    	0
 						    label      	"")
 						icon       	"boundary"
@@ -37408,10 +37272,10 @@
 						line_color 	3342489
 						fill_color 	13434879
 						quidu      	"54D1C6DB0139"
-						width      	300
+						width      	229
 						height     	4810
-						icon_height 	141
-						icon_width 	217
+						icon_height 	153
+						icon_width 	229
 						icon_y_offset 	0
 						annotation 	1)
 					    (object InterObjView "$UNNAMED$212" @1655
@@ -37430,7 +37294,7 @@
 						    location   	(3728, 248)
 						    anchor_loc 	1
 						    nlines     	2
-						    max_width  	651
+						    max_width  	687
 						    justify    	0
 						    label      	"")
 						icon       	"boundary"
@@ -37438,10 +37302,10 @@
 						line_color 	3342489
 						fill_color 	13434879
 						quidu      	"54D1C6F00010"
-						width      	300
+						width      	229
 						height     	4810
-						icon_height 	141
-						icon_width 	217
+						icon_height 	153
+						icon_width 	229
 						icon_y_offset 	0
 						annotation 	1)
 					    (object InterObjView "$UNNAMED$213" @1656
@@ -37460,7 +37324,7 @@
 						    location   	(4192, 248)
 						    anchor_loc 	1
 						    nlines     	2
-						    max_width  	651
+						    max_width  	687
 						    justify    	0
 						    label      	"")
 						icon       	"boundary"
@@ -37468,10 +37332,10 @@
 						line_color 	3342489
 						fill_color 	13434879
 						quidu      	"54D1C6FF032D"
-						width      	300
+						width      	229
 						height     	4810
-						icon_height 	141
-						icon_width 	217
+						icon_height 	153
+						icon_width 	229
 						icon_y_offset 	0
 						annotation 	1)
 					    (object InterObjView "$UNNAMED$214" @1657
@@ -37490,7 +37354,7 @@
 						    location   	(4720, 248)
 						    anchor_loc 	1
 						    nlines     	2
-						    max_width  	651
+						    max_width  	687
 						    justify    	0
 						    label      	"")
 						icon       	"boundary"
@@ -37498,10 +37362,10 @@
 						line_color 	3342489
 						fill_color 	13434879
 						quidu      	"54D1C718002F"
-						width      	300
+						width      	229
 						height     	4810
-						icon_height 	141
-						icon_width 	217
+						icon_height 	153
+						icon_width 	229
 						icon_y_offset 	0
 						annotation 	1
 						Focus_Of_Control 	(object Focus_Of_Control "" @1658
@@ -37527,7 +37391,7 @@
 						    location   	(5264, 248)
 						    anchor_loc 	1
 						    nlines     	2
-						    max_width  	651
+						    max_width  	687
 						    justify    	0
 						    label      	"")
 						icon       	"boundary"
@@ -37535,10 +37399,10 @@
 						line_color 	3342489
 						fill_color 	13434879
 						quidu      	"54D1C72201F4"
-						width      	300
+						width      	229
 						height     	4810
-						icon_height 	141
-						icon_width 	217
+						icon_height 	153
+						icon_width 	229
 						icon_y_offset 	0
 						annotation 	1)
 					    (object InterObjView "$UNNAMED$216" @1660
@@ -37557,7 +37421,7 @@
 						    location   	(5776, 248)
 						    anchor_loc 	1
 						    nlines     	2
-						    max_width  	651
+						    max_width  	687
 						    justify    	0
 						    label      	"")
 						icon       	"boundary"
@@ -37565,10 +37429,10 @@
 						line_color 	3342489
 						fill_color 	13434879
 						quidu      	"54D1C73000FA"
-						width      	300
+						width      	229
 						height     	4810
-						icon_height 	141
-						icon_width 	217
+						icon_height 	153
+						icon_width 	229
 						icon_y_offset 	0
 						annotation 	1)
 					    (object InterObjView "$UNNAMED$217" @1661
@@ -37587,7 +37451,7 @@
 						    location   	(6256, 248)
 						    anchor_loc 	1
 						    nlines     	2
-						    max_width  	651
+						    max_width  	687
 						    justify    	0
 						    label      	"")
 						icon       	"boundary"
@@ -37595,10 +37459,10 @@
 						line_color 	3342489
 						fill_color 	13434879
 						quidu      	"54D1C73901A6"
-						width      	300
+						width      	229
 						height     	4810
-						icon_height 	141
-						icon_width 	217
+						icon_height 	153
+						icon_width 	229
 						icon_y_offset 	0
 						annotation 	1)
 					    (object InterObjView "$UNNAMED$218" @1662
@@ -37617,7 +37481,7 @@
 						    location   	(6752, 248)
 						    anchor_loc 	1
 						    nlines     	2
-						    max_width  	651
+						    max_width  	687
 						    justify    	0
 						    label      	"")
 						icon       	"boundary"
@@ -37625,10 +37489,10 @@
 						line_color 	3342489
 						fill_color 	13434879
 						quidu      	"54D1C7940139"
-						width      	300
+						width      	229
 						height     	4810
-						icon_height 	141
-						icon_width 	217
+						icon_height 	153
+						icon_width 	229
 						icon_y_offset 	0
 						annotation 	1)
 					    (object InterObjView "$UNNAMED$204" @1663
@@ -37647,7 +37511,7 @@
 						    location   	(7232, 263)
 						    anchor_loc 	1
 						    nlines     	2
-						    max_width  	435
+						    max_width  	471
 						    justify    	0
 						    label      	"")
 						icon       	"control"
@@ -37655,10 +37519,10 @@
 						line_color 	3342489
 						fill_color 	13434879
 						quidu      	"54D1C7CC01E5"
-						width      	300
+						width      	157
 						height     	4794
-						icon_height 	152
-						icon_width 	145
+						icon_height 	164
+						icon_width 	157
 						icon_y_offset 	0
 						annotation 	1
 						Focus_Of_Control 	(object Focus_Of_Control "" @1664
@@ -37796,7 +37660,7 @@
 						    location   	(7632, 264)
 						    anchor_loc 	1
 						    nlines     	2
-						    max_width  	426
+						    max_width  	462
 						    justify    	0
 						    label      	"")
 						icon       	"entity"
@@ -37804,10 +37668,10 @@
 						line_color 	3342489
 						fill_color 	13434879
 						quidu      	"54D1C7EC0187"
-						width      	300
+						width      	154
 						height     	4794
-						icon_height 	141
-						icon_width 	142
+						icon_height 	153
+						icon_width 	154
 						icon_y_offset 	0
 						annotation 	1
 						Focus_Of_Control 	(object Focus_Of_Control "" @1682
@@ -37833,7 +37697,7 @@
 						    location   	(8032, 264)
 						    anchor_loc 	1
 						    nlines     	2
-						    max_width  	426
+						    max_width  	462
 						    justify    	0
 						    label      	"")
 						icon       	"entity"
@@ -37841,10 +37705,10 @@
 						line_color 	3342489
 						fill_color 	13434879
 						quidu      	"54D1C7F300DB"
-						width      	300
+						width      	154
 						height     	4794
-						icon_height 	141
-						icon_width 	142
+						icon_height 	153
+						icon_width 	154
 						icon_y_offset 	0
 						annotation 	1
 						Focus_Of_Control 	(object Focus_Of_Control "" @1684
@@ -37884,7 +37748,7 @@
 						    location   	(8432, 264)
 						    anchor_loc 	1
 						    nlines     	2
-						    max_width  	426
+						    max_width  	462
 						    justify    	0
 						    label      	"")
 						icon       	"entity"
@@ -37892,13 +37756,13 @@
 						line_color 	3342489
 						fill_color 	13434879
 						quidu      	"54D1C7FE01B6"
-						width      	300
+						width      	154
 						height     	4794
-						icon_height 	141
-						icon_width 	142
+						icon_height 	153
+						icon_width 	154
 						icon_y_offset 	0
 						annotation 	1)
-					    (object InterMessView "ValidarbtnGestionarInventario(String)" @1688
+					    (object InterMessView "ValidarbtnGestionarInventario(btnGestionarInventario : String)" @1688
 						location   	(16, 336)
 						font       	(object Font
 						    size       	9
@@ -37911,7 +37775,7 @@
 						    default_color 	TRUE)
 						label      	(object SegLabel @1689
 						    Parent_View 	@1688
-						    location   	(3286, 294)
+						    location   	(3285, 294)
 						    font       	(object Font
 							size       	9
 							face       	"Arial"
@@ -37924,9 +37788,9 @@
 						    quidu      	"54D1C9A5007E"
 						    anchor_loc 	1
 						    nlines     	1
-						    max_width  	624
+						    max_width  	1059
 						    justify    	0
-						    label      	"ValidarbtnGestionarInventario(String)"
+						    label      	"ValidarbtnGestionarInventario(btnGestionarInventario : String)"
 						    pctDist    	0.440569
 						    height     	43
 						    orientation 	0)
@@ -37938,7 +37802,7 @@
 						origin     	(191, 336)
 						terminus   	(7216, 336)
 						ordinal    	0)
-					    (object SelfMessView "ValidarbotonGI(String)" @1690
+					    (object SelfMessView "ValidarbotonGI(btnGI : String)" @1690
 						location   	(16, 441)
 						font       	(object Font
 						    size       	9
@@ -37951,7 +37815,7 @@
 						    default_color 	TRUE)
 						label      	(object SegLabel @1691
 						    Parent_View 	@1690
-						    location   	(7430, 398)
+						    location   	(7429, 398)
 						    font       	(object Font
 							size       	9
 							face       	"Arial"
@@ -37964,9 +37828,9 @@
 						    quidu      	"54D1CA8B005F"
 						    anchor_loc 	1
 						    nlines     	1
-						    max_width  	388
+						    max_width  	511
 						    justify    	0
-						    label      	"ValidarbotonGI(String)"
+						    label      	"ValidarbotonGI(btnGI : String)"
 						    pctDist    	1.213333
 						    height     	44
 						    orientation 	0)
@@ -37978,7 +37842,7 @@
 						origin     	(7248, 441)
 						terminus   	(7398, 441)
 						ordinal    	1)
-					    (object InterMessView "viewmensajesistemaShow(String, String, String, String)" @1692
+					    (object InterMessView "viewmensajesistemaShow(mensajeSistema : String, botonTexto : String, botonLink : String, tipo : String)" @1692
 						location   	(16, 571)
 						font       	(object Font
 						    size       	9
@@ -38004,9 +37868,9 @@
 						    quidu      	"54D1CAF00224"
 						    anchor_loc 	1
 						    nlines     	1
-						    max_width  	977
+						    max_width  	1783
 						    justify    	0
-						    label      	"viewmensajesistemaShow(String, String, String, String)"
+						    label      	"viewmensajesistemaShow(mensajeSistema : String, botonTexto : String, botonLink : String, tipo : String)"
 						    pctDist    	0.494110
 						    height     	53
 						    orientation 	1)
@@ -38049,7 +37913,7 @@
 						    default_color 	TRUE)
 						label      	(object SegLabel @1696
 						    Parent_View 	@1695
-						    location   	(3731, 710)
+						    location   	(3732, 710)
 						    font       	(object Font
 							size       	9
 							face       	"Arial"
@@ -38076,7 +37940,7 @@
 						origin     	(7216, 752)
 						terminus   	(624, 752)
 						ordinal    	3)
-					    (object InterMessView "ValidarbtnprosecoProfrescoProcongeladoBebProdesGeninforinvenAgregpro(String, String, String, String, String, String, String)" @1697
+					    (object InterMessView "ValidarbtnprosecoProfrescoProcongeladoBebProdesGeninforinvenAgregpro(btnproductossecos : String, btnproductosfrescos : String, btnproductoscongelados : String, btnbebidas : String, btnproductosdespensa : String, btngenerarinformeinventario : String, btnagregarproducto : String)" @1697
 						location   	(16, 857)
 						font       	(object Font
 						    size       	9
@@ -38102,9 +37966,9 @@
 						    quidu      	"54D1CCEA02A0"
 						    anchor_loc 	1
 						    nlines     	1
-						    max_width  	2214
+						    max_width  	4842
 						    justify    	0
-						    label      	"ValidarbtnprosecoProfrescoProcongeladoBebProdesGeninforinvenAgregpro(String, String, String, String, String, String, String)"
+						    label      	"ValidarbtnprosecoProfrescoProcongeladoBebProdesGeninforinvenAgregpro(btnproductossecos : String, btnproductosfrescos : String, btnproductoscongelados : String, btnbebidas : String, btnproductosdespensa : String, btngenerarinformeinventario : String, btnagregarproducto : String)"
 						    pctDist    	0.500000
 						    height     	45
 						    orientation 	0)
@@ -38316,7 +38180,7 @@
 						line_color 	33023
 						width      	6719
 						height     	688)
-					    (object SelfMessView "ValidarbotonProductoSeco(String)" @1712
+					    (object SelfMessView "ValidarbotonProductoSeco(btnProS : String)" @1712
 						location   	(16, 962)
 						font       	(object Font
 						    size       	9
@@ -38329,7 +38193,7 @@
 						    default_color 	TRUE)
 						label      	(object SegLabel @1713
 						    Parent_View 	@1712
-						    location   	(7554, 909)
+						    location   	(7555, 909)
 						    font       	(object Font
 							size       	9
 							face       	"Arial"
@@ -38342,9 +38206,9 @@
 						    quidu      	"54D1CEEA03B9"
 						    anchor_loc 	1
 						    nlines     	1
-						    max_width  	564
+						    max_width  	754
 						    justify    	0
-						    label      	"ValidarbotonProductoSeco(String)"
+						    label      	"ValidarbotonProductoSeco(btnProS : String)"
 						    pctDist    	2.046667
 						    height     	54
 						    orientation 	0)
@@ -38356,7 +38220,7 @@
 						origin     	(7248, 962)
 						terminus   	(7398, 962)
 						ordinal    	5)
-					    (object InterMessView "CI_formprodsecosyenlatados(Array)" @1714
+					    (object InterMessView "CI_formprodsecosyenlatados(listacategoriaproducto : Array)" @1714
 						location   	(16, 1407)
 						font       	(object Font
 						    size       	9
@@ -38382,9 +38246,9 @@
 						    quidu      	"54D1D08102A1"
 						    anchor_loc 	1
 						    nlines     	1
-						    max_width  	617
+						    max_width  	1017
 						    justify    	0
-						    label      	"CI_formprodsecosyenlatados(Array)"
+						    label      	"CI_formprodsecosyenlatados(listacategoriaproducto : Array)"
 						    pctDist    	0.500000
 						    height     	45
 						    orientation 	1)
@@ -38396,7 +38260,7 @@
 						origin     	(7216, 1407)
 						terminus   	(1600, 1407)
 						ordinal    	9)
-					    (object InterMessView "ValidarbtneditarprosRegresar(String, String)" @1716
+					    (object InterMessView "ValidarbtneditarprosRegresar(btnEditarProductoSeco : String, btnRegresar : String)" @1716
 						location   	(16, 1520)
 						font       	(object Font
 						    size       	9
@@ -38409,7 +38273,7 @@
 						    default_color 	TRUE)
 						label      	(object SegLabel @1717
 						    Parent_View 	@1716
-						    location   	(4405, 1478)
+						    location   	(4406, 1478)
 						    font       	(object Font
 							size       	9
 							face       	"Arial"
@@ -38422,9 +38286,9 @@
 						    quidu      	"54D1D13C03D9"
 						    anchor_loc 	1
 						    nlines     	1
-						    max_width  	721
+						    max_width  	1408
 						    justify    	0
-						    label      	"ValidarbtneditarprosRegresar(String, String)"
+						    label      	"ValidarbtneditarprosRegresar(btnEditarProductoSeco : String, btnRegresar : String)"
 						    pctDist    	0.499733
 						    height     	43
 						    orientation 	0)
@@ -38436,7 +38300,7 @@
 						origin     	(1599, 1520)
 						terminus   	(7216, 1520)
 						ordinal    	10)
-					    (object InterMessView "CI_formeditprodsecosyenlatados(Array)" @1718
+					    (object InterMessView "CI_formeditprodsecosyenlatados(listacategoriaproducto : Array)" @1718
 						location   	(16, 2070)
 						font       	(object Font
 						    size       	9
@@ -38462,9 +38326,9 @@
 						    quidu      	"54D1D287033D"
 						    anchor_loc 	1
 						    nlines     	1
-						    max_width  	675
+						    max_width  	1075
 						    justify    	0
-						    label      	"CI_formeditprodsecosyenlatados(Array)"
+						    label      	"CI_formeditprodsecosyenlatados(listacategoriaproducto : Array)"
 						    pctDist    	0.500000
 						    height     	45
 						    orientation 	1)
@@ -38476,7 +38340,7 @@
 						origin     	(7216, 2070)
 						terminus   	(4736, 2070)
 						ordinal    	15)
-					    (object InterMessView "ValidarbtnGuardarCancelar(String, String)" @1720
+					    (object InterMessView "ValidarbtnGuardarCancelar(btnCancelar : String, btnGuardar : String)" @1720
 						location   	(16, 2175)
 						font       	(object Font
 						    size       	9
@@ -38502,9 +38366,9 @@
 						    quidu      	"54D1E2650010"
 						    anchor_loc 	1
 						    nlines     	1
-						    max_width  	683
+						    max_width  	1184
 						    justify    	0
-						    label      	"ValidarbtnGuardarCancelar(String, String)"
+						    label      	"ValidarbtnGuardarCancelar(btnCancelar : String, btnGuardar : String)"
 						    pctDist    	0.500000
 						    height     	45
 						    orientation 	0)
@@ -38516,7 +38380,7 @@
 						origin     	(4735, 2175)
 						terminus   	(7216, 2175)
 						ordinal    	16)
-					    (object SelfMessView "validarbotonCancelar(String)" @1722
+					    (object SelfMessView "validarbotonCancelar(btnCancel : String)" @1722
 						location   	(16, 2280)
 						font       	(object Font
 						    size       	9
@@ -38529,7 +38393,7 @@
 						    default_color 	TRUE)
 						label      	(object SegLabel @1723
 						    Parent_View 	@1722
-						    location   	(7515, 2236)
+						    location   	(7516, 2236)
 						    font       	(object Font
 							size       	9
 							face       	"Arial"
@@ -38542,9 +38406,9 @@
 						    quidu      	"54D1F53101A6"
 						    anchor_loc 	1
 						    nlines     	1
-						    max_width  	475
+						    max_width  	702
 						    justify    	0
-						    label      	"validarbotonCancelar(String)"
+						    label      	"validarbotonCancelar(btnCancel : String)"
 						    pctDist    	1.786667
 						    height     	45
 						    orientation 	0)
@@ -38556,7 +38420,7 @@
 						origin     	(7248, 2280)
 						terminus   	(7398, 2280)
 						ordinal    	17)
-					    (object SelfMessView "ValidarbotonGuardar(String)" @1724
+					    (object SelfMessView "ValidarbotonGuardar(btnGuardar : String)" @1724
 						location   	(16, 2753)
 						font       	(object Font
 						    size       	9
@@ -38569,7 +38433,7 @@
 						    default_color 	TRUE)
 						label      	(object SegLabel @1725
 						    Parent_View 	@1724
-						    location   	(7574, 2711)
+						    location   	(7573, 2711)
 						    font       	(object Font
 							size       	9
 							face       	"Arial"
@@ -38582,9 +38446,9 @@
 						    quidu      	"54D1FBA000BC"
 						    anchor_loc 	1
 						    nlines     	1
-						    max_width  	454
+						    max_width  	710
 						    justify    	0
-						    label      	"ValidarbotonGuardar(String)"
+						    label      	"ValidarbotonGuardar(btnGuardar : String)"
 						    pctDist    	2.173333
 						    height     	43
 						    orientation 	0)
@@ -38596,7 +38460,7 @@
 						origin     	(7248, 2753)
 						terminus   	(7398, 2753)
 						ordinal    	20)
-					    (object SelfMessView "ValidarbotonRegresar(String)" @1726
+					    (object SelfMessView "ValidarbotonRegresar(btnRegre : String)" @1726
 						location   	(16, 3489)
 						font       	(object Font
 						    size       	9
@@ -38622,9 +38486,9 @@
 						    quidu      	"54D20EAC038A"
 						    anchor_loc 	1
 						    nlines     	1
-						    max_width  	475
+						    max_width  	684
 						    justify    	0
-						    label      	"ValidarbotonRegresar(String)"
+						    label      	"ValidarbotonRegresar(btnRegre : String)"
 						    pctDist    	1.640000
 						    height     	39
 						    orientation 	0)
@@ -38662,7 +38526,7 @@
 						    quidu      	"54D20FD50158"
 						    anchor_loc 	1
 						    nlines     	1
-						    max_width  	558
+						    max_width  	559
 						    justify    	0
 						    label      	"CI_formgestionInventarioShow( )"
 						    pctDist    	0.560831
@@ -38676,7 +38540,7 @@
 						origin     	(7216, 3792)
 						terminus   	(624, 3792)
 						ordinal    	28)
-					    (object InterMessView "viewmensajesistemaShow(String, String, String, String)" @1730
+					    (object InterMessView "viewmensajesistemaShow(mensajeSistema : String, botonTexto : String, botonLink : String, tipo : String)" @1730
 						location   	(16, 3619)
 						font       	(object Font
 						    size       	9
@@ -38702,9 +38566,9 @@
 						    quidu      	"54D20F4B00DB"
 						    anchor_loc 	1
 						    nlines     	1
-						    max_width  	925
+						    max_width  	1783
 						    justify    	0
-						    label      	"viewmensajesistemaShow(String, String, String, String)"
+						    label      	"viewmensajesistemaShow(mensajeSistema : String, botonTexto : String, botonLink : String, tipo : String)"
 						    pctDist    	0.500000
 						    height     	45
 						    orientation 	1)
@@ -38716,7 +38580,7 @@
 						origin     	(7216, 3619)
 						terminus   	(1104, 3619)
 						ordinal    	27)
-					    (object InterMessView "viewmensajesistemaShow(String, String, String, String)" @1732
+					    (object InterMessView "viewmensajesistemaShow(mensajeSistema : String, botonTexto : String, botonLink : String, tipo : String)" @1732
 						location   	(16, 3384)
 						font       	(object Font
 						    size       	9
@@ -38742,9 +38606,9 @@
 						    quidu      	"54D1FDEE008D"
 						    anchor_loc 	1
 						    nlines     	1
-						    max_width  	925
+						    max_width  	1783
 						    justify    	0
-						    label      	"viewmensajesistemaShow(String, String, String, String)"
+						    label      	"viewmensajesistemaShow(mensajeSistema : String, botonTexto : String, botonLink : String, tipo : String)"
 						    pctDist    	0.500000
 						    height     	45
 						    orientation 	1)
@@ -38756,7 +38620,7 @@
 						origin     	(7216, 3384)
 						terminus   	(1104, 3384)
 						ordinal    	25)
-					    (object InterMessView "viewmensajesistemaShow(String, String, String, String)" @1734
+					    (object InterMessView "viewmensajesistemaShow(mensajeSistema : String, botonTexto : String, botonLink : String, tipo : String)" @1734
 						location   	(16, 3198)
 						font       	(object Font
 						    size       	9
@@ -38782,9 +38646,9 @@
 						    quidu      	"54D1FDC0036B"
 						    anchor_loc 	1
 						    nlines     	1
-						    max_width  	925
+						    max_width  	1783
 						    justify    	0
-						    label      	"viewmensajesistemaShow(String, String, String, String)"
+						    label      	"viewmensajesistemaShow(mensajeSistema : String, botonTexto : String, botonLink : String, tipo : String)"
 						    pctDist    	0.500000
 						    height     	45
 						    orientation 	1)
@@ -38796,7 +38660,7 @@
 						origin     	(7216, 3198)
 						terminus   	(1104, 3198)
 						ordinal    	24)
-					    (object InterMessView "insertarproducto(Integer, Date)" @1736
+					    (object InterMessView "insertarproducto(cantidad : Integer, fechavencimiento : Date)" @1736
 						location   	(16, 2988)
 						font       	(object Font
 						    size       	9
@@ -38822,9 +38686,9 @@
 						    quidu      	"54D1FCAC039B"
 						    anchor_loc 	1
 						    nlines     	1
-						    max_width  	513
+						    max_width  	1037
 						    justify    	0
-						    label      	"insertarproducto(Integer, Date)"
+						    label      	"insertarproducto(cantidad : Integer, fechavencimiento : Date)"
 						    pctDist    	0.758808
 						    height     	43
 						    orientation 	0)
@@ -38876,7 +38740,7 @@
 						origin     	(7616, 3093)
 						terminus   	(7248, 3093)
 						ordinal    	23)
-					    (object InterMessView "viewmensajesistemaShow(String, String, String, String)" @1740
+					    (object InterMessView "viewmensajesistemaShow(mensajeSistema : String, botonTexto : String, botonLink : String, tipo : String)" @1740
 						location   	(16, 2883)
 						font       	(object Font
 						    size       	9
@@ -38902,9 +38766,9 @@
 						    quidu      	"54D1FBFB01A6"
 						    anchor_loc 	1
 						    nlines     	1
-						    max_width  	925
+						    max_width  	1783
 						    justify    	0
-						    label      	"viewmensajesistemaShow(String, String, String, String)"
+						    label      	"viewmensajesistemaShow(mensajeSistema : String, botonTexto : String, botonLink : String, tipo : String)"
 						    pctDist    	0.500000
 						    height     	45
 						    orientation 	1)
@@ -38916,7 +38780,7 @@
 						origin     	(7216, 2883)
 						terminus   	(1104, 2883)
 						ordinal    	21)
-					    (object InterMessView "viewmensajesistemaShow(String, String, String, String)" @1742
+					    (object InterMessView "viewmensajesistemaShow(mensajeSistema : String, botonTexto : String, botonLink : String, tipo : String)" @1742
 						location   	(16, 2648)
 						font       	(object Font
 						    size       	9
@@ -38942,9 +38806,9 @@
 						    quidu      	"54D1F62A0187"
 						    anchor_loc 	1
 						    nlines     	1
-						    max_width  	925
+						    max_width  	1783
 						    justify    	0
-						    label      	"viewmensajesistemaShow(String, String, String, String)"
+						    label      	"viewmensajesistemaShow(mensajeSistema : String, botonTexto : String, botonLink : String, tipo : String)"
 						    pctDist    	0.500000
 						    height     	45
 						    orientation 	1)
@@ -38956,7 +38820,7 @@
 						origin     	(7216, 2648)
 						terminus   	(1104, 2648)
 						ordinal    	19)
-					    (object InterMessView "viewmensajesistemaShow(String, String, String, String)" @1744
+					    (object InterMessView "viewmensajesistemaShow(mensajeSistema : String, botonTexto : String, botonLink : String, tipo : String)" @1744
 						location   	(16, 2410)
 						font       	(object Font
 						    size       	9
@@ -38982,9 +38846,9 @@
 						    quidu      	"54D1F55F003F"
 						    anchor_loc 	1
 						    nlines     	1
-						    max_width  	925
+						    max_width  	1783
 						    justify    	0
-						    label      	"viewmensajesistemaShow(String, String, String, String)"
+						    label      	"viewmensajesistemaShow(mensajeSistema : String, botonTexto : String, botonLink : String, tipo : String)"
 						    pctDist    	0.500000
 						    height     	45
 						    orientation 	1)
@@ -39022,7 +38886,7 @@
 						    quidu      	"54D1D24A0271"
 						    anchor_loc 	1
 						    nlines     	1
-						    max_width  	454
+						    max_width  	474
 						    justify    	0
 						    label      	"obtenercategoriaproducto( )"
 						    pctDist    	0.500000
@@ -39062,7 +38926,7 @@
 						    quidu      	"54D1D25400BC"
 						    anchor_loc 	1
 						    nlines     	1
-						    max_width  	363
+						    max_width  	379
 						    justify    	0
 						    label      	"listacategoriaproducto"
 						    pctDist    	0.500000
@@ -39076,7 +38940,7 @@
 						origin     	(8016, 1965)
 						terminus   	(7248, 1965)
 						ordinal    	14)
-					    (object InterMessView "viewmensajesistemaShow(String, String, String, String)" @1750
+					    (object InterMessView "viewmensajesistemaShow(mensajeSistema : String, botonTexto : String, botonLink : String, tipo : String)" @1750
 						location   	(16, 1755)
 						font       	(object Font
 						    size       	9
@@ -39102,9 +38966,9 @@
 						    quidu      	"54D1D1FA039A"
 						    anchor_loc 	1
 						    nlines     	1
-						    max_width  	925
+						    max_width  	1783
 						    justify    	0
-						    label      	"viewmensajesistemaShow(String, String, String, String)"
+						    label      	"viewmensajesistemaShow(mensajeSistema : String, botonTexto : String, botonLink : String, tipo : String)"
 						    pctDist    	0.502945
 						    height     	61
 						    orientation 	1)
@@ -39116,7 +38980,7 @@
 						origin     	(7216, 1755)
 						terminus   	(1104, 1755)
 						ordinal    	12)
-					    (object SelfMessView "validarbotonEditarProSec(String)" @1752
+					    (object SelfMessView "validarbotonEditarProSec(btnEditPS : String)" @1752
 						location   	(16, 1625)
 						font       	(object Font
 						    size       	9
@@ -39142,9 +39006,9 @@
 						    quidu      	"54D1D1A7009C"
 						    anchor_loc 	1
 						    nlines     	1
-						    max_width  	546
+						    max_width  	772
 						    justify    	0
-						    label      	"validarbotonEditarProSec(String)"
+						    label      	"validarbotonEditarProSec(btnEditPS : String)"
 						    pctDist    	2.073333
 						    height     	38
 						    orientation 	0)
@@ -39182,7 +39046,7 @@
 						    quidu      	"54D1CFDD02D0"
 						    anchor_loc 	1
 						    nlines     	1
-						    max_width  	454
+						    max_width  	474
 						    justify    	0
 						    label      	"obtenercategoriaproducto( )"
 						    pctDist    	0.500000
@@ -39209,7 +39073,7 @@
 						    default_color 	TRUE)
 						label      	(object SegLabel @1757
 						    Parent_View 	@1756
-						    location   	(7618, 1258)
+						    location   	(7619, 1258)
 						    font       	(object Font
 							size       	9
 							face       	"Arial"
@@ -39236,7 +39100,7 @@
 						origin     	(8016, 1302)
 						terminus   	(7248, 1302)
 						ordinal    	8)
-					    (object InterMessView "viewmensajesistemaShow(String, String, String, String)" @1758
+					    (object InterMessView "viewmensajesistemaShow(mensajeSistema : String, botonTexto : String, botonLink : String, tipo : String)" @1758
 						location   	(16, 1092)
 						font       	(object Font
 						    size       	9
@@ -39262,9 +39126,9 @@
 						    quidu      	"54D1CF5E0271"
 						    anchor_loc 	1
 						    nlines     	1
-						    max_width  	925
+						    max_width  	1783
 						    justify    	0
-						    label      	"viewmensajesistemaShow(String, String, String, String)"
+						    label      	"viewmensajesistemaShow(mensajeSistema : String, botonTexto : String, botonLink : String, tipo : String)"
 						    pctDist    	0.500000
 						    height     	45
 						    orientation 	1)
@@ -39276,7 +39140,7 @@
 						origin     	(7216, 1092)
 						terminus   	(1104, 1092)
 						ordinal    	6)
-					    (object SelfMessView "ValidarProductosFrescos(String)" @1760
+					    (object SelfMessView "ValidarProductosFrescos(btnproF : String)" @1760
 						location   	(16, 4064)
 						font       	(object Font
 						    size       	9
@@ -39302,9 +39166,9 @@
 						    quidu      	"54D21A8D0129"
 						    anchor_loc 	1
 						    nlines     	1
-						    max_width  	548
+						    max_width  	700
 						    justify    	0
-						    label      	"ValidarProductosFrescos(String)"
+						    label      	"ValidarProductosFrescos(btnproF : String)"
 						    pctDist    	1.966667
 						    height     	54
 						    orientation 	0)
@@ -39316,7 +39180,7 @@
 						origin     	(7248, 4064)
 						terminus   	(7398, 4064)
 						ordinal    	29)
-					    (object InterMessView "viewmensajesistemaShow(String, String, String, String)" @1762
+					    (object InterMessView "viewmensajesistemaShow(mensajeSistema : String, botonTexto : String, botonLink : String, tipo : String)" @1762
 						location   	(16, 4194)
 						font       	(object Font
 						    size       	9
@@ -39342,9 +39206,9 @@
 						    quidu      	"54D21C320119"
 						    anchor_loc 	1
 						    nlines     	1
-						    max_width  	935
+						    max_width  	1783
 						    justify    	0
-						    label      	"viewmensajesistemaShow(String, String, String, String)"
+						    label      	"viewmensajesistemaShow(mensajeSistema : String, botonTexto : String, botonLink : String, tipo : String)"
 						    pctDist    	0.500000
 						    height     	45
 						    orientation 	1)
@@ -39397,7 +39261,7 @@
 						    quidu      	"54D21E240233"
 						    anchor_loc 	1
 						    nlines     	1
-						    max_width  	464
+						    max_width  	474
 						    justify    	0
 						    label      	"obtenercategoriaproducto( )"
 						    pctDist    	0.500000
@@ -39437,7 +39301,7 @@
 						    quidu      	"54D21E2E02CF"
 						    anchor_loc 	1
 						    nlines     	1
-						    max_width  	373
+						    max_width  	379
 						    justify    	0
 						    label      	"listacategoriaproducto"
 						    pctDist    	0.500000
@@ -39451,7 +39315,7 @@
 						origin     	(8016, 4409)
 						terminus   	(7248, 4409)
 						ordinal    	32)
-					    (object InterMessView "CI_formprodfrescos(Array)" @1769
+					    (object InterMessView "CI_formprodfrescos(listacategoriaproducto : Array)" @1769
 						location   	(16, 4514)
 						font       	(object Font
 						    size       	9
@@ -39477,9 +39341,9 @@
 						    quidu      	"54D21E8A02FE"
 						    anchor_loc 	1
 						    nlines     	1
-						    max_width  	468
+						    max_width  	858
 						    justify    	0
-						    label      	"CI_formprodfrescos(Array)"
+						    label      	"CI_formprodfrescos(listacategoriaproducto : Array)"
 						    pctDist    	0.500000
 						    height     	45
 						    orientation 	1)
@@ -39491,7 +39355,7 @@
 						origin     	(7216, 4514)
 						terminus   	(2096, 4514)
 						ordinal    	33)
-					    (object InterMessView "ValidarbtneditarprofRegresar(String, String)" @1771
+					    (object InterMessView "ValidarbtneditarprofRegresar(btnEditarProductoFresco : String, btnRegresar : String)" @1771
 						location   	(16, 4619)
 						font       	(object Font
 						    size       	9
@@ -39517,9 +39381,9 @@
 						    quidu      	"54D21ED9030D"
 						    anchor_loc 	1
 						    nlines     	1
-						    max_width  	727
+						    max_width  	1426
 						    justify    	0
-						    label      	"ValidarbtneditarprofRegresar(String, String)"
+						    label      	"ValidarbtneditarprofRegresar(btnEditarProductoFresco : String, btnRegresar : String)"
 						    pctDist    	0.500000
 						    height     	45
 						    orientation 	0)
@@ -39531,7 +39395,7 @@
 						origin     	(2095, 4619)
 						terminus   	(7216, 4619)
 						ordinal    	34)
-					    (object SelfMessView "ValidarbotonEditarProFre(String)" @1773
+					    (object SelfMessView "ValidarbotonEditarProFre(btnEditProF : String)" @1773
 						location   	(16, 4724)
 						font       	(object Font
 						    size       	9
@@ -39557,9 +39421,9 @@
 						    quidu      	"54D21F7401E5"
 						    anchor_loc 	1
 						    nlines     	1
-						    max_width  	543
+						    max_width  	794
 						    justify    	0
-						    label      	"ValidarbotonEditarProFre(String)"
+						    label      	"ValidarbotonEditarProFre(btnEditProF : String)"
 						    pctDist    	2.333333
 						    height     	44
 						    orientation 	0)
@@ -39571,7 +39435,7 @@
 						origin     	(7248, 4724)
 						terminus   	(7398, 4724)
 						ordinal    	35)
-					    (object InterMessView "viewmensajesistemaShow(String, String, String, String)" @1775
+					    (object InterMessView "viewmensajesistemaShow(mensajeSistema : String, botonTexto : String, botonLink : String, tipo : String)" @1775
 						location   	(16, 4854)
 						font       	(object Font
 						    size       	9
@@ -39597,9 +39461,9 @@
 						    quidu      	"54D220C30196"
 						    anchor_loc 	1
 						    nlines     	1
-						    max_width  	927
+						    max_width  	1783
 						    justify    	0
-						    label      	"viewmensajesistemaShow(String, String, String, String)"
+						    label      	"viewmensajesistemaShow(mensajeSistema : String, botonTexto : String, botonLink : String, tipo : String)"
 						    pctDist    	0.500000
 						    height     	45
 						    orientation 	1)
