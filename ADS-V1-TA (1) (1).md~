@@ -18310,7 +18310,8 @@
 								ordinal    	0
 								quidu      	"000000000000"
 								creation   	FALSE))))
-						class      	"Use Case View::Use-Case Model::Actors::usuario sistema"
+						class      	"Use Case View::Use-Case Model::Actors::usuarioSistema"
+						quidu      	"5619ED7C00EA"
 						persistence 	"Transient"
 						creationObj 	FALSE
 						multi      	FALSE)
@@ -18329,16 +18330,17 @@
 								dir        	"FromClientToSupplier"
 								sequence   	"1.1"
 								ordinal    	1
-								Operation  	"Validarestablecer"
-								quidu      	"54B749500511"
+								quidu      	"000000000000"
 								creation   	FALSE))))
-						class      	"Logical View::Analysis Model::realización modulo seguridad::boundarys::CI_formrestablecercontra"
+						class      	"Logical View::Analysis Model::realizacion modulo seguridad::boundaries::CI_formreestablecercontraseña"
+						quidu      	"5619FB4E0000"
 						persistence 	"Transient"
 						creationObj 	FALSE
 						multi      	FALSE)
 					    (object Object "$UNNAMED$118"
 						quid       	"5619ED4F038C"
-						class      	"Logical View::Analysis Model::realización modulo seguridad::boundarys::CI_viewmensajeSistema"
+						class      	"Logical View::Analysis Model::realizacion modulo seguridad::boundaries::CI_viewmensajeSistema"
+						quidu      	"5619F89A0196"
 						persistence 	"Transient"
 						creationObj 	FALSE
 						multi      	FALSE)
@@ -18357,16 +18359,17 @@
 								dir        	"FromClientToSupplier"
 								sequence   	"1.1.3.4.1.3.4.1"
 								ordinal    	19
-								Operation  	"Validarbtncambiarcontra"
-								quidu      	"54B74950059A"
+								quidu      	"000000000000"
 								creation   	FALSE))))
-						class      	"Logical View::Analysis Model::realización modulo seguridad::boundarys::CI_formcontranueva"
+						class      	"Logical View::Analysis Model::realizacion modulo seguridad::boundaries::CI_formcontranueva"
+						quidu      	"5619FBB50148"
 						persistence 	"Transient"
 						creationObj 	FALSE
 						multi      	FALSE)
 					    (object Object "$UNNAMED$120"
 						quid       	"5619ED4F03B6"
-						class      	"Logical View::Analysis Model::realización modulo seguridad::boundarys::CI_formpreguntaclave"
+						class      	"Logical View::Analysis Model::realizacion modulo seguridad::boundaries::CI_formpreguntaclave"
+						quidu      	"5619FB5E009C"
 						persistence 	"Transient"
 						creationObj 	FALSE
 						multi      	FALSE)
@@ -18385,8 +18388,7 @@
 								dir        	"FromClientToSupplier"
 								sequence   	"1.1.2"
 								ordinal    	3
-								Operation  	"CI_mensajesistemaShow"
-								quidu      	"54B749506947"
+								quidu      	"5619F89A0197"
 								creation   	FALSE)
 							    (object Message "CI_mensajesistemaShow(msj : String, tipo : String, botonTexto : String, botonLink : String)"
 								quid       	"5619ED4F0378"
@@ -18395,8 +18397,7 @@
 								dir        	"FromClientToSupplier"
 								sequence   	"1.1.3.1"
 								ordinal    	5
-								Operation  	"CI_mensajesistemaShow"
-								quidu      	"54B749506947"
+								quidu      	"5619F89A0197"
 								creation   	FALSE)
 							    (object Message "CI_mensajesistemaShow(msj : String, tipo : String, botonTexto : String, botonLink : String)"
 								quid       	"5619ED4F037A"
@@ -18405,8 +18406,7 @@
 								dir        	"FromClientToSupplier"
 								sequence   	"1.1.3.3"
 								ordinal    	8
-								Operation  	"CI_mensajesistemaShow"
-								quidu      	"54B749506947"
+								quidu      	"5619F89A0197"
 								creation   	FALSE)
 							    (object Message "CI_mensajesistemaShow(msj : String, tipo : String, botonTexto : String, botonLink : String)"
 								quid       	"5619ED4F037C"
@@ -18415,8 +18415,7 @@
 								dir        	"FromClientToSupplier"
 								sequence   	"1.1.3.4.1.2"
 								ordinal    	12
-								Operation  	"CI_mensajesistemaShow"
-								quidu      	"54B749506947"
+								quidu      	"5619F89A0197"
 								creation   	FALSE)
 							    (object Message "CI_mensajesistemaShow(msj : String, tipo : String, botonTexto : String, botonLink : String)"
 								quid       	"5619ED4F037E"
@@ -18425,8 +18424,7 @@
 								dir        	"FromClientToSupplier"
 								sequence   	"1.1.3.4.1.3.1"
 								ordinal    	14
-								Operation  	"CI_mensajesistemaShow"
-								quidu      	"54B749506947"
+								quidu      	"5619F89A0197"
 								creation   	FALSE)
 							    (object Message "CI_mensajesistemaShow(msj : String, tipo : String, botonTexto : String, botonLink : String)"
 								quid       	"5619ED4F0380"
@@ -18435,8 +18433,7 @@
 								dir        	"FromClientToSupplier"
 								sequence   	"1.1.3.4.1.3.3"
 								ordinal    	17
-								Operation  	"CI_mensajesistemaShow"
-								quidu      	"54B749506947"
+								quidu      	"5619F89A0197"
 								creation   	FALSE)
 							    (object Message "CI_mensajesistemaShow(msj : String, tipo : String, botonTexto : String, botonLink : String)"
 								quid       	"5619ED4F0382"
@@ -18445,8 +18442,7 @@
 								dir        	"FromClientToSupplier"
 								sequence   	"1.1.3.4.1.3.4.1.2.1"
 								ordinal    	23
-								Operation  	"CI_mensajesistemaShow"
-								quidu      	"54B749506947"
+								quidu      	"5619F89A0197"
 								creation   	FALSE)
 							    (object Message "CI_mensajesistemaShow(msj : String, tipo : String, botonTexto : String, botonLink : String)"
 								quid       	"5619ED4F0384"
@@ -18455,8 +18451,7 @@
 								dir        	"FromClientToSupplier"
 								sequence   	"1.1.3.4.1.3.4.1.2.3"
 								ordinal    	26
-								Operation  	"CI_mensajesistemaShow"
-								quidu      	"54B749506947"
+								quidu      	"5619F89A0197"
 								creation   	FALSE)
 							    (object Message "CI_mensajesistemaShow(msj : String, tipo : String, botonTexto : String, botonLink : String)"
 								quid       	"5619ED4F0386"
@@ -18465,8 +18460,7 @@
 								dir        	"FromClientToSupplier"
 								sequence   	"1.1.3.4.1.3.4.1.2.4"
 								ordinal    	27
-								Operation  	"CI_mensajesistemaShow"
-								quidu      	"54B749506947"
+								quidu      	"5619F89A0197"
 								creation   	FALSE)
 							    (object Message "CI_mensajesistemaShow(msj : String, tipo : String, botonTexto : String, botonLink : String)"
 								quid       	"5619ED4F0388"
@@ -18475,8 +18469,7 @@
 								dir        	"FromClientToSupplier"
 								sequence   	"1.1.3.4.1.3.4.1.1.1"
 								ordinal    	21
-								Operation  	"CI_mensajesistemaShow"
-								quidu      	"54B749506947"
+								quidu      	"5619F89A0197"
 								creation   	FALSE)))
 						    (object Link
 							quid       	"5619ED4F035A"
@@ -18490,8 +18483,7 @@
 								dir        	"FromClientToSupplier"
 								sequence   	"1.1.3"
 								ordinal    	4
-								Operation  	"validarcorreo"
-								quidu      	"54B749500526"
+								quidu      	"000000000000"
 								creation   	FALSE)
 							    (object Message "validarbotonpregunta(btnpregunta : String)"
 								quid       	"5619ED4F035D"
@@ -18500,8 +18492,7 @@
 								dir        	"FromClientToSupplier"
 								sequence   	"1.1.3.4.1.1"
 								ordinal    	11
-								Operation  	"validarbotonpregunta"
-								quidu      	"54B7495007F7"
+								quidu      	"000000000000"
 								creation   	FALSE)
 							    (object Message "validarbtnrestable(btnrestablecer : String)"
 								quid       	"5619ED4F035F"
@@ -18510,8 +18501,7 @@
 								dir        	"FromClientToSupplier"
 								sequence   	"1.1.1"
 								ordinal    	2
-								Operation  	"validarbtnrestable"
-								quidu      	"54B74950086A"
+								quidu      	"000000000000"
 								creation   	FALSE)
 							    (object Message "validarespuestaclave(txtpregunta : String)"
 								quid       	"5619ED4F0361"
@@ -18520,8 +18510,7 @@
 								dir        	"FromClientToSupplier"
 								sequence   	"1.1.3.4.1.3"
 								ordinal    	13
-								Operation  	"validarespuestaclave"
-								quidu      	"54B74950055F"
+								quidu      	"000000000000"
 								creation   	FALSE)
 							    (object Message "validarcamposcontras(txtcontranueva : String, txtconfirmarcontra : String)"
 								quid       	"5619ED4F0363"
@@ -18530,8 +18519,7 @@
 								dir        	"FromClientToSupplier"
 								sequence   	"1.1.3.4.1.3.4.1.2"
 								ordinal    	22
-								Operation  	"validarcamposcontras"
-								quidu      	"54B7495005A3"
+								quidu      	"000000000000"
 								creation   	FALSE)
 							    (object Message "validarbtncambiarcontra(btncambiarcontra : String)"
 								quid       	"5619ED4F0365"
@@ -18540,8 +18528,7 @@
 								dir        	"FromClientToSupplier"
 								sequence   	"1.1.3.4.1.3.4.1.1"
 								ordinal    	20
-								Operation  	"validarbtncambiarcontra"
-								quidu      	"54B749500815"
+								quidu      	"000000000000"
 								creation   	FALSE)))
 						    (object Link
 							quid       	"5619ED4F0367"
@@ -18555,8 +18542,7 @@
 								dir        	"FromClientToSupplier"
 								sequence   	"1.1.3.2"
 								ordinal    	6
-								Operation  	"ValidarcorreoBD"
-								quidu      	"54B74950053B"
+								quidu      	"5619F89A016B"
 								creation   	FALSE)
 							    (object Message "resultado"
 								quid       	"5619ED4F036A"
@@ -18574,8 +18560,7 @@
 								dir        	"FromClientToSupplier"
 								sequence   	"1.1.3.4.1.3.2"
 								ordinal    	15
-								Operation  	"validarespuestaclaveBD"
-								quidu      	"54B74950057B"
+								quidu      	"5619F89A016D"
 								creation   	FALSE)
 							    (object Message "ingresarcontranuevaBD(contra : String)"
 								quid       	"5619ED4F036E"
@@ -18584,8 +18569,7 @@
 								dir        	"FromClientToSupplier"
 								sequence   	"1.1.3.4.1.3.4.1.2.2"
 								ordinal    	24
-								Operation  	"ingresarcontranuevaBD"
-								quidu      	"54B7495005B6"
+								quidu      	"5619F89A016F"
 								creation   	FALSE)))
 						    (object Link
 							quid       	"5619ED4F0370"
@@ -18599,8 +18583,7 @@
 								dir        	"FromClientToSupplier"
 								sequence   	"1.1.3.4"
 								ordinal    	9
-								Operation  	"CI_preguntaclaveShow"
-								quidu      	"54B74950054C"
+								quidu      	"000000000000"
 								creation   	FALSE)
 							    (object Message "Validarbtnpregunta(btnvalidarpregunta : String)"
 								quid       	"5619ED4F0373"
@@ -18609,8 +18592,7 @@
 								dir        	"ToClientFromSupplier"
 								sequence   	"1.1.3.4.1"
 								ordinal    	10
-								Operation  	"Validarbtnpregunta"
-								quidu      	"54B749500556"
+								quidu      	"000000000000"
 								creation   	FALSE)))
 						    (object Link
 							quid       	"5619ED4F0375"
@@ -18624,10 +18606,10 @@
 								dir        	"FromClientToSupplier"
 								sequence   	"1.1.3.4.1.3.4"
 								ordinal    	18
-								Operation  	"CI_contranuevaShow"
-								quidu      	"54B749500587"
+								quidu      	"000000000000"
 								creation   	FALSE))))
-						class      	"Logical View::Analysis Model::realización modulo seguridad::controllers::CC_restablecercontra"
+						class      	"Logical View::Analysis Model::realizacion modulo seguridad::controllers::CC_reestablecercontraseña"
+						quidu      	"5619FB7E038A"
 						persistence 	"Transient"
 						creationObj 	FALSE
 						multi      	FALSE)
@@ -18662,7 +18644,8 @@
 								ordinal    	25
 								quidu      	"000000000000"
 								creation   	FALSE))))
-						class      	"Logical View::Analysis Model::realización modulo seguridad::entities::CE_usuarios"
+						class      	"Logical View::Analysis Model::realizacion modulo seguridad::entities::CE_usuarios"
+						quidu      	"5619F89A0163"
 						persistence 	"Transient"
 						creationObj 	FALSE
 						multi      	FALSE))))
@@ -19179,18 +19162,18 @@
 						    default_color 	TRUE)
 						label      	(object ItemLabel
 						    Parent_View 	@846
-						    location   	(256, 240)
-						    fill_color 	16777215
+						    location   	(256, 264)
 						    anchor_loc 	1
 						    nlines     	2
-						    max_width  	102
+						    max_width  	290
 						    justify    	0
 						    label      	"")
+						icon       	"Actor"
 						icon_style 	"Icon"
 						line_color 	3342489
 						fill_color 	13434879
 						quidu      	"5619ED4F034B"
-						width      	120
+						width      	282
 						height     	4004
 						icon_height 	162
 						icon_width 	120
@@ -19216,18 +19199,18 @@
 						    default_color 	TRUE)
 						label      	(object ItemLabel
 						    Parent_View 	@848
-						    location   	(720, 224)
-						    fill_color 	16777215
+						    location   	(720, 249)
 						    anchor_loc 	1
 						    nlines     	2
-						    max_width  	211
+						    max_width  	559
 						    justify    	0
 						    label      	"")
+						icon       	"boundary"
 						icon_style 	"Icon"
 						line_color 	3342489
 						fill_color 	13434879
 						quidu      	"5619ED4F0353"
-						width      	229
+						width      	526
 						height     	4020
 						icon_height 	153
 						icon_width 	229
@@ -19241,7 +19224,7 @@
 						    y_coord    	112
 						    Nested     	FALSE))
 					    (object InterObjView "$UNNAMED$118" @850
-						location   	(1216, 224)
+						location   	(1264, 224)
 						font       	(object Font
 						    size       	9
 						    face       	"Arial"
@@ -19253,95 +19236,95 @@
 						    default_color 	TRUE)
 						label      	(object ItemLabel
 						    Parent_View 	@850
-						    location   	(1216, 224)
-						    fill_color 	16777215
+						    location   	(1264, 249)
 						    anchor_loc 	1
 						    nlines     	2
-						    max_width  	211
+						    max_width  	436
 						    justify    	0
 						    label      	"")
+						icon       	"boundary"
 						icon_style 	"Icon"
 						line_color 	3342489
 						fill_color 	13434879
 						quidu      	"5619ED4F038C"
-						width      	229
+						width      	428
 						height     	4020
 						icon_height 	153
 						icon_width 	229
 						icon_y_offset 	0
 						annotation 	1
 						Focus_Of_Control 	(object Focus_Of_Control "" @851
-						    location   	(1216, 752)
+						    location   	(1264, 752)
 						    line_color 	3342489
 						    InterObjView 	@850
 						    height     	90
 						    y_coord    	0
 						    Nested     	FALSE)
 						Focus_Of_Control 	(object Focus_Of_Control "" @852
-						    location   	(1216, 1024)
+						    location   	(1264, 1024)
 						    line_color 	3342489
 						    InterObjView 	@850
 						    height     	90
 						    y_coord    	0
 						    Nested     	FALSE)
 						Focus_Of_Control 	(object Focus_Of_Control "" @853
-						    location   	(1216, 1344)
+						    location   	(1264, 1344)
 						    line_color 	3342489
 						    InterObjView 	@850
 						    height     	90
 						    y_coord    	0
 						    Nested     	FALSE)
 						Focus_Of_Control 	(object Focus_Of_Control "" @854
-						    location   	(1216, 1936)
+						    location   	(1264, 1936)
 						    line_color 	3342489
 						    InterObjView 	@850
 						    height     	90
 						    y_coord    	0
 						    Nested     	FALSE)
 						Focus_Of_Control 	(object Focus_Of_Control "" @855
-						    location   	(1216, 2208)
+						    location   	(1264, 2208)
 						    line_color 	3342489
 						    InterObjView 	@850
 						    height     	90
 						    y_coord    	0
 						    Nested     	FALSE)
 						Focus_Of_Control 	(object Focus_Of_Control "" @856
-						    location   	(1216, 2560)
+						    location   	(1264, 2560)
 						    line_color 	3342489
 						    InterObjView 	@850
 						    height     	90
 						    y_coord    	0
 						    Nested     	FALSE)
 						Focus_Of_Control 	(object Focus_Of_Control "" @857
-						    location   	(1216, 3104)
+						    location   	(1264, 3104)
 						    line_color 	3342489
 						    InterObjView 	@850
 						    height     	90
 						    y_coord    	0
 						    Nested     	FALSE)
 						Focus_Of_Control 	(object Focus_Of_Control "" @858
-						    location   	(1216, 3392)
+						    location   	(1264, 3392)
 						    line_color 	3342489
 						    InterObjView 	@850
 						    height     	90
 						    y_coord    	0
 						    Nested     	FALSE)
 						Focus_Of_Control 	(object Focus_Of_Control "" @859
-						    location   	(1216, 3824)
+						    location   	(1264, 3824)
 						    line_color 	3342489
 						    InterObjView 	@850
 						    height     	90
 						    y_coord    	0
 						    Nested     	FALSE)
 						Focus_Of_Control 	(object Focus_Of_Control "" @860
-						    location   	(1216, 4064)
+						    location   	(1264, 4064)
 						    line_color 	3342489
 						    InterObjView 	@850
 						    height     	90
 						    y_coord    	0
 						    Nested     	FALSE))
 					    (object InterObjView "$UNNAMED$119" @861
-						location   	(1664, 224)
+						location   	(1712, 224)
 						font       	(object Font
 						    size       	9
 						    face       	"Arial"
@@ -19353,32 +19336,32 @@
 						    default_color 	TRUE)
 						label      	(object ItemLabel
 						    Parent_View 	@861
-						    location   	(1664, 224)
-						    fill_color 	16777215
+						    location   	(1712, 249)
 						    anchor_loc 	1
 						    nlines     	2
-						    max_width  	211
+						    max_width  	351
 						    justify    	0
 						    label      	"")
+						icon       	"boundary"
 						icon_style 	"Icon"
 						line_color 	3342489
 						fill_color 	13434879
 						quidu      	"5619ED4F03A5"
-						width      	229
+						width      	362
 						height     	4020
 						icon_height 	153
 						icon_width 	229
 						icon_y_offset 	0
 						annotation 	1
 						Focus_Of_Control 	(object Focus_Of_Control "" @862
-						    location   	(1664, 2752)
+						    location   	(1712, 2752)
 						    line_color 	3342489
 						    InterObjView 	@861
 						    height     	200
 						    y_coord    	110
 						    Nested     	FALSE))
 					    (object InterObjView "$UNNAMED$120" @863
-						location   	(2128, 224)
+						location   	(2144, 224)
 						font       	(object Font
 						    size       	9
 						    face       	"Arial"
@@ -19390,25 +19373,25 @@
 						    default_color 	TRUE)
 						label      	(object ItemLabel
 						    Parent_View 	@863
-						    location   	(2128, 224)
-						    fill_color 	16777215
+						    location   	(2144, 249)
 						    anchor_loc 	1
 						    nlines     	2
-						    max_width  	211
+						    max_width  	378
 						    justify    	0
 						    label      	"")
+						icon       	"boundary"
 						icon_style 	"Icon"
 						line_color 	3342489
 						fill_color 	13434879
 						quidu      	"5619ED4F03B6"
-						width      	229
+						width      	390
 						height     	4020
 						icon_height 	153
 						icon_width 	229
 						icon_y_offset 	0
 						annotation 	1
 						Focus_Of_Control 	(object Focus_Of_Control "" @864
-						    location   	(2128, 1552)
+						    location   	(2144, 1552)
 						    line_color 	3342489
 						    InterObjView 	@863
 						    height     	235
@@ -19427,18 +19410,18 @@
 						    default_color 	TRUE)
 						label      	(object ItemLabel
 						    Parent_View 	@865
-						    location   	(2624, 224)
-						    fill_color 	16777215
+						    location   	(2624, 248)
 						    anchor_loc 	1
 						    nlines     	2
-						    max_width  	139
+						    max_width  	486
 						    justify    	0
 						    label      	"")
+						icon       	"control"
 						icon_style 	"Icon"
 						line_color 	3342489
 						fill_color 	13434879
 						quidu      	"5619ED4F0359"
-						width      	157
+						width      	438
 						height     	4020
 						icon_height 	164
 						icon_width 	157
@@ -19541,18 +19524,18 @@
 						    default_color 	TRUE)
 						label      	(object ItemLabel
 						    Parent_View 	@878
-						    location   	(3040, 224)
-						    fill_color 	16777215
+						    location   	(3040, 249)
 						    anchor_loc 	1
 						    nlines     	2
-						    max_width  	136
+						    max_width  	226
 						    justify    	0
 						    label      	"")
+						icon       	"entity"
 						icon_style 	"Icon"
 						line_color 	3342489
 						fill_color 	13434879
 						quidu      	"5619ED4F0395"
-						width      	154
+						width      	238
 						height     	4020
 						icon_height 	153
 						icon_width 	154
@@ -19770,7 +19753,7 @@
 						    quidu      	"5619ED4F034D"
 						    anchor_loc 	1
 						    nlines     	1
-						    max_width  	506
+						    max_width  	437
 						    justify    	0
 						    label      	"CI_restablecercontrashow( )"
 						    pctDist    	0.500000
@@ -19810,7 +19793,7 @@
 						    quidu      	"5619ED4F0351"
 						    anchor_loc 	1
 						    nlines     	1
-						    max_width  	720
+						    max_width  	645
 						    justify    	0
 						    label      	"Validarestablecer(btnrestablecer : String)"
 						    pctDist    	0.499733
@@ -19837,7 +19820,7 @@
 						    default_color 	TRUE)
 						label      	(object SegLabel @898
 						    Parent_View 	@897
-						    location   	(1920, 703)
+						    location   	(1944, 703)
 						    font       	(object Font
 							size       	9
 							face       	"Arial"
@@ -19862,7 +19845,7 @@
 						Focus_Src  	@866
 						Focus_Entry 	@851
 						origin     	(2608, 747)
-						terminus   	(1232, 747)
+						terminus   	(1280, 747)
 						ordinal    	3)
 					    (object SelfMessView "validarcorreo(correo : String)" @899
 						location   	(16, 874)
@@ -19890,7 +19873,7 @@
 						    quidu      	"5619ED4F035B"
 						    anchor_loc 	1
 						    nlines     	1
-						    max_width  	500
+						    max_width  	454
 						    justify    	0
 						    label      	"validarcorreo(correo : String)"
 						    pctDist    	0.606667
@@ -19917,7 +19900,7 @@
 						    default_color 	TRUE)
 						label      	(object SegLabel @902
 						    Parent_View 	@901
-						    location   	(1920, 974)
+						    location   	(1944, 974)
 						    font       	(object Font
 							size       	9
 							face       	"Arial"
@@ -19942,7 +19925,7 @@
 						Focus_Src  	@868
 						Focus_Entry 	@852
 						origin     	(2608, 1018)
-						terminus   	(1232, 1018)
+						terminus   	(1280, 1018)
 						ordinal    	5)
 					    (object InterMessView "ValidarcorreoBD(correo : String)" @903
 						location   	(16, 1130)
@@ -20010,7 +19993,7 @@
 						    quidu      	"5619ED4F036A"
 						    anchor_loc 	1
 						    nlines     	1
-						    max_width  	168
+						    max_width  	152
 						    justify    	0
 						    label      	"resultado"
 						    pctDist    	0.502604
@@ -20037,7 +20020,7 @@
 						    default_color 	TRUE)
 						label      	(object SegLabel @908
 						    Parent_View 	@907
-						    location   	(1920, 1296)
+						    location   	(1944, 1296)
 						    font       	(object Font
 							size       	9
 							face       	"Arial"
@@ -20062,7 +20045,7 @@
 						Focus_Src  	@868
 						Focus_Entry 	@853
 						origin     	(2608, 1340)
-						terminus   	(1232, 1340)
+						terminus   	(1280, 1340)
 						ordinal    	8)
 					    (object InterMessView "CI_preguntaclaveShow(usuario : String)" @909
 						location   	(16, 1553)
@@ -20077,7 +20060,7 @@
 						    default_color 	TRUE)
 						label      	(object SegLabel @910
 						    Parent_View 	@909
-						    location   	(2376, 1509)
+						    location   	(2384, 1509)
 						    font       	(object Font
 							size       	9
 							face       	"Arial"
@@ -20090,7 +20073,7 @@
 						    quidu      	"5619ED4F0371"
 						    anchor_loc 	1
 						    nlines     	1
-						    max_width  	704
+						    max_width  	632
 						    justify    	0
 						    label      	"CI_preguntaclaveShow(usuario : String)"
 						    pctDist    	0.500000
@@ -20102,7 +20085,7 @@
 						Focus_Src  	@868
 						Focus_Entry 	@864
 						origin     	(2608, 1553)
-						terminus   	(2144, 1553)
+						terminus   	(2160, 1553)
 						ordinal    	9)
 					    (object InterMessView "Validarbtnpregunta(btnvalidarpregunta : String)" @911
 						location   	(16, 1697)
@@ -20117,7 +20100,7 @@
 						    default_color 	TRUE)
 						label      	(object SegLabel @912
 						    Parent_View 	@911
-						    location   	(2392, 1654)
+						    location   	(2399, 1654)
 						    font       	(object Font
 							size       	9
 							face       	"Arial"
@@ -20130,7 +20113,7 @@
 						    quidu      	"5619ED4F0373"
 						    anchor_loc 	1
 						    nlines     	1
-						    max_width  	822
+						    max_width  	753
 						    justify    	0
 						    label      	"Validarbtnpregunta(btnvalidarpregunta : String)"
 						    pctDist    	0.535484
@@ -20141,7 +20124,7 @@
 						supplier   	@865
 						Focus_Src  	@864
 						Focus_Entry 	@870
-						origin     	(2143, 1697)
+						origin     	(2159, 1697)
 						terminus   	(2608, 1697)
 						ordinal    	10)
 					    (object SelfMessView "validarespuestaclave(txtpregunta : String)" @913
@@ -20170,7 +20153,7 @@
 						    quidu      	"5619ED4F0361"
 						    anchor_loc 	1
 						    nlines     	1
-						    max_width  	727
+						    max_width  	659
 						    justify    	0
 						    label      	"validarespuestaclave(txtpregunta : String)"
 						    pctDist    	0.500000
@@ -20197,7 +20180,7 @@
 						    default_color 	TRUE)
 						label      	(object SegLabel @916
 						    Parent_View 	@915
-						    location   	(1920, 2523)
+						    location   	(1944, 2523)
 						    font       	(object Font
 							size       	9
 							face       	"Arial"
@@ -20222,7 +20205,7 @@
 						Focus_Src  	@872
 						Focus_Entry 	@856
 						origin     	(2608, 2567)
-						terminus   	(1232, 2567)
+						terminus   	(1280, 2567)
 						ordinal    	17)
 					    (object InterMessView "CI_contranuevaShow( )" @917
 						location   	(16, 2757)
@@ -20237,7 +20220,7 @@
 						    default_color 	TRUE)
 						label      	(object SegLabel @918
 						    Parent_View 	@917
-						    location   	(2144, 2713)
+						    location   	(2168, 2713)
 						    font       	(object Font
 							size       	9
 							face       	"Arial"
@@ -20250,7 +20233,7 @@
 						    quidu      	"5619ED4F0376"
 						    anchor_loc 	1
 						    nlines     	1
-						    max_width  	414
+						    max_width  	375
 						    justify    	0
 						    label      	"CI_contranuevaShow( )"
 						    pctDist    	0.500000
@@ -20262,7 +20245,7 @@
 						Focus_Src  	@872
 						Focus_Entry 	@862
 						origin     	(2608, 2757)
-						terminus   	(1680, 2757)
+						terminus   	(1728, 2757)
 						ordinal    	18)
 					    (object InterMessView "Validarbtncambiarcontra(btncambiarcontra : String)" @919
 						location   	(16, 2862)
@@ -20277,7 +20260,7 @@
 						    default_color 	TRUE)
 						label      	(object SegLabel @920
 						    Parent_View 	@919
-						    location   	(2143, 2819)
+						    location   	(2167, 2819)
 						    font       	(object Font
 							size       	9
 							face       	"Arial"
@@ -20290,7 +20273,7 @@
 						    quidu      	"5619ED4F03A3"
 						    anchor_loc 	1
 						    nlines     	1
-						    max_width  	898
+						    max_width  	816
 						    justify    	0
 						    label      	"Validarbtncambiarcontra(btncambiarcontra : String)"
 						    pctDist    	0.500538
@@ -20301,7 +20284,7 @@
 						supplier   	@865
 						Focus_Src  	@862
 						Focus_Entry 	@874
-						origin     	(1679, 2862)
+						origin     	(1727, 2862)
 						terminus   	(2608, 2862)
 						ordinal    	19)
 					    (object SelfMessView "validarcamposcontras(txtcontranueva : String, txtconfirmarcontra : String)" @921
@@ -20330,7 +20313,7 @@
 						    quidu      	"5619ED4F0363"
 						    anchor_loc 	1
 						    nlines     	1
-						    max_width  	1263
+						    max_width  	1149
 						    justify    	0
 						    label      	"validarcamposcontras(txtcontranueva : String, txtconfirmarcontra : String)"
 						    pctDist    	0.500000
@@ -20357,7 +20340,7 @@
 						    default_color 	TRUE)
 						label      	(object SegLabel @924
 						    Parent_View 	@923
-						    location   	(1920, 3349)
+						    location   	(1944, 3349)
 						    font       	(object Font
 							size       	9
 							face       	"Arial"
@@ -20382,7 +20365,7 @@
 						Focus_Src  	@876
 						Focus_Entry 	@858
 						origin     	(2608, 3393)
-						terminus   	(1232, 3393)
+						terminus   	(1280, 3393)
 						ordinal    	23)
 					    (object InterMessView "ingresarcontranuevaBD(contra : String)" @925
 						location   	(16, 3569)
@@ -20450,7 +20433,7 @@
 						    quidu      	"5619ED4F039C"
 						    anchor_loc 	1
 						    nlines     	1
-						    max_width  	168
+						    max_width  	152
 						    justify    	0
 						    label      	"resultado"
 						    pctDist    	0.505208
@@ -20477,7 +20460,7 @@
 						    default_color 	TRUE)
 						label      	(object SegLabel @930
 						    Parent_View 	@929
-						    location   	(1920, 3777)
+						    location   	(1944, 3777)
 						    font       	(object Font
 							size       	9
 							face       	"Arial"
@@ -20502,7 +20485,7 @@
 						Focus_Src  	@876
 						Focus_Entry 	@859
 						origin     	(2608, 3821)
-						terminus   	(1232, 3821)
+						terminus   	(1280, 3821)
 						ordinal    	26)
 					    (object InterMessView "CI_mensajesistemaShow(msj : String, tipo : String, botonTexto : String, botonLink : String)" @931
 						location   	(16, 4061)
@@ -20517,7 +20500,7 @@
 						    default_color 	TRUE)
 						label      	(object SegLabel @932
 						    Parent_View 	@931
-						    location   	(1920, 4017)
+						    location   	(1944, 4017)
 						    font       	(object Font
 							size       	9
 							face       	"Arial"
@@ -20542,7 +20525,7 @@
 						Focus_Src  	@876
 						Focus_Entry 	@860
 						origin     	(2608, 4061)
-						terminus   	(1232, 4061)
+						terminus   	(1280, 4061)
 						ordinal    	27)
 					    (object SelfMessView "validarbtncambiarcontra(btncambiarcontra : String)" @933
 						location   	(16, 2970)
@@ -20570,7 +20553,7 @@
 						    quidu      	"5619ED4F0365"
 						    anchor_loc 	1
 						    nlines     	1
-						    max_width  	894
+						    max_width  	812
 						    justify    	0
 						    label      	"validarbtncambiarcontra(btncambiarcontra : String)"
 						    pctDist    	0.500000
@@ -20597,7 +20580,7 @@
 						    default_color 	TRUE)
 						label      	(object SegLabel @936
 						    Parent_View 	@935
-						    location   	(1920, 3061)
+						    location   	(1944, 3061)
 						    font       	(object Font
 							size       	9
 							face       	"Arial"
@@ -20622,7 +20605,7 @@
 						Focus_Src  	@875
 						Focus_Entry 	@857
 						origin     	(2608, 3105)
-						terminus   	(1232, 3105)
+						terminus   	(1280, 3105)
 						ordinal    	21)
 					    (object InterMessView "CI_mensajesistemaShow(msj : String, tipo : String, botonTexto : String, botonLink : String)" @937
 						location   	(16, 2204)
@@ -20637,7 +20620,7 @@
 						    default_color 	TRUE)
 						label      	(object SegLabel @938
 						    Parent_View 	@937
-						    location   	(1920, 2160)
+						    location   	(1944, 2160)
 						    font       	(object Font
 							size       	9
 							face       	"Arial"
@@ -20662,7 +20645,7 @@
 						Focus_Src  	@872
 						Focus_Entry 	@855
 						origin     	(2608, 2204)
-						terminus   	(1232, 2204)
+						terminus   	(1280, 2204)
 						ordinal    	14)
 					    (object InterMessView "validarespuestaclaveBD(respuestaclave : String)" @939
 						location   	(16, 2357)
@@ -20770,7 +20753,7 @@
 						    quidu      	"5619ED4F035D"
 						    anchor_loc 	1
 						    nlines     	1
-						    max_width  	747
+						    max_width  	680
 						    justify    	0
 						    label      	"validarbotonpregunta(btnpregunta : String)"
 						    pctDist    	0.500000
@@ -20797,7 +20780,7 @@
 						    default_color 	TRUE)
 						label      	(object SegLabel @946
 						    Parent_View 	@945
-						    location   	(1920, 1888)
+						    location   	(1944, 1888)
 						    font       	(object Font
 							size       	9
 							face       	"Arial"
@@ -20822,7 +20805,7 @@
 						Focus_Src  	@870
 						Focus_Entry 	@854
 						origin     	(2608, 1932)
-						terminus   	(1232, 1932)
+						terminus   	(1280, 1932)
 						ordinal    	12)
 					    (object SelfMessView "validarbtnrestable(btnrestablecer : String)" @947
 						location   	(16, 617)
@@ -20850,7 +20833,7 @@
 						    quidu      	"5619ED4F035F"
 						    anchor_loc 	1
 						    nlines     	1
-						    max_width  	730
+						    max_width  	652
 						    justify    	0
 						    label      	"validarbtnrestable(btnrestablecer : String)"
 						    pctDist    	0.500000
