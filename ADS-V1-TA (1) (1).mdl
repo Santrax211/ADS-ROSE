@@ -27587,9 +27587,493 @@
 				    (object Mechanism @1230
 					logical_models 	(list unit_reference_list
 					    (object Object "$UNNAMED$297"
-						quid       	"5619ED4F02B0"
+						quid       	"5619EF9C03AA"
+						collaborators 	(list link_list
+						    (object Link
+							quid       	"5619EF9C03AB"
+							supplier   	"$UNNAMED$298"
+							quidu      	"5619EF9C03B2"
+							messages   	(list Messages
+							    (object Message "llamar"
+								quid       	"5619EF9C03AC"
+								frequency  	"Aperiodic"
+								synchronization 	"Simple"
+								dir        	"FromClientToSupplier"
+								sequence   	"1"
+								ordinal    	0
+								quidu      	"000000000000"
+								creation   	FALSE))))
 						class      	"Use Case View::Use-Case Model::Actors::usuarioSistema"
 						quidu      	"5619ED7C00EA"
+						persistence 	"Transient"
+						creationObj 	FALSE
+						multi      	FALSE)
+					    (object Object "$UNNAMED$298"
+						quid       	"5619EF9C03B2"
+						collaborators 	(list link_list
+						    (object Link
+							quid       	"5619EF9C03B1"
+							supplier   	"$UNNAMED$299"
+							quidu      	"5619EF9C03B7"
+							messages   	(list Messages
+							    (object Message "POST"
+								quid       	"5619EF9C03B0"
+								frequency  	"Aperiodic"
+								synchronization 	"Simple"
+								dir        	"FromClientToSupplier"
+								sequence   	"1.1"
+								ordinal    	1
+								quidu      	"000000000000"
+								creation   	FALSE))))
+						class      	"Logical View::Design Model::Modulo Seguridad::formreestablecercontraseña"
+						quidu      	"5619EDCF0213"
+						persistence 	"Transient"
+						creationObj 	FALSE
+						multi      	FALSE)
+					    (object Object "$UNNAMED$300"
+						quid       	"5619EF9C0417"
+						collaborators 	(list link_list
+						    (object Link
+							quid       	"5619EF9C0416"
+							supplier   	"$UNNAMED$299"
+							quidu      	"5619EF9C03B7"
+							messages   	(list Messages
+							    (object Message "POST"
+								quid       	"5619EF9C0415"
+								frequency  	"Aperiodic"
+								synchronization 	"Simple"
+								dir        	"FromClientToSupplier"
+								sequence   	"1.1.1.2.2.3.1"
+								ordinal    	13
+								quidu      	"000000000000"
+								creation   	FALSE))))
+						class      	"Logical View::Design Model::Modulo Seguridad::formpreguntaclave"
+						quidu      	"5619EE1F010A"
+						persistence 	"Transient"
+						creationObj 	FALSE
+						multi      	FALSE)
+					    (object Object "$UNNAMED$301"
+						quid       	"5619EF9C0427"
+						collaborators 	(list link_list
+						    (object Link
+							quid       	"5619EF9C0426"
+							supplier   	"$UNNAMED$299"
+							quidu      	"5619EF9C03B7"
+							messages   	(list Messages
+							    (object Message "POST"
+								quid       	"5619EF9C0425"
+								frequency  	"Aperiodic"
+								synchronization 	"Simple"
+								dir        	"FromClientToSupplier"
+								sequence   	"1.1.1.2.2.3.1.1.2.2.3.1"
+								ordinal    	25
+								quidu      	"000000000000"
+								creation   	FALSE))))
+						class      	"Logical View::Design Model::Modulo Seguridad::formcontranueva"
+						quidu      	"5619EE38003F"
+						persistence 	"Transient"
+						creationObj 	FALSE
+						multi      	FALSE)
+					    (object Object "$UNNAMED$302"
+						quid       	"5619EF9C03D9"
+						class      	"Logical View::Design Model::Shared::viewmensajesistema"
+						quidu      	"5619EE6103CE"
+						persistence 	"Transient"
+						creationObj 	FALSE
+						multi      	FALSE)
+					    (object Object "$UNNAMED$299"
+						quid       	"5619EF9C03B7"
+						collaborators 	(list link_list
+						    (object Link
+							quid       	"5619EF9C03B6"
+							supplier   	"$UNNAMED$299"
+							quidu      	"5619EF9C03B7"
+							messages   	(list Messages
+							    (object Message "Validarbtnrestable(btnrestablecer : String)"
+								quid       	"5619EF9C03B5"
+								frequency  	"Aperiodic"
+								synchronization 	"Simple"
+								dir        	"FromClientToSupplier"
+								sequence   	"1.1.1"
+								ordinal    	2
+								quidu      	"000000000000"
+								creation   	FALSE)
+							    (object Message "validarcorreo(txtcorreo : String)"
+								quid       	"5619EF9C03CC"
+								frequency  	"Aperiodic"
+								synchronization 	"Simple"
+								dir        	"FromClientToSupplier"
+								sequence   	"1.1.1.2"
+								ordinal    	4
+								quidu      	"000000000000"
+								creation   	FALSE)
+							    (object Message "opname( )"
+								quid       	"5619EF9C03CE"
+								frequency  	"Aperiodic"
+								synchronization 	"Simple"
+								dir        	"FromClientToSupplier"
+								sequence   	"1.1.1.2.2.3.1.1"
+								ordinal    	14
+								quidu      	"000000000000"
+								creation   	FALSE)
+							    (object Message "validarespuestaclave(txtpregunta : String)"
+								quid       	"5619EF9C03D0"
+								frequency  	"Aperiodic"
+								synchronization 	"Simple"
+								dir        	"FromClientToSupplier"
+								sequence   	"1.1.1.2.2.3.1.1.2"
+								ordinal    	16
+								quidu      	"000000000000"
+								creation   	FALSE)
+							    (object Message "validarbtncambiarcontra(btncambiarcontra : String)"
+								quid       	"5619EF9C03D2"
+								frequency  	"Aperiodic"
+								synchronization 	"Simple"
+								dir        	"FromClientToSupplier"
+								sequence   	"1.1.1.2.2.3.1.1.2.2.3.1.1"
+								ordinal    	26
+								quidu      	"000000000000"
+								creation   	FALSE)
+							    (object Message "validarcamposcontra(txtcontranueva : String, txtconfirmarcontra : String)"
+								quid       	"5619EF9C03D4"
+								frequency  	"Aperiodic"
+								synchronization 	"Simple"
+								dir        	"FromClientToSupplier"
+								sequence   	"1.1.1.2.2.3.1.1.2.2.3.1.1.2"
+								ordinal    	28
+								quidu      	"000000000000"
+								creation   	FALSE)))
+						    (object Link
+							quid       	"5619EF9C03B8"
+							supplier   	"$UNNAMED$302"
+							quidu      	"5619EF9C03D9"
+							messages   	(list Messages
+							    (object Message "viewmensajesistemaShow(msj : String, tipo : String, botontexto : String, botonLink : String)"
+								quid       	"5619EF9C03B9"
+								frequency  	"Aperiodic"
+								synchronization 	"Simple"
+								dir        	"FromClientToSupplier"
+								sequence   	"1.1.1.1"
+								ordinal    	3
+								Operation  	"viewmensajesistemaShow"
+								quidu      	"54B749500797"
+								creation   	FALSE)
+							    (object Message "viewmensajesistemaShow(msj : String, tipo : String, botontexto : String, botonLink : String)"
+								quid       	"5619EF9C03BB"
+								frequency  	"Aperiodic"
+								synchronization 	"Simple"
+								dir        	"FromClientToSupplier"
+								sequence   	"1.1.1.2.1"
+								ordinal    	5
+								Operation  	"viewmensajesistemaShow"
+								quidu      	"54B749500797"
+								creation   	FALSE)
+							    (object Message "viewmensajesistemaShow(msj : String, tipo : String, botontexto : String, botonLink : String)"
+								quid       	"5619EF9C03BD"
+								frequency  	"Aperiodic"
+								synchronization 	"Simple"
+								dir        	"FromClientToSupplier"
+								sequence   	"1.1.1.2.2.3.1.1.1"
+								ordinal    	15
+								Operation  	"viewmensajesistemaShow"
+								quidu      	"54B749500797"
+								creation   	FALSE)
+							    (object Message "viewmensajesistemaShow(msj : String, tipo : String, botontexto : String, botonLink : String)"
+								quid       	"5619EF9C03BF"
+								frequency  	"Aperiodic"
+								synchronization 	"Simple"
+								dir        	"FromClientToSupplier"
+								sequence   	"1.1.1.2.2.3.1.1.2.1"
+								ordinal    	17
+								Operation  	"viewmensajesistemaShow"
+								quidu      	"54B749500797"
+								creation   	FALSE)
+							    (object Message "viewmensajesistemaShow(msj : String, tipo : String, botontexto : String, botonLink : String)"
+								quid       	"5619EF9C03C1"
+								frequency  	"Aperiodic"
+								synchronization 	"Simple"
+								dir        	"FromClientToSupplier"
+								sequence   	"1.1.1.2.2.3.1.1.2.2.3.1.1.1"
+								ordinal    	27
+								Operation  	"viewmensajesistemaShow"
+								quidu      	"54B749500797"
+								creation   	FALSE)
+							    (object Message "viewmensajesistemaShow(msj : String, tipo : String, botontexto : String, botonLink : String)"
+								quid       	"5619EF9C03C3"
+								frequency  	"Aperiodic"
+								synchronization 	"Simple"
+								dir        	"FromClientToSupplier"
+								sequence   	"1.1.1.2.2.3.1.1.2.2.3.1.1.2.1"
+								ordinal    	29
+								Operation  	"viewmensajesistemaShow"
+								quidu      	"54B749500797"
+								creation   	FALSE)))
+						    (object Link
+							quid       	"5619EF9C03C5"
+							supplier   	"$UNNAMED$303"
+							quidu      	"5619EF9C03E1"
+							messages   	(list Messages
+							    (object Message "verificaremail(txtcorreo : String)"
+								quid       	"5619EF9C03C6"
+								frequency  	"Aperiodic"
+								synchronization 	"Simple"
+								dir        	"FromClientToSupplier"
+								sequence   	"1.1.1.2.2"
+								ordinal    	6
+								quidu      	"000000000000"
+								creation   	FALSE)
+							    (object Message "verificarespuesta(txtpregunta : String)"
+								quid       	"5619EF9C03C8"
+								frequency  	"Aperiodic"
+								synchronization 	"Simple"
+								dir        	"FromClientToSupplier"
+								sequence   	"1.1.1.2.2.3.1.1.2.2"
+								ordinal    	18
+								quidu      	"000000000000"
+								creation   	FALSE)
+							    (object Message "actualizarcontra(txtcontranueva : String)"
+								quid       	"5619EF9C03CA"
+								frequency  	"Aperiodic"
+								synchronization 	"Simple"
+								dir        	"FromClientToSupplier"
+								sequence   	"1.1.1.2.2.3.1.1.2.2.3.1.1.2.2"
+								ordinal    	30
+								quidu      	"000000000000"
+								creation   	FALSE))))
+						class      	"Logical View::Design Model::Modulo Seguridad::getReestablecer"
+						quidu      	"5619EDE7002F"
+						persistence 	"Transient"
+						creationObj 	FALSE
+						multi      	FALSE)
+					    (object Object "$UNNAMED$303"
+						quid       	"5619EF9C03E1"
+						collaborators 	(list link_list
+						    (object Link
+							quid       	"5619EF9C03E0"
+							supplier   	"$UNNAMED$304"
+							quidu      	"5619EF9C0400"
+							messages   	(list Messages
+							    (object Message "validarcorreoBD(txtcorreo : String)"
+								quid       	"5619EF9C03DF"
+								frequency  	"Aperiodic"
+								synchronization 	"Simple"
+								dir        	"FromClientToSupplier"
+								sequence   	"1.1.1.2.2.1"
+								ordinal    	7
+								Operation  	"validarcorreoBD"
+								quidu      	"54B7495007BC"
+								creation   	FALSE)
+							    (object Message "resultado"
+								quid       	"5619EF9C03F2"
+								frequency  	"Aperiodic"
+								synchronization 	"Return"
+								dir        	"ToClientFromSupplier"
+								sequence   	"1.1.1.2.2.1.3"
+								ordinal    	10
+								quidu      	"000000000000"
+								creation   	FALSE)
+							    (object Message "validarespuestaclaveBD(txtpregunta : String)"
+								quid       	"5619EF9C03F4"
+								frequency  	"Aperiodic"
+								synchronization 	"Simple"
+								dir        	"FromClientToSupplier"
+								sequence   	"1.1.1.2.2.3.1.1.2.2.1"
+								ordinal    	19
+								Operation  	"validarespuestaclaveBD"
+								quidu      	"54B749500823"
+								creation   	FALSE)
+							    (object Message "resultado"
+								quid       	"5619EF9C03F6"
+								frequency  	"Aperiodic"
+								synchronization 	"Return"
+								dir        	"ToClientFromSupplier"
+								sequence   	"1.1.1.2.2.3.1.1.2.2.1.3"
+								ordinal    	22
+								quidu      	"000000000000"
+								creation   	FALSE)
+							    (object Message "ingresarcontranuevaBD(txtcontranueva : String)"
+								quid       	"5619EF9C03F8"
+								frequency  	"Aperiodic"
+								synchronization 	"Simple"
+								dir        	"FromClientToSupplier"
+								sequence   	"1.1.1.2.2.3.1.1.2.2.3.1.1.2.2.1"
+								ordinal    	31
+								Operation  	"ingresarcontranuevaBD"
+								quidu      	"54B749500871"
+								creation   	FALSE)
+							    (object Message "resultado"
+								quid       	"5619EF9C03FA"
+								frequency  	"Aperiodic"
+								synchronization 	"Return"
+								dir        	"ToClientFromSupplier"
+								sequence   	"1.1.1.2.2.3.1.1.2.2.3.1.1.2.2.1.3"
+								ordinal    	34
+								quidu      	"000000000000"
+								creation   	FALSE)))
+						    (object Link
+							quid       	"5619EF9C03E2"
+							supplier   	"$UNNAMED$302"
+							quidu      	"5619EF9C03D9"
+							messages   	(list Messages
+							    (object Message "viewmensajesistemaShow(msj : String, tipo : String, botontexto : String, botonLink : String)"
+								quid       	"5619EF9C03E3"
+								frequency  	"Aperiodic"
+								synchronization 	"Simple"
+								dir        	"FromClientToSupplier"
+								sequence   	"1.1.1.2.2.2"
+								ordinal    	11
+								Operation  	"viewmensajesistemaShow"
+								quidu      	"54B749500797"
+								creation   	FALSE)
+							    (object Message "viewmensajesistemaShow(msj : String, tipo : String, botontexto : String, botonLink : String)"
+								quid       	"5619EF9C03E5"
+								frequency  	"Aperiodic"
+								synchronization 	"Simple"
+								dir        	"FromClientToSupplier"
+								sequence   	"1.1.1.2.2.3.1.1.2.2.2"
+								ordinal    	23
+								Operation  	"viewmensajesistemaShow"
+								quidu      	"54B749500797"
+								creation   	FALSE)
+							    (object Message "viewmensajesistemaShow(msj : String, tipo : String, botontexto : String, botonLink : String)"
+								quid       	"5619EF9C03E7"
+								frequency  	"Aperiodic"
+								synchronization 	"Simple"
+								dir        	"FromClientToSupplier"
+								sequence   	"3"
+								ordinal    	36
+								Operation  	"viewmensajesistemaShow"
+								quidu      	"54B749500797"
+								creation   	FALSE)
+							    (object Message "viewmensajesistemaShow(msj : String, tipo : String, botontexto : String, botonLink : String)"
+								quid       	"5619EF9C03E9"
+								frequency  	"Aperiodic"
+								synchronization 	"Simple"
+								dir        	"FromClientToSupplier"
+								sequence   	"2"
+								ordinal    	35
+								Operation  	"viewmensajesistemaShow"
+								quidu      	"54B749500797"
+								creation   	FALSE)))
+						    (object Link
+							quid       	"5619EF9C03EB"
+							supplier   	"$UNNAMED$300"
+							quidu      	"5619EF9C0417"
+							messages   	(list Messages
+							    (object Message "formpreguntaclaveShow( )"
+								quid       	"5619EF9C03EC"
+								frequency  	"Aperiodic"
+								synchronization 	"Simple"
+								dir        	"FromClientToSupplier"
+								sequence   	"1.1.1.2.2.3"
+								ordinal    	12
+								Operation  	"formpreguntaclaveShow"
+								quidu      	"54B7495007D6"
+								creation   	FALSE)))
+						    (object Link
+							quid       	"5619EF9C03EF"
+							supplier   	"$UNNAMED$301"
+							quidu      	"5619EF9C0427"
+							messages   	(list Messages
+							    (object Message "formcontranuevaShow( )"
+								quid       	"5619EF9C03F0"
+								frequency  	"Aperiodic"
+								synchronization 	"Simple"
+								dir        	"FromClientToSupplier"
+								sequence   	"1.1.1.2.2.3.1.1.2.2.3"
+								ordinal    	24
+								Operation  	"formcontranuevaShow"
+								quidu      	"54B749500833"
+								creation   	FALSE))))
+						class      	"Logical View::Design Model::Modulo Seguridad::Controlreestablecercontraseña"
+						quidu      	"5619EE050262"
+						persistence 	"Transient"
+						creationObj 	FALSE
+						multi      	FALSE)
+					    (object Object "$UNNAMED$305"
+						quid       	"5619EF9C0438"
+						class      	"Logical View::Design Model::Shared::vista"
+						quidu      	"5619F021038A"
+						persistence 	"Transient"
+						creationObj 	FALSE
+						multi      	FALSE)
+					    (object Object "$UNNAMED$304"
+						quid       	"5619EF9C0400"
+						collaborators 	(list link_list
+						    (object Link
+							quid       	"5619EF9C03FF"
+							supplier   	"$UNNAMED$306"
+							quidu      	"5619EF9C040D"
+							messages   	(list Messages
+							    (object Message "conectarBD( )"
+								quid       	"5619EF9C03FE"
+								frequency  	"Aperiodic"
+								synchronization 	"Simple"
+								dir        	"FromClientToSupplier"
+								sequence   	"1.1.1.2.2.1.1"
+								ordinal    	8
+								Operation  	"conectarBD"
+								quidu      	"54B7495007C5"
+								creation   	FALSE)
+							    (object Message "desConectarBD( )"
+								quid       	"5619EF9C0401"
+								frequency  	"Aperiodic"
+								synchronization 	"Simple"
+								dir        	"FromClientToSupplier"
+								sequence   	"1.1.1.2.2.1.2"
+								ordinal    	9
+								Operation  	"desConectarBD"
+								quidu      	"54B7495007C9"
+								creation   	FALSE)
+							    (object Message "conectarBD( )"
+								quid       	"5619EF9C0403"
+								frequency  	"Aperiodic"
+								synchronization 	"Simple"
+								dir        	"FromClientToSupplier"
+								sequence   	"1.1.1.2.2.3.1.1.2.2.1.1"
+								ordinal    	20
+								Operation  	"conectarBD"
+								quidu      	"54B7495007C5"
+								creation   	FALSE)
+							    (object Message "desConectarBD( )"
+								quid       	"5619EF9C0405"
+								frequency  	"Aperiodic"
+								synchronization 	"Simple"
+								dir        	"FromClientToSupplier"
+								sequence   	"1.1.1.2.2.3.1.1.2.2.1.2"
+								ordinal    	21
+								Operation  	"desConectarBD"
+								quidu      	"54B7495007C9"
+								creation   	FALSE)
+							    (object Message "conectarBD( )"
+								quid       	"5619EF9C0407"
+								frequency  	"Aperiodic"
+								synchronization 	"Simple"
+								dir        	"FromClientToSupplier"
+								sequence   	"1.1.1.2.2.3.1.1.2.2.3.1.1.2.2.1.1"
+								ordinal    	32
+								Operation  	"conectarBD"
+								quidu      	"54B7495007C5"
+								creation   	FALSE)
+							    (object Message "desConectarBD( )"
+								quid       	"5619EF9C0409"
+								frequency  	"Aperiodic"
+								synchronization 	"Simple"
+								dir        	"FromClientToSupplier"
+								sequence   	"1.1.1.2.2.3.1.1.2.2.3.1.1.2.2.1.2"
+								ordinal    	33
+								Operation  	"desConectarBD"
+								quidu      	"54B7495007C9"
+								creation   	FALSE))))
+						class      	"Logical View::Design Model::modelos::usuarios"
+						quidu      	"5619EE61038F"
+						persistence 	"Transient"
+						creationObj 	FALSE
+						multi      	FALSE)
+					    (object Object "$UNNAMED$306"
+						quid       	"5619EF9C040D"
+						class      	"Logical View::Design Model::modelos::conexion"
+						quidu      	"5619EE61038A"
 						persistence 	"Transient"
 						creationObj 	FALSE
 						multi      	FALSE))))
@@ -28428,11 +28912,11 @@
 					zoom       	100
 					max_height 	28350
 					max_width  	21600
-					origin_x   	0
+					origin_x   	4344
 					origin_y   	0
 					items      	(list diagram_item_list
 					    (object InterObjView "$UNNAMED$297" @1276
-						location   	(272, 224)
+						location   	(320, 240)
 						font       	(object Font
 						    size       	9
 						    face       	"Arial"
@@ -28444,28 +28928,2211 @@
 						    default_color 	TRUE)
 						label      	(object ItemLabel
 						    Parent_View 	@1276
-						    location   	(272, 247)
+						    location   	(320, 263)
 						    anchor_loc 	1
 						    nlines     	2
-						    max_width  	324
+						    max_width  	294
 						    justify    	0
 						    label      	"")
 						icon       	"Actor"
 						icon_style 	"Icon"
 						line_color 	3342489
 						fill_color 	13434879
-						quidu      	"5619ED4F02B0"
-						width      	300
-						height     	167
-						icon_height 	150
-						icon_width 	108
+						quidu      	"5619EF9C03AA"
+						width      	306
+						height     	5284
+						icon_height 	162
+						icon_width 	120
 						icon_y_offset 	0
-						annotation 	1)))))
+						annotation 	1
+						Focus_Of_Control 	(object Focus_Of_Control "" @1277
+						    location   	(320, 384)
+						    line_color 	3342489
+						    InterObjView 	@1276
+						    height     	90
+						    y_coord    	0
+						    Nested     	FALSE))
+					    (object InterObjView "$UNNAMED$298" @1278
+						location   	(816, 224)
+						font       	(object Font
+						    size       	9
+						    face       	"Arial"
+						    bold       	FALSE
+						    italics    	FALSE
+						    underline  	TRUE
+						    strike     	FALSE
+						    color      	0
+						    default_color 	TRUE)
+						label      	(object ItemLabel
+						    Parent_View 	@1278
+						    location   	(816, 224)
+						    fill_color 	13434879
+						    anchor_loc 	1
+						    nlines     	2
+						    max_width  	503
+						    justify    	0
+						    label      	"")
+						icon_style 	"Icon"
+						line_color 	3342489
+						fill_color 	13434879
+						quidu      	"5619EF9C03B2"
+						width      	521
+						height     	5300
+						icon_height 	0
+						icon_width 	0
+						icon_y_offset 	0
+						annotation 	1
+						Focus_Of_Control 	(object Focus_Of_Control "" @1279
+						    location   	(816, 384)
+						    line_color 	3342489
+						    InterObjView 	@1278
+						    height     	195
+						    y_coord    	105
+						    Nested     	FALSE))
+					    (object InterObjView "$UNNAMED$300" @1280
+						location   	(1392, 224)
+						font       	(object Font
+						    size       	9
+						    face       	"Arial"
+						    bold       	FALSE
+						    italics    	FALSE
+						    underline  	TRUE
+						    strike     	FALSE
+						    color      	0
+						    default_color 	TRUE)
+						label      	(object ItemLabel
+						    Parent_View 	@1280
+						    location   	(1392, 224)
+						    fill_color 	13434879
+						    anchor_loc 	1
+						    nlines     	2
+						    max_width  	495
+						    justify    	0
+						    label      	"")
+						icon_style 	"Icon"
+						line_color 	3342489
+						fill_color 	13434879
+						quidu      	"5619EF9C0417"
+						width      	513
+						height     	5300
+						icon_height 	0
+						icon_width 	0
+						icon_y_offset 	0
+						annotation 	1
+						Focus_Of_Control 	(object Focus_Of_Control "" @1281
+						    location   	(1392, 1952)
+						    line_color 	3342489
+						    InterObjView 	@1280
+						    height     	202
+						    y_coord    	112
+						    Nested     	FALSE))
+					    (object InterObjView "$UNNAMED$301" @1282
+						location   	(1968, 224)
+						font       	(object Font
+						    size       	9
+						    face       	"Arial"
+						    bold       	FALSE
+						    italics    	FALSE
+						    underline  	TRUE
+						    strike     	FALSE
+						    color      	0
+						    default_color 	TRUE)
+						label      	(object ItemLabel
+						    Parent_View 	@1282
+						    location   	(1968, 224)
+						    fill_color 	13434879
+						    anchor_loc 	1
+						    nlines     	2
+						    max_width  	488
+						    justify    	0
+						    label      	"")
+						icon_style 	"Icon"
+						line_color 	3342489
+						fill_color 	13434879
+						quidu      	"5619EF9C0427"
+						width      	506
+						height     	5300
+						icon_height 	0
+						icon_width 	0
+						icon_y_offset 	0
+						annotation 	1
+						Focus_Of_Control 	(object Focus_Of_Control "" @1283
+						    location   	(1968, 3504)
+						    line_color 	3342489
+						    InterObjView 	@1282
+						    height     	195
+						    y_coord    	105
+						    Nested     	FALSE))
+					    (object InterObjView "$UNNAMED$302" @1284
+						location   	(2496, 224)
+						font       	(object Font
+						    size       	9
+						    face       	"Arial"
+						    bold       	FALSE
+						    italics    	FALSE
+						    underline  	TRUE
+						    strike     	FALSE
+						    color      	0
+						    default_color 	TRUE)
+						label      	(object ItemLabel
+						    Parent_View 	@1284
+						    location   	(2496, 224)
+						    fill_color 	13434879
+						    anchor_loc 	1
+						    nlines     	2
+						    max_width  	413
+						    justify    	0
+						    label      	"")
+						icon_style 	"Icon"
+						line_color 	3342489
+						fill_color 	13434879
+						quidu      	"5619EF9C03D9"
+						width      	431
+						height     	5300
+						icon_height 	0
+						icon_width 	0
+						icon_y_offset 	0
+						annotation 	1
+						Focus_Of_Control 	(object Focus_Of_Control "" @1285
+						    location   	(2496, 768)
+						    line_color 	3342489
+						    InterObjView 	@1284
+						    height     	90
+						    y_coord    	0
+						    Nested     	FALSE)
+						Focus_Of_Control 	(object Focus_Of_Control "" @1286
+						    location   	(2496, 1056)
+						    line_color 	3342489
+						    InterObjView 	@1284
+						    height     	90
+						    y_coord    	0
+						    Nested     	FALSE)
+						Focus_Of_Control 	(object Focus_Of_Control "" @1287
+						    location   	(2496, 1744)
+						    line_color 	3342489
+						    InterObjView 	@1284
+						    height     	90
+						    y_coord    	0
+						    Nested     	FALSE)
+						Focus_Of_Control 	(object Focus_Of_Control "" @1288
+						    location   	(2496, 2304)
+						    line_color 	3342489
+						    InterObjView 	@1284
+						    height     	90
+						    y_coord    	0
+						    Nested     	FALSE)
+						Focus_Of_Control 	(object Focus_Of_Control "" @1289
+						    location   	(2496, 2576)
+						    line_color 	3342489
+						    InterObjView 	@1284
+						    height     	90
+						    y_coord    	0
+						    Nested     	FALSE)
+						Focus_Of_Control 	(object Focus_Of_Control "" @1290
+						    location   	(2496, 3280)
+						    line_color 	3342489
+						    InterObjView 	@1284
+						    height     	90
+						    y_coord    	0
+						    Nested     	FALSE)
+						Focus_Of_Control 	(object Focus_Of_Control "" @1291
+						    location   	(2496, 3888)
+						    line_color 	3342489
+						    InterObjView 	@1284
+						    height     	90
+						    y_coord    	0
+						    Nested     	FALSE)
+						Focus_Of_Control 	(object Focus_Of_Control "" @1292
+						    location   	(2496, 4320)
+						    line_color 	3342489
+						    InterObjView 	@1284
+						    height     	90
+						    y_coord    	0
+						    Nested     	FALSE)
+						Focus_Of_Control 	(object Focus_Of_Control "" @1293
+						    location   	(2496, 5136)
+						    line_color 	3342489
+						    InterObjView 	@1284
+						    height     	90
+						    y_coord    	0
+						    Nested     	FALSE)
+						Focus_Of_Control 	(object Focus_Of_Control "" @1294
+						    location   	(2496, 5344)
+						    line_color 	3342489
+						    InterObjView 	@1284
+						    height     	90
+						    y_coord    	0
+						    Nested     	FALSE))
+					    (object InterObjView "$UNNAMED$299" @1295
+						location   	(3008, 224)
+						font       	(object Font
+						    size       	9
+						    face       	"Arial"
+						    bold       	FALSE
+						    italics    	FALSE
+						    underline  	TRUE
+						    strike     	FALSE
+						    color      	0
+						    default_color 	TRUE)
+						label      	(object ItemLabel
+						    Parent_View 	@1295
+						    location   	(3008, 224)
+						    fill_color 	13434879
+						    anchor_loc 	1
+						    nlines     	2
+						    max_width  	407
+						    justify    	0
+						    label      	"")
+						icon_style 	"Icon"
+						line_color 	3342489
+						fill_color 	13434879
+						quidu      	"5619EF9C03B7"
+						width      	425
+						height     	5300
+						icon_height 	0
+						icon_width 	0
+						icon_y_offset 	0
+						annotation 	1
+						Focus_Of_Control 	(object Focus_Of_Control "" @1296
+						    location   	(3008, 496)
+						    line_color 	3342489
+						    InterObjView 	@1295
+						    height     	188
+						    y_coord    	98
+						    Nested     	FALSE)
+						Focus_Of_Control 	(object Focus_Of_Control "" @1297
+						    location   	(3008, 624)
+						    line_color 	3342489
+						    InterObjView 	@1295
+						    height     	396
+						    y_coord    	306
+						    Nested     	TRUE)
+						Focus_Of_Control 	(object Focus_Of_Control "" @1298
+						    location   	(3008, 960)
+						    line_color 	3342489
+						    InterObjView 	@1295
+						    height     	346
+						    y_coord    	256
+						    Nested     	TRUE)
+						Focus_Of_Control 	(object Focus_Of_Control "" @1299
+						    location   	(3008, 2064)
+						    line_color 	3342489
+						    InterObjView 	@1295
+						    height     	195
+						    y_coord    	105
+						    Nested     	FALSE)
+						Focus_Of_Control 	(object Focus_Of_Control "" @1300
+						    location   	(3008, 2192)
+						    line_color 	3342489
+						    InterObjView 	@1295
+						    height     	348
+						    y_coord    	258
+						    Nested     	TRUE)
+						Focus_Of_Control 	(object Focus_Of_Control "" @1301
+						    location   	(3008, 2480)
+						    line_color 	3342489
+						    InterObjView 	@1295
+						    height     	362
+						    y_coord    	272
+						    Nested     	TRUE)
+						Focus_Of_Control 	(object Focus_Of_Control "" @1302
+						    location   	(3008, 3616)
+						    line_color 	3342489
+						    InterObjView 	@1295
+						    height     	188
+						    y_coord    	98
+						    Nested     	FALSE)
+						Focus_Of_Control 	(object Focus_Of_Control "" @1303
+						    location   	(3008, 3744)
+						    line_color 	3342489
+						    InterObjView 	@1295
+						    height     	492
+						    y_coord    	402
+						    Nested     	TRUE)
+						Focus_Of_Control 	(object Focus_Of_Control "" @1304
+						    location   	(3008, 4176)
+						    line_color 	3342489
+						    InterObjView 	@1295
+						    height     	476
+						    y_coord    	386
+						    Nested     	TRUE))
+					    (object InterObjView "$UNNAMED$303" @1305
+						location   	(3616, 224)
+						font       	(object Font
+						    size       	9
+						    face       	"Arial"
+						    bold       	FALSE
+						    italics    	FALSE
+						    underline  	TRUE
+						    strike     	FALSE
+						    color      	0
+						    default_color 	TRUE)
+						label      	(object ItemLabel
+						    Parent_View 	@1305
+						    location   	(3616, 224)
+						    fill_color 	13434879
+						    anchor_loc 	1
+						    nlines     	2
+						    max_width  	551
+						    justify    	0
+						    label      	"")
+						icon_style 	"Icon"
+						line_color 	3342489
+						fill_color 	13434879
+						quidu      	"5619EF9C03E1"
+						width      	569
+						height     	5300
+						icon_height 	0
+						icon_width 	0
+						icon_y_offset 	0
+						annotation 	1
+						Focus_Of_Control 	(object Focus_Of_Control "" @1306
+						    location   	(3616, 1216)
+						    line_color 	3342489
+						    InterObjView 	@1305
+						    height     	826
+						    y_coord    	736
+						    Nested     	FALSE)
+						Focus_Of_Control 	(object Focus_Of_Control "" @1307
+						    location   	(3616, 1648)
+						    line_color 	3342489
+						    InterObjView 	@1305
+						    height     	1
+						    y_coord    	-89
+						    Nested     	TRUE)
+						Focus_Of_Control 	(object Focus_Of_Control "" @1308
+						    location   	(3616, 2752)
+						    line_color 	3342489
+						    InterObjView 	@1305
+						    height     	842
+						    y_coord    	752
+						    Nested     	FALSE)
+						Focus_Of_Control 	(object Focus_Of_Control "" @1309
+						    location   	(3616, 3168)
+						    line_color 	3342489
+						    InterObjView 	@1305
+						    height     	1
+						    y_coord    	-89
+						    Nested     	TRUE)
+						Focus_Of_Control 	(object Focus_Of_Control "" @1310
+						    location   	(3616, 4560)
+						    line_color 	3342489
+						    InterObjView 	@1305
+						    height     	532
+						    y_coord    	442
+						    Nested     	FALSE)
+						Focus_Of_Control 	(object Focus_Of_Control "" @1311
+						    location   	(3616, 4992)
+						    line_color 	3342489
+						    InterObjView 	@1305
+						    height     	1
+						    y_coord    	-89
+						    Nested     	TRUE)
+						Focus_Of_Control 	(object Focus_Of_Control "" @1312
+						    location   	(3616, 5136)
+						    line_color 	3342489
+						    InterObjView 	@1305
+						    height     	90
+						    y_coord    	0
+						    Nested     	FALSE)
+						Focus_Of_Control 	(object Focus_Of_Control "" @1313
+						    location   	(3616, 5344)
+						    line_color 	3342489
+						    InterObjView 	@1305
+						    height     	90
+						    y_coord    	0
+						    Nested     	FALSE))
+					    (object InterObjView "$UNNAMED$305" @1314
+						location   	(4144, 224)
+						font       	(object Font
+						    size       	9
+						    face       	"Arial"
+						    bold       	FALSE
+						    italics    	FALSE
+						    underline  	TRUE
+						    strike     	FALSE
+						    color      	0
+						    default_color 	TRUE)
+						label      	(object ItemLabel
+						    Parent_View 	@1314
+						    location   	(4144, 224)
+						    fill_color 	13434879
+						    anchor_loc 	1
+						    nlines     	2
+						    max_width  	282
+						    justify    	0
+						    label      	"")
+						icon_style 	"Icon"
+						line_color 	3342489
+						fill_color 	13434879
+						quidu      	"5619EF9C0438"
+						width      	300
+						height     	5300
+						icon_height 	0
+						icon_width 	0
+						icon_y_offset 	0
+						annotation 	1)
+					    (object InterObjView "$UNNAMED$304" @1315
+						location   	(4512, 224)
+						font       	(object Font
+						    size       	9
+						    face       	"Arial"
+						    bold       	FALSE
+						    italics    	FALSE
+						    underline  	TRUE
+						    strike     	FALSE
+						    color      	0
+						    default_color 	TRUE)
+						label      	(object ItemLabel
+						    Parent_View 	@1315
+						    location   	(4512, 224)
+						    fill_color 	13434879
+						    anchor_loc 	1
+						    nlines     	2
+						    max_width  	282
+						    justify    	0
+						    label      	"")
+						icon_style 	"Icon"
+						line_color 	3342489
+						fill_color 	13434879
+						quidu      	"5619EF9C0400"
+						width      	300
+						height     	5300
+						icon_height 	0
+						icon_width 	0
+						icon_y_offset 	0
+						annotation 	1
+						Focus_Of_Control 	(object Focus_Of_Control "" @1316
+						    location   	(4512, 1328)
+						    line_color 	3342489
+						    InterObjView 	@1315
+						    height     	313
+						    y_coord    	223
+						    Nested     	FALSE)
+						Focus_Of_Control 	(object Focus_Of_Control "" @1317
+						    location   	(4512, 2864)
+						    line_color 	3342489
+						    InterObjView 	@1315
+						    height     	308
+						    y_coord    	218
+						    Nested     	FALSE)
+						Focus_Of_Control 	(object Focus_Of_Control "" @1318
+						    location   	(4512, 4672)
+						    line_color 	3342489
+						    InterObjView 	@1315
+						    height     	317
+						    y_coord    	227
+						    Nested     	FALSE))
+					    (object InterObjView "$UNNAMED$306" @1319
+						location   	(4880, 224)
+						font       	(object Font
+						    size       	9
+						    face       	"Arial"
+						    bold       	FALSE
+						    italics    	FALSE
+						    underline  	TRUE
+						    strike     	FALSE
+						    color      	0
+						    default_color 	TRUE)
+						label      	(object ItemLabel
+						    Parent_View 	@1319
+						    location   	(4880, 224)
+						    fill_color 	13434879
+						    anchor_loc 	1
+						    nlines     	2
+						    max_width  	282
+						    justify    	0
+						    label      	"")
+						icon_style 	"Icon"
+						line_color 	3342489
+						fill_color 	13434879
+						quidu      	"5619EF9C040D"
+						width      	300
+						height     	5300
+						icon_height 	0
+						icon_width 	0
+						icon_y_offset 	0
+						annotation 	1
+						Focus_Of_Control 	(object Focus_Of_Control "" @1320
+						    location   	(4880, 1424)
+						    line_color 	3342489
+						    InterObjView 	@1319
+						    height     	172
+						    y_coord    	82
+						    Nested     	FALSE)
+						Focus_Of_Control 	(object Focus_Of_Control "" @1321
+						    location   	(4880, 1536)
+						    line_color 	3342489
+						    InterObjView 	@1319
+						    height     	90
+						    y_coord    	0
+						    Nested     	TRUE)
+						Focus_Of_Control 	(object Focus_Of_Control "" @1322
+						    location   	(4880, 2960)
+						    line_color 	3342489
+						    InterObjView 	@1319
+						    height     	172
+						    y_coord    	82
+						    Nested     	FALSE)
+						Focus_Of_Control 	(object Focus_Of_Control "" @1323
+						    location   	(4880, 3072)
+						    line_color 	3342489
+						    InterObjView 	@1319
+						    height     	90
+						    y_coord    	0
+						    Nested     	TRUE)
+						Focus_Of_Control 	(object Focus_Of_Control "" @1324
+						    location   	(4880, 4784)
+						    line_color 	3342489
+						    InterObjView 	@1319
+						    height     	156
+						    y_coord    	66
+						    Nested     	FALSE)
+						Focus_Of_Control 	(object Focus_Of_Control "" @1325
+						    location   	(4880, 4880)
+						    line_color 	3342489
+						    InterObjView 	@1319
+						    height     	90
+						    y_coord    	0
+						    Nested     	TRUE))
+					    (object Label @1326
+						location   	(2544, 784)
+						font       	(object Font
+						    size       	9
+						    face       	"Arial"
+						    bold       	FALSE
+						    italics    	FALSE
+						    underline  	FALSE
+						    strike     	FALSE
+						    color      	0
+						    default_color 	TRUE)
+						nlines     	1
+						max_width  	512
+						justify    	1
+						label      	
+|Si btnrestablecer ==NULL
+|
+						)
+					    (object Label @1327
+						location   	(2544, 1072)
+						font       	(object Font
+						    size       	9
+						    face       	"Arial"
+						    bold       	FALSE
+						    italics    	FALSE
+						    underline  	FALSE
+						    strike     	FALSE
+						    color      	0
+						    default_color 	TRUE)
+						nlines     	1
+						max_width  	600
+						justify    	1
+						label      	"Si validarcorreo() == false")
+					    (object Label @1328
+						location   	(2800, 1760)
+						font       	(object Font
+						    size       	9
+						    face       	"Arial"
+						    bold       	FALSE
+						    italics    	FALSE
+						    underline  	FALSE
+						    strike     	FALSE
+						    color      	0
+						    default_color 	TRUE)
+						nlines     	1
+						max_width  	600
+						justify    	1
+						label      	"Si resultado = false")
+					    (object Label @1329
+						location   	(2560, 2320)
+						font       	(object Font
+						    size       	9
+						    face       	"Arial"
+						    bold       	FALSE
+						    italics    	FALSE
+						    underline  	FALSE
+						    strike     	FALSE
+						    color      	0
+						    default_color 	TRUE)
+						nlines     	1
+						max_width  	600
+						justify    	1
+						label      	"Si btnpregunta == NULL")
+					    (object Label @1330
+						location   	(2464, 2592)
+						font       	(object Font
+						    size       	9
+						    face       	"Arial"
+						    bold       	FALSE
+						    italics    	FALSE
+						    underline  	FALSE
+						    strike     	FALSE
+						    color      	0
+						    default_color 	TRUE)
+						nlines     	1
+						max_width  	600
+						justify    	1
+						label      	"Si validarespuestaclave = false")
+					    (object Label @1331
+						location   	(2769, 3295)
+						font       	(object Font
+						    size       	9
+						    face       	"Arial"
+						    bold       	FALSE
+						    italics    	FALSE
+						    underline  	FALSE
+						    strike     	FALSE
+						    color      	0
+						    default_color 	TRUE)
+						nlines     	1
+						max_width  	600
+						justify    	1
+						label      	"Si resultado = false")
+					    (object Label @1332
+						location   	(2448, 3920)
+						font       	(object Font
+						    size       	9
+						    face       	"Arial"
+						    bold       	FALSE
+						    italics    	FALSE
+						    underline  	FALSE
+						    strike     	FALSE
+						    color      	0
+						    default_color 	TRUE)
+						nlines     	1
+						max_width  	675
+						justify    	1
+						label      	"Si validarbtncambiarcontra( ) = false")
+					    (object Label @1333
+						location   	(2496, 4336)
+						font       	(object Font
+						    size       	9
+						    face       	"Arial"
+						    bold       	FALSE
+						    italics    	FALSE
+						    underline  	FALSE
+						    strike     	FALSE
+						    color      	0
+						    default_color 	TRUE)
+						nlines     	1
+						max_width  	600
+						justify    	1
+						label      	"Si validarcamposcontra ( ) = false")
+					    (object Label @1334
+						location   	(2896, 5360)
+						font       	(object Font
+						    size       	9
+						    face       	"Arial"
+						    bold       	FALSE
+						    italics    	FALSE
+						    underline  	FALSE
+						    strike     	FALSE
+						    color      	0
+						    default_color 	TRUE)
+						nlines     	1
+						max_width  	600
+						justify    	1
+						label      	"Si resultado = true")
+					    (object Label @1335
+						location   	(2880, 5152)
+						font       	(object Font
+						    size       	9
+						    face       	"Arial"
+						    bold       	FALSE
+						    italics    	FALSE
+						    underline  	FALSE
+						    strike     	FALSE
+						    color      	0
+						    default_color 	TRUE)
+						nlines     	1
+						max_width  	600
+						justify    	1
+						label      	"Si resultado = false")
+					    (object InterMessView "llamar" @1336
+						location   	(16, 384)
+						font       	(object Font
+						    size       	9
+						    face       	"Arial"
+						    bold       	FALSE
+						    italics    	FALSE
+						    underline  	FALSE
+						    strike     	FALSE
+						    color      	0
+						    default_color 	TRUE)
+						label      	(object SegLabel @1337
+						    Parent_View 	@1336
+						    location   	(567, 340)
+						    font       	(object Font
+							size       	9
+							face       	"Arial"
+							bold       	FALSE
+							italics    	FALSE
+							underline  	FALSE
+							strike     	FALSE
+							color      	0
+							default_color 	TRUE)
+						    quidu      	"5619EF9C03AC"
+						    anchor_loc 	1
+						    nlines     	1
+						    max_width  	116
+						    justify    	0
+						    label      	"llamar"
+						    pctDist    	0.500000
+						    height     	45
+						    orientation 	0)
+						line_color 	3342489
+						client     	@1276
+						supplier   	@1278
+						Focus_Src  	@1277
+						Focus_Entry 	@1279
+						origin     	(335, 384)
+						terminus   	(800, 384)
+						ordinal    	0)
+					    (object InterMessView "POST" @1338
+						location   	(16, 489)
+						font       	(object Font
+						    size       	9
+						    face       	"Arial"
+						    bold       	FALSE
+						    italics    	FALSE
+						    underline  	FALSE
+						    strike     	FALSE
+						    color      	0
+						    default_color 	TRUE)
+						label      	(object SegLabel @1339
+						    Parent_View 	@1338
+						    location   	(1911, 445)
+						    font       	(object Font
+							size       	9
+							face       	"Arial"
+							bold       	FALSE
+							italics    	FALSE
+							underline  	FALSE
+							strike     	FALSE
+							color      	0
+							default_color 	TRUE)
+						    quidu      	"5619EF9C03B0"
+						    anchor_loc 	1
+						    nlines     	1
+						    max_width  	110
+						    justify    	0
+						    label      	"POST"
+						    pctDist    	0.500000
+						    height     	45
+						    orientation 	0)
+						line_color 	3342489
+						client     	@1278
+						supplier   	@1295
+						Focus_Src  	@1279
+						Focus_Entry 	@1296
+						origin     	(831, 489)
+						terminus   	(2992, 489)
+						ordinal    	1)
+					    (object SelfMessView "Validarbtnrestable(btnrestablecer : String)" @1340
+						location   	(16, 594)
+						font       	(object Font
+						    size       	9
+						    face       	"Arial"
+						    bold       	FALSE
+						    italics    	FALSE
+						    underline  	FALSE
+						    strike     	FALSE
+						    color      	0
+						    default_color 	TRUE)
+						label      	(object SegLabel @1341
+						    Parent_View 	@1340
+						    location   	(3099, 550)
+						    font       	(object Font
+							size       	9
+							face       	"Arial"
+							bold       	FALSE
+							italics    	FALSE
+							underline  	FALSE
+							strike     	FALSE
+							color      	0
+							default_color 	TRUE)
+						    quidu      	"5619EF9C03B5"
+						    anchor_loc 	1
+						    nlines     	1
+						    max_width  	691
+						    justify    	0
+						    label      	"Validarbtnrestable(btnrestablecer : String)"
+						    pctDist    	0.500000
+						    height     	45
+						    orientation 	0)
+						line_color 	3342489
+						client     	@1295
+						supplier   	@1295
+						Focus_Src  	@1296
+						Focus_Entry 	@1297
+						origin     	(3024, 594)
+						terminus   	(3174, 594)
+						ordinal    	2)
+					    (object InterMessView "viewmensajesistemaShow(msj : String, tipo : String, botontexto : String, botonLink : String)" @1342
+						location   	(16, 768)
+						font       	(object Font
+						    size       	9
+						    face       	"Arial"
+						    bold       	FALSE
+						    italics    	FALSE
+						    underline  	FALSE
+						    strike     	FALSE
+						    color      	0
+						    default_color 	TRUE)
+						label      	(object SegLabel @1343
+						    Parent_View 	@1342
+						    location   	(2752, 724)
+						    font       	(object Font
+							size       	9
+							face       	"Arial"
+							bold       	FALSE
+							italics    	FALSE
+							underline  	FALSE
+							strike     	FALSE
+							color      	0
+							default_color 	TRUE)
+						    quidu      	"5619EF9C03B9"
+						    anchor_loc 	1
+						    nlines     	1
+						    max_width  	1572
+						    justify    	0
+						    label      	"viewmensajesistemaShow(msj : String, tipo : String, botontexto : String, botonLink : String)"
+						    pctDist    	0.500000
+						    height     	45
+						    orientation 	1)
+						line_color 	3342489
+						client     	@1295
+						supplier   	@1284
+						Focus_Src  	@1297
+						Focus_Entry 	@1285
+						origin     	(2992, 768)
+						terminus   	(2512, 768)
+						ordinal    	3)
+					    (object SelfMessView "validarcorreo(txtcorreo : String)" @1344
+						location   	(16, 928)
+						font       	(object Font
+						    size       	9
+						    face       	"Arial"
+						    bold       	FALSE
+						    italics    	FALSE
+						    underline  	FALSE
+						    strike     	FALSE
+						    color      	0
+						    default_color 	TRUE)
+						label      	(object SegLabel @1345
+						    Parent_View 	@1344
+						    location   	(3099, 884)
+						    font       	(object Font
+							size       	9
+							face       	"Arial"
+							bold       	FALSE
+							italics    	FALSE
+							underline  	FALSE
+							strike     	FALSE
+							color      	0
+							default_color 	TRUE)
+						    quidu      	"5619EF9C03CC"
+						    anchor_loc 	1
+						    nlines     	1
+						    max_width  	510
+						    justify    	0
+						    label      	"validarcorreo(txtcorreo : String)"
+						    pctDist    	0.500000
+						    height     	45
+						    orientation 	0)
+						line_color 	3342489
+						client     	@1295
+						supplier   	@1295
+						Focus_Src  	@1297
+						Focus_Entry 	@1298
+						origin     	(3024, 928)
+						terminus   	(3174, 928)
+						ordinal    	4)
+					    (object InterMessView "viewmensajesistemaShow(msj : String, tipo : String, botontexto : String, botonLink : String)" @1346
+						location   	(16, 1058)
+						font       	(object Font
+						    size       	9
+						    face       	"Arial"
+						    bold       	FALSE
+						    italics    	FALSE
+						    underline  	FALSE
+						    strike     	FALSE
+						    color      	0
+						    default_color 	TRUE)
+						label      	(object SegLabel @1347
+						    Parent_View 	@1346
+						    location   	(2752, 1014)
+						    font       	(object Font
+							size       	9
+							face       	"Arial"
+							bold       	FALSE
+							italics    	FALSE
+							underline  	FALSE
+							strike     	FALSE
+							color      	0
+							default_color 	TRUE)
+						    quidu      	"5619EF9C03BB"
+						    anchor_loc 	1
+						    nlines     	1
+						    max_width  	1572
+						    justify    	0
+						    label      	"viewmensajesistemaShow(msj : String, tipo : String, botontexto : String, botonLink : String)"
+						    pctDist    	0.500000
+						    height     	45
+						    orientation 	1)
+						line_color 	3342489
+						client     	@1295
+						supplier   	@1284
+						Focus_Src  	@1298
+						Focus_Entry 	@1286
+						origin     	(2992, 1058)
+						terminus   	(2512, 1058)
+						ordinal    	5)
+					    (object InterMessView "verificaremail(txtcorreo : String)" @1348
+						location   	(16, 1216)
+						font       	(object Font
+						    size       	9
+						    face       	"Arial"
+						    bold       	FALSE
+						    italics    	FALSE
+						    underline  	FALSE
+						    strike     	FALSE
+						    color      	0
+						    default_color 	TRUE)
+						label      	(object SegLabel @1349
+						    Parent_View 	@1348
+						    location   	(3311, 1172)
+						    font       	(object Font
+							size       	9
+							face       	"Arial"
+							bold       	FALSE
+							italics    	FALSE
+							underline  	FALSE
+							strike     	FALSE
+							color      	0
+							default_color 	TRUE)
+						    quidu      	"5619EF9C03C6"
+						    anchor_loc 	1
+						    nlines     	1
+						    max_width  	516
+						    justify    	0
+						    label      	"verificaremail(txtcorreo : String)"
+						    pctDist    	0.500000
+						    height     	45
+						    orientation 	0)
+						line_color 	3342489
+						client     	@1295
+						supplier   	@1305
+						Focus_Src  	@1298
+						Focus_Entry 	@1306
+						origin     	(3023, 1216)
+						terminus   	(3600, 1216)
+						ordinal    	6)
+					    (object InterMessView "validarcorreoBD(txtcorreo : String)" @1350
+						location   	(16, 1321)
+						font       	(object Font
+						    size       	9
+						    face       	"Arial"
+						    bold       	FALSE
+						    italics    	FALSE
+						    underline  	FALSE
+						    strike     	FALSE
+						    color      	0
+						    default_color 	TRUE)
+						label      	(object SegLabel @1351
+						    Parent_View 	@1350
+						    location   	(4063, 1277)
+						    font       	(object Font
+							size       	9
+							face       	"Arial"
+							bold       	FALSE
+							italics    	FALSE
+							underline  	FALSE
+							strike     	FALSE
+							color      	0
+							default_color 	TRUE)
+						    quidu      	"5619EF9C03DF"
+						    anchor_loc 	1
+						    nlines     	1
+						    max_width  	589
+						    justify    	0
+						    label      	"validarcorreoBD(txtcorreo : String)"
+						    pctDist    	0.500000
+						    height     	45
+						    orientation 	0)
+						line_color 	3342489
+						client     	@1305
+						supplier   	@1315
+						Focus_Src  	@1306
+						Focus_Entry 	@1316
+						origin     	(3631, 1321)
+						terminus   	(4496, 1321)
+						ordinal    	7)
+					    (object InterMessView "conectarBD( )" @1352
+						location   	(16, 1426)
+						font       	(object Font
+						    size       	9
+						    face       	"Arial"
+						    bold       	FALSE
+						    italics    	FALSE
+						    underline  	FALSE
+						    strike     	FALSE
+						    color      	0
+						    default_color 	TRUE)
+						label      	(object SegLabel @1353
+						    Parent_View 	@1352
+						    location   	(4695, 1382)
+						    font       	(object Font
+							size       	9
+							face       	"Arial"
+							bold       	FALSE
+							italics    	FALSE
+							underline  	FALSE
+							strike     	FALSE
+							color      	0
+							default_color 	TRUE)
+						    quidu      	"5619EF9C03FE"
+						    anchor_loc 	1
+						    nlines     	1
+						    max_width  	243
+						    justify    	0
+						    label      	"conectarBD( )"
+						    pctDist    	0.500000
+						    height     	45
+						    orientation 	0)
+						line_color 	3342489
+						client     	@1315
+						supplier   	@1319
+						Focus_Src  	@1316
+						Focus_Entry 	@1320
+						origin     	(4527, 1426)
+						terminus   	(4864, 1426)
+						ordinal    	8)
+					    (object InterMessView "desConectarBD( )" @1354
+						location   	(16, 1536)
+						font       	(object Font
+						    size       	9
+						    face       	"Arial"
+						    bold       	FALSE
+						    italics    	FALSE
+						    underline  	FALSE
+						    strike     	FALSE
+						    color      	0
+						    default_color 	TRUE)
+						label      	(object SegLabel @1355
+						    Parent_View 	@1354
+						    location   	(4695, 1492)
+						    font       	(object Font
+							size       	9
+							face       	"Arial"
+							bold       	FALSE
+							italics    	FALSE
+							underline  	FALSE
+							strike     	FALSE
+							color      	0
+							default_color 	TRUE)
+						    quidu      	"5619EF9C0401"
+						    anchor_loc 	1
+						    nlines     	1
+						    max_width  	322
+						    justify    	0
+						    label      	"desConectarBD( )"
+						    pctDist    	0.500000
+						    height     	45
+						    orientation 	0)
+						line_color 	3342489
+						client     	@1315
+						supplier   	@1319
+						Focus_Src  	@1316
+						Focus_Entry 	@1321
+						origin     	(4527, 1536)
+						terminus   	(4864, 1536)
+						ordinal    	9)
+					    (object InterMessView "resultado" @1356
+						location   	(16, 1641)
+						font       	(object Font
+						    size       	9
+						    face       	"Arial"
+						    bold       	FALSE
+						    italics    	FALSE
+						    underline  	FALSE
+						    strike     	FALSE
+						    color      	0
+						    default_color 	TRUE)
+						label      	(object SegLabel @1357
+						    Parent_View 	@1356
+						    location   	(4064, 1597)
+						    font       	(object Font
+							size       	9
+							face       	"Arial"
+							bold       	FALSE
+							italics    	FALSE
+							underline  	FALSE
+							strike     	FALSE
+							color      	0
+							default_color 	TRUE)
+						    quidu      	"5619EF9C03F2"
+						    anchor_loc 	1
+						    nlines     	1
+						    max_width  	166
+						    justify    	0
+						    label      	"resultado"
+						    pctDist    	0.500000
+						    height     	45
+						    orientation 	1)
+						line_color 	3342489
+						client     	@1315
+						supplier   	@1305
+						Focus_Src  	@1316
+						Focus_Entry 	@1307
+						origin     	(4496, 1641)
+						terminus   	(3632, 1641)
+						ordinal    	10)
+					    (object InterMessView "viewmensajesistemaShow(msj : String, tipo : String, botontexto : String, botonLink : String)" @1358
+						location   	(16, 1746)
+						font       	(object Font
+						    size       	9
+						    face       	"Arial"
+						    bold       	FALSE
+						    italics    	FALSE
+						    underline  	FALSE
+						    strike     	FALSE
+						    color      	0
+						    default_color 	TRUE)
+						label      	(object SegLabel @1359
+						    Parent_View 	@1358
+						    location   	(3056, 1702)
+						    font       	(object Font
+							size       	9
+							face       	"Arial"
+							bold       	FALSE
+							italics    	FALSE
+							underline  	FALSE
+							strike     	FALSE
+							color      	0
+							default_color 	TRUE)
+						    quidu      	"5619EF9C03E3"
+						    anchor_loc 	1
+						    nlines     	1
+						    max_width  	1572
+						    justify    	0
+						    label      	"viewmensajesistemaShow(msj : String, tipo : String, botontexto : String, botonLink : String)"
+						    pctDist    	0.500000
+						    height     	45
+						    orientation 	1)
+						line_color 	3342489
+						client     	@1305
+						supplier   	@1284
+						Focus_Src  	@1306
+						Focus_Entry 	@1287
+						origin     	(3600, 1746)
+						terminus   	(2512, 1746)
+						ordinal    	11)
+					    (object InterMessView "formpreguntaclaveShow( )" @1360
+						location   	(16, 1952)
+						font       	(object Font
+						    size       	9
+						    face       	"Arial"
+						    bold       	FALSE
+						    italics    	FALSE
+						    underline  	FALSE
+						    strike     	FALSE
+						    color      	0
+						    default_color 	TRUE)
+						label      	(object SegLabel @1361
+						    Parent_View 	@1360
+						    location   	(2504, 1908)
+						    font       	(object Font
+							size       	9
+							face       	"Arial"
+							bold       	FALSE
+							italics    	FALSE
+							underline  	FALSE
+							strike     	FALSE
+							color      	0
+							default_color 	TRUE)
+						    quidu      	"5619EF9C03EC"
+						    anchor_loc 	1
+						    nlines     	1
+						    max_width  	467
+						    justify    	0
+						    label      	"formpreguntaclaveShow( )"
+						    pctDist    	0.500000
+						    height     	45
+						    orientation 	1)
+						line_color 	3342489
+						client     	@1305
+						supplier   	@1280
+						Focus_Src  	@1306
+						Focus_Entry 	@1281
+						origin     	(3600, 1952)
+						terminus   	(1408, 1952)
+						ordinal    	12)
+					    (object InterMessView "POST" @1362
+						location   	(16, 2064)
+						font       	(object Font
+						    size       	9
+						    face       	"Arial"
+						    bold       	FALSE
+						    italics    	FALSE
+						    underline  	FALSE
+						    strike     	FALSE
+						    color      	0
+						    default_color 	TRUE)
+						label      	(object SegLabel @1363
+						    Parent_View 	@1362
+						    location   	(2199, 2020)
+						    font       	(object Font
+							size       	9
+							face       	"Arial"
+							bold       	FALSE
+							italics    	FALSE
+							underline  	FALSE
+							strike     	FALSE
+							color      	0
+							default_color 	TRUE)
+						    quidu      	"5619EF9C0415"
+						    anchor_loc 	1
+						    nlines     	1
+						    max_width  	110
+						    justify    	0
+						    label      	"POST"
+						    pctDist    	0.500000
+						    height     	45
+						    orientation 	0)
+						line_color 	3342489
+						client     	@1280
+						supplier   	@1295
+						Focus_Src  	@1281
+						Focus_Entry 	@1299
+						origin     	(1407, 2064)
+						terminus   	(2992, 2064)
+						ordinal    	13)
+					    (object SelfMessView "opname( )" @1364
+						location   	(16, 2169)
+						font       	(object Font
+						    size       	9
+						    face       	"Arial"
+						    bold       	FALSE
+						    italics    	FALSE
+						    underline  	FALSE
+						    strike     	FALSE
+						    color      	0
+						    default_color 	TRUE)
+						label      	(object SegLabel @1365
+						    Parent_View 	@1364
+						    location   	(3099, 2125)
+						    font       	(object Font
+							size       	9
+							face       	"Arial"
+							bold       	FALSE
+							italics    	FALSE
+							underline  	FALSE
+							strike     	FALSE
+							color      	0
+							default_color 	TRUE)
+						    quidu      	"5619EF9C03CE"
+						    anchor_loc 	1
+						    nlines     	1
+						    max_width  	182
+						    justify    	0
+						    label      	"opname( )"
+						    pctDist    	0.500000
+						    height     	45
+						    orientation 	0)
+						line_color 	3342489
+						client     	@1295
+						supplier   	@1295
+						Focus_Src  	@1299
+						Focus_Entry 	@1300
+						origin     	(3024, 2169)
+						terminus   	(3174, 2169)
+						ordinal    	14)
+					    (object InterMessView "viewmensajesistemaShow(msj : String, tipo : String, botontexto : String, botonLink : String)" @1366
+						location   	(16, 2299)
+						font       	(object Font
+						    size       	9
+						    face       	"Arial"
+						    bold       	FALSE
+						    italics    	FALSE
+						    underline  	FALSE
+						    strike     	FALSE
+						    color      	0
+						    default_color 	TRUE)
+						label      	(object SegLabel @1367
+						    Parent_View 	@1366
+						    location   	(2752, 2255)
+						    font       	(object Font
+							size       	9
+							face       	"Arial"
+							bold       	FALSE
+							italics    	FALSE
+							underline  	FALSE
+							strike     	FALSE
+							color      	0
+							default_color 	TRUE)
+						    quidu      	"5619EF9C03BD"
+						    anchor_loc 	1
+						    nlines     	1
+						    max_width  	1572
+						    justify    	0
+						    label      	"viewmensajesistemaShow(msj : String, tipo : String, botontexto : String, botonLink : String)"
+						    pctDist    	0.500000
+						    height     	45
+						    orientation 	1)
+						line_color 	3342489
+						client     	@1295
+						supplier   	@1284
+						Focus_Src  	@1300
+						Focus_Entry 	@1288
+						origin     	(2992, 2299)
+						terminus   	(2512, 2299)
+						ordinal    	15)
+					    (object SelfMessView "validarespuestaclave(txtpregunta : String)" @1368
+						location   	(16, 2448)
+						font       	(object Font
+						    size       	9
+						    face       	"Arial"
+						    bold       	FALSE
+						    italics    	FALSE
+						    underline  	FALSE
+						    strike     	FALSE
+						    color      	0
+						    default_color 	TRUE)
+						label      	(object SegLabel @1369
+						    Parent_View 	@1368
+						    location   	(3099, 2404)
+						    font       	(object Font
+							size       	9
+							face       	"Arial"
+							bold       	FALSE
+							italics    	FALSE
+							underline  	FALSE
+							strike     	FALSE
+							color      	0
+							default_color 	TRUE)
+						    quidu      	"5619EF9C03D0"
+						    anchor_loc 	1
+						    nlines     	1
+						    max_width  	685
+						    justify    	0
+						    label      	"validarespuestaclave(txtpregunta : String)"
+						    pctDist    	0.500000
+						    height     	45
+						    orientation 	0)
+						line_color 	3342489
+						client     	@1295
+						supplier   	@1295
+						Focus_Src  	@1300
+						Focus_Entry 	@1301
+						origin     	(3024, 2448)
+						terminus   	(3174, 2448)
+						ordinal    	16)
+					    (object InterMessView "viewmensajesistemaShow(msj : String, tipo : String, botontexto : String, botonLink : String)" @1370
+						location   	(16, 2579)
+						font       	(object Font
+						    size       	9
+						    face       	"Arial"
+						    bold       	FALSE
+						    italics    	FALSE
+						    underline  	FALSE
+						    strike     	FALSE
+						    color      	0
+						    default_color 	TRUE)
+						label      	(object SegLabel @1371
+						    Parent_View 	@1370
+						    location   	(2752, 2535)
+						    font       	(object Font
+							size       	9
+							face       	"Arial"
+							bold       	FALSE
+							italics    	FALSE
+							underline  	FALSE
+							strike     	FALSE
+							color      	0
+							default_color 	TRUE)
+						    quidu      	"5619EF9C03BF"
+						    anchor_loc 	1
+						    nlines     	1
+						    max_width  	1572
+						    justify    	0
+						    label      	"viewmensajesistemaShow(msj : String, tipo : String, botontexto : String, botonLink : String)"
+						    pctDist    	0.500000
+						    height     	45
+						    orientation 	1)
+						line_color 	3342489
+						client     	@1295
+						supplier   	@1284
+						Focus_Src  	@1301
+						Focus_Entry 	@1289
+						origin     	(2992, 2579)
+						terminus   	(2512, 2579)
+						ordinal    	17)
+					    (object InterMessView "verificarespuesta(txtpregunta : String)" @1372
+						location   	(16, 2752)
+						font       	(object Font
+						    size       	9
+						    face       	"Arial"
+						    bold       	FALSE
+						    italics    	FALSE
+						    underline  	FALSE
+						    strike     	FALSE
+						    color      	0
+						    default_color 	TRUE)
+						label      	(object SegLabel @1373
+						    Parent_View 	@1372
+						    location   	(3311, 2708)
+						    font       	(object Font
+							size       	9
+							face       	"Arial"
+							bold       	FALSE
+							italics    	FALSE
+							underline  	FALSE
+							strike     	FALSE
+							color      	0
+							default_color 	TRUE)
+						    quidu      	"5619EF9C03C8"
+						    anchor_loc 	1
+						    nlines     	1
+						    max_width  	619
+						    justify    	0
+						    label      	"verificarespuesta(txtpregunta : String)"
+						    pctDist    	0.500000
+						    height     	45
+						    orientation 	0)
+						line_color 	3342489
+						client     	@1295
+						supplier   	@1305
+						Focus_Src  	@1301
+						Focus_Entry 	@1308
+						origin     	(3023, 2752)
+						terminus   	(3600, 2752)
+						ordinal    	18)
+					    (object InterMessView "validarespuestaclaveBD(txtpregunta : String)" @1374
+						location   	(16, 2857)
+						font       	(object Font
+						    size       	9
+						    face       	"Arial"
+						    bold       	FALSE
+						    italics    	FALSE
+						    underline  	FALSE
+						    strike     	FALSE
+						    color      	0
+						    default_color 	TRUE)
+						label      	(object SegLabel @1375
+						    Parent_View 	@1374
+						    location   	(4063, 2813)
+						    font       	(object Font
+							size       	9
+							face       	"Arial"
+							bold       	FALSE
+							italics    	FALSE
+							underline  	FALSE
+							strike     	FALSE
+							color      	0
+							default_color 	TRUE)
+						    quidu      	"5619EF9C03F4"
+						    anchor_loc 	1
+						    nlines     	1
+						    max_width  	780
+						    justify    	0
+						    label      	"validarespuestaclaveBD(txtpregunta : String)"
+						    pctDist    	0.500000
+						    height     	45
+						    orientation 	0)
+						line_color 	3342489
+						client     	@1305
+						supplier   	@1315
+						Focus_Src  	@1308
+						Focus_Entry 	@1317
+						origin     	(3631, 2857)
+						terminus   	(4496, 2857)
+						ordinal    	19)
+					    (object InterMessView "conectarBD( )" @1376
+						location   	(16, 2962)
+						font       	(object Font
+						    size       	9
+						    face       	"Arial"
+						    bold       	FALSE
+						    italics    	FALSE
+						    underline  	FALSE
+						    strike     	FALSE
+						    color      	0
+						    default_color 	TRUE)
+						label      	(object SegLabel @1377
+						    Parent_View 	@1376
+						    location   	(4695, 2918)
+						    font       	(object Font
+							size       	9
+							face       	"Arial"
+							bold       	FALSE
+							italics    	FALSE
+							underline  	FALSE
+							strike     	FALSE
+							color      	0
+							default_color 	TRUE)
+						    quidu      	"5619EF9C0403"
+						    anchor_loc 	1
+						    nlines     	1
+						    max_width  	243
+						    justify    	0
+						    label      	"conectarBD( )"
+						    pctDist    	0.500000
+						    height     	45
+						    orientation 	0)
+						line_color 	3342489
+						client     	@1315
+						supplier   	@1319
+						Focus_Src  	@1317
+						Focus_Entry 	@1322
+						origin     	(4527, 2962)
+						terminus   	(4864, 2962)
+						ordinal    	20)
+					    (object InterMessView "desConectarBD( )" @1378
+						location   	(16, 3067)
+						font       	(object Font
+						    size       	9
+						    face       	"Arial"
+						    bold       	FALSE
+						    italics    	FALSE
+						    underline  	FALSE
+						    strike     	FALSE
+						    color      	0
+						    default_color 	TRUE)
+						label      	(object SegLabel @1379
+						    Parent_View 	@1378
+						    location   	(4695, 3023)
+						    font       	(object Font
+							size       	9
+							face       	"Arial"
+							bold       	FALSE
+							italics    	FALSE
+							underline  	FALSE
+							strike     	FALSE
+							color      	0
+							default_color 	TRUE)
+						    quidu      	"5619EF9C0405"
+						    anchor_loc 	1
+						    nlines     	1
+						    max_width  	322
+						    justify    	0
+						    label      	"desConectarBD( )"
+						    pctDist    	0.500000
+						    height     	45
+						    orientation 	0)
+						line_color 	3342489
+						client     	@1315
+						supplier   	@1319
+						Focus_Src  	@1317
+						Focus_Entry 	@1323
+						origin     	(4527, 3067)
+						terminus   	(4864, 3067)
+						ordinal    	21)
+					    (object InterMessView "resultado" @1380
+						location   	(16, 3172)
+						font       	(object Font
+						    size       	9
+						    face       	"Arial"
+						    bold       	FALSE
+						    italics    	FALSE
+						    underline  	FALSE
+						    strike     	FALSE
+						    color      	0
+						    default_color 	TRUE)
+						label      	(object SegLabel @1381
+						    Parent_View 	@1380
+						    location   	(4064, 3128)
+						    font       	(object Font
+							size       	9
+							face       	"Arial"
+							bold       	FALSE
+							italics    	FALSE
+							underline  	FALSE
+							strike     	FALSE
+							color      	0
+							default_color 	TRUE)
+						    quidu      	"5619EF9C03F6"
+						    anchor_loc 	1
+						    nlines     	1
+						    max_width  	166
+						    justify    	0
+						    label      	"resultado"
+						    pctDist    	0.500000
+						    height     	45
+						    orientation 	1)
+						line_color 	3342489
+						client     	@1315
+						supplier   	@1305
+						Focus_Src  	@1317
+						Focus_Entry 	@1309
+						origin     	(4496, 3172)
+						terminus   	(3632, 3172)
+						ordinal    	22)
+					    (object InterMessView "viewmensajesistemaShow(msj : String, tipo : String, botontexto : String, botonLink : String)" @1382
+						location   	(16, 3280)
+						font       	(object Font
+						    size       	9
+						    face       	"Arial"
+						    bold       	FALSE
+						    italics    	FALSE
+						    underline  	FALSE
+						    strike     	FALSE
+						    color      	0
+						    default_color 	TRUE)
+						label      	(object SegLabel @1383
+						    Parent_View 	@1382
+						    location   	(3056, 3236)
+						    font       	(object Font
+							size       	9
+							face       	"Arial"
+							bold       	FALSE
+							italics    	FALSE
+							underline  	FALSE
+							strike     	FALSE
+							color      	0
+							default_color 	TRUE)
+						    quidu      	"5619EF9C03E5"
+						    anchor_loc 	1
+						    nlines     	1
+						    max_width  	1572
+						    justify    	0
+						    label      	"viewmensajesistemaShow(msj : String, tipo : String, botontexto : String, botonLink : String)"
+						    pctDist    	0.500000
+						    height     	45
+						    orientation 	1)
+						line_color 	3342489
+						client     	@1305
+						supplier   	@1284
+						Focus_Src  	@1308
+						Focus_Entry 	@1290
+						origin     	(3600, 3280)
+						terminus   	(2512, 3280)
+						ordinal    	23)
+					    (object InterMessView "formcontranuevaShow( )" @1384
+						location   	(16, 3504)
+						font       	(object Font
+						    size       	9
+						    face       	"Arial"
+						    bold       	FALSE
+						    italics    	FALSE
+						    underline  	FALSE
+						    strike     	FALSE
+						    color      	0
+						    default_color 	TRUE)
+						label      	(object SegLabel @1385
+						    Parent_View 	@1384
+						    location   	(2792, 3460)
+						    font       	(object Font
+							size       	9
+							face       	"Arial"
+							bold       	FALSE
+							italics    	FALSE
+							underline  	FALSE
+							strike     	FALSE
+							color      	0
+							default_color 	TRUE)
+						    quidu      	"5619EF9C03F0"
+						    anchor_loc 	1
+						    nlines     	1
+						    max_width  	434
+						    justify    	0
+						    label      	"formcontranuevaShow( )"
+						    pctDist    	0.500000
+						    height     	45
+						    orientation 	1)
+						line_color 	3342489
+						client     	@1305
+						supplier   	@1282
+						Focus_Src  	@1308
+						Focus_Entry 	@1283
+						origin     	(3600, 3504)
+						terminus   	(1984, 3504)
+						ordinal    	24)
+					    (object InterMessView "POST" @1386
+						location   	(16, 3609)
+						font       	(object Font
+						    size       	9
+						    face       	"Arial"
+						    bold       	FALSE
+						    italics    	FALSE
+						    underline  	FALSE
+						    strike     	FALSE
+						    color      	0
+						    default_color 	TRUE)
+						label      	(object SegLabel @1387
+						    Parent_View 	@1386
+						    location   	(2487, 3565)
+						    font       	(object Font
+							size       	9
+							face       	"Arial"
+							bold       	FALSE
+							italics    	FALSE
+							underline  	FALSE
+							strike     	FALSE
+							color      	0
+							default_color 	TRUE)
+						    quidu      	"5619EF9C0425"
+						    anchor_loc 	1
+						    nlines     	1
+						    max_width  	110
+						    justify    	0
+						    label      	"POST"
+						    pctDist    	0.500000
+						    height     	45
+						    orientation 	0)
+						line_color 	3342489
+						client     	@1282
+						supplier   	@1295
+						Focus_Src  	@1283
+						Focus_Entry 	@1302
+						origin     	(1983, 3609)
+						terminus   	(2992, 3609)
+						ordinal    	25)
+					    (object SelfMessView "validarbtncambiarcontra(btncambiarcontra : String)" @1388
+						location   	(16, 3714)
+						font       	(object Font
+						    size       	9
+						    face       	"Arial"
+						    bold       	FALSE
+						    italics    	FALSE
+						    underline  	FALSE
+						    strike     	FALSE
+						    color      	0
+						    default_color 	TRUE)
+						label      	(object SegLabel @1389
+						    Parent_View 	@1388
+						    location   	(3099, 3670)
+						    font       	(object Font
+							size       	9
+							face       	"Arial"
+							bold       	FALSE
+							italics    	FALSE
+							underline  	FALSE
+							strike     	FALSE
+							color      	0
+							default_color 	TRUE)
+						    quidu      	"5619EF9C03D2"
+						    anchor_loc 	1
+						    nlines     	1
+						    max_width  	844
+						    justify    	0
+						    label      	"validarbtncambiarcontra(btncambiarcontra : String)"
+						    pctDist    	0.500000
+						    height     	45
+						    orientation 	0)
+						line_color 	3342489
+						client     	@1295
+						supplier   	@1295
+						Focus_Src  	@1302
+						Focus_Entry 	@1303
+						origin     	(3024, 3714)
+						terminus   	(3174, 3714)
+						ordinal    	26)
+					    (object InterMessView "viewmensajesistemaShow(msj : String, tipo : String, botontexto : String, botonLink : String)" @1390
+						location   	(16, 3890)
+						font       	(object Font
+						    size       	9
+						    face       	"Arial"
+						    bold       	FALSE
+						    italics    	FALSE
+						    underline  	FALSE
+						    strike     	FALSE
+						    color      	0
+						    default_color 	TRUE)
+						label      	(object SegLabel @1391
+						    Parent_View 	@1390
+						    location   	(2752, 3846)
+						    font       	(object Font
+							size       	9
+							face       	"Arial"
+							bold       	FALSE
+							italics    	FALSE
+							underline  	FALSE
+							strike     	FALSE
+							color      	0
+							default_color 	TRUE)
+						    quidu      	"5619EF9C03C1"
+						    anchor_loc 	1
+						    nlines     	1
+						    max_width  	1572
+						    justify    	0
+						    label      	"viewmensajesistemaShow(msj : String, tipo : String, botontexto : String, botonLink : String)"
+						    pctDist    	0.500000
+						    height     	45
+						    orientation 	1)
+						line_color 	3342489
+						client     	@1295
+						supplier   	@1284
+						Focus_Src  	@1303
+						Focus_Entry 	@1291
+						origin     	(2992, 3890)
+						terminus   	(2512, 3890)
+						ordinal    	27)
+					    (object SelfMessView "validarcamposcontra(txtcontranueva : String, txtconfirmarcontra : String)" @1392
+						location   	(16, 4146)
+						font       	(object Font
+						    size       	9
+						    face       	"Arial"
+						    bold       	FALSE
+						    italics    	FALSE
+						    underline  	FALSE
+						    strike     	FALSE
+						    color      	0
+						    default_color 	TRUE)
+						label      	(object SegLabel @1393
+						    Parent_View 	@1392
+						    location   	(3099, 4102)
+						    font       	(object Font
+							size       	9
+							face       	"Arial"
+							bold       	FALSE
+							italics    	FALSE
+							underline  	FALSE
+							strike     	FALSE
+							color      	0
+							default_color 	TRUE)
+						    quidu      	"5619EF9C03D4"
+						    anchor_loc 	1
+						    nlines     	1
+						    max_width  	1173
+						    justify    	0
+						    label      	"validarcamposcontra(txtcontranueva : String, txtconfirmarcontra : String)"
+						    pctDist    	0.500000
+						    height     	45
+						    orientation 	0)
+						line_color 	3342489
+						client     	@1295
+						supplier   	@1295
+						Focus_Src  	@1303
+						Focus_Entry 	@1304
+						origin     	(3024, 4146)
+						terminus   	(3174, 4146)
+						ordinal    	28)
+					    (object InterMessView "viewmensajesistemaShow(msj : String, tipo : String, botontexto : String, botonLink : String)" @1394
+						location   	(16, 4322)
+						font       	(object Font
+						    size       	9
+						    face       	"Arial"
+						    bold       	FALSE
+						    italics    	FALSE
+						    underline  	FALSE
+						    strike     	FALSE
+						    color      	0
+						    default_color 	TRUE)
+						label      	(object SegLabel @1395
+						    Parent_View 	@1394
+						    location   	(2752, 4278)
+						    font       	(object Font
+							size       	9
+							face       	"Arial"
+							bold       	FALSE
+							italics    	FALSE
+							underline  	FALSE
+							strike     	FALSE
+							color      	0
+							default_color 	TRUE)
+						    quidu      	"5619EF9C03C3"
+						    anchor_loc 	1
+						    nlines     	1
+						    max_width  	1572
+						    justify    	0
+						    label      	"viewmensajesistemaShow(msj : String, tipo : String, botontexto : String, botonLink : String)"
+						    pctDist    	0.500000
+						    height     	45
+						    orientation 	1)
+						line_color 	3342489
+						client     	@1295
+						supplier   	@1284
+						Focus_Src  	@1304
+						Focus_Entry 	@1292
+						origin     	(2992, 4322)
+						terminus   	(2512, 4322)
+						ordinal    	29)
+					    (object InterMessView "actualizarcontra(txtcontranueva : String)" @1396
+						location   	(16, 4562)
+						font       	(object Font
+						    size       	9
+						    face       	"Arial"
+						    bold       	FALSE
+						    italics    	FALSE
+						    underline  	FALSE
+						    strike     	FALSE
+						    color      	0
+						    default_color 	TRUE)
+						label      	(object SegLabel @1397
+						    Parent_View 	@1396
+						    location   	(3311, 4518)
+						    font       	(object Font
+							size       	9
+							face       	"Arial"
+							bold       	FALSE
+							italics    	FALSE
+							underline  	FALSE
+							strike     	FALSE
+							color      	0
+							default_color 	TRUE)
+						    quidu      	"5619EF9C03CA"
+						    anchor_loc 	1
+						    nlines     	1
+						    max_width  	651
+						    justify    	0
+						    label      	"actualizarcontra(txtcontranueva : String)"
+						    pctDist    	0.500000
+						    height     	45
+						    orientation 	0)
+						line_color 	3342489
+						client     	@1295
+						supplier   	@1305
+						Focus_Src  	@1304
+						Focus_Entry 	@1310
+						origin     	(3023, 4562)
+						terminus   	(3600, 4562)
+						ordinal    	30)
+					    (object InterMessView "ingresarcontranuevaBD(txtcontranueva : String)" @1398
+						location   	(16, 4674)
+						font       	(object Font
+						    size       	9
+						    face       	"Arial"
+						    bold       	FALSE
+						    italics    	FALSE
+						    underline  	FALSE
+						    strike     	FALSE
+						    color      	0
+						    default_color 	TRUE)
+						label      	(object SegLabel @1399
+						    Parent_View 	@1398
+						    location   	(4061, 4632)
+						    font       	(object Font
+							size       	9
+							face       	"Arial"
+							bold       	FALSE
+							italics    	FALSE
+							underline  	FALSE
+							strike     	FALSE
+							color      	0
+							default_color 	TRUE)
+						    quidu      	"5619EF9C03F8"
+						    anchor_loc 	1
+						    nlines     	1
+						    max_width  	832
+						    justify    	0
+						    label      	"ingresarcontranuevaBD(txtcontranueva : String)"
+						    pctDist    	0.497110
+						    height     	43
+						    orientation 	0)
+						line_color 	3342489
+						client     	@1305
+						supplier   	@1315
+						Focus_Src  	@1310
+						Focus_Entry 	@1318
+						origin     	(3631, 4674)
+						terminus   	(4496, 4674)
+						ordinal    	31)
+					    (object InterMessView "conectarBD( )" @1400
+						location   	(16, 4779)
+						font       	(object Font
+						    size       	9
+						    face       	"Arial"
+						    bold       	FALSE
+						    italics    	FALSE
+						    underline  	FALSE
+						    strike     	FALSE
+						    color      	0
+						    default_color 	TRUE)
+						label      	(object SegLabel @1401
+						    Parent_View 	@1400
+						    location   	(4695, 4735)
+						    font       	(object Font
+							size       	9
+							face       	"Arial"
+							bold       	FALSE
+							italics    	FALSE
+							underline  	FALSE
+							strike     	FALSE
+							color      	0
+							default_color 	TRUE)
+						    quidu      	"5619EF9C0407"
+						    anchor_loc 	1
+						    nlines     	1
+						    max_width  	243
+						    justify    	0
+						    label      	"conectarBD( )"
+						    pctDist    	0.500000
+						    height     	45
+						    orientation 	0)
+						line_color 	3342489
+						client     	@1315
+						supplier   	@1319
+						Focus_Src  	@1318
+						Focus_Entry 	@1324
+						origin     	(4527, 4779)
+						terminus   	(4864, 4779)
+						ordinal    	32)
+					    (object InterMessView "desConectarBD( )" @1402
+						location   	(16, 4884)
+						font       	(object Font
+						    size       	9
+						    face       	"Arial"
+						    bold       	FALSE
+						    italics    	FALSE
+						    underline  	FALSE
+						    strike     	FALSE
+						    color      	0
+						    default_color 	TRUE)
+						label      	(object SegLabel @1403
+						    Parent_View 	@1402
+						    location   	(4695, 4840)
+						    font       	(object Font
+							size       	9
+							face       	"Arial"
+							bold       	FALSE
+							italics    	FALSE
+							underline  	FALSE
+							strike     	FALSE
+							color      	0
+							default_color 	TRUE)
+						    quidu      	"5619EF9C0409"
+						    anchor_loc 	1
+						    nlines     	1
+						    max_width  	322
+						    justify    	0
+						    label      	"desConectarBD( )"
+						    pctDist    	0.500000
+						    height     	45
+						    orientation 	0)
+						line_color 	3342489
+						client     	@1315
+						supplier   	@1319
+						Focus_Src  	@1318
+						Focus_Entry 	@1325
+						origin     	(4527, 4884)
+						terminus   	(4864, 4884)
+						ordinal    	33)
+					    (object InterMessView "resultado" @1404
+						location   	(16, 4989)
+						font       	(object Font
+						    size       	9
+						    face       	"Arial"
+						    bold       	FALSE
+						    italics    	FALSE
+						    underline  	FALSE
+						    strike     	FALSE
+						    color      	0
+						    default_color 	TRUE)
+						label      	(object SegLabel @1405
+						    Parent_View 	@1404
+						    location   	(4064, 4945)
+						    font       	(object Font
+							size       	9
+							face       	"Arial"
+							bold       	FALSE
+							italics    	FALSE
+							underline  	FALSE
+							strike     	FALSE
+							color      	0
+							default_color 	TRUE)
+						    quidu      	"5619EF9C03FA"
+						    anchor_loc 	1
+						    nlines     	1
+						    max_width  	166
+						    justify    	0
+						    label      	"resultado"
+						    pctDist    	0.500000
+						    height     	45
+						    orientation 	1)
+						line_color 	3342489
+						client     	@1315
+						supplier   	@1305
+						Focus_Src  	@1318
+						Focus_Entry 	@1311
+						origin     	(4496, 4989)
+						terminus   	(3632, 4989)
+						ordinal    	34)
+					    (object InterMessView "viewmensajesistemaShow(msj : String, tipo : String, botontexto : String, botonLink : String)" @1406
+						location   	(16, 5344)
+						font       	(object Font
+						    size       	9
+						    face       	"Arial"
+						    bold       	FALSE
+						    italics    	FALSE
+						    underline  	FALSE
+						    strike     	FALSE
+						    color      	0
+						    default_color 	TRUE)
+						label      	(object SegLabel @1407
+						    Parent_View 	@1406
+						    location   	(3073, 5306)
+						    font       	(object Font
+							size       	9
+							face       	"Arial"
+							bold       	FALSE
+							italics    	FALSE
+							underline  	FALSE
+							strike     	FALSE
+							color      	0
+							default_color 	TRUE)
+						    quidu      	"5619EF9C03E7"
+						    anchor_loc 	1
+						    nlines     	1
+						    max_width  	1572
+						    justify    	0
+						    label      	"viewmensajesistemaShow(msj : String, tipo : String, botontexto : String, botonLink : String)"
+						    pctDist    	0.485294
+						    height     	39
+						    orientation 	1)
+						line_color 	3342489
+						client     	@1305
+						supplier   	@1284
+						Focus_Src  	@1313
+						Focus_Entry 	@1294
+						origin     	(3600, 5344)
+						terminus   	(2512, 5344)
+						ordinal    	36)
+					    (object InterMessView "viewmensajesistemaShow(msj : String, tipo : String, botontexto : String, botonLink : String)" @1408
+						location   	(16, 5136)
+						font       	(object Font
+						    size       	9
+						    face       	"Arial"
+						    bold       	FALSE
+						    italics    	FALSE
+						    underline  	FALSE
+						    strike     	FALSE
+						    color      	0
+						    default_color 	TRUE)
+						label      	(object SegLabel @1409
+						    Parent_View 	@1408
+						    location   	(3056, 5092)
+						    font       	(object Font
+							size       	9
+							face       	"Arial"
+							bold       	FALSE
+							italics    	FALSE
+							underline  	FALSE
+							strike     	FALSE
+							color      	0
+							default_color 	TRUE)
+						    quidu      	"5619EF9C03E9"
+						    anchor_loc 	1
+						    nlines     	1
+						    max_width  	1572
+						    justify    	0
+						    label      	"viewmensajesistemaShow(msj : String, tipo : String, botontexto : String, botonLink : String)"
+						    pctDist    	0.500000
+						    height     	45
+						    orientation 	1)
+						line_color 	3342489
+						client     	@1305
+						supplier   	@1284
+						Focus_Src  	@1312
+						Focus_Entry 	@1293
+						origin     	(3600, 5136)
+						terminus   	(2512, 5136)
+						ordinal    	35)))))
 			    (object UseCase "UCR_registrarUsuario"
 				quid       	"5619F172011A"
 				stereotype 	"use-case realization"
 				logical_models 	(list unit_reference_list
-				    (object Mechanism @1277
+				    (object Mechanism @1410
 					logical_models 	(list unit_reference_list)))
 				logical_presentations 	(list unit_reference_list
 				    (object ClassDiagram "ODregistrarUsuario"
@@ -28478,7 +31145,7 @@
 					origin_y   	0
 					items      	(list diagram_item_list))
 				    (object InteractionDiagram "SDregistrarUsuario"
-					mechanism_ref 	@1277
+					mechanism_ref 	@1410
 					quid       	"5619F34C0291"
 					title      	"SDregistrarUsuario"
 					zoom       	100
@@ -28490,228 +31157,228 @@
 			    (object Association "POST"
 				quid       	"5619EE6103B0"
 				roles      	(list role_list
-				    (object Role "$UNNAMED$298"
+				    (object Role "$UNNAMED$307"
 					quid       	"5619EE6103B1"
 					supplier   	"Logical View::Design Model::Modulo Seguridad::getUsuario"
 					quidu      	"5619EE6103AE"
 					is_navigable 	TRUE)
-				    (object Role "$UNNAMED$299"
+				    (object Role "$UNNAMED$308"
 					quid       	"5619EE6103B2"
 					supplier   	"Logical View::Design Model::Modulo Seguridad::formAutenticarUsuario"
 					quidu      	"5619EE6103B5")))
-			    (object Association "$UNNAMED$300"
+			    (object Association "$UNNAMED$309"
 				quid       	"5619EE6103D6"
 				roles      	(list role_list
-				    (object Role "$UNNAMED$301"
+				    (object Role "$UNNAMED$310"
 					quid       	"5619EE6103D7"
 					supplier   	"Logical View::Design Model::Modulo Seguridad::panelprincipal"
 					quidu      	"5619EE6103DB"
 					is_navigable 	TRUE)
-				    (object Role "$UNNAMED$302"
+				    (object Role "$UNNAMED$311"
 					quid       	"5619EE6103D8"
 					supplier   	"Logical View::Design Model::Modulo Seguridad::ControlAutenticarusuario"
 					quidu      	"5619EE61039D")))
-			    (object Association "$UNNAMED$303"
+			    (object Association "$UNNAMED$312"
 				quid       	"5619EE6103B7"
 				roles      	(list role_list
-				    (object Role "$UNNAMED$304"
+				    (object Role "$UNNAMED$313"
 					quid       	"5619EE6103B8"
 					supplier   	"Logical View::Design Model::Modulo Seguridad::formAutenticarUsuario"
 					quidu      	"5619EE6103B5"
 					is_navigable 	TRUE)
-				    (object Role "$UNNAMED$305"
+				    (object Role "$UNNAMED$314"
 					quid       	"5619EE6103B9"
 					supplier   	"Logical View::Design Model::Modulo Seguridad::index"
 					quidu      	"5619EE6103BC")))
-			    (object Association "$UNNAMED$306"
+			    (object Association "$UNNAMED$315"
 				quid       	"5619EE6103C9"
 				roles      	(list role_list
-				    (object Role "$UNNAMED$307"
+				    (object Role "$UNNAMED$316"
 					quid       	"5619EE6103CA"
 					supplier   	"Logical View::Design Model::Shared::viewmensajesistema"
 					quidu      	"5619EE6103CE"
 					is_navigable 	TRUE)
-				    (object Role "$UNNAMED$308"
+				    (object Role "$UNNAMED$317"
 					quid       	"5619EE6103CB"
 					supplier   	"Logical View::Design Model::Modulo Seguridad::ControlAutenticarusuario"
 					quidu      	"5619EE61039D")))
-			    (object Association "$UNNAMED$309"
+			    (object Association "$UNNAMED$318"
 				quid       	"5619EE6103A9"
 				roles      	(list role_list
-				    (object Role "$UNNAMED$310"
+				    (object Role "$UNNAMED$319"
 					quid       	"5619EE6103AA"
 					supplier   	"Logical View::Design Model::Modulo Seguridad::ControlAutenticarusuario"
 					quidu      	"5619EE61039D"
 					is_navigable 	TRUE)
-				    (object Role "$UNNAMED$311"
+				    (object Role "$UNNAMED$320"
 					quid       	"5619EE6103AB"
 					supplier   	"Logical View::Design Model::Modulo Seguridad::getUsuario"
 					quidu      	"5619EE6103AE")))
-			    (object Association "$UNNAMED$312"
+			    (object Association "$UNNAMED$321"
 				quid       	"5619EE61039F"
 				roles      	(list role_list
-				    (object Role "$UNNAMED$313"
+				    (object Role "$UNNAMED$322"
 					quid       	"5619EE6103A0"
 					supplier   	"Logical View::Design Model::modelos::usuarioprivilegios"
 					quidu      	"5619EE6103A4"
 					is_navigable 	TRUE)
-				    (object Role "$UNNAMED$314"
+				    (object Role "$UNNAMED$323"
 					quid       	"5619EE6103A1"
 					supplier   	"Logical View::Design Model::Modulo Seguridad::ControlAutenticarusuario"
 					quidu      	"5619EE61039D")))
-			    (object Association "$UNNAMED$315"
+			    (object Association "$UNNAMED$324"
 				quid       	"5619EE610398"
 				roles      	(list role_list
-				    (object Role "$UNNAMED$316"
+				    (object Role "$UNNAMED$325"
 					quid       	"5619EE610399"
 					supplier   	"Logical View::Design Model::modelos::usuarios"
 					quidu      	"5619EE61038F"
 					is_navigable 	TRUE)
-				    (object Role "$UNNAMED$317"
+				    (object Role "$UNNAMED$326"
 					quid       	"5619EE61039A"
 					supplier   	"Logical View::Design Model::Modulo Seguridad::ControlAutenticarusuario"
 					quidu      	"5619EE61039D")))
-			    (object Association "$UNNAMED$318"
+			    (object Association "$UNNAMED$327"
 				quid       	"5619EEBE00EA"
 				roles      	(list role_list
-				    (object Role "$UNNAMED$319"
+				    (object Role "$UNNAMED$328"
 					quid       	"5619EEBE0251"
 					supplier   	"Logical View::Design Model::Modulo Seguridad::index"
 					quidu      	"5619EE6103BC"
 					is_navigable 	TRUE)
-				    (object Role "$UNNAMED$320"
+				    (object Role "$UNNAMED$329"
 					quid       	"5619EEBE0261"
 					supplier   	"Use Case View::Use-Case Model::Actors::usuarioSistema"
 					quidu      	"5619ED7C00EA")))
-			    (object Association "$UNNAMED$321"
+			    (object Association "$UNNAMED$330"
 				quid       	"5619EDDC01B6"
 				roles      	(list role_list
-				    (object Role "$UNNAMED$322"
+				    (object Role "$UNNAMED$331"
 					quid       	"5619EDDC035C"
 					supplier   	"Logical View::Design Model::Modulo Seguridad::formreestablecercontraseña"
 					quidu      	"5619EDCF0213"
 					is_navigable 	TRUE)
-				    (object Role "$UNNAMED$323"
+				    (object Role "$UNNAMED$332"
 					quid       	"5619EDDC035E"
 					supplier   	"Use Case View::Use-Case Model::Actors::usuarioSistema"
 					quidu      	"5619ED7C00EA")))
 			    (object Association "POST"
 				quid       	"5619EDF4036B"
 				roles      	(list role_list
-				    (object Role "$UNNAMED$324"
+				    (object Role "$UNNAMED$333"
 					quid       	"5619EDF50148"
 					supplier   	"Logical View::Design Model::Modulo Seguridad::getReestablecer"
 					quidu      	"5619EDE7002F"
 					is_navigable 	TRUE)
-				    (object Role "$UNNAMED$325"
+				    (object Role "$UNNAMED$334"
 					quid       	"5619EDF5014A"
 					supplier   	"Logical View::Design Model::Modulo Seguridad::formreestablecercontraseña"
 					quidu      	"5619EDCF0213")))
-			    (object Association "$UNNAMED$326"
+			    (object Association "$UNNAMED$335"
 				quid       	"5619EE16036B"
 				roles      	(list role_list
-				    (object Role "$UNNAMED$327"
+				    (object Role "$UNNAMED$336"
 					quid       	"5619EE170281"
 					supplier   	"Logical View::Design Model::Modulo Seguridad::Controlreestablecercontraseña"
 					quidu      	"5619EE050262"
 					is_navigable 	TRUE)
-				    (object Role "$UNNAMED$328"
+				    (object Role "$UNNAMED$337"
 					quid       	"5619EE170283"
 					supplier   	"Logical View::Design Model::Modulo Seguridad::getReestablecer"
 					quidu      	"5619EDE7002F")))
 			    (object Association "POST"
 				quid       	"5619EE290000"
 				roles      	(list role_list
-				    (object Role "$UNNAMED$329"
+				    (object Role "$UNNAMED$338"
 					quid       	"5619EE290242"
 					supplier   	"Logical View::Design Model::Modulo Seguridad::getReestablecer"
 					quidu      	"5619EDE7002F"
 					is_navigable 	TRUE)
-				    (object Role "$UNNAMED$330"
+				    (object Role "$UNNAMED$339"
 					quid       	"5619EE290253"
 					supplier   	"Logical View::Design Model::Modulo Seguridad::formpreguntaclave"
 					quidu      	"5619EE1F010A")))
-			    (object Association "$UNNAMED$331"
+			    (object Association "$UNNAMED$340"
 				quid       	"5619EE8C02BF"
 				roles      	(list role_list
-				    (object Role "$UNNAMED$332"
+				    (object Role "$UNNAMED$341"
 					quid       	"5619EE8D0213"
 					supplier   	"Logical View::Design Model::Modulo Seguridad::formpreguntaclave"
 					quidu      	"5619EE1F010A"
 					is_navigable 	TRUE)
-				    (object Role "$UNNAMED$333"
+				    (object Role "$UNNAMED$342"
 					quid       	"5619EE8D0223"
 					supplier   	"Logical View::Design Model::Modulo Seguridad::Controlreestablecercontraseña"
 					quidu      	"5619EE050262")))
-			    (object Association "$UNNAMED$334"
+			    (object Association "$UNNAMED$343"
 				quid       	"5619EE920262"
 				roles      	(list role_list
-				    (object Role "$UNNAMED$335"
+				    (object Role "$UNNAMED$344"
 					quid       	"5619EE9302FE"
 					supplier   	"Logical View::Design Model::Shared::viewmensajesistema"
 					quidu      	"5619EE6103CE"
 					is_navigable 	TRUE)
-				    (object Role "$UNNAMED$336"
+				    (object Role "$UNNAMED$345"
 					quid       	"5619EE93030D"
 					supplier   	"Logical View::Design Model::Modulo Seguridad::getReestablecer"
 					quidu      	"5619EDE7002F")))
 			    (object Association "POST"
 				quid       	"5619EEA0031D"
 				roles      	(list role_list
-				    (object Role "$UNNAMED$337"
+				    (object Role "$UNNAMED$346"
 					quid       	"5619EEA103C9"
 					supplier   	"Logical View::Design Model::Modulo Seguridad::getReestablecer"
 					quidu      	"5619EDE7002F"
 					is_navigable 	TRUE)
-				    (object Role "$UNNAMED$338"
+				    (object Role "$UNNAMED$347"
 					quid       	"5619EEA103D9"
 					supplier   	"Logical View::Design Model::Modulo Seguridad::formcontranueva"
 					quidu      	"5619EE38003F")))
-			    (object Association "$UNNAMED$339"
+			    (object Association "$UNNAMED$348"
 				quid       	"5619EEB20233"
 				roles      	(list role_list
-				    (object Role "$UNNAMED$340"
+				    (object Role "$UNNAMED$349"
 					quid       	"5619EEB50290"
 					supplier   	"Logical View::Design Model::Modulo Seguridad::formcontranueva"
 					quidu      	"5619EE38003F"
 					is_navigable 	TRUE)
-				    (object Role "$UNNAMED$341"
+				    (object Role "$UNNAMED$350"
 					quid       	"5619EEB502A0"
 					supplier   	"Logical View::Design Model::Modulo Seguridad::Controlreestablecercontraseña"
 					quidu      	"5619EE050262")))
-			    (object Association "$UNNAMED$342"
+			    (object Association "$UNNAMED$351"
 				quid       	"5619EED8007D"
 				roles      	(list role_list
-				    (object Role "$UNNAMED$343"
+				    (object Role "$UNNAMED$352"
 					quid       	"5619EED900AC"
 					supplier   	"Logical View::Design Model::modelos::usuarios"
 					quidu      	"5619EE61038F"
 					is_navigable 	TRUE)
-				    (object Role "$UNNAMED$344"
+				    (object Role "$UNNAMED$353"
 					quid       	"5619EED900CB"
 					supplier   	"Logical View::Design Model::Modulo Seguridad::Controlreestablecercontraseña"
 					quidu      	"5619EE050262")))
-			    (object Association "$UNNAMED$345"
+			    (object Association "$UNNAMED$354"
 				quid       	"5619EEDC01F4"
 				roles      	(list role_list
-				    (object Role "$UNNAMED$346"
+				    (object Role "$UNNAMED$355"
 					quid       	"5619EEDC02BF"
 					supplier   	"Logical View::Design Model::modelos::conexion"
 					quidu      	"5619EE61038A"
 					is_navigable 	TRUE)
-				    (object Role "$UNNAMED$347"
+				    (object Role "$UNNAMED$356"
 					quid       	"5619EEDC02DF"
 					supplier   	"Logical View::Design Model::modelos::usuarios"
 					quidu      	"5619EE61038F")))
-			    (object Association "$UNNAMED$348"
+			    (object Association "$UNNAMED$357"
 				quid       	"5619EEF8010A"
 				roles      	(list role_list
-				    (object Role "$UNNAMED$349"
+				    (object Role "$UNNAMED$358"
 					quid       	"5619EEF90177"
 					supplier   	"Logical View::Design Model::Shared::viewmensajesistema"
 					quidu      	"5619EE6103CE"
 					is_navigable 	TRUE)
-				    (object Role "$UNNAMED$350"
+				    (object Role "$UNNAMED$359"
 					quid       	"5619EEF90196"
 					supplier   	"Logical View::Design Model::Modulo Seguridad::Controlreestablecercontraseña"
 					quidu      	"5619EE050262"))))
@@ -28724,7 +31391,7 @@
 				quid       	"5619F1E60271"
 				stereotype 	"use-case realization"
 				logical_models 	(list unit_reference_list
-				    (object Mechanism @1278
+				    (object Mechanism @1411
 					logical_models 	(list unit_reference_list)))
 				logical_presentations 	(list unit_reference_list
 				    (object ClassDiagram "ODemitirInformeControldeCalidad"
@@ -28737,7 +31404,7 @@
 					origin_y   	0
 					items      	(list diagram_item_list))
 				    (object InteractionDiagram "SDemitirInformeControldeCalidad"
-					mechanism_ref 	@1278
+					mechanism_ref 	@1411
 					quid       	"5619F3880158"
 					title      	"SDemitirInformeControldeCalidad"
 					zoom       	100
@@ -28750,7 +31417,7 @@
 				quid       	"5619F1F801A6"
 				stereotype 	"use-case realization"
 				logical_models 	(list unit_reference_list
-				    (object Mechanism @1279
+				    (object Mechanism @1412
 					logical_models 	(list unit_reference_list)))
 				logical_presentations 	(list unit_reference_list
 				    (object ClassDiagram "ODemitirInformedeAlmacen"
@@ -28763,7 +31430,7 @@
 					origin_y   	0
 					items      	(list diagram_item_list))
 				    (object InteractionDiagram "SDemitirInformedeAlmacen"
-					mechanism_ref 	@1279
+					mechanism_ref 	@1412
 					quid       	"5619F3A400FA"
 					title      	"SDemitirInformedeAlmacen"
 					zoom       	100
@@ -28776,7 +31443,7 @@
 				quid       	"5619F20500DB"
 				stereotype 	"use-case realization"
 				logical_models 	(list unit_reference_list
-				    (object Mechanism @1280
+				    (object Mechanism @1413
 					logical_models 	(list unit_reference_list)))
 				logical_presentations 	(list unit_reference_list
 				    (object ClassDiagram "ODemitirInformeInventario"
@@ -28789,7 +31456,7 @@
 					origin_y   	0
 					items      	(list diagram_item_list))
 				    (object InteractionDiagram "SDemitirInformeInventario"
-					mechanism_ref 	@1280
+					mechanism_ref 	@1413
 					quid       	"5619F3C103BA"
 					title      	"SDemitirInformeInventario"
 					zoom       	100
@@ -28802,7 +31469,7 @@
 				quid       	"5619F20F039A"
 				stereotype 	"use-case realization"
 				logical_models 	(list unit_reference_list
-				    (object Mechanism @1281
+				    (object Mechanism @1414
 					logical_models 	(list unit_reference_list)))
 				logical_presentations 	(list unit_reference_list
 				    (object ClassDiagram "ODemitirSolicituddeAbastecimiento"
@@ -28815,7 +31482,7 @@
 					origin_y   	0
 					items      	(list diagram_item_list))
 				    (object InteractionDiagram "SDemitirSolicituddeAbastecimiento"
-					mechanism_ref 	@1281
+					mechanism_ref 	@1414
 					quid       	"5619F3F200AC"
 					title      	"SDemitirSolicituddeAbastecimiento"
 					zoom       	100
@@ -28828,7 +31495,7 @@
 				quid       	"5619F2920010"
 				stereotype 	"use-case realization"
 				logical_models 	(list unit_reference_list
-				    (object Mechanism @1282
+				    (object Mechanism @1415
 					logical_models 	(list unit_reference_list)))
 				logical_presentations 	(list unit_reference_list
 				    (object ClassDiagram "ODrecibirProductosyDocumentos"
@@ -28841,7 +31508,7 @@
 					origin_y   	0
 					items      	(list diagram_item_list))
 				    (object InteractionDiagram "SDrecibirProductosyDocumentos"
-					mechanism_ref 	@1282
+					mechanism_ref 	@1415
 					quid       	"5619F4160168"
 					title      	"SDrecibirProductosyDocumentos"
 					zoom       	100
@@ -28875,7 +31542,9 @@
 						type       	"String"))
 					concurrency 	"Sequential"
 					opExportControl 	"Public"
-					uid        	0))))
+					uid        	0)))
+			    (object Class "vista"
+				quid       	"5619F021038A"))
 			logical_presentations 	(list unit_reference_list))
 		    (object Class_Category "modelos"
 			quid       	"5619EEAC0203"
@@ -28959,7 +31628,7 @@
 		origin_x   	0
 		origin_y   	0
 		items      	(list diagram_item_list
-		    (object NoteView @1283
+		    (object NoteView @1416
 			location   	(1376, 480)
 			font       	(object Font
 			    size       	9
@@ -28971,7 +31640,7 @@
 			    color      	0
 			    default_color 	TRUE)
 			label      	(object ItemLabel
-			    Parent_View 	@1283
+			    Parent_View 	@1416
 			    location   	(729, 192)
 			    fill_color 	13434879
 			    nlines     	14
@@ -29031,7 +31700,7 @@
 			origin_x   	0
 			origin_y   	0
 			items      	(list diagram_item_list
-			    (object NoteView @1284
+			    (object NoteView @1417
 				location   	(624, 160)
 				font       	(object Font
 				    size       	9
@@ -29043,7 +31712,7 @@
 				    color      	0
 				    default_color 	TRUE)
 				label      	(object ItemLabel
-				    Parent_View 	@1284
+				    Parent_View 	@1417
 				    location   	(21, 26)
 				    fill_color 	13434879
 				    nlines     	5
@@ -29070,7 +31739,7 @@
 		origin_x   	0
 		origin_y   	0
 		items      	(list diagram_item_list
-		    (object SubSysView "Component View::Implementation Model" @1285
+		    (object SubSysView "Component View::Implementation Model" @1418
 			location   	(736, 800)
 			font       	(object Font
 			    size       	9
@@ -29082,7 +31751,7 @@
 			    color      	0
 			    default_color 	TRUE)
 			label      	(object ItemLabel
-			    Parent_View 	@1285
+			    Parent_View 	@1418
 			    location   	(552, 713)
 			    fill_color 	13434879
 			    nlines     	2
@@ -29145,7 +31814,7 @@
 		origin_x   	0
 		origin_y   	0
 		items      	(list diagram_item_list
-		    (object ProcessorView "<processor name>" @1286
+		    (object ProcessorView "<processor name>" @1419
 			location   	(512, 1056)
 			font       	(object Font
 			    size       	9
@@ -29157,7 +31826,7 @@
 			    color      	0
 			    default_color 	TRUE)
 			label      	(object ItemLabel
-			    Parent_View 	@1286
+			    Parent_View 	@1419
 			    location   	(276, 900)
 			    nlines     	2
 			    max_width  	400
@@ -29168,7 +31837,7 @@
 			width      	475
 			height     	381
 			annotation 	3)
-		    (object DeviceView "<device name>" @1287
+		    (object DeviceView "<device name>" @1420
 			location   	(1040, 1056)
 			font       	(object Font
 			    size       	9
@@ -29180,7 +31849,7 @@
 			    color      	0
 			    default_color 	TRUE)
 			label      	(object ItemLabel
-			    Parent_View 	@1287
+			    Parent_View 	@1420
 			    location   	(867, 950)
 			    nlines     	2
 			    max_width  	275
@@ -29191,16 +31860,16 @@
 			width      	350
 			height     	282
 			annotation 	0)
-		    (object ConnectionView "" @1288
+		    (object ConnectionView "" @1421
 			stereotype 	TRUE
 			quidu      	"34DBBD4B008C"
-			client     	@1286
-			supplier   	@1287
+			client     	@1419
+			supplier   	@1420
 			vertices   	(list Points
 			    (718, 1056)
 			    (865, 1056))
 			line_style 	0)
-		    (object NoteView @1289
+		    (object NoteView @1422
 			location   	(816, 304)
 			font       	(object Font
 			    size       	9
@@ -29212,7 +31881,7 @@
 			    color      	0
 			    default_color 	TRUE)
 			label      	(object ItemLabel
-			    Parent_View 	@1289
+			    Parent_View 	@1422
 			    location   	(38, 29)
 			    fill_color 	13434879
 			    nlines     	11
