@@ -6588,7 +6588,7 @@
 					zoom       	80
 					max_height 	28350
 					max_width  	21600
-					origin_x   	775
+					origin_x   	774
 					origin_y   	0
 					items      	(list diagram_item_list
 					    (object InterObjView "$UNNAMED$51" @268
@@ -7821,15 +7821,6 @@
 								ordinal    	4
 								quidu      	"54B749500526"
 								creation   	FALSE)
-							    (object Message "validarespuestaclave(txtpregunta : String)"
-								quid       	"54B74950055E"
-								frequency  	"Aperiodic"
-								synchronization 	"Simple"
-								dir        	"FromClientToSupplier"
-								sequence   	"1.1.3.4.1.3"
-								ordinal    	13
-								quidu      	"54B74950055F"
-								creation   	FALSE)
 							    (object Message "validarbotonpregunta(btnpregunta : String)"
 								quid       	"54B7495007ED"
 								frequency  	"Aperiodic"
@@ -7847,6 +7838,15 @@
 								sequence   	"1.1.1"
 								ordinal    	2
 								quidu      	"54B74950086A"
+								creation   	FALSE)
+							    (object Message "validarespuestaclave(txtpregunta : String)"
+								quid       	"54B74950055E"
+								frequency  	"Aperiodic"
+								synchronization 	"Simple"
+								dir        	"FromClientToSupplier"
+								sequence   	"1.1.3.4.1.3"
+								ordinal    	13
+								quidu      	"54B74950055F"
 								creation   	FALSE)
 							    (object Message "validarcamposcontras(txtcontranueva : String, txtconfirmarcontra : String)"
 								quid       	"54B7495005A2"
@@ -8542,7 +8542,7 @@
 					max_height 	28350
 					max_width  	21600
 					origin_x   	0
-					origin_y   	1611
+					origin_y   	0
 					items      	(list diagram_item_list
 					    (object InterObjView "$UNNAMED$58" @352
 						location   	(256, 240)
@@ -13073,6 +13073,24 @@
 						line_color 	3342489
 						fill_color 	13434879
 						quidu      	"54B74950064C"
+						compartment 	(object Compartment
+						    Parent_View 	@542
+						    location   	(2420, 650)
+						    font       	(object Font
+							size       	9
+							face       	"Arial"
+							bold       	FALSE
+							italics    	FALSE
+							underline  	FALSE
+							strike     	FALSE
+							color      	0
+							default_color 	TRUE)
+						    icon_style 	"Icon"
+						    fill_color 	16777215
+						    anchor     	2
+						    nlines     	3
+						    max_width  	341
+						    justify    	1)
 						width      	362
 						height     	266
 						annotation 	8
@@ -13189,17 +13207,17 @@
 						    default_color 	TRUE)
 						label      	(object ItemLabel
 						    Parent_View 	@548
-						    location   	(493, 464)
+						    location   	(498, 464)
 						    fill_color 	13434879
 						    nlines     	1
-						    max_width  	422
+						    max_width  	412
 						    justify    	0
 						    label      	"formAutenticarUsuario")
 						icon_style 	"Icon"
 						line_color 	3342489
 						fill_color 	13434879
 						quidu      	"54B749500645"
-						width      	440
+						width      	430
 						height     	118
 						annotation 	8
 						autoResize 	TRUE)
@@ -13268,6 +13286,24 @@
 						line_color 	3342489
 						fill_color 	13434879
 						quidu      	"54B74950064A"
+						compartment 	(object Compartment
+						    Parent_View 	@552
+						    location   	(1793, 467)
+						    font       	(object Font
+							size       	9
+							face       	"Arial"
+							bold       	FALSE
+							italics    	FALSE
+							underline  	FALSE
+							strike     	FALSE
+							color      	0
+							default_color 	TRUE)
+						    icon_style 	"Icon"
+						    fill_color 	16777215
+						    anchor     	2
+						    nlines     	4
+						    max_width  	475
+						    justify    	1)
 						width      	496
 						height     	312
 						annotation 	8
@@ -13357,7 +13393,7 @@
 							supplier   	@554
 							vertices   	(list Points
 							    (871, 383)
-							    (960, 315))
+							    (962, 315))
 							line_style 	0)
 						    (object RoleView "" @557
 							Parent_View 	@555
@@ -13369,7 +13405,7 @@
 							supplier   	@548
 							vertices   	(list Points
 							    (871, 383)
-							    (779, 452))
+							    (781, 452))
 							line_style 	0)))
 					    (object ClassView "Class" "Logical View::Design Model::Shared::viewmensajesistema" @558
 						ShowCompartmentStereotypes 	TRUE
@@ -13397,6 +13433,24 @@
 						line_color 	3342489
 						fill_color 	13434879
 						quidu      	"54B749500648"
+						compartment 	(object Compartment
+						    Parent_View 	@558
+						    location   	(440, 722)
+						    font       	(object Font
+							size       	9
+							face       	"Arial"
+							bold       	FALSE
+							italics    	FALSE
+							underline  	FALSE
+							strike     	FALSE
+							color      	0
+							default_color 	TRUE)
+						    icon_style 	"Icon"
+						    fill_color 	16777215
+						    anchor     	2
+						    nlines     	2
+						    max_width  	525
+						    justify    	1)
 						width      	546
 						height     	218
 						annotation 	8
@@ -13486,7 +13540,7 @@
 							supplier   	@552
 							vertices   	(list Points
 							    (1928, 384)
-							    (1928, 384))
+							    (2032, 512))
 							line_style 	0)
 						    (object RoleView "" @563
 							Parent_View 	@561
@@ -13498,7 +13552,7 @@
 							supplier   	@560
 							vertices   	(list Points
 							    (1928, 384)
-							    (1871, 315))
+							    (1824, 256))
 							line_style 	0)))
 					    (object AssociationViewNew "" @564
 						location   	(1693, 650)
@@ -13689,7 +13743,7 @@
 					zoom       	100
 					max_height 	28350
 					max_width  	21600
-					origin_x   	12
+					origin_x   	0
 					origin_y   	0
 					items      	(list diagram_item_list
 					    (object InterObjView "$UNNAMED$123" @578
@@ -14476,11 +14530,11 @@
 				    (object ClassDiagram "ODrestablecercontra"
 					quid       	"54B7495006F4"
 					title      	"ODrestablecercontra"
-					zoom       	100
+					zoom       	90
 					max_height 	28350
 					max_width  	21600
 					origin_x   	31
-					origin_y   	225
+					origin_y   	226
 					items      	(list diagram_item_list
 					    (object ClassView "Class" "Use Case View::Use-Case Model::Actors::usuario sistema" @589
 						ShowCompartmentStereotypes 	TRUE
@@ -14536,6 +14590,24 @@
 						line_color 	3342489
 						fill_color 	13434879
 						quidu      	"54B74950064C"
+						compartment 	(object Compartment
+						    Parent_View 	@590
+						    location   	(2692, 826)
+						    font       	(object Font
+							size       	9
+							face       	"Arial"
+							bold       	FALSE
+							italics    	FALSE
+							underline  	FALSE
+							strike     	FALSE
+							color      	0
+							default_color 	TRUE)
+						    icon_style 	"Icon"
+						    fill_color 	16777215
+						    anchor     	2
+						    nlines     	3
+						    max_width  	359
+						    justify    	1)
 						width      	362
 						height     	266
 						annotation 	8
@@ -14566,6 +14638,24 @@
 						line_color 	3342489
 						fill_color 	13434879
 						quidu      	"54B74950064A"
+						compartment 	(object Compartment
+						    Parent_View 	@591
+						    location   	(2097, 803)
+						    font       	(object Font
+							size       	9
+							face       	"Arial"
+							bold       	FALSE
+							italics    	FALSE
+							underline  	FALSE
+							strike     	FALSE
+							color      	0
+							default_color 	TRUE)
+						    icon_style 	"Icon"
+						    fill_color 	16777215
+						    anchor     	2
+						    nlines     	4
+						    max_width  	500
+						    justify    	1)
 						width      	496
 						height     	312
 						annotation 	8
@@ -14678,22 +14768,22 @@
 						    default_color 	TRUE)
 						label      	(object ItemLabel
 						    Parent_View 	@597
-						    location   	(642, 496)
+						    location   	(640, 496)
 						    fill_color 	13434879
 						    nlines     	1
-						    max_width  	412
+						    max_width  	416
 						    justify    	0
 						    label      	"formrestablecercontra")
 						icon_style 	"Icon"
 						line_color 	3342489
 						fill_color 	13434879
 						quidu      	"54B7495006F5"
-						width      	430
+						width      	434
 						height     	118
 						annotation 	8
 						autoResize 	TRUE)
 					    (object AssociationViewNew "" @598
-						location   	(536, 544)
+						location   	(535, 544)
 						font       	(object Font
 						    size       	9
 						    face       	"Arial"
@@ -14709,26 +14799,26 @@
 						roleview_list 	(list RoleViews
 						    (object RoleView "" @599
 							Parent_View 	@598
-							location   	(152, 0)
+							location   	(151, 0)
 							stereotype 	TRUE
 							line_color 	3342489
 							quidu      	"54B7495006FB"
 							client     	@598
 							supplier   	@597
 							vertices   	(list Points
-							    (536, 544)
-							    (632, 544))
+							    (535, 544)
+							    (630, 544))
 							line_style 	0)
 						    (object RoleView "" @600
 							Parent_View 	@598
-							location   	(152, 0)
+							location   	(151, 0)
 							stereotype 	TRUE
 							line_color 	3342489
 							quidu      	"54B7495006FD"
 							client     	@598
 							supplier   	@589
 							vertices   	(list Points
-							    (536, 544)
+							    (535, 544)
 							    (441, 544))
 							line_style 	0)))
 					    (object ClassView "Class" "Logical View::Design Model::Modulo Seguridad::formpreguntaclave" @601
@@ -14757,6 +14847,24 @@
 						line_color 	3342489
 						fill_color 	13434879
 						quidu      	"54B7495006F9"
+						compartment 	(object Compartment
+						    Parent_View 	@601
+						    location   	(657, 814)
+						    font       	(object Font
+							size       	9
+							face       	"Arial"
+							bold       	FALSE
+							italics    	FALSE
+							underline  	FALSE
+							strike     	FALSE
+							color      	0
+							default_color 	TRUE)
+						    icon_style 	"Icon"
+						    fill_color 	16777215
+						    anchor     	2
+						    nlines     	2
+						    max_width  	500
+						    justify    	1)
 						width      	496
 						height     	174
 						annotation 	8
@@ -14787,6 +14895,24 @@
 						line_color 	3342489
 						fill_color 	13434879
 						quidu      	"54B7495006F8"
+						compartment 	(object Compartment
+						    Parent_View 	@602
+						    location   	(655, 1022)
+						    font       	(object Font
+							size       	9
+							face       	"Arial"
+							bold       	FALSE
+							italics    	FALSE
+							underline  	FALSE
+							strike     	FALSE
+							color      	0
+							default_color 	TRUE)
+						    icon_style 	"Icon"
+						    fill_color 	16777215
+						    anchor     	2
+						    nlines     	2
+						    max_width  	468
+						    justify    	1)
 						width      	468
 						height     	174
 						annotation 	8
@@ -14817,6 +14943,24 @@
 						line_color 	3342489
 						fill_color 	13434879
 						quidu      	"54B7495006F7"
+						compartment 	(object Compartment
+						    Parent_View 	@603
+						    location   	(1881, 366)
+						    font       	(object Font
+							size       	9
+							face       	"Arial"
+							bold       	FALSE
+							italics    	FALSE
+							underline  	FALSE
+							strike     	FALSE
+							color      	0
+							default_color 	TRUE)
+						    icon_style 	"Icon"
+						    fill_color 	16777215
+						    anchor     	2
+						    nlines     	4
+						    max_width  	378
+						    justify    	1)
 						width      	480
 						height     	270
 						annotation 	8
@@ -14966,6 +15110,24 @@
 						line_color 	3342489
 						fill_color 	13434879
 						quidu      	"54B749500648"
+						compartment 	(object Compartment
+						    Parent_View 	@613
+						    location   	(616, 1266)
+						    font       	(object Font
+							size       	9
+							face       	"Arial"
+							bold       	FALSE
+							italics    	FALSE
+							underline  	FALSE
+							strike     	FALSE
+							color      	0
+							default_color 	TRUE)
+						    icon_style 	"Icon"
+						    fill_color 	16777215
+						    anchor     	2
+						    nlines     	2
+						    max_width  	550
+						    justify    	1)
 						width      	546
 						height     	218
 						annotation 	8
@@ -15036,12 +15198,30 @@
 						line_color 	3342489
 						fill_color 	13434879
 						quidu      	"54B7495006F6"
+						compartment 	(object Compartment
+						    Parent_View 	@617
+						    location   	(1267, 312)
+						    font       	(object Font
+							size       	9
+							face       	"Arial"
+							bold       	FALSE
+							italics    	FALSE
+							underline  	FALSE
+							strike     	FALSE
+							color      	0
+							default_color 	TRUE)
+						    icon_style 	"Icon"
+						    fill_color 	16777215
+						    anchor     	2
+						    nlines     	7
+						    max_width  	496
+						    justify    	1)
 						width      	492
 						height     	410
 						annotation 	8
 						autoResize 	TRUE)
 					    (object AssociationViewNew "POST" @618
-						location   	(1160, 498)
+						location   	(1161, 497)
 						font       	(object Font
 						    size       	9
 						    face       	"Arial"
@@ -15053,7 +15233,7 @@
 						    default_color 	TRUE)
 						label      	(object SegLabel @619
 						    Parent_View 	@618
-						    location   	(1160, 439)
+						    location   	(1161, 438)
 						    font       	(object Font
 							size       	9
 							face       	"Arial"
@@ -15078,27 +15258,27 @@
 						roleview_list 	(list RoleViews
 						    (object RoleView "" @620
 							Parent_View 	@618
-							location   	(312, -46)
+							location   	(313, -47)
 							stereotype 	TRUE
 							line_color 	3342489
 							quidu      	"54B749500700"
 							client     	@618
 							supplier   	@617
 							vertices   	(list Points
-							    (1160, 498)
-							    (1257, 482))
+							    (1161, 497)
+							    (1257, 484))
 							line_style 	0)
 						    (object RoleView "" @621
 							Parent_View 	@618
-							location   	(312, -46)
+							location   	(313, -47)
 							stereotype 	TRUE
 							line_color 	3342489
 							quidu      	"54B749500702"
 							client     	@618
 							supplier   	@597
 							vertices   	(list Points
-							    (1160, 498)
-							    (1063, 511))
+							    (1161, 497)
+							    (1065, 511))
 							line_style 	0)))
 					    (object AssociationViewNew "POST" @622
 						location   	(1145, 674)
@@ -15304,11 +15484,11 @@
 					mechanism_ref 	@588
 					quid       	"54B7495006F2"
 					title      	"SDrestablecercontra"
-					zoom       	100
+					zoom       	60
 					max_height 	28350
 					max_width  	21600
-					origin_x   	4632
-					origin_y   	988
+					origin_x   	250
+					origin_y   	3281
 					items      	(list diagram_item_list
 					    (object InterObjView "$UNNAMED$138" @636
 						location   	(320, 240)
@@ -15348,7 +15528,7 @@
 						    y_coord    	0
 						    Nested     	FALSE))
 					    (object InterObjView "$UNNAMED$139" @638
-						location   	(816, 225)
+						location   	(816, 224)
 						font       	(object Font
 						    size       	9
 						    face       	"Arial"
@@ -15372,7 +15552,7 @@
 						fill_color 	13434879
 						quidu      	"54B749500745"
 						width      	507
-						height     	5299
+						height     	5300
 						icon_height 	0
 						icon_width 	0
 						icon_y_offset 	0
@@ -15956,7 +16136,7 @@
 						    quidu      	"54B74950078A"
 						    anchor_loc 	1
 						    nlines     	1
-						    max_width  	110
+						    max_width  	115
 						    justify    	0
 						    label      	"POST"
 						    pctDist    	0.500000
@@ -15996,7 +16176,7 @@
 						    quidu      	"54B74950078D"
 						    anchor_loc 	1
 						    nlines     	1
-						    max_width  	10
+						    max_width  	734
 						    justify    	0
 						    label      	"Validarbtnrestable(btnrestablecer : String)"
 						    pctDist    	0.500000
@@ -16036,7 +16216,7 @@
 						    quidu      	"54B749500796"
 						    anchor_loc 	1
 						    nlines     	1
-						    max_width  	10
+						    max_width  	1572
 						    justify    	0
 						    label      	"viewmensajesistemaShow(msj : String, tipo : String, botontexto : String, botonLink : String)"
 						    pctDist    	0.500000
@@ -16094,7 +16274,7 @@
 						    quidu      	"54B7495007A0"
 						    anchor_loc 	1
 						    nlines     	1
-						    max_width  	10
+						    max_width  	533
 						    justify    	0
 						    label      	"validarcorreo(txtcorreo : String)"
 						    pctDist    	0.500000
@@ -16134,7 +16314,7 @@
 						    quidu      	"54B7495007A8"
 						    anchor_loc 	1
 						    nlines     	1
-						    max_width  	10
+						    max_width  	1572
 						    justify    	0
 						    label      	"viewmensajesistemaShow(msj : String, tipo : String, botontexto : String, botonLink : String)"
 						    pctDist    	0.500000
@@ -16189,7 +16369,7 @@
 						    quidu      	"54B7495007B2"
 						    anchor_loc 	1
 						    nlines     	1
-						    max_width  	10
+						    max_width  	539
 						    justify    	0
 						    label      	"verificaremail(txtcorreo : String)"
 						    pctDist    	0.500000
@@ -16229,7 +16409,7 @@
 						    quidu      	"54B7495007BB"
 						    anchor_loc 	1
 						    nlines     	1
-						    max_width  	10
+						    max_width  	589
 						    justify    	0
 						    label      	"validarcorreoBD(txtcorreo : String)"
 						    pctDist    	0.500000
@@ -16269,7 +16449,7 @@
 						    quidu      	"54B7495007C4"
 						    anchor_loc 	1
 						    nlines     	1
-						    max_width  	238
+						    max_width  	243
 						    justify    	0
 						    label      	"conectarBD( )"
 						    pctDist    	0.500000
@@ -16309,7 +16489,7 @@
 						    quidu      	"54B7495007C8"
 						    anchor_loc 	1
 						    nlines     	1
-						    max_width  	310
+						    max_width  	322
 						    justify    	0
 						    label      	"desConectarBD( )"
 						    pctDist    	0.500000
@@ -16349,7 +16529,7 @@
 						    quidu      	"54B7495007CE"
 						    anchor_loc 	1
 						    nlines     	1
-						    max_width  	166
+						    max_width  	168
 						    justify    	0
 						    label      	"resultado"
 						    pctDist    	0.500000
@@ -16389,7 +16569,7 @@
 						    quidu      	"54B7495007D3"
 						    anchor_loc 	1
 						    nlines     	1
-						    max_width  	10
+						    max_width  	1572
 						    justify    	0
 						    label      	"viewmensajesistemaShow(msj : String, tipo : String, botontexto : String, botonLink : String)"
 						    pctDist    	0.500000
@@ -16444,7 +16624,7 @@
 						    quidu      	"54B7495007D5"
 						    anchor_loc 	1
 						    nlines     	1
-						    max_width  	444
+						    max_width  	467
 						    justify    	0
 						    label      	"formpreguntaclaveShow( )"
 						    pctDist    	0.500000
@@ -16499,7 +16679,7 @@
 						    quidu      	"54B7495007EB"
 						    anchor_loc 	1
 						    nlines     	1
-						    max_width  	110
+						    max_width  	115
 						    justify    	0
 						    label      	"POST"
 						    pctDist    	0.500000
@@ -16539,7 +16719,7 @@
 						    quidu      	"54B7495007ED"
 						    anchor_loc 	1
 						    nlines     	1
-						    max_width  	172
+						    max_width  	188
 						    justify    	0
 						    label      	"opname( )"
 						    pctDist    	0.500000
@@ -16579,7 +16759,7 @@
 						    quidu      	"54B7495007F6"
 						    anchor_loc 	1
 						    nlines     	1
-						    max_width  	10
+						    max_width  	1572
 						    justify    	0
 						    label      	"viewmensajesistemaShow(msj : String, tipo : String, botontexto : String, botonLink : String)"
 						    pctDist    	0.500000
@@ -16619,7 +16799,7 @@
 						    quidu      	"54B749500800"
 						    anchor_loc 	1
 						    nlines     	1
-						    max_width  	10
+						    max_width  	727
 						    justify    	0
 						    label      	"validarespuestaclave(txtpregunta : String)"
 						    pctDist    	0.500000
@@ -16659,7 +16839,7 @@
 						    quidu      	"54B74950080C"
 						    anchor_loc 	1
 						    nlines     	1
-						    max_width  	10
+						    max_width  	1572
 						    justify    	0
 						    label      	"viewmensajesistemaShow(msj : String, tipo : String, botontexto : String, botonLink : String)"
 						    pctDist    	0.500000
@@ -16714,7 +16894,7 @@
 						    quidu      	"54B749500816"
 						    anchor_loc 	1
 						    nlines     	1
-						    max_width  	10
+						    max_width  	655
 						    justify    	0
 						    label      	"verificarespuesta(txtpregunta : String)"
 						    pctDist    	0.500000
@@ -16754,7 +16934,7 @@
 						    quidu      	"54B749500822"
 						    anchor_loc 	1
 						    nlines     	1
-						    max_width  	10
+						    max_width  	780
 						    justify    	0
 						    label      	"validarespuestaclaveBD(txtpregunta : String)"
 						    pctDist    	0.500000
@@ -16794,7 +16974,7 @@
 						    quidu      	"54B74950082A"
 						    anchor_loc 	1
 						    nlines     	1
-						    max_width  	238
+						    max_width  	243
 						    justify    	0
 						    label      	"conectarBD( )"
 						    pctDist    	0.500000
@@ -16834,7 +17014,7 @@
 						    quidu      	"54B74950082B"
 						    anchor_loc 	1
 						    nlines     	1
-						    max_width  	310
+						    max_width  	322
 						    justify    	0
 						    label      	"desConectarBD( )"
 						    pctDist    	0.500000
@@ -16874,7 +17054,7 @@
 						    quidu      	"54B74950082C"
 						    anchor_loc 	1
 						    nlines     	1
-						    max_width  	166
+						    max_width  	168
 						    justify    	0
 						    label      	"resultado"
 						    pctDist    	0.500000
@@ -16914,7 +17094,7 @@
 						    quidu      	"54B749500830"
 						    anchor_loc 	1
 						    nlines     	1
-						    max_width  	10
+						    max_width  	1572
 						    justify    	0
 						    label      	"viewmensajesistemaShow(msj : String, tipo : String, botontexto : String, botonLink : String)"
 						    pctDist    	0.500000
@@ -16969,7 +17149,7 @@
 						    quidu      	"54B749500832"
 						    anchor_loc 	1
 						    nlines     	1
-						    max_width  	416
+						    max_width  	434
 						    justify    	0
 						    label      	"formcontranuevaShow( )"
 						    pctDist    	0.500000
@@ -17009,7 +17189,7 @@
 						    quidu      	"54B749500835"
 						    anchor_loc 	1
 						    nlines     	1
-						    max_width  	110
+						    max_width  	115
 						    justify    	0
 						    label      	"POST"
 						    pctDist    	0.500000
@@ -17049,7 +17229,7 @@
 						    quidu      	"54B749500837"
 						    anchor_loc 	1
 						    nlines     	1
-						    max_width  	10
+						    max_width  	895
 						    justify    	0
 						    label      	"validarbtncambiarcontra(btncambiarcontra : String)"
 						    pctDist    	0.500000
@@ -17089,7 +17269,7 @@
 						    quidu      	"54B74950083E"
 						    anchor_loc 	1
 						    nlines     	1
-						    max_width  	10
+						    max_width  	1572
 						    justify    	0
 						    label      	"viewmensajesistemaShow(msj : String, tipo : String, botontexto : String, botonLink : String)"
 						    pctDist    	0.500000
@@ -17144,7 +17324,7 @@
 						    quidu      	"54B749500849"
 						    anchor_loc 	1
 						    nlines     	1
-						    max_width  	10
+						    max_width  	1240
 						    justify    	0
 						    label      	"validarcamposcontra(txtcontranueva : String, txtconfirmarcontra : String)"
 						    pctDist    	0.500000
@@ -17184,7 +17364,7 @@
 						    quidu      	"54B749500853"
 						    anchor_loc 	1
 						    nlines     	1
-						    max_width  	10
+						    max_width  	1572
 						    justify    	0
 						    label      	"viewmensajesistemaShow(msj : String, tipo : String, botontexto : String, botonLink : String)"
 						    pctDist    	0.500000
@@ -17239,7 +17419,7 @@
 						    quidu      	"54B749500868"
 						    anchor_loc 	1
 						    nlines     	1
-						    max_width  	10
+						    max_width  	684
 						    justify    	0
 						    label      	"actualizarcontra(txtcontranueva : String)"
 						    pctDist    	0.500000
@@ -17279,7 +17459,7 @@
 						    quidu      	"54B749500870"
 						    anchor_loc 	1
 						    nlines     	1
-						    max_width  	10
+						    max_width  	832
 						    justify    	0
 						    label      	"ingresarcontranuevaBD(txtcontranueva : String)"
 						    pctDist    	0.497110
@@ -17319,7 +17499,7 @@
 						    quidu      	"54B74950087D"
 						    anchor_loc 	1
 						    nlines     	1
-						    max_width  	238
+						    max_width  	243
 						    justify    	0
 						    label      	"conectarBD( )"
 						    pctDist    	0.500000
@@ -17359,7 +17539,7 @@
 						    quidu      	"54B74950087E"
 						    anchor_loc 	1
 						    nlines     	1
-						    max_width  	310
+						    max_width  	322
 						    justify    	0
 						    label      	"desConectarBD( )"
 						    pctDist    	0.500000
@@ -17399,7 +17579,7 @@
 						    quidu      	"54B749500889"
 						    anchor_loc 	1
 						    nlines     	1
-						    max_width  	166
+						    max_width  	168
 						    justify    	0
 						    label      	"resultado"
 						    pctDist    	0.500000
@@ -17439,7 +17619,7 @@
 						    quidu      	"54B74950088D"
 						    anchor_loc 	1
 						    nlines     	1
-						    max_width  	10
+						    max_width  	1572
 						    justify    	0
 						    label      	"viewmensajesistemaShow(msj : String, tipo : String, botontexto : String, botonLink : String)"
 						    pctDist    	0.485294
@@ -17494,7 +17674,7 @@
 						    quidu      	"54B74950087F"
 						    anchor_loc 	1
 						    nlines     	1
-						    max_width  	10
+						    max_width  	1572
 						    justify    	0
 						    label      	"viewmensajesistemaShow(msj : String, tipo : String, botontexto : String, botonLink : String)"
 						    pctDist    	0.500000
